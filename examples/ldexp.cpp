@@ -1,4 +1,7 @@
-/* ldexp example */
+/**
+ * Demonstrates the use of the ldexp library function from <math.h>
+ */
+
 #include <stdio.h>
 #include <math.h>
 

@@ -1,4 +1,7 @@
-/* frexp example */
+/**
+ * Demonstrates the use of the frexp library function from <math.h>.
+ */
+
 #include <stdio.h>
 #include <math.h>
 
