@@ -1,56 +1,66 @@
-//: C08:ConstReturnValues.cpp
-// Constant return by value
-// Result cannot be used as an lvalue
+/**
+ * Demonstrates constant return values.
+ */
 
-class X {
+class Person {
 
-  int i;
+  int age;
 
 public:
 
-  X(int ii = 0);
+  Person(int age_in = 0);
   void modify();
 
 };
 
 
-X::X(int ii)
+Person::Person(int age_in)
 {
-  i = ii;
+  age = age_in;
 }
 
 
-void X::modify()
+void Person::modify()
 {
-  i++;
+  age++;
 }
 
 
-X f5() {
-  return X();
+Person getNewPerson() {
+  return Person();
 }
 
 
-const X f6() {
-  return X();
+const Person getNewConstPerson() {
+  return Person();
 }
 
 
-void f7(X& x) { // Pass by non-const reference
-  x.modify();
+void makeOlder(Person& p) {
+  p.modify();
 }
 
 
 int main() {
 
-  // These two are ok.
-  f5() = X(1);   // non-const return value
-  f5().modify();
+  /* These two are ok, because the return value of getNewPerson() is not const. */
 
-  // Causes compile-time errors:
-  //f7(f5());
-  //f6() = X(1);
-  //f6().modify();
-  //f7(f6());
+  getNewPerson() = Person(25);
+  getNewPerson().modify();
+
+
+  /* These cause compile-time errors: */
+
+  // "passing ‘const Person’ as ‘this’ argument of ‘Person& Person::operator=(const Person&)’ discards qualifiers"
+  //getNewConstPerson() = Person(1);
+
+  // "passing ‘const Person’ as ‘this’ argument of ‘void Person::modify()’ discards qualifiers"
+  //getNewConstPerson().modify();
+
+  // "invalid initialization of non-const reference of type ‘Person&’ from a temporary of type ‘Person’"
+  //makeOlder(getNewPerson());
+
+  // "invalid initialization of non-const reference of type ‘Person&’ from a temporary of type ‘const Person’"
+  //makeOlder(getNewConstPerson());
 
 }
