@@ -1,0 +1,18 @@
+Note that at
+
+  http://www2.research.att.com/~bs/bs_faq.html#C++03
+
+it is written:
+
+"What is the difference between C++98 and C++03?
+
+ From a programmer's view there is none. The C++03 revision of the standard was
+ a bug fix release for implementers to ensure greater consistency and
+ portability. In particular, tutorial and reference material describing C++98
+ and C++03 can be used interchangeably by all except compiler writers and
+ standards gurus.
+
+ Personally, I tend not to use the term "C++03" because it is easily confused
+ with "C++0x" and could give the impression that C++98 is outdated."
+
+so most code will be in the C++98 directory.
