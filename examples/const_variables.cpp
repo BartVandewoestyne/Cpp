@@ -1,10 +1,22 @@
+/**
+ * Demonstrates what const variables are and how they can be declared.
+ */
+
 int main() {
 
-  int  x = 4;        // A normal variable that can be modified.
-  x = 10;            // Legal
+  /* A non-const variable can be modified. */
+  int x = 1;
+  x = 2;
 
-  const int y = 2;   // A const var can be initialized, not modified thereafter.
-  y = 10;            // error - cannot modify const variable
+  /* A const variable can be initialized, but not modified thereafter. */
+  const int y = 1;
+  //y = 2;  // "error: assignment of read-only variable ‘y’"
+
+  /* One can put the 'const' keyword either before or after the type, so this
+     is also valid. */
+  int const z = 1;
+  //z = 2;  // "error: assignment of read-only variable ‘z’"
 
   return 0;
+
 }
