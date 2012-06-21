@@ -1,5 +1,10 @@
+/**
+ * Illustrates the use of the ratio class template.
+ */
+
 #include <ratio>
 #include <iostream>
+
 using namespace std;
 
 int main()
