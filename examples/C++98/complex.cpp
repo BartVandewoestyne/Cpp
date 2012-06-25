@@ -21,6 +21,7 @@ int main()
 
   // This works.
   cout << a/b << endl;
+  cout << a/3.0 << endl;
 
   // This gives the error:
   //   error: no match for ‘operator/’ in ‘a / 3’
