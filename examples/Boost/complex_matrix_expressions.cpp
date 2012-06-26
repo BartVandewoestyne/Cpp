@@ -2,6 +2,10 @@
  * Example that demonstrates operations on complex matrices.
  *
  * TODO: find a good way to compute the determinant and inverse.
+ *
+ * Reference:
+ *
+ *   http://www.boost.org/doc/libs/1_35_0/libs/numeric/ublas/doc/matrix_expression.htm
  */
 #include <boost/numeric/ublas/matrix.hpp>
 #include <boost/numeric/ublas/io.hpp>
