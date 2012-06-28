@@ -27,6 +27,9 @@ int main()
   //   error: no match for ‘operator/’ in ‘a / 3’
   //cout << a/3 << endl;
 
+  // Creating a literal constant using the constructor of complex.
+  cout << complex<double>(1.2,3.4) << endl;
+
   return 0;
 
 }
