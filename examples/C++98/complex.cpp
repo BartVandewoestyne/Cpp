@@ -19,6 +19,9 @@ int main()
   cout << a << endl;
   cout << b << endl;
 
+  cout << a.real() << endl;
+  cout << a.imag() << endl;
+
   // This works.
   cout << a/b << endl;
   cout << a/3.0 << endl;
