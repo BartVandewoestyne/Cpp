@@ -3,7 +3,7 @@
  *
  * Compile with:
  *
- *   g++ -std=c**0x unique_ptr02.cpp
+ *   g++ -std=c++0x unique_ptr02.cpp
  *
  * References:
  *
