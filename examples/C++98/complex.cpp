@@ -1,5 +1,9 @@
 /**
  * Demonstrate the use of complex numbers.
+ *
+ * References:
+ *
+ *   [1] http://stackoverflow.com/questions/1641819/why-is-complexdouble-int-not-defined-in-c
  */
 
 #include <iostream>
@@ -38,6 +42,14 @@ int main()
   // This gives the error:
   //   error: no match for ‘operator*’ in ‘a * 4’
   //cout << a*4 << endl;
+
+  // This works.
+  cout << a-1.0 << endl;
+  cout << a-c << endl;
+
+  // This gives the error:
+  //   error: no match for ‘operator-’ in ‘a - 1’
+  //cout << a-1 << endl;
 
   // Creating a literal constant using the constructor of complex.
   cout << complex<double>(1.2,3.4) << endl;
