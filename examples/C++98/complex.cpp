@@ -11,6 +11,7 @@ int main()
 {
   complex<double> a(1, 1);
   complex<double> b(3, 0);
+  double c = 4;
 
   // This gives the compiler-error:
   //   error: missing template arguments before ‘b’
@@ -29,6 +30,14 @@ int main()
   // This gives the error:
   //   error: no match for ‘operator/’ in ‘a / 3’
   //cout << a/3 << endl;
+
+  // This works.
+  cout << a*4.0 << endl;
+  cout << a*c << endl;
+
+  // This gives the error:
+  //   error: no match for ‘operator*’ in ‘a * 4’
+  //cout << a*4 << endl;
 
   // Creating a literal constant using the constructor of complex.
   cout << complex<double>(1.2,3.4) << endl;
