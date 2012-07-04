@@ -4,6 +4,7 @@
  * References:
  *
  *   [1] http://stackoverflow.com/questions/1641819/why-is-complexdouble-int-not-defined-in-c
+ *   [2] http://stackoverflow.com/questions/2647858/multiplying-complex-with-constant-in-c
  */
 
 #include <iostream>
