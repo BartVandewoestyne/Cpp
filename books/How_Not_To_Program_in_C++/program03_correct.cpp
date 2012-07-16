@@ -43,8 +43,7 @@ static void matrix_print(
     {
           for (col = 0; col < 3; ++col)
           {
-             //printf("%o\t", matrix[row][col]);  // gives incorrect (octal) output
-             printf("%d\t", matrix[row][col]);    // gives correct output
+             printf("%d\t", matrix[row][col]);
           }
           printf("\n");
     }
