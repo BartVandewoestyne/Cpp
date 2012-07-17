@@ -22,9 +22,9 @@ int billing(
 ) {
     if (balance < 0)
         if (balance < - (100*DOLLAR))
-            std::cout << "Credit " << -balance << endl;
+            std::cout << "Credit " << -balance << std::endl;
     else
-        std::cout << "Debt " << balance << endl;
+        std::cout << "Debt " << balance << std::endl;
 
     return (0);
 }
