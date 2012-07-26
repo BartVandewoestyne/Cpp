@@ -15,12 +15,18 @@ int main()
   myVector.push_back(2);
   myVector.push_back(3);
  
-  // Disadvantage: we repeatedly call the size() member function!!!
-  for (vector<double>::size_type i = 0; i < myVector.size(); i++)
+  // Method 1: using a simple index.
+  //
+  // Note that we call size() before the loop, so that this size() function
+  // is executed only once.
+  vector<double>::size_type sz = myVector.size();
+  for (vector<double>::size_type i = 0; i < sz; i++)
   {
-    cout << myVector[i] << endl;
+    cout << myVector.at(i) << endl;  // Checks for out of range are done here.
+    cout << myVector[i] << endl;     // No checks done here.
   }
 
+  // Method 2: using iterators.
   for (vector<double>::iterator it = myVector.begin();
                                 it != myVector.end();
                                 ++it)
