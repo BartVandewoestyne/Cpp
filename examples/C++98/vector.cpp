@@ -52,7 +52,7 @@ int main()
   // Method 2: use reverse iterator
   vector<double>::size_type index = myVector.size() - 1;
   for (vector<double>::reverse_iterator rit = myVector.rbegin();
-                                        rit != myVector.rend();
+                                        rit < myVector.rend();
                                         ++rit, --index)
   {
     cout << "value = " << *rit << endl;
