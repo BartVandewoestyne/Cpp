@@ -3,6 +3,11 @@
  * constructors or destructors.
  *
  * This example even fails to compile.
+ *
+ * References:
+ *
+ *   [1] http://stackoverflow.com/questions/738204/why-might-my-virtual-function-call-be-failing
+ *   [2] http://www.artima.com/cppsource/nevercall.html
  */
 class Base
 {
