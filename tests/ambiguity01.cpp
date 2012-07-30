@@ -5,8 +5,9 @@
 
 #include <complex>
 
-// using namespace std;  // putting the using-line here gives the ambiguity
-                         // from the moment the complexS struct is defined...
+// Putting the using-line here gives the ambiguity from the moment the complexS
+// struct is defined...
+//using namespace std;
 
 typedef struct complexS {
   double r;
@@ -15,9 +16,8 @@ typedef struct complexS {
 
 typedef complex Complex;
 
+// Putting the using-line here only gives the ambiguity error from here on...
+//using namespace std;
 
-using namespace std; // putting the using-line here only gives the ambiguity
-                     // error from here on...
-
-std::complex<double> x; // works
 //complex<double> x; // doesn't work: ambiguity error
+std::complex<double> x; // works
