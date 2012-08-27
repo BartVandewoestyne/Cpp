@@ -12,4 +12,8 @@ int main ()
   {
     cout << i;
   }
+
+  for (auto i : { 2, 4, 5, 7 }) {
+  }
+
 }
