@@ -4,6 +4,9 @@
  * Compile with:
  *
  *   g++ -std=c++0x perfect_forwarding.cpp
+ *
+ * References:
+ *   [1] http://cpptruths.blogspot.de/2012/06/perfect-forwarding-of-parameter-groups.html
  */
 
 #include <string>
