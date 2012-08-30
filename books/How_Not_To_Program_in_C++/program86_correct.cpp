@@ -1,3 +1,4 @@
+// TODO: fix this in a clean way.
 /************************************************
  * array_test -- Test the use of the array class*
  ************************************************/
