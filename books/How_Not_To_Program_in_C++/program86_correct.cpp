@@ -52,7 +52,7 @@ class array {
                 const array &old_array)
         {
             if (this == &old_array)
-              return (*this);
+              return;
             delete []data;
             data = new int[old_array.size];
 
