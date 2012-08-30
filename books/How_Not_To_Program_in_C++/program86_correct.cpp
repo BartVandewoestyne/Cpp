@@ -1,4 +1,3 @@
-// TODO: fix this in a clean way.
 /************************************************
  * array_test -- Test the use of the array class*
  ************************************************/
@@ -40,8 +39,8 @@ class array {
         // Copy constructor.
         // Delete the old data and copy
         array(const array &old_array)
+          : size(old_array.size)
         {
-            delete []data;
             data = new int[old_array.size];
 
             memcpy(data, old_array.data,
@@ -53,7 +52,9 @@ class array {
                 const array &old_array)
         {
             if (this == &old_array)
-              return;
+              return (*this);
+
+            size = old_array.size;
             delete []data;
             data = new int[old_array.size];
 
