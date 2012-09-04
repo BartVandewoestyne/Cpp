@@ -10,10 +10,12 @@ int main ()
   
   for (int &i : vec ) 
   {
-    cout << i;
+    cout << i << endl;
   }
 
-  for (auto i : { 2, 4, 5, 7 }) {
+  for (auto i : { 2, 4, 5, 7 })
+  {
+    cout << i << endl;
   }
 
 }
