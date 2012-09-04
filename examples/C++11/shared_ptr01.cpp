@@ -17,9 +17,7 @@
 class foo
 { 
   public:
-    void print() {
-      std::cout << "foo::print" << std::endl;
-    }
+    void print() { std::cout << "foo::print" << std::endl; }
 };
 
 
