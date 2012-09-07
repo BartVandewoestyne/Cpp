@@ -7,7 +7,6 @@
  * automatic and static variables.             *
  ***********************************************/
 #include <stdio.h>
-
 /***********************************************
  * first -- Demonstration of automatic         *
  *      variables.                             *
@@ -18,7 +17,6 @@ int first(void)
 
     return (i++);
 }
-
 /***********************************************
  * second -- Demonstration of a static         *
  *      variable.                              *
