@@ -7,11 +7,13 @@
  *
  *   Command 2: g++ -g -O1 program98_correct.cpp
  *
- * With command 1, the debugging trick works.  With
- * command 2, it doesn't because the compiler optimizes
- * the whole program to an empty program and the
- * debugging variable is optimized out and does no longer
- * exist in the optimized version.
+ * With command 1, the debugging trick works.  With command 2, it doesn't
+ * because the compiler optimizes the whole program to an empty program and the
+ * debugging variable is optimized out and does no longer exist in the optimized
+ * version.
+ *
+ * Using the volatile keyword, we can prevent that the debugging variable gets
+ * optimized out.
  */
 
 /***********************************************
@@ -25,7 +27,8 @@ void dump_variables(void) {
 
 void do_work()
 {
-    static int debugging = 0;
+    //static int debugging = 0;
+    static volatile int debugging = 0;
 
     if (debugging)
     {
