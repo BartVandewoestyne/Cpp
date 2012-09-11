@@ -84,7 +84,6 @@ namespace Chrono { // facilities for dealing with time
   
   inline Date::Month Date::month() const
   {
-    // TODO: is this correct?
     return Month(m);
   }
   
