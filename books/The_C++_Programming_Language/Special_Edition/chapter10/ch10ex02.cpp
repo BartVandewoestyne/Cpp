@@ -5,6 +5,8 @@
  * TODO:
  *   1. Improve and test the functionality of this class.
  *   2. Reimplement with "number of days after 1/1/1970" representation.
+ *   3. Implement next_weekday (Date d) and next_saturday (Date d).
+
  */
 
 #include <iostream>
