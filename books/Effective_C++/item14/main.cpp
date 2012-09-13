@@ -1,5 +1,3 @@
-// TODO: get this to compile!!!
-
 #include "EnemyTarget.h"
 #include "EnemyTank.h"
 

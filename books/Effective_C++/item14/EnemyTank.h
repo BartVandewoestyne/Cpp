@@ -2,22 +2,34 @@
 #define ENEMY_TANK_H
 
 #include <cstddef>
+#include <iostream>
 #include "EnemyTarget.h"
+using namespace std;
 
 class EnemyTank: public EnemyTarget {
 public:
-  EnemyTank() { ++numTanks; }
+  EnemyTank() {
+    cout << "EnemyTank()" << endl;
+    ++numTanks;
+  }
  
   EnemyTank(const EnemyTank& rhs)
   : EnemyTarget(rhs)
-  { ++numTanks; }
+  {
+    cout << "EnemyTank(const EnemyTank& rhs)" << endl;
+    ++numTanks;
+  }
  
-  ~EnemyTank() { --numTanks; }
+  ~EnemyTank() {
+    cout << "~EnemyTank()" << endl;
+    --numTanks;
+  }
  
-  static size_t numberOfTanks()
-  { return numTanks; }
+  static size_t numberOfTanks() {
+    return numTanks;
+  }
  
-  virtual bool destroy();
+  //virtual bool destroy();
  
 private:
   static size_t numTanks;         // object counter for tanks
