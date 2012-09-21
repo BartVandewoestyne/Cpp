@@ -1,5 +1,8 @@
-// TODO: 'fix' this code so we indeed see the potential ambiguity error when
-//       compiling.
+/**
+ * Remark:
+ *   When compiling with g++, without the -pedantic option you don't get
+ *   the ambiguity error.  If you do use the -pedantic option, you get it.
+ */
 
 #include <iostream>
 using namespace std;
@@ -36,5 +39,5 @@ void f(const A&)
 int main()
 {
   B b;
-  f(b);  // TODO: why doesn't this result in an ambiguity error???
+  f(b); // ambiguity error!
 }
