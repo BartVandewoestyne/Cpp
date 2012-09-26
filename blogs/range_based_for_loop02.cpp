@@ -1,3 +1,9 @@
+/**
+ * References:
+ *
+ *   [1] http://yapb-soc.blogspot.de/2012/09/range-based-for-loop-on-int-range.html
+ */
+
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
