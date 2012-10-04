@@ -1,0 +1,7 @@
+TODO: try to figure out what the author means with:
+
+"The first mistake is to declare all functions nonvirtual. That leaves no room
+for specialization in derived classes;"
+
+"Some functions should not be redefinable in derived classes, and whenever
+that's the case, you've got to say so by making those functions nonvirtual."
