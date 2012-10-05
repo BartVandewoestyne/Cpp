@@ -30,6 +30,7 @@ template<class T>
 void Set<T>::remove(const T& item)
 {
   // TODO: check why we need the keyword 'typename' here.
+  // See also http://www-home.fh-konstanz.de/~bittel/aldaBac/Praktikum/typename.htm
   typename list<T>::iterator it =
     find(rep.begin(), rep.end(), item);
 
