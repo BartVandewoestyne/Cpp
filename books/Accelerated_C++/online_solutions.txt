@@ -1,0 +1,12 @@
+http://www.parkscomputing.com/accelerated-cpp-solutions/
+http://acceleratedcplusplus.wordpress.com/
+http://answers-by-me.blogspot.de/
+https://github.com/orazaro/accelerated
+https://github.com/gmarler/Accelerated-CPP
+https://github.com/lavakeshpandey/AcceleratedCPP
+https://github.com/saboot/Accelerated-CPP
+https://github.com/luogongwu/acceleratedCPlusPlusStudy
+https://github.com/janoma/Accelerated-Cpp-exercises
+https://github.com/jeblackburn/accelcpp
+https://github.com/marchdown/cpp_praxis
+... and much more on github...
