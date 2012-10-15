@@ -1,3 +1,8 @@
+/**
+ * 3-4. Write a program to report the length of the longest and shortest string
+ *      in its input.
+ */
+
 #include <string>
 #include <iostream>
 
