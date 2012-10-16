@@ -1,12 +1,12 @@
-http://www.parkscomputing.com/accelerated-cpp-solutions/
-http://acceleratedcplusplus.wordpress.com/
-http://answers-by-me.blogspot.de/
-https://github.com/orazaro/accelerated
-https://github.com/gmarler/Accelerated-CPP
-https://github.com/lavakeshpandey/AcceleratedCPP
-https://github.com/saboot/Accelerated-CPP
-https://github.com/luogongwu/acceleratedCPlusPlusStudy
-https://github.com/janoma/Accelerated-Cpp-exercises
-https://github.com/jeblackburn/accelcpp
-https://github.com/marchdown/cpp_praxis
+http://www.parkscomputing.com/accelerated-cpp-solutions/ (0-4)
+http://acceleratedcplusplus.wordpress.com/ (0-1)
+http://answers-by-me.blogspot.de/ (0-2)
+https://github.com/orazaro/accelerated (0-8)
+https://github.com/gmarler/Accelerated-CPP (7)
+https://github.com/lavakeshpandey/AcceleratedCPP (0-3)
+https://github.com/saboot/Accelerated-CPP (4)
+https://github.com/luogongwu/acceleratedCPlusPlusStudy (none)
+https://github.com/janoma/Accelerated-Cpp-exercises (0-5)
+https://github.com/jeblackburn/accelcpp (1)
+https://github.com/marchdown/cpp_praxis (1-3)
 ... and much more on github...
