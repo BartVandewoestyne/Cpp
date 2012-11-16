@@ -44,6 +44,14 @@ int main()
     cout << "value = " << *it << endl;
   }
 
+  cout << endl << "Method 3: using iterators, but saving on end() call" << endl;
+  vector<double>::iterator iter = myVector.begin();
+  vector<double>::iterator theEnd = myVector.end();
+  for ( ; iter != theEnd; ++iter)
+  {
+    cout << "value = " << *iter << endl;
+  }
+
 
   // See also [1].
   cout << endl << "Reverse listing with index included" << endl;
