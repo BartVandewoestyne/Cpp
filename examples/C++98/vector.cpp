@@ -10,68 +10,74 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
- 
 int main()
 {
-  vector<double> myVector;
-
+  std::vector<double> myVector;
   myVector.push_back(1);
   myVector.push_back(2);
   myVector.push_back(3);
 
-  vector<double>::size_type sz = myVector.size();
+  std::vector<double>::size_type sz = myVector.size();
  
 
-  cout << endl << "Forward listing" << endl;
-  cout <<         "---------------" << endl;
+  std::cout << std::endl
+            << "Forward listing" << std::endl;
+  std::cout << "---------------" << std::endl;
 
-  cout << endl << "Method 1: using a simple size_type index" << endl;
-  for (vector<double>::size_type i = 0; i < sz; i++)
-  { 
-    // Checks for out of range are done here.
-    cout << "value (checked index) = " << myVector.at(i) << endl;
-
-    // No checks are done here.
-    cout << "value (unchecked index) = " << myVector[i] << endl;
-  }
-
-  cout << endl << "Method 2: using iterators" << endl;
-  for (vector<double>::iterator it = myVector.begin();
-                                it != myVector.end();
-                                ++it)
+  std::cout << std::endl << "Method 1: using iterators" << std::endl;
+  for (std::vector<double>::iterator it = myVector.begin();
+       it != myVector.end();
+       ++it)
   {
-    cout << "value = " << *it << endl;
+    std::cout << "value = " << *it << std::endl;
   }
 
-  cout << endl << "Method 3: using iterators, but saving on end() call" << endl;
-  vector<double>::iterator iter = myVector.begin();
-  vector<double>::iterator theEnd = myVector.end();
+  std::cout << std::endl << "Method 2: using iterators, but saving on end() call" << std::endl;
+  std::vector<double>::iterator iter = myVector.begin();
+  std::vector<double>::iterator theEnd = myVector.end();
   for ( ; iter != theEnd; ++iter)
   {
-    cout << "value = " << *iter << endl;
+    std::cout << "value = " << *iter << std::endl;
   }
 
+  std::cout << std::endl << "Method 3: using iterators, but saving on end() call (Peter Niday approach)" << std::endl;
+  std::vector<double>::iterator endIter;
+  for (std::vector<double>::iterator iter = myVector.begin(),
+       endIter = myVector.end(); iter != endIter; ++iter)
+  {
+    std::cout << "value = " << *iter << std::endl;
+  }
+
+  std::cout << std::endl << "Method 4: using a simple size_type index" << std::endl;
+  for (std::vector<double>::size_type i = 0; i < sz; i++)
+  { 
+    // Checks for out of range are done here.
+    std::cout << "value (checked index) = " << myVector.at(i) << std::endl;
+
+    // No checks are done here.
+    std::cout << "value (unchecked index) = " << myVector[i] << std::endl;
+  }
 
   // See also [1].
-  cout << endl << "Reverse listing with index included" << endl;
-  cout <<         "-----------------------------------" << endl;
+  std::cout << std::endl
+            << "Reverse listing with index included" << std::endl;
+  std::cout << "-----------------------------------" << std::endl;
 
-  cout << endl
-       << "Method 1: using reverse_iterator and extra index variable" << endl;
-  vector<double>::size_type index = myVector.size() - 1;
-  for (vector<double>::reverse_iterator rit = myVector.rbegin();
-                                        rit < myVector.rend();
-                                        ++rit, --index)
+  std::cout << std::endl
+            << "Method 1: using reverse_iterator and extra index variable" << std::endl;
+  std::vector<double>::size_type index = myVector.size() - 1;
+  for (std::vector<double>::reverse_iterator rit = myVector.rbegin();
+       rit < myVector.rend();
+       ++rit, --index)
   {
-    cout << "myVector[" << index << "] = " << *rit << endl;
+    std::cout << "myVector[" << index << "] = " << *rit << std::endl;
   }
 
-  cout << endl
-       << "Method 2: Yves' solution 1" << endl;
-  for (vector<double>::size_type i = sz; i > 0; --i)
+  std::cout << std::endl
+            << "Method 2: Yves' solution 1" << std::endl;
+  for (std::vector<double>::size_type i = sz; i > 0; --i)
   {
-    cout << "myVector[" << i-1 << "] = " << myVector.at(i-1) << endl;
+    std::cout << "myVector[" << i-1 << "] = " << myVector.at(i-1) << std::endl;
   }
 
   // When compiled with -Wall, this solution gives the warning:
@@ -79,27 +85,27 @@ int main()
   //   warning: comparison between signed and unsigned integer expressions
   //
   // so it might not be 100% portable and safe...
-  cout << endl
-       << "Method 3: Yves' solution 2" << endl;
-  for(vector<double>::size_type i = sz-1; i != -1; --i)
+  std::cout << std::endl
+            << "Method 3: Yves' solution 2" << std::endl;
+  for(std::vector<double>::size_type i = sz-1; i != -1; --i)
   {
-    cout << "myVector[" << i << "] = " << myVector.at(i) << endl;
+    std::cout << "myVector[" << i << "] = " << myVector.at(i) << std::endl;
   }
 
-  cout << endl
-       << "Method 4: Yves' solution 3" << endl;
+  std::cout << std::endl
+            << "Method 4: Yves' solution 3" << std::endl;
   for (int i = (int) myVector.size() - 1; i > -1; --i)
   {
-    cout << "myVector[" << i << "] = " << myVector.at(i) << endl;
+    std::cout << "myVector[" << i << "] = " << myVector.at(i) << std::endl;
   }
 
   // This solution does not work because i is always >= 0 because it is of
   // size_type!!!
-  cout << endl
-       << "Method 5: not working" << endl;
-  for (vector<double>::size_type i = sz - 1; i >= 0; --i)
+  std::cout << std::endl
+            << "Method 5: not working" << std::endl;
+  for (std::vector<double>::size_type i = sz - 1; i >= 0; --i)
   {
-    cout << "myVector[" << i << "] = " << myVector.at(i) << endl;
+    std::cout << "myVector[" << i << "] = " << myVector.at(i) << std::endl;
   }
 
   return 0;

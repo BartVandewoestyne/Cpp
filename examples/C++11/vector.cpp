@@ -21,5 +21,17 @@ int main()
     std::cout << *iter << std::endl;
   }
 
+  // If the code does not want to modify the value inside the container.
+  for (auto val: myVector)
+  {
+    std::cout << val << std::endl;
+  }
+
+  // If the code does want to modify the value inside the container.
+  for (auto& val: myVector)
+  {
+    std::cout << val << std::endl;
+  }
+
   return 0;
 }
