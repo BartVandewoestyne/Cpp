@@ -1,5 +1,5 @@
 /**
- * Exercise 5-1.
+ * Exercise 5-1 from 'Accelerated C++', solution 1.
  *
  * References:
  *
@@ -18,17 +18,19 @@
 
 using namespace std;
 
-typedef vector<string> Phrase; // typo fixed here!
+typedef vector<string> Phrase; // Typo was fixed here!
 
 struct Rotated_phrase {
     Phrase words;
     Phrase::size_type bound;
 };
 
+
 bool compare(const Rotated_phrase& x, const Rotated_phrase& y)
 {
     return x.words < y.words;
 }
+
 
 void write_phrase(ostream& out,
                   Phrase::const_iterator begin,
@@ -40,6 +42,7 @@ void write_phrase(ostream& out,
         out << " " << *begin;
     }
 }
+
 
 string::size_type phrase_length(Phrase::const_iterator begin,
                                 Phrase::const_iterator end)
@@ -53,9 +56,10 @@ string::size_type phrase_length(Phrase::const_iterator begin,
     return sum;
 }
 
-vector<string> split(const string& s) // typo fixed here!
+
+vector<string> split(const string& s) // Typo was fixed here!
 {
-    vector<string> ret; // typo fixed here!
+    vector<string> ret; // Typo was fixed here!
     typedef string::size_type string_size;
     string_size i = 0;
 
@@ -88,9 +92,10 @@ vector<string> split(const string& s) // typo fixed here!
     return ret;
 }
 
+
 int main()
 {
-    vector<Rotated_phrase> phrases; // typo was here
+    vector<Rotated_phrase> phrases; // Typo was fixed here!
 
     string::size_type max_size = 0;
     string line;
@@ -108,7 +113,7 @@ int main()
             // starting from 1
             // Each time through this loop, we first rotate
             // phrase.words one position to the right, and
-            //then push it and its corresponding integer
+            // then push it and its corresponding integer
             // onto the back of  phrases.
             for (phrase.bound = 1;
                  phrase.bound <= phrase.words.size();
@@ -129,7 +134,7 @@ int main()
     sort(phrases.begin(), phrases.end(), compare);
 
     // Step 3: write
-    for (vector<Rotated_phrase>::const_iterator i = phrases.begin(); // typo fixed here!
+    for (vector<Rotated_phrase>::const_iterator i = phrases.begin(); // Typo was fixed here!
          i != phrases.end();
          ++i) {
 
