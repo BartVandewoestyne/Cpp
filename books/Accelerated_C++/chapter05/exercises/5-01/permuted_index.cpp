@@ -1,10 +1,14 @@
 /**
  * Exercise 5-1.
- *   TODO: finish this!
  *
  * References:
- *   [1] http://adtmag.com/Articles/2001/05/01/Rethinking-How-to-Teach-CPart-7-Payback-time.aspx
- *   [2] http://adtmag.com/Articles/2001/06/01/Rethinking-How-to-Teach-C-Part-8-An-interesting-revision.aspx
+ *
+ *   [1] Koenig, Andrew and Barbara Moo. "Analysis of a Classroom Exercise,
+ *       Part 5: Working with Strings," Journal of Object-Oriented Programming,
+ *       13(11): March 2001.
+ *   [2] http://adtmag.com/Articles/2001/04/01/Rethinking-How-to-Teach-CPart-6-Analyzing-Strings.aspx
+ *   [3] http://adtmag.com/Articles/2001/05/01/Rethinking-How-to-Teach-CPart-7-Payback-time.aspx
+ *   [4] http://adtmag.com/Articles/2001/06/01/Rethinking-How-to-Teach-C-Part-8-An-interesting-revision.aspx
  */
 
 #include <algorithm>
@@ -14,113 +18,129 @@
 
 using namespace std;
 
-vector<string> split(const string& s)
-{
-    vector<string> ret;
+typedef vector<string> Phrase; // typo fixed here!
 
+struct Rotated_phrase {
+    Phrase words;
+    Phrase::size_type bound;
+};
+
+bool compare(const Rotated_phrase& x, const Rotated_phrase& y)
+{
+    return x.words < y.words;
+}
+
+void write_phrase(ostream& out,
+                  Phrase::const_iterator begin,
+                  Phrase::const_iterator end)
+{
+    if (begin != end) {
+      out << *begin;
+      while (++begin != end)
+        out << " " << *begin;
+    }
+}
+
+string::size_type phrase_length(Phrase::const_iterator begin,
+                                Phrase::const_iterator end)
+{
+    string::size_type sum = 0;
+    if (begin != end) {
+        sum = begin->size();
+        while (++begin != end)
+            sum += begin->size() + 1;
+    }
+    return sum;
+}
+
+vector<string> split(const string& s) // typo fixed here!
+{
+    vector<string> ret; // typo fixed here!
     typedef string::size_type string_size;
     string_size i = 0;
 
-    // invariant: we have processed characters [original value of i, i)
+    // invariant: we have processed characters
+    // [original value of i, i)
     while (i != s.size()) {
 
         // ignore leading blanks
-        // invariant: characters in range [original i, current i) are all spaces
+        // invariant: characters in range
+        // [original i, current i) are all spaces
         while (i != s.size() && isspace(s[i]))
             ++i;
 
         // find end of next word
         string_size j = i;
-        // invariant: none of the characters in range [original j, current j) is a space
+
+        // invariant: none of the characters in range
+        // [original j, current j) is a space
         while (j != s.size() && !isspace(s[j]))
-            j++;
+            ++j;
 
         // if we found some nonwhitespace characters
         if (i != j) {
-            // copy from s starting at i and taking j - i chars
+            // copy from s starting at i and
+            // taking j-i chars
             ret.push_back(s.substr(i, j - i));
             i = j;
         }
     }
-
     return ret;
 }
 
-vector<vector<string> > generate_rotations(const vector<string>& v)
+int main()
 {
-    vector<vector<string> > ret;
+    vector<Rotated_phrase> phrases; // typo was here
 
-    vector<string>::size_type vec_size = v.size();
-    vector<string>::size_type shift;
+    string::size_type max_size = 0;
+    string line;
+    while (getline(cin, line)) {
+        Rotated_phrase phrase;
+        phrase.words = split(line);
+        if (phrase.words.size()) {
+            max_size = max( max_size,
+                            phrase_length(phrase.words.begin(),
+                                          phrase.words.begin()
+                                            + phrase.words.size() - 1) );
 
-    for (shift = 0; shift < vec_size; ++shift)
-    {
-      vector<string> s;
-      vector<string>::size_type k;
-      for (k = 0; k < vec_size; ++k)
-      {
-        vector<string>::size_type idx;
-        idx = (shift + k) % vec_size;
-        s.push_back(v[idx]);
-      }
-      ret.push_back(s);
-    }
+            // Generate every possible rotation of phrase.words,
+            // and associate each rotation with a different integer,
+            // starting from 1
+            // Each time through this loop, we first rotate
+            // phrase.words one position to the right, and
+            //then push it and its corresponding integer
+            // onto the back of  phrases.
+            for (phrase.bound = 1;
+                 phrase.bound <= phrase.words.size();
+                 ++phrase.bound) {
 
-    return ret;
-}
+                 // remove the last word from phrase.words
+                 string last_word = phrase.words.back();    
+                 phrase.words.pop_back();
 
-vector<string>::size_type find_index(const string& s, vector<string>& v)
-{
-}
-
-vector<vector<string> > unrotate(const vector<vector<string> >& rotations, const vector<string>& v)
-{
-    for (vector<vector<string> >::size_type i = 0; i < rotations.size(); ++i) {
-      // Zoek index
-    }
-}
-
-
-int main() {
-
-    string s;
-
-    // read and split each line of input
-    while (getline(cin, s)) {
-
-        cout << endl;
-
-        vector<string> v = split(s);
-
-        // Step 1: generate set of rotations.
-        vector<vector<string> > rotations = generate_rotations(v);
-
-        for (vector<vector<string> >::size_type i = 0; i < rotations.size(); ++i) {
-          for (vector<string>::size_type j = 0; j < rotations[i].size(); ++j) {
-            cout << rotations[i][j] << " ";
-          }
-          cout << endl;
+                 // insert the word at the beginning of phrase.words
+                 phrase.words.insert(phrase.words.begin(), last_word);
+                 phrases.push_back(phrase);
+            }
         }
-        cout << endl;
-
-        // Step 2: sort the rotations.
-        sort(rotations.begin(), rotations.end());
-
-        for (vector<vector<string> >::size_type i = 0; i < rotations.size(); ++i) {
-          for (vector<string>::size_type j = 0; j < rotations[i].size(); ++j) {
-            cout << rotations[i][j] << " ";
-          }
-          cout << endl;
-        }
-        cout << endl;
-
-        // Step 3: unrotate
-        //   1. find the separator
-        //   2. put the phrase back together
-        //   3. write it properly formatted
-        //vector<string> permuted_index = unrotate(rotations, v);
-
     }
 
-    return 0;
+    // Step 2: sort
+    sort(phrases.begin(), phrases.end(), compare);
+
+    // Step 3: write
+    for (vector<Rotated_phrase>::const_iterator i = phrases.begin(); // typo fixed here!
+         i != phrases.end();
+         ++i) {
+
+        Phrase::const_iterator bound = i->words.begin() + i->bound;
+
+        cout << string(max_size - phrase_length(bound, i->words.end()), ' ');
+
+        write_phrase(cout, bound, i->words.end());
+        cout << " ";
+        write_phrase(cout,i->words.begin(), bound);
+        cout << endl;
+    }
+
 }
