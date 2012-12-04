@@ -1,0 +1,291 @@
+3/23/2012
+Answers to the C++ integer quiz
+
+For these questions, consider all EEsof architectures: linux and Windows, 32 bit and 64 bit.
+
+Problem 1 -- Given
+
+    int i = -6;
+    unsigned n = 3;
+
+
+a -- These three asserts are algebraically equivalent. Some trigger and some do not. Why?
+
+    assert(i < n);
+
+        This assert triggers.
+
+        When C++ sees a binary operator with operands of different types, it promotes one or both of the operands so that they are the same type. For operands of type int and unsigned, the int is converted to unsigned and the unsigned is left alone. int and unsigned are both integers and have the same number of bytes, so the conversion from int to unsigned does not modify any of the bytes. The two's-complement representation of -6 is 0xfffffff9 and, after conversion to unsigned, it's still 0xfffffff9, which is 4294967289 in decimal. This value is not less than 3, so the assertion fails.
+
+    assert(i - n < 0);   // Subtract n from both sides
+
+        This assert triggers.
+
+        Subtraction is a binary operator, so the compiler converts the int to unsigned. The type of the result of subtraction of two unsigned operands is also unsigned, so i - n has type unsigned. An unsigned value can never be negative, so the assertion fails.
+
+    assert(0 < n - i );  // Subtract i from both sides
+
+        This assert does not trigger.
+
+        n - i has type unsigned with value 9, which is greater than 0, so the assertion succeeds.
+
+        It might seem odd that n - i is 9. If i is converted to 4294967290, how can the result be 9? The answer lies in the two's-complement representation:
+
+            n - i = 0x3 - 0xfffffffa
+                  = 0x3 + (-0xfffffffa)
+                  = 0x3 + 0x6
+                  = 0x9
+            
+
+b -- These two asserts are algebraically opposite. Why is their assert behavior the same?
+
+    assert(0 < n - i );
+
+        This assert does not trigger. See 1a.
+
+    assert(0 <= i - n );
+
+        This assert does not trigger. i - n is unsigned and, therefore, is always greater than or equal to 0.
+
+c -- The first assert is stricter than the second. Why is the second one the only one that triggers?
+
+    assert(i + n == -3);
+
+        Surprisingly, this assert does not trigger.
+
+        The first operand of the equality operator is i + n, which is unsigned with value equal to the two's complement of -3.
+
+        The second operand is converted to unsigned with value equal to the two's complement of -3.
+
+        Since both operands of the equality operator have the same value, the assertion succeeds.
+
+    assert(i + n < 0);
+
+        This assert triggers.
+
+        i + n is unsigned so its value can never be less than 0 and the assertion fails (regardless of the value of i and n).
+
+    Note 1: It is quite interesting that arithmetic, ==, and != basically work identically for any mixture of int and unsigned. This probably explains why you might have never run into arithmetic issues when (perhaps unknowingly) mixing signed and unsigned integer types.
+
+    I am definitely not recommending that you take advantage of this fact. I’m mentioning it because it explains why code that mixes these type types can still work successfully. If this weren’t true, a lot of our code would fail.
+
+    Note 2: The behavior of int and unsigned is not the same for <, <=, >, >= (and probably a lot of other operators). So, in general, you need to take care when using unsigned integers. 
+
+Problem 2 -- What is the output?
+
+    for (int i = -2; i < sizeof(double); ++i)
+        std::cout << i << std::endl;
+
+    There is no output. The stopping expression evaluates to false for the first value of i and the body of the loop is never entered.
+
+    Details: The return value of sizeof() has type size_t, which is an unsigned integer of size 4 on 32-bit machines and size 8 on 64-bit machines. So, in the stopping expression, i < sizeof(double), the compiler converts i to size_t. The value of -2 as a size_t is some large positive value that is greater than 8 and the stopping expression is false.
+
+Problem 3 -- Does the assert trigger? What is the output?
+
+    size_t n = sizeof(int) - sizeof(double);
+    assert(n == -4);
+
+        The assert does not trigger. See Problem 1c. 
+
+    std::cout << n << std::endl;
+
+        The output is a large positive integer.
+
+        size_t is 4 bytes on 32-bit machines and 8 bytes on 64-bit machines, so the output has one value for 32-bit machines and a different value for 64-bit machines. 
+
+Problem 4 -- What is the output?
+
+    int n = 3000000000;   // 3 billion
+    std::cout << n << std::endl;
+
+    The output is a negative value, on the order of negative one billion.
+
+    Details: The maximum value for an int is 2^31 - 1, which is around 2 billion. The value assigned to i exceeds that, so we are assigning a value that overflows the capacity of the integer.
+
+    The compiler calculates the unsigned value of 3 billion and then stuffs those bytes into i. (I don't know if that behavior is part of the C++ standard or left up to the compiler designers.) The value has its most significant bit set, so the output is a negative value, on the order of negative one billion. 
+
+Problem 5 -- Why does the second line generate a compiler warning? How would you fix it?
+
+    const char* s = "foo";
+    int n = strlen(s);
+
+    strlen() returns a size_t. The compiler warning happens on 64-bit Visual Studio builds and states that the assignment is from a larger type (8 bytes for size_t) to a smaller type (4 bytes for int) and data might be lost.
+
+    There are several approaches for fixing it. All of them are problematic.
+
+        int n = static_cast<int>(strlen(s));
+
+        This simply turns off the compiler warning. If there is absolutely no chance of overflowing the int, then it's an OK solution (but 2 is better and 3 might be even better).
+         
+        int n = integer_cast<int>(strlen(s));
+
+        This is the same as 1 except it provides assertions about overflow. Learn more about integer_cast.
+         
+        size_t n = strlen(s);
+
+        This is good because it avoids the compiler warning without requiring any casts, but it changes n from a signed integer to an unsigned integer. This can cause problems depending on how n is used. See Problem 6.
+         
+
+Problem 6 -- Using an int for n generates a compiler warning, so size_t is used instead. What problem does that create? How would you fix it?
+
+    static int countTrailingZeros(const std::vector<int>& data)
+    {
+        int count = 0;
+        //int n = data.size();  // VS compiler warning
+        size_t n = data.size();
+        while (n - 1 >= 0 && data[n - 1] == 0)
+        {
+            ++count;
+            --n;
+        }
+        return count;
+    }
+
+    Changing n from int to size_t changes n from a signed integer to an unsigned integer. We need to look at how n is used to see if there are any problems. In particular, we need to look at arithmetic and comparison operators. These occur in three places:
+
+        In the while statement, n - 1 is calculated. If n is 0, which happens when data is empty, this calculation underflows the size_t. When this happens, the value becomes the maximum value for a size_t (2^32 on 32-bit machines and 2^64 on 64-bit machines).
+         
+        Also in the while statement, there is the comparison operator >=. This comparison tests whether a size_t is greater than or equal to 0. A size_t is an unsigned integer and is always greater than or equal to zero, so the comparison is true regardless of the value of n. The while statement is basically
+
+            while (data[n - 1] == 0)
+                ...
+            
+
+        In the body of the while statement, n is decremented. This causes a problem if n is zero.
+
+    So, in the case where data is empty or contains all zeros, n will take on the value 0. This causes n - 1 to underflow and take on the maximum value for a size_t. This causes data[n - 1] to access off the end of the vector, most likely into memory that doesn't exist, triggering a memory access error, or perhaps into existing memory, giving incorrect results.
+
+    The easiest fix is to add 1 to both sides of n - 1 >= 0 to get n >= 1. There is no arithmetic, so this will never underflow. And it's not always true because it is false when n is zero. It also ensures that --n never decrements 0.
+
+    You could also use n > 0, which might be marginally easier to understand.
+
+    Personally, I think a better approach is to use vector's reverse iterators.
+
+        for (std::vector<int>::const_reverse_iterator iter = data.rbegin();
+             iter != data.rend() && *iter == 0;
+             ++iter)
+        {
+            ++count;
+        }
+
+    This avoids all unsigned arithmetic and makes it very clear that we are looking at the vector's elements in reverse order.
+
+    Note: count can never be negative and, on 64-bit machines, it can exceed the maximum value of an int, so it makes sense to define count as a size_t. This means the return value of the function should be a size_t, too. That change ripples into all of the code that calls this function. If it's feasible to refactor that code, I would do it. If not, I would leave the return value as an int and use
+
+        return integer_cast<int>(count);
+        
+
+Problem 7 -- You want to store up to 64 bits in an integer. Which of the following data types work for that?
+
+    long               bits1 = 0xff00ee00dd00cc00;
+    unsigned long      bits2 = 0xff00ee00dd00cc00;
+    long long          bits3 = 0xff00ee00dd00cc00;
+    unsigned long long bits4 = 0xff00ee00dd00cc00;
+    size_t             bits5 = 0xff00ee00dd00cc00;
+
+    Of the types shown, long long and unsigned long long are the only types that are always 8 bytes on all the architectures we use.
+
+    When storing bits, it's better to use an unsigned integer (to document that the most-significant bit is not a sign bit) so the best type is unsigned long long.
+
+Problem 8 -- Which of these, if any, is a robust way to print out a size_t?
+
+    //size_t n = 3000000000;         // three billion, for 32-bit machines
+    size_t n = 20000000000;     // twenty billion, for 64-bit machines
+    printf("d:    %d\n", n);
+    printf("u:    %u\n", n);
+    printf("ld:   %ld\n", n);
+    printf("lu:   %lu\n", n);
+    printf("p:    %p\n", n);
+    std::cout << "cout: " << n << std::endl;
+
+    Of the approaches shown, the only approach that gives a decimal output and works on all the architectures we use is the last one.
+
+    %p works on all of our architectures, but its output is in hexadecimal. And it works only because pointers and size_t have the same size on the architectures we use. I don't know whether this assumption will be violated in future architectures.
+
+    To get a decimal output for a size_t using printf, there are formatting commands that work with gcc but not with Visual Studio. And there are formatting commands that work with Visual Studio, but not gcc. I'm not sure why there isn't any standard, but I guess we're supposed to use streams rather than printf.
+
+    Note: You might thing that unsigned long should work robustly. It works on linux because the size of an unsigned long is the same as a size_t (4 bytes on 32-bit machines and 8 bytes on 64-bit machines). It does not work, however, with Visual Studio, where unsigned long is always 4 bytes, even on 64-bit machines. 
+
+Problem 9 -- Which of these, if any, is a robust way to print out a long long?
+
+    long long n = -20000000000;     // minus twenty billion
+    printf("d:    %d\n", n);
+    printf("ld:   %ld\n", n);
+    printf("p:    %p\n", n);
+    std::cout << "cout: " << n << std::endl;
+
+    This is a trick question. None of them work on all of our architectures.
+
+    It turns out that stlport streams on linux do not support long long, so the last line doesn't compile with gcc. Yes, this is another good reason to drop stlport.
+
+    The three printfs use the wrong formatting commands for a long long. There are formatting commands for long long that work for gcc, but they don't work with Visual Studio. There are formatting commands for long long that work with Visual Studio, but they don't work with gcc.
+
+Problem 10 -- Given
+
+    double x[] = {0.0, 1.0, 2.0, 3.0, 4.0, 5.0};
+    double* xPtr = &x[1];
+    double* yPtr = &x[3];
+
+a -- What is the output?
+
+    int      offset1 = yPtr - xPtr;
+    unsigned offset2 = yPtr - xPtr;
+    size_t   offset3 = yPtr - xPtr;
+    std::cout << "offset1 = " << offset1 << std::endl;
+    std::cout << "offset2 = " << offset2 << std::endl;
+    std::cout << "offset3 = " << offset3 << std::endl;
+
+    The output is
+
+        2
+        2
+        2
+
+b -- Swap the operands. What is the output?
+
+    int      offset4 = xPtr - yPtr;
+    unsigned offset5 = xPtr - yPtr;
+    size_t   offset6 = xPtr - yPtr;
+    std::cout << "offset4 = " << offset4 << std::endl;
+    std::cout << "offset5 = " << offset5 << std::endl;
+    std::cout << "offset6 = " << offset6 << std::endl;
+
+    The output on a 64-bit machine is
+
+        -2
+        4294967294
+        18446744073709551614
+
+    The main point here is that the difference is negative, so the proper type is not an unsigned type.
+
+c -- What is the proper data type for the difference of pointers?
+
+    The proper type is ptrdiff_t, which is basically a signed version of size_t. It's 4 bytes on 32-bit machines and 8 bytes on 64-bit machines.
+
+    If you know that the difference is never negative, you can use size_t.
+
+Problem 11
+
+a -- Which of the iSquared variables, if any, accurately represent the value of ten thousand squared?
+
+    short i = 10000;
+    short  iSquared1 = i*i;
+    int    iSquared2 = i*i;
+    long   iSquared3 = i*i;
+    size_t iSquared4 = i*i;
+
+    All of them work except for iSquared1. A short is only 2 bytes, so 10000^2 is too large to be held by a short.
+
+b -- Which of the jSquared variables, if any, accurately represent the value of one billion squared?
+
+    int j = 1000000000;
+    int       jSquared1 = j*j;
+    long      jSquared2 = j*j;
+    long long jSquared3 = j*j;
+    size_t    jSquared4 = j*j;
+
+    None of them.
+
+    Both operands of j*j are int, so the result is also an int. But one billion squared exceeds the maximum value of an int, so the calculation overflows. The result is corrupted before it ever gets assigned to any of the jSquared variables, some of which are indeed large enough to accurately hold one billion squared.
+
+    This overflow doesn't happen in 11a because C++ always performs integer arithmetic using int or larger. So what appears to be a product of shorts in 11a is actually computed as a product of ints and there is no overflow.

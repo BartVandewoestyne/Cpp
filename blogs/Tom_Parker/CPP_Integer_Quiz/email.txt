@@ -1,0 +1,78 @@
+Hi Bart:
+
+I restricted the quiz to the four architectures that we use at EEsof.
+
+I don't know what the C++ standard says about the guaranteed sizes of
+integers, but based on the information you provided, I'd say you're
+correct.
+
+Regards,
+tom
+
+-----Original Message-----
+From: VANDEWOESTYNE,BART (A-Belgium,ex1) 
+Sent: Monday, March 26, 2012 12:41 AM
+To: PARKER,TOM (A-Sonoma,ex1)
+Subject: Re: Answers to C++ integer quiz
+
+On 03/23/2012 07:18 PM, PARKER,TOM (A-Sonoma,ex1) wrote:
+> Problem 11
+>
+> a -- Which of theiSquaredvariables, if any, accurately represent the 
+> value of ten thousand squared?
+>
+> short i = 10000;
+>
+> short    iSquared1 = i*i;
+>
+> int        iSquared2 = i*i;
+>
+> long      iSquared3 = i*i;
+>
+> size_t iSquared4 = i*i;
+>
+>
+>
+> All of them work except foriSquared1. Ashortis only 2 bytes, so 
+> 10000^2 is too large to be held by ashort.
+Hell Tom,
+
+I'm wondering whether the iSquared2 and iSquared4 are also *always*
+guaranteed to be safe...  Here's my reasoning:
+
+ From what I read on
+
+http://stackoverflow.com/questions/4091826/size-guarantee-for-integral-a
+rithmetic-types-in-c-and-c
+
+it seems like the C and C++ standards only define *minimum* ranges, for
+int's being:
+
+                #define INT_MAX                     +32767
+                #define INT_MIN                     -32767
+
+Whether a larger range exists or not, is implementation dependent.  So
+according to the standards, the above ranges would not be large enough
+to hold 10^8.  Similarly, after reading
+
+http://stackoverflow.com/questions/1089176/is-size-t-always-unsigned
+http://stackoverflow.com/questions/918787/whats-sizeofsize-t-on-32-bit-v
+s-the-various-64-bit-data-models
+
+my educated guess would be that the maximum for a size_t variable is *at
+least* 65535.  Whether a larger range exists, is again implementation
+dependent.
+
+So although probably most practical implementations will probably allow
+larger ranges for an int and a size_t, the combined C/C++ standards only
+guarantee the above ranges, leading to (theoretically, potential) unsafe
+operations when declaring
+
+int iSquared2 = i*i;
+size_t iSquared4 = i*i;
+
+
+Am I correct or not?  Feel free to share me your opinion on this!
+
+Regards,
+Bart
