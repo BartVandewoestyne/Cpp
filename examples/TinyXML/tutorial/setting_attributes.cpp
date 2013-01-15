@@ -1,10 +1,3 @@
-/**
- * Compile with:
- *
- *   g++ setting_attributes.cpp -ltinyxml
- *
- */
-
 #include "tinyxml.h"
 
 void write_attributes( )

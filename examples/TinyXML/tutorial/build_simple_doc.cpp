@@ -1,10 +1,3 @@
-/**
- * Compile with:
- *
- *   g++ build_simple_doc.cpp -ltinyxml
- *
- */
-
 #include "tinyxml.h"
 
 void build_simple_doc( )

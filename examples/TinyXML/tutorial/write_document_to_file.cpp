@@ -1,10 +1,4 @@
-/**
- * Compile with:
- *
- *   g++ write_document_to_file.cpp -ltinyxml
- *
- */
-
+#include "utils.h"
 #include "tinyxml.h"
 
 void write_app_settings_doc( )  
@@ -49,7 +43,7 @@ void write_app_settings_doc( )
   cxn->SetAttribute("ip", "192.168.0.1");
   cxn->SetDoubleAttribute("timeout", 123.456); // floating point attrib
   
-  // TODO: dump_to_stdout( &doc );
+  dump_to_stdout( &doc );
   doc.SaveFile( "appsettings.xml" );  
 }
 
