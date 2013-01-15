@@ -1,3 +1,9 @@
+/**
+ * References:
+ *
+ *   [1] http://j.mp/cpp11ref
+ */
+
 #include <cstdint>
 using namespace std;
 
