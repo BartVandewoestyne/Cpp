@@ -1,1 +1,4 @@
 https://github.com/branduren/c-primer-plus
+https://github.com/kkretzer/cpp-primer
+https://github.com/clijiac/c--primer-pratice
+https://github.com/suchasplus/pluscppp
