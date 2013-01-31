@@ -7,25 +7,31 @@
 
 int main()
 {
-    Sales_item oldItem, newItem;
+    Sales_item newItem;
 
-    int counter = 1;
+    if (std::cin >> newItem) {
 
-    std::cin >> newItem;
-    oldItem = newItem;
-    while (std::cin >> newItem) {
+        int counter = 1;
 
-        if ( newItem.isbn() == oldItem.isbn() ) {
-            counter++;
-        } else {
-            std::cout << "Number of transactions for ISBN " << oldItem.isbn()
-                      << ": " << counter << std::endl;
-            counter = 1;
+        Sales_item oldItem = newItem;
+
+        while (std::cin >> newItem) {
+
+            if ( newItem.isbn() == oldItem.isbn() ) {
+                counter++;
+            } else {
+                std::cout << "Number of transactions for ISBN " << oldItem.isbn()
+                          << ": " << counter << std::endl;
+                counter = 1;
+            }
+            oldItem = newItem;
+
         }
+        std::cout << "Number of transactions for ISBN " << oldItem.isbn()
+                  << ": " << counter << std::endl;
 
-        oldItem = newItem;
-
+    } else {
+        std::cerr << "No data?!" << std::endl;
+        return -1;
     }
-    std::cout << "Number of transactions for ISBN " << oldItem.isbn()
-              << ": " << counter << std::endl;
 }
