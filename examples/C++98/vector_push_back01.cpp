@@ -23,8 +23,7 @@ int main()
   Foo myFoo;
 
   std::vector<Foo> myVector;
-  myVector.push_back(myFoo);
+  myVector.push_back(myFoo);  // Copy constructor called here!
 
   return 0;
-
 }
