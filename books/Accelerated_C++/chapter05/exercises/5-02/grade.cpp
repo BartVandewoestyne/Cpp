@@ -27,3 +27,9 @@ double grade(const Student_info& s)
 {
 	return grade(s.midterm, s.final, s.homework);
 }
+
+// predicate to determine whether a student failed
+bool fgrade(const Student_info& s)
+{
+    return grade(s) < 60;
+}
