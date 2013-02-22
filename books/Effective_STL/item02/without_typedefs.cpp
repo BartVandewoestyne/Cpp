@@ -5,6 +5,12 @@ using std::find;
 
 class Widget {};
 
+bool operator==(const Widget& lhs, const Widget& rhs)
+{
+    // TODO: make this more meaninfgul???
+    return true;
+}
+
 int main()
 {
     vector<Widget> vw;
