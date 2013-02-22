@@ -1,4 +1,3 @@
-Accelerated_C++/chapter05/exercises/5-05/center.cpp
 Accelerated_C++/chapter06/find_urls.cpp
 Accelerated_C++/chapter06/section2.cpp
 Accelerated_C++/chapter06/section3.cpp
