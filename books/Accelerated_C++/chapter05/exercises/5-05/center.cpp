@@ -1,49 +1,63 @@
+/**
+ * TODO:
+ *   - This assignment is somehow unclear to me.  Am I producing the requested
+ *     output???
+ *   - What are the properties of pictures for which such a function is useful?
+ *   - How can you tell whether a given picture has those properties?
+ */
+
 #include <iostream>
 #include <string>
 #include <vector>
 
 using namespace std;
 
-string::size_type width(const vector<string>& v)
+string::size_type width(const vector<string>& picture)
 {
     string::size_type maxlen = 0;
-    for (vector<string>::size_type i = 0; i != v.size(); ++i)
-        maxlen = max(maxlen, v[i].size());
+    for (vector<string>::size_type i = 0; i != picture.size(); ++i)
+        maxlen = max(maxlen, picture[i].size());
     return maxlen;
 }
 
-vector<string> center(const vector<string>& v) {
+vector<string> center(const vector<string>& picture) {
 
-    string::size_type maxlen = width(v);
+    string::size_type maxlen = width(picture);
 
-    vector<string> ret;
-    for (vector<string>::const_iterator it = v.begin();
-         it != v.end();
+    vector<string> new_picture;
+    for (vector<string>::const_iterator it = picture.begin();
+         it != picture.end();
          ++it) {
         unsigned int left = (maxlen - it->size())/2;
         unsigned int right = maxlen - left;
-        ret.push_back(string(left, ' ') + *it + string(right, ' '));
+        new_picture.push_back(string(left, ' ') + *it + string(right, ' '));
     }
 
-    return ret;
+    return new_picture;
 }
 
+
 void show(const vector<string>& v) {
+
     for (vector<string>::const_iterator it = v.begin();
          it != v.end();
          ++it) {
       cout << *it << endl;
     }
+
 }
+
 
 int main()
 {
-    vector<string> v;
-    v.push_back(string("Bart"));
-    v.push_back(string("Jan"));
-    v.push_back(string("Marijke"));
+    vector<string> picture;
+    picture.push_back(string("Bart"));
+    picture.push_back(string("Jan"));
+    picture.push_back(string("Marijke"));
 
-    show(v);
-    vector<string> c = center(v);
-    show(c);
+    vector<string> new_picture = center(picture);
+
+    show(picture);
+    std::cout << "**************" << std::endl;
+    show(new_picture);
 }
