@@ -74,6 +74,8 @@ int main()
     // Extract failed students.
     clock_t start_time = clock();
     vector<Student_info> fails = extract_fails1(students);
+    //vector<Student_info> fails = extract_fails2(students);
+    //vector<Student_info> fails = extract_fails3(students);
     clock_t elapsed_time = clock() - start_time;
 
     // Alphabetize the student records.
@@ -85,7 +87,7 @@ int main()
     write_names_and_grades(fails, maxlen);
 
     cout << "Elapsed CPU time for failed student extraction: "
-         << elapsed_time << endl;
+         << (double)elapsed_time/CLOCKS_PER_SEC << " seconds." << endl;
 
     return 0;
 }
