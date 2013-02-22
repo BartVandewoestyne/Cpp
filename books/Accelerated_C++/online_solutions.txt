@@ -1,6 +1,7 @@
 http://www.parkscomputing.com/accelerated-cpp-solutions/ (0-4)
 http://acceleratedcplusplus.wordpress.com/ (0-1)
 http://answers-by-me.blogspot.de/ (0-2)
+https://github.com/bitsai/book-exercises/tree/master/Accelerated%20C%2B%2B (0-16)
 https://github.com/orazaro/accelerated (0-8)
 https://github.com/gmarler/Accelerated-CPP (7)
 https://github.com/lavakeshpandey/AcceleratedCPP (0-3)
