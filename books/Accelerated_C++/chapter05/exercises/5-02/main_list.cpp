@@ -1,9 +1,4 @@
 /**
- * TODO:
- *   - cleanup code
- *   - time code
- *   - make easily changeable between vector and list
- *
  * References:
  *
  *   [1] http://bytes.com/topic/c/answers/167496-accelerated-c-clarification-wording-exercises
