@@ -14,7 +14,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
-#include <vector>
+#include <list>
 #include <ctime>
 #include "grade.h"
 #include "Student_info.h"
@@ -24,26 +24,25 @@ using std::cin;                     using std::setprecision;
 using std::cout;                    using std::sort;
 using std::domain_error;            using std::streamsize;
 using std::endl;                    using std::string;
-using std::max;                     using std::vector;
+using std::max;                     using std::list;
 
 
 // Write the names and grades of the students.
 void write_names_and_grades(
-        vector<Student_info>& students,
+        list<Student_info>& students,
         string::size_type maxlen
         )
 {
-    for (vector<Student_info>::size_type i = 0;
-         i != students.size();
-         ++i)
+    for (list<Student_info>::const_iterator it = students.begin();
+         it != students.end();
+         ++it)
     {
-        // Write the name, padded on the right to `maxlen' `+' `1' characters.
-        cout << students[i].name
-             << string(maxlen + 1 - students[i].name.size(), ' ');
-        
+        cout << it->name
+             << string(maxlen + 1 - it->name.size(), ' ');
+
         // Compute and write the grade.
         try {
-            double final_grade = grade(students[i]);
+            double final_grade = grade(*it);
             streamsize prec = cout.precision();
             cout << setprecision(3) << final_grade
                  << setprecision(prec);
@@ -57,7 +56,7 @@ void write_names_and_grades(
 
 int main()
 {
-    vector<Student_info> students;
+    list<Student_info> students;
     Student_info record;
     string::size_type maxlen = 0;  // The length of the longest name.
 
@@ -73,13 +72,11 @@ int main()
 
     // Extract failed students.
     clock_t start_time = clock();
-    vector<Student_info> fails = extract_fails1(students);
-    //vector<Student_info> fails = extract_fails2(students);
-    //vector<Student_info> fails = extract_fails3(students);
+    list<Student_info> fails = extract_fails4(students);
     clock_t elapsed_time = clock() - start_time;
 
     // Alphabetize the student records.
-    sort(students.begin(), students.end(), compare);
+    //sort(students.begin(), students.end(), compare); // TODO: sort for list!!!
 
     std::cout << "Passed students:" << std::endl;
     write_names_and_grades(students, maxlen);
