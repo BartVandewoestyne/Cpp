@@ -13,6 +13,11 @@ public:
     Widget();
     Widget(int id);
 
+    Widget(const Widget&);                         // copy constructor
+                                                   // (see item 3)
+    Widget& operator=(const Widget&);              // copy assignment operator
+                                                   // (see item 3)
+
     void setId(int id);
     int getId() const;
 
