@@ -1,0 +1,9 @@
+include_directories(../utils)
+
+add_executable(without_typedefs without_typedefs.cpp)
+add_executable(with_typedefs with_typedefs.cpp)
+#add_executable(with_typedefs_and_custom_allocator with_typedefs_and_custom_allocator.cpp)
+
+target_link_libraries(without_typedefs estl)
+target_link_libraries(with_typedefs estl)
+#target_link_libraries(with_typedefs_and_custom_allocator estl)
