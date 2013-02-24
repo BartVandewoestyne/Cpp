@@ -20,6 +20,16 @@ Widget::Widget(int id)
   : id(id)
 {}
 
+Widget::Widget(const Widget& orig)
+  : id(orig.id)
+{}
+
+Widget& Widget::operator=(const Widget& rhs)
+{
+    id = rhs.id;
+    return *this;
+}
+
 void Widget::setId(int id)
 {
     this->id = id;
