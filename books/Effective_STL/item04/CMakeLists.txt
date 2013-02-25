@@ -1,0 +1,2 @@
+add_executable(splice_example splice_example.cpp)
+add_executable(timing_example timing_example.cpp)

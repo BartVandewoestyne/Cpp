@@ -32,5 +32,4 @@ int main()
     std::cout << "myList.empty() took "
               << ( (clock()-startTime)/(double)CLOCKS_PER_SEC ) << " seconds."
               << std::endl;
-
 }
