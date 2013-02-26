@@ -6,6 +6,7 @@
 using std::vector;
 
 
+// TODO: move this in a library.
 void print(std::vector<Widget> v)
 {
     copy(v.begin(), v.end(), std::ostream_iterator<Widget>(std::cout, " "));
@@ -26,7 +27,6 @@ int main()
 
     // Make v1's contents be the same as the second half of v2's.
     v1.assign( v2.begin()+v2.size()/2, v2.end() );
-
     print(v1);
 
     // Without using a range member function (with explicit loop).
@@ -37,12 +37,15 @@ int main()
     {
         v1.push_back(*ci);
     }
-
     print(v1);
 
     // Employ an algorithm.
     v1.clear();
     copy( v2.begin() + v2.size()/2, v2.end(), back_inserter(v1) );
+    print(v1);
 
+    // Employ a range version of insert.
+    v1.clear();
+    v1.insert(v1.end(), v2.begin()+v2.size()/2, v2.end());
     print(v1);
 }
