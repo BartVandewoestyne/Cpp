@@ -1,4 +1,6 @@
+#include <algorithm>
 #include <iostream>
+#include <iterator>
 #include <vector>
 #include "Widget.h"
 using std::vector;
@@ -6,12 +8,8 @@ using std::vector;
 
 void print(std::vector<Widget> v)
 {
-    for (std::vector<Widget>::const_iterator ci = v.begin();
-         ci != v.end();
-         ++ci)
-    {
-        std::cout << *ci << " ";
-    }
+    copy(v.begin(), v.end(), std::ostream_iterator<Widget>(std::cout, " "));
+
     std::cout << std::endl;
 }
 
