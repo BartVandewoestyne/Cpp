@@ -10,7 +10,8 @@ friend std::ostream& operator<<(std::ostream& os, const Widget& rhs);
 
 public:
 
-    Widget();
+    Widget();                                      // default constructor
+                                                   // (see item 6)
     Widget(int id);
 
     Widget(const Widget&);                         // copy constructor
