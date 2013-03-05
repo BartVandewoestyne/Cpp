@@ -1,4 +1,5 @@
 #include "Widget.h"
+#include "SpecialString.h"
 #include <vector>
 #include <boost/shared_ptr.hpp>
 using namespace std;
@@ -12,7 +13,6 @@ void doSomething()
     vector<SPW> vwp;
     for (int i = 0; i < SOME_MAGIC_NUMBER; ++i)
     {
-        // TODO: check ERRATA!
         vwp.push_back(SPW(new Widget));  // create a SPW from a Widget*,
                                          // then do a push_back on it
     }

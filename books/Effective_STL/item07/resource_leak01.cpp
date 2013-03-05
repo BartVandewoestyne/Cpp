@@ -14,9 +14,7 @@ void doSomething()
 
     // ... use vwp
 
-    // Widgets are leaked here!
-    // TODO: check with valgrind.
-}
+} // Widgets are leaked here!
 
 int main()
 {

@@ -10,7 +10,8 @@ template<typename T>
 struct DeleteObject : public unary_function<const T*, void> {
 // Item 40 describes why this inheritance is here.
 
-    void operator()(const T* ptr) const { // TODO: check errate list book!!!
+    void operator()(const T* ptr) const
+    {
         delete ptr;
     }
 
@@ -26,8 +27,7 @@ void doSomething()
 
     // ... use vwp
 
-    for_each(vwp.begin(), vwp.end(), DeleteObject<Widget>()); // TODO: check errata list in book!
-
+    for_each(vwp.begin(), vwp.end(), DeleteObject<Widget>());
 }
 
 int main()

@@ -3,12 +3,10 @@
  */
 
 #include "Widget.h"
+#include "SpecialString.h"
 #include <algorithm>
 #include <deque>
 using namespace std;
-
-// TODO: move SpecialString to utils???
-class SpecialString : public string {};
 
 struct DeleteObject { // templatization and base class removed here
 

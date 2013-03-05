@@ -1,16 +1,16 @@
 #include "Widget.h"
+#include "SpecialString.h"
 #include <algorithm>
 #include <functional>
 #include <deque>
 using namespace std;
 
-class SpecialString : public string {};
-
 template<typename T>
 struct DeleteObject : public unary_function<const T*, void> {
 // Item 40 describes why this inheritance is here.
 
-    void operator()(const T* ptr) const { // TODO: check errate list book!!!
+    void operator()(const T* ptr) const
+    {
         delete ptr;
     }
 
