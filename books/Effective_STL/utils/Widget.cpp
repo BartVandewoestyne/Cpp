@@ -6,6 +6,11 @@ bool operator==(const Widget& lhs, const Widget& rhs)
     return lhs.id == rhs.id;
 }
 
+bool operator<(const Widget& lhs, const Widget& rhs)
+{
+    return lhs.id < rhs.id;
+}
+
 std::ostream& operator<<(std::ostream& os, const Widget& rhs)
 {
     os << "Widget [id = " << rhs.id << "]";

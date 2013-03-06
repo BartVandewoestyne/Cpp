@@ -6,6 +6,7 @@
 class Widget {
 
 friend bool operator==(const Widget& lhs, const Widget& rhs);
+friend bool operator<(const Widget& lhs, const Widget& rhs); // (see item 7)
 friend std::ostream& operator<<(std::ostream& os, const Widget& rhs);
 
 public:
