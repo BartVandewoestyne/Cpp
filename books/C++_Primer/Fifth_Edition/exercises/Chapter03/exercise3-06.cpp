@@ -7,16 +7,16 @@ using std::endl;
 
 int main()
 {
-    string str("some string");
+    string s("some string");
 
-    cout << str << endl;
+    cout << s << endl;
 
-    for (auto& c : str)
+    for (auto &c : s)
     {
         c = 'X';
     }
 
-    cout << str << endl;
+    cout << s << endl;
 
     return 0;
 }
