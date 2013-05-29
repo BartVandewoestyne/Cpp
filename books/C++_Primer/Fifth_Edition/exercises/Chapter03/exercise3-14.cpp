@@ -1,23 +1,29 @@
 #include <iostream>
+#include <string>
 #include <vector>
+
+using std::cin;
+using std::cout;
+using std::string;
+using std::vector;
 
 int main()
 {
-    const int MAX_NB_VALUES = 3;
+    const int MAX_NB_STRINGS = 3;
 
-    int number;
+    string word;
 
-    std::vector<int> v;
+    vector<string> v;
      
-    for (int i = 0; i != MAX_NB_VALUES; ++i)
+    for (int i = 0; i != MAX_NB_STRINGS; ++i)
     {
-        std::cin >> number;
-        v.push_back(number);
+        cin >> word;
+        v.push_back(word);
     }
 
     for (const auto& element : v)
     {
-        std::cout << element << " ";
+        cout << element << " ";
     }
-    std::cout << std::endl;
+    cout << std::endl;
 }
