@@ -3,7 +3,7 @@
  *
  *   [1] http://j.mp/cpp11ref
  *   [2] http://programmers.stackexchange.com/questions/180216/does-auto-make-c-code-harder-to-understand/
- *
+ *   [3] http://thbecker.net/articles/auto_and_decltype/section_01.html
  */
 
 #include <list>
