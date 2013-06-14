@@ -1,3 +1,5 @@
+These are errata that I found in the Second Printing from October 2012.
+-----------------------------------------------------------------------
 * Page 148: *beg in second code example should be *pbeg.
 
 * Page 150, exercise 4.6c is missing a semicolon at the end.
