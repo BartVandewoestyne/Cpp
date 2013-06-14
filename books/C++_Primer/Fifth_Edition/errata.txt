@@ -1,0 +1,3 @@
+* Page 148: *beg in second code example should be *pbeg.
+
+* Page 150, exercise 4.6c is missing a semicolon at the end.
