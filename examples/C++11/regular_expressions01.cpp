@@ -1,6 +1,6 @@
 /**
  * TODO:
- *   - This compiles with g++ 4.7.2 but gives the error:
+ *   - This compiles with g++ 4.7.3 but gives the error:
  *
  *       terminate called after throwing an instance of 'std::regex_error'
  *         what():  regex_error
