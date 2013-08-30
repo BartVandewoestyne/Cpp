@@ -3,7 +3,7 @@ double dobj;
 
 int main()
 {
-  // (a) TODO: Rank 1???
+  // (a) Rank 3: char promotes to int
   manip('a', 'z');
 
   // (b) TODO: Rank 3 or 4?
