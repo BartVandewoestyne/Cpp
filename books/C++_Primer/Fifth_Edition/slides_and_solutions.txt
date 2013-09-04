@@ -1,3 +1,9 @@
+Slides
+------
+http://www.prestridge.org/cosc1436/
+
+Solutions
+---------
 https://github.com/kkretzer/cpp-primer
 https://github.com/clijiac/c--primer-pratice
 https://github.com/suchasplus/pluscppp
