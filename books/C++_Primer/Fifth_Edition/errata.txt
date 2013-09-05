@@ -13,3 +13,5 @@ These are errata that I found in the Second Printing from October 2012.
 
   "The return type and the type of each parameter in a constexpr function must
   be a literal type,..."
+
+* Page 263, line 8: "As we'll, see" must be replaced by "As we'll see,"
