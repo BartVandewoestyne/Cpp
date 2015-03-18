@@ -1,6 +1,0 @@
-The while condition checks the state of the stream returned from the >>
-expression (see page 312).
-
-The code that is executed when we use a stream as a condition is equivalent to
-calling !fail().  If !fail() is true, then this means that failbit (IO operation
-failed) and badbit (stream is corrupted) are not set.

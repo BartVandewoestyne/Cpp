@@ -1,6 +1,0 @@
-/*
- * TODO
- * rate:
- * principal:
- * payment:
- */

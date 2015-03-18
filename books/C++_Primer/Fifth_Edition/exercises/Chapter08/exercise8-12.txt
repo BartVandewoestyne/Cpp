@@ -1,2 +1,0 @@
-Because PersonInfo is an aggregate class, and these have no in-class
-initializers.

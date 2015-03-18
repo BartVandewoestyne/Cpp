@@ -1,3 +1,0 @@
-C++ Primer Answer Book
-Clovis L. Tondo (Author), Bruce P. Leung (Author)
-=> This book is for the 3rd edition.
