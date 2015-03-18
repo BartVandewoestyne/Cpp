@@ -1,0 +1,3 @@
+const: because we only read the information, we do not change it.
+auto: because it's easy to use: we don't need to write out the whole type.
+&: to avoid a copy
