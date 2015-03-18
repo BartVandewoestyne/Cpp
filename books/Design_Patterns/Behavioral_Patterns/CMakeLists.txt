@@ -1,3 +1,0 @@
-add_subdirectory(Chain_of_Responsibility)
-add_subdirectory(Iterator)
-add_subdirectory(Observer)

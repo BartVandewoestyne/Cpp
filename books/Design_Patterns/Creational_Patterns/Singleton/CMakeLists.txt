@@ -1,2 +1,0 @@
-add_subdirectory(basic_implementation)
-add_subdirectory(registry_of_singletons)
