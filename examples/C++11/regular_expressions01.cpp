@@ -1,6 +1,15 @@
 /**
- * TODO:
- *   - This compiles with g++ 4.7.3 but gives the error:
+ * Remarks:
+ *
+ *  - This compiles and runs fine with
+ *
+ *      clang++-3.5 -stdlib=libc++ -std=c++11 regular_expressions01.cpp
+ *
+ *  - Compiling with g++ 4.8 using the command
+ *
+ *      g++-4.8 -std=c++11 regular_expressions01.cpp
+ *
+ *    I get the error
  *
  *       terminate called after throwing an instance of 'std::regex_error'
  *         what():  regex_error
