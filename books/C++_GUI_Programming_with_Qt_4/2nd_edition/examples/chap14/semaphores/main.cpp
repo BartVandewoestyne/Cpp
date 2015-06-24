@@ -1,5 +1,5 @@
-// TODO: for a DataSize of 10 and BufferSize of 4, this program sometimes hangs...??? Does it have to do
-//       with the fact that I splitted up the source in multiple files???
+// TODO: for a DataSize of 10 and BufferSize of 4, this program sometimes hangs or gives incorrect output.
+//       Does it have to do with the fact that I splitted up the source in multiple files???
 
 #include "producer.h"
 #include "consumer.h"
