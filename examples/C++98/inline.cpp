@@ -26,7 +26,9 @@ inline int aplusb_pow2(int a, int b)
 
 int main()
 {
-  for (int a = 0; a < 900000; ++a)
-    for (int b = 0; b < 900000; ++b)
+  const int n_max = 100000;
+
+  for (int a = 0; a < n_max; ++a)
+    for (int b = 0; b < n_max; ++b)
       aplusb_pow2(a, b);
 }
