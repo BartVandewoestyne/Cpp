@@ -25,34 +25,34 @@
  */
 
 #include <iostream>
-#include <utility>
+
+#if __cplusplus == 201103L
+  #include <utility>
+#endif
 
 using namespace std;
-
 
 class BigObject {
 
 public:
 
-    BigObject()
-    {
+    BigObject() {
         cout << "  constructing " << this << endl;
     }
 
-    ~BigObject()
-    {
+    ~BigObject() {
         cout << "  destructing " << this << endl;
     }
 
-    BigObject(const BigObject&)
-    {
+    BigObject(const BigObject&) {
         cout << "  copy constructing " << this << endl;
     }
 
-    BigObject(BigObject&&)
-    {
+#if __cplusplus == 201103L
+    BigObject(BigObject&&) {
         cout << "  move constructing " << this << endl;
     }
+#endif
 
 };
 
@@ -68,28 +68,10 @@ BigObject foo1()
 }
 
 
-BigObject foo2()
-{
-    BigObject localObj;
-    return std::move(localObj);
-}
-
-
-/**
- * Do not do this in real development, because you are returning a reference
- * to a local object here!
- */
-BigObject&& foo3(int n)
-{
-    BigObject localObj;
-    return std::move(localObj);
-}
-
-
 /**
  * Here, the copy constructor *is* called, so no Return Value Optimization.
  */
-BigObject foo4(int n)
+BigObject foo2(int n)
 {
     BigObject localObj, anotherLocalObj;
 
@@ -101,6 +83,25 @@ BigObject foo4(int n)
     {
         return anotherLocalObj;
     }
+}
+
+
+#if __cplusplus == 201103L
+BigObject foo3()
+{
+    BigObject localObj;
+    return std::move(localObj);
+}
+
+
+/**
+ * Do not do this in real development, because you are returning a reference
+ * to a local object here!
+ */
+BigObject&& foo4()
+{
+    BigObject localObj;
+    return std::move(localObj);
 }
 
 
@@ -118,32 +119,46 @@ BigObject foo5(int n)
 
     }
 }
+#endif
 
 
 int main()
 {
+
+    cout << "__cplusplus = " << __cplusplus << endl;
+#if __cplusplus == 201103L
+    cout << "Compiled as C++11 code." << endl;
+#else
+    cout << "Compiled as non-C++11 code." << endl;
+#endif
+    cout << std::endl;
+
     {
         cout << "1 local object, no std::move applied:" << endl;
         BigObject obj = foo1();
     }
     cout << std::endl;
     {
+        cout << "2 local objects, no std::move applied:" << endl;
+        BigObject obj = foo2(1);
+    }
+
+#if __cplusplus == 201103L
+    cout << std::endl;
+    {
         cout << "1 local object, std::move applied:" << endl;
-        BigObject obj = foo2();
+        BigObject obj = foo3();
     }
     cout << std::endl;
     {
         cout << "1 local object, std::move applied, r-value return type:" << endl;
-        auto f = foo3(1);
-    }
-    cout << std::endl;
-    {
-        cout << "2 local objects, no std::move applied:" << endl;
-        BigObject obj = foo4(1);
+        auto obj = foo4();
     }
     cout << std::endl;
     {
         cout << "2 local objects, std::move applied" << endl;
         BigObject obj = foo5(1);
     }
+#endif
+
 }
