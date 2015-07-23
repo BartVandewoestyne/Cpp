@@ -1,10 +1,12 @@
 /**
- * Illustrates 'Return Value Optimization'.
+ * Illustrates '(Named) Return Value Optimization'.
  *
  * Return Value Optimization (RVO) is also sometimes called 'elision' or 'copy
  * elision'.  The C++98/03 standard doesn't require the compiler to provide RVO
  * optimization, but most popular C++ compilers contain this optimization
- * technique: IBM XL C++, GCC and Clang.
+ * technique: IBM XL C++, GCC and Clang.  GCC seems to have it by default, but
+ * Visual Studio C++ does not seem to have it as a default.  It depends on the
+ * optimization level used.
  *
  * The technique is included in the C++11 standard due to its prevalence.  See
  * section 12.8 in the C++11 standard.  The name of the technique is 'copy
@@ -22,6 +24,7 @@
  * References:
  *
  *   [1] https://www.ibm.com/developerworks/community/blogs/5894415f-be62-4bc0-81c5-3956e82276f3/entry/RVO_V_S_std_move
+ *   [2] C++ 11 standard, section 12.8/31.
  */
 
 #include <iostream>
@@ -69,7 +72,8 @@ BigObject foo1()
 
 
 /**
- * Here, the copy constructor *is* called, so no Return Value Optimization.
+ * Here, in C++98, the copy constructor *is* called, so no Return Value Optimization.
+ * In C++11, the move constructor is called if it is available.
  */
 BigObject foo2(int n)
 {
