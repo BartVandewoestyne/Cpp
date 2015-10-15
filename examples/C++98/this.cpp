@@ -13,6 +13,14 @@
 class Foo {
 public:
 
+    // Constructors can not be declared const, volatile or const volatile.
+    Foo()
+    {
+        member = 1;
+
+        //this = new Foo;  // error: lvalue required as left operand of assignment
+    }
+
     // Nonstatic non-const member function: the type of this is Foo*
     void f_nonconst()
     {
@@ -29,7 +37,7 @@ public:
         //member = 1;        // error: assignment of member 'Foo::member' in read-only object
         //this->member = 1;  // error: assignment of member 'Foo::member' in read-only object
 
-        //this = new Foo();  // error: lvalue required as left operand of assignment
+        //this = new Foo;  // error: lvalue required as left operand of assignment
     }
 
 private:
