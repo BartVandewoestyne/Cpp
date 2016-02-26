@@ -49,7 +49,7 @@ int main()
   }
 
   std::cout << std::endl << "Method 4: using a simple size_type index" << std::endl;
-  for (std::vector<double>::size_type i = 0; i < sz; i++)
+  for (std::vector<double>::size_type i = 0; i < sz; ++i)
   { 
     // Checks for out of range are done here.
     std::cout << "value (checked index) = " << myVector.at(i) << std::endl;
