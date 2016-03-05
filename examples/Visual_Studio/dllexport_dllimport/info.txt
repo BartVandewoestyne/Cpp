@@ -1,0 +1,30 @@
+References:
+
+  [1] http://www.differencebetween.net/technology/difference-between-lib-and-dll/
+  [2] https://msdn.microsoft.com/en-us/library/ms235627.aspx
+  [3] https://msdn.microsoft.com/en-us/library/1ez7dh12.aspx
+
+Static library
+--------------
+* Typically has the extension .lib
+
+* Functions and procedures can be placed here and called as the application is being compiled.
+
+* Usually bigger, as it contains all of the code.
+
+* Compile command:
+
+    cl /c /EHsc foobar.cpp
+    lib foobar.obj
+    cl /EHsc main.cpp /link foobar.lib
+
+Dynamic Link Library
+--------------------
+* Typically has the extension .dll
+
+* Application can call these libraries during run-time and not during compilation.
+
+* Multiple smaller files.
+
+* Problems:
+    - when you change the content of the DLL, this can lead to versioning problems.

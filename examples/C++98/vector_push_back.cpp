@@ -1,6 +1,5 @@
 /**
- * My own example to demonstrate that adding a class to a vector calls the copy
- * constructor.
+ * Demonstrates that adding a class to a vector calls the copy constructor.
  *
  * References:
  *
@@ -20,7 +19,7 @@ public:
 
 int main()
 {
-  Foo myFoo;
+  Foo myFoo;                  // Default constructor called here.
 
   std::vector<Foo> myVector;
   myVector.push_back(myFoo);  // Copy constructor called here!
