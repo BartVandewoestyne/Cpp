@@ -18,7 +18,7 @@ public:
     //
     // but an old-style C-cast or a static_cast doesn't report this.
     //
-    virtual ~Base() { std::cout << "~Base()" << std::endl; }
+    //virtual ~Base() { std::cout << "~Base()" << std::endl; }
     
 };
 
@@ -53,7 +53,7 @@ int main()
     // All three casts *seem* to work, but only dynamic_cast reports it
     // if you forgot to declare your virtual destructor in the base class.
 
-    apbt[0] = new Derived1;
+    apbt[0] = new Derived1;                  // this doesn't make much sense without virtual functions
     doit((Derived1*)apbt[0]);                // bad!
     doit(static_cast<Derived1*>(apbt[0]));   // bad!
     doit(dynamic_cast<Derived1*>(apbt[0]));  // ok!
@@ -63,7 +63,7 @@ int main()
 
     // Only dynamic_cast can detect the incorrect cast at runtime here.
     
-    apbt[1] = new Derived2;
+    apbt[1] = new Derived2;                  // this doesn't make much sense without virtual functions
     doit((Derived1*)apbt[1]);                // bad: cast should fail!
     doit(static_cast<Derived1*>(apbt[1]));   // bad: cast should fail!
     doit(dynamic_cast<Derived1*>(apbt[1]));  // ok! bad cast reported as null pointer
