@@ -33,6 +33,6 @@ int main()
     Widget* pw3 = new Widget;
     if (pw3 != NULL)            // a lot of legacy code often checks
     {                           // for NULL before deleting...
-        delete pw2;             // QUESTION: is this check necessary???
+        delete pw3;             // QUESTION: is this check necessary???
     } 
 }
