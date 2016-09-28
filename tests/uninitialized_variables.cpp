@@ -1,6 +1,6 @@
 /*
- * Uninitialized variables cause undefined behavior.  This script can be used to
- * check typical values of uninitialized variables for different compilers.
+ * Uninitialized variables cause undefined behavior.  This program can be used
+ * to check typical values of uninitialized variables for different compilers.
  */
 
 #include <iostream>
@@ -8,14 +8,20 @@
 int main()
 {
   bool b;
-  std::cout << "bool b: " << b << std::endl;
+  std::cout << "uninitialized bool b = " << b << std::endl;
 
   unsigned char uc;
-  std::cout << "unsigned char: [" << uc << "]" << std::endl;
+  std::cout << "uninitialized unsigned char = '" << uc << "'" << std::endl;
 
   unsigned int ui;
-  std::cout << "unsigned int ui: " << ui << std::endl;
+  std::cout << "uninitialized unsigned int = " << ui << std::endl;
+
+  int i;
+  std::cout << "uninitialized int = " << i << std::endl;
+
+  float f;
+  std::cout << "uninitialized float = " << f << std::endl;
 
   double d;
-  std::cout << "double: " << d << std::endl;
+  std::cout << "uninitialized double = " << d << std::endl;
 }
