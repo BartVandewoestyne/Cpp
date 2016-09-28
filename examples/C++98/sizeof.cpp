@@ -5,6 +5,10 @@
 #include <climits>
 #include <iostream>
 
+class Empty {};
+class Base { int a; };
+class Derived : public Base { int b; };
+
 int main()
 {
     std::cout << "On this platform, there are " << CHAR_BIT << " bits in one byte." << std::endl;
@@ -31,7 +35,11 @@ int main()
     std::cout << "  sizeof(signed int) = " << sizeof(signed int) << std::endl;
     std::cout << "  sizeof(unsigned int) = " << sizeof(unsigned int) << std::endl;
     std::cout << "  sizeof(long) = " << sizeof(long) << std::endl;
+    std::cout << "  sizeof(signed long) = " << sizeof(signed long) << std::endl;
+    std::cout << "  sizeof(unsigned long) = " << sizeof(unsigned long) << std::endl;
     std::cout << "  sizeof(long long) = " << sizeof(long long) << std::endl;
+    std::cout << "  sizeof(signed long long) = " << sizeof(signed long long) << std::endl;
+    std::cout << "  sizeof(unsigned long long) = " << sizeof(unsigned long long) << std::endl;
 
     std::cout << std::endl;
 
@@ -70,4 +78,18 @@ int main()
     std::cout << "  sizeof(long double*) = " << sizeof(long double*) << std::endl;
 
     std::cout << std::endl;
+
+    std::cout << "  sizeof(float*) = " << sizeof(float*) << std::endl;
+    std::cout << "  sizeof(double*) = " << sizeof(double*) << std::endl;
+    std::cout << "  sizeof(long double*) = " << sizeof(long double*) << std::endl;
+
+    std::cout << std::endl;
+
+    Empty e;
+    Base b;
+    Derived d;
+
+    std::cout << "  sizeof(e) = " << sizeof(e) << std::endl;
+    std::cout << "  sizeof(b) = " << sizeof(b) << std::endl;
+    std::cout << "  sizeof(d) = " << sizeof(d) << std::endl;
 }
