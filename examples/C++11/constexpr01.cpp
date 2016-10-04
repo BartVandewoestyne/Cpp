@@ -10,6 +10,7 @@
  *   [3] http://enki-tech.blogspot.be/2012/09/c11-compile-time-calculator-with.html
  *   [4] https://akrzemi1.wordpress.com/2011/05/06/compile-time-computations/
  *   [5] http://avidinsight.uk/2015/10/how-to-check-that-a-function-is-constexpr/
+ *   [6] EMC++ item 15.
  */
 
 constexpr int multiply(int x, int y)
