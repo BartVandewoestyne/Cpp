@@ -21,6 +21,7 @@
 class Base {
 public:
     virtual void f() = 0;
+    void g();
 };
 
 void Base::f()
@@ -28,12 +29,20 @@ void Base::f()
     std::cout << "Base::f() called." << std::endl;
 }
 
+void Base::g()
+{
+    f();        // calls Derived::f()
+    Base::f();  // calls Base::f()
+
+    std::cout << "Base::g() called." << std::endl;
+}
+
 
 class Derived : public Base {
 public:
     virtual void f()
     {
-        Base::f();  // Derived's implementation can call Base implementation (if access permissions allow it)... but this is not so often used?
+        //Base::f();  // Derived's implementation can call Base implementation (if access permissions allow it)... but this is not so often used?
 
         std::cout << "Derived::f() called." << std::endl;  // Derived's implementation.
     }
@@ -45,6 +54,11 @@ int main()
     //Base b;  // does not work, because cannot declare variable 'b' to be of abstract type 'Base'.
     //b.f();
 
+    std::cout << "Non-pointer version:" << std::endl;
     Derived d;
-    d.f();
+    d.g();
+
+    std::cout << "Pointer version:" << std::endl;
+    Derived* dp = new Derived();
+    dp->g();
 }
