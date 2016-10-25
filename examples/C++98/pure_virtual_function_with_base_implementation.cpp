@@ -14,6 +14,7 @@
  *
  *   [1] http://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
  *   [2] http://stackoverflow.com/questions/25530108/implementing-pure-virtual-function-in-the-abstract-class-is-there-any-use-of-i
+ *   [3] http://www.gotw.ca/gotw/031.htm
  */
 
 #include <iostream>
