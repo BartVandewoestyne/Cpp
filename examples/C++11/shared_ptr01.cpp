@@ -6,9 +6,10 @@
  * the two shared pointer objects get out of scope, the last one that is
  * destroyed will release the resource.
  *
- * Reference:
+ * References:
  *
- *   http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *   [2] http://shaharmike.com/cpp/shared-ptr/ (haven't read this yet...)
  */
 
 #include <memory>
