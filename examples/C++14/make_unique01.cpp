@@ -2,6 +2,7 @@
  * References:
  * 
  *   [1] http://en.cppreference.com/w/cpp/memory/unique_ptr/make_unique
+ *   [2] http://shaharmike.com/cpp/unique-ptr/ (haven't read this one yet)
  */
 
 #include <iostream>
