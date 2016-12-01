@@ -1,5 +1,5 @@
 /*
- * Test program to exiperiment with passing const std::unique_ptr& as parameter.
+ * Test program to exiperiment with passing const std::unique_ptr<T>& as parameter.
  * (which is to be avoided according to [1], solution 3d)
  * 
  * References:
