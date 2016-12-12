@@ -6,6 +6,7 @@
  *   [3] http://thbecker.net/articles/auto_and_decltype/section_01.html
  *   [4] http://arne-mertz.de/2015/07/new-c-features-auto-for-variables/
  *   [5] http://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
+ *   [6] https://blog.feabhas.com/2016/11/getting-head-around-autos-type-deduction-rules/
  */
 
 #include <list>
