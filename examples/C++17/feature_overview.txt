@@ -1,0 +1,4 @@
+Websites that give an overview of C++17 features:
+-------------------------------------------------
+
+http://www.bfilipek.com/2017/01/cpp17features.html
