@@ -9,6 +9,7 @@
  *
  *   [1] http://stackoverflow.com/questions/24032322/is-it-safe-to-cast-an-unsigned-char-to-char-and-treat-the-dereferenced-pointe
  *   [2] http://www.parashift.com/c++-faq/print-char-or-ptr-as-number.html
+ *   [3] https://blog.galowicz.de/2017/01/22/reinterpret_cast_trap/
  */
 
 #include <climits>
