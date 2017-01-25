@@ -2,6 +2,7 @@
  * References:
  *
  *   [1] http://j.mp/cpp11ref
+ *   [2] https://youtu.be/zxDzMjfsgjg
  */
 
 #include <cstdint>
