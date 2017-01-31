@@ -3,3 +3,7 @@ Websites that give an overview of C++17 features:
 
 http://www.bfilipek.com/2017/01/cpp17features.html
 https://github.com/jfbastien/what-is-cpp17
+
+Other C++17 stuff
+-----------------
+https://vittorioromeo.info/index/blog/cpp17_curry.html
