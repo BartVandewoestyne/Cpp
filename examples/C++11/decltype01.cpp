@@ -3,6 +3,7 @@
  *
  *   [1] http://j.mp/cpp11ref
  *   [2] http://thbecker.net/articles/auto_and_decltype/section_01.html
+ *   [3] http://arne-mertz.de/2017/01/decltype-declval/
  */
 
 int main() {
