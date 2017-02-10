@@ -1,10 +1,6 @@
 /**
  * Illustrates the use of unique_ptr.
  *
- * Compile with:
- *
- *   g++ -std=c++0x unique_ptr.cpp
- *
  * References:
  *   http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
  */
@@ -12,6 +8,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <memory>
+
 using namespace std;
 
 struct Foo {
