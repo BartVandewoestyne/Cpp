@@ -5,6 +5,7 @@
  *
  *   [1] http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
  *   [2] https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/
+ *   [3] http://www.bfilipek.com/2017/02/modernize-sink-functions.html
  */
  
 #include <iostream>
