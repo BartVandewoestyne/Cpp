@@ -6,6 +6,7 @@ https://github.com/jfbastien/what-is-cpp17
 http://becpp.org/blog/wp-content/uploads/2016/12/Peter-Van-Weert-BeC17-Part-I.pptx
 http://becpp.org/blog/wp-content/uploads/2017/02/Peter-Van-Weert-BeC17-Part-II.pptx
 https://youtu.be/22jIHfvelZk
+https://github.com/tvaneerd/cpp17_in_TTs
 Bryce Adelstein Lelbach's talk to be seen at C++Now 2017
 
 Other C++17 stuff
