@@ -1,18 +1,17 @@
 /**
  * Illustrates how move semantics and unique pointer reinforce each other.
  *
- * Compile with:
- *
- *   g++ -std=c++0x unique_ptr02.cpp
- *
  * References:
  *
- *   http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
+ *   [1] http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
+ *   [2] https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/
+ *   [3] http://www.bfilipek.com/2017/02/modernize-sink-functions.html
  */
  
 #include <iostream>
 #include <cstdlib>
 #include <memory>
+
 using namespace std;
 
 struct Foo {
@@ -41,12 +40,13 @@ unique_ptr<Foo> source() {
 
 int main(int argc, char** argv) {
 
-    cerr << "Calling source\n";
+    cerr << "Calling source()\n";
     unique_ptr<Foo> pmain = source();  // Can also be written as
                                        // auto pmain = source();
 
     cerr << "Now pmain owns Foo [" << pmain.get() << "]\n";
-    cerr << "Passing it to sink\n";
+
+    cerr << "Passing it to sink()\n";
     //sink(pmain);                    // ERROR! can't copy unique_ptr
     sink(move(pmain));              // OK: can move it!
 

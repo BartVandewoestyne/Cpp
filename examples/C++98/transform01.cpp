@@ -2,6 +2,7 @@
  * References:
  *
  *   [1] http://www.cplusplus.com/reference/algorithm/transform/
+ *   [2] http://www.fluentcpp.com/2017/02/13/transform-central-algorithm/
  */
 
 // transform algorithm example
