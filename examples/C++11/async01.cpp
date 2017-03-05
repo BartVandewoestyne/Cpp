@@ -1,12 +1,13 @@
 /**
  * Compile with:
  *
- *   g++ -std=c++0x async01.cpp -lpthread
+ *   g++ -std=c++11 async01.cpp -lpthread
  *
  * References:
  *
  *   [1] http://www.reddit.com/r/cpp/comments/wvd1g/problem_with_stdasync_under_ubuntu/
  *   [2] http://www.justsoftwaresolutions.co.uk/threading/multithreading-in-c++0x-part-8-futures-and-promises.html
+ *   [3] http://www.modernescpp.com/index.php/asynchronous-function-calls
  */
 #include <future>
 #include <iostream>
