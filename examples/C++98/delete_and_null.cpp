@@ -4,7 +4,7 @@
  * Advantages of nulling the pointer:
  *   - it avoids crashes on double deletes
  *
- * Disadvantages of nulling the pionter:
+ * Disadvantages of nulling the pointer:
  *   - it masks double delete bugs and leaves them unhandled
  *
  * References:

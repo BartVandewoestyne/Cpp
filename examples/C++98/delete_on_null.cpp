@@ -35,4 +35,14 @@ int main()
     {                           // for NULL before deleting...
         delete pw3;             // QUESTION: is this check necessary???
     } 
+
+
+    // And for arrays:
+ 
+    int* pIntArray = new int[10];
+    delete[] pIntArray;
+    //delete[] pIntArray;         // error, cannot delete again!
+    
+    int* pIntArray2 = NULL;
+    delete[] pIntArray2;          // no-op
 }
