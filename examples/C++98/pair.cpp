@@ -5,6 +5,7 @@
  *
  *   [1] http://www.cplusplus.com/reference/utility/pair/pair/
  *   [2] http://maintainablecode.logdown.com/posts/158531-stdpair-considered-harmful
+ *   [3] https://arne-mertz.de/2017/03/smelly-pair-tuple/
  */
 
 #include <utility>      // std::pair, std::make_pair
