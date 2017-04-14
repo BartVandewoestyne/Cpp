@@ -8,6 +8,8 @@
  *   [1] http://www.reddit.com/r/cpp/comments/wvd1g/problem_with_stdasync_under_ubuntu/
  *   [2] http://www.justsoftwaresolutions.co.uk/threading/multithreading-in-c++0x-part-8-futures-and-promises.html
  *   [3] http://www.modernescpp.com/index.php/asynchronous-function-calls
+ *   [4] https://solarianprogrammer.com/2012/10/17/cpp-11-async-tutorial/
+ *   [5] https://studiofreya.com/cpp/simple-threading-with-stdasync/
  */
 #include <future>
 #include <iostream>
