@@ -5,8 +5,11 @@ int main()
 {
     int a[2][3];
 
+    // Method 1
     std::fill(a[0], a[0] + 2*3, 999);
-    //std::fill_n(a[0], 2*3, 999);  // C++11?
+
+    // Method 2
+    //std::fill_n(a[0], 2*3, 999);
 
     for (int i = 0; i < 2; ++i)
     {
