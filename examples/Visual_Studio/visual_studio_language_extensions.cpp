@@ -4,8 +4,10 @@
  * standard conforming.
  *
  * References:
- * [1] http://stackoverflow.com/questions/27463785/cant-pass-temporary-object-as-reference
- * [2] https://msdn.microsoft.com/en-us/library/0k0w269d.aspx
+ *
+ *   [1] https://msdn.microsoft.com/en-us/library/34h23df8.aspx
+ *   [2] http://stackoverflow.com/questions/27463785/cant-pass-temporary-object-as-reference
+ *   [3] https://msdn.microsoft.com/en-us/library/0k0w269d.aspx
  */
 class Base { };
 
