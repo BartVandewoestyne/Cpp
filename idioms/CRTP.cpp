@@ -6,6 +6,7 @@
  *   [3] http://www.grimm-jaud.de/index.php/blog/c-ist-doch-lazy
  *   [4] http://stevedewhurst.com/once_weakly/once-weakly20170328/once-weakly20170328.pdf
  *   [5] http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
+ *   [6] http://www.fluentcpp.com/2017/05/12/curiously-recursive-template-pattern/
  */
 
 #include <iostream>
