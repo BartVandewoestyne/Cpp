@@ -2,7 +2,8 @@
  * Illustrates the use of unique_ptr.
  *
  * References:
- *   http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
+ *   [1] http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
+ *   [2] http://www.drdobbs.com/cpp/c11-uniqueptr/240002708
  */
 
 #include <iostream>
