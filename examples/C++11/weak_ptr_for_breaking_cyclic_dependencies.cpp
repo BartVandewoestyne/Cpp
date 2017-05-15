@@ -4,6 +4,7 @@
  *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
  *   [2] https://visualstudiomagazine.com/articles/2012/10/19/circular-references.aspx
  *   [3] https://backwardsincompatibilities.wordpress.com/2014/05/29/pointing-the-way-redux-part-6-weak_ptr/
+ *   [4] http://www.acodersjourney.com/2016/05/top-10-dumb-mistakes-avoid-c-11-smart-pointers/
  */
 
 #include <iostream>
