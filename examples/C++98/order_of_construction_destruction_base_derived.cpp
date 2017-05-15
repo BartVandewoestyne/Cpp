@@ -1,7 +1,7 @@
 /*
  * References:
  *   [1] http://stackoverflow.com/questions/654428/what-is-the-order-in-which-the-destructors-and-the-constructors-are-called-in-c
- *   [2] http://stackoverflow.com/questions/28356069/what-order-are-destructors-called-and-member-variables-destroyed-in-c-using-in
+ *   [2] https://isocpp.org/wiki/faq/multiple-inheritance#mi-vi-ctor-order
  */
 
 #include <iostream>

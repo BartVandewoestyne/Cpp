@@ -10,6 +10,7 @@
  *   [3] http://www.modernescpp.com/index.php/asynchronous-function-calls
  *   [4] https://solarianprogrammer.com/2012/10/17/cpp-11-async-tutorial/
  *   [5] https://studiofreya.com/cpp/simple-threading-with-stdasync/
+ *   [6] http://thispointer.com/c11-multithreading-part-9-stdasync-tutorial-example/
  */
 #include <future>
 #include <iostream>

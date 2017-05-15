@@ -28,4 +28,9 @@ int main()
     std::for_each(array.begin(), array.end(), [](int& v){ v = v*v; });
     std::for_each(array.begin(), array.end(), [](int v){ std::cout << v << " "; });
     std::cout << std::endl;
+
+    // Set each element of the array to 999.
+    array.fill(999);
+    std::for_each(array.begin(), array.end(), [](int v){ std::cout << v << " "; });
+    std::cout << std::endl;
 }
