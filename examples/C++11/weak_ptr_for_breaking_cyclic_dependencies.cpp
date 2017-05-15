@@ -1,7 +1,9 @@
 /*
  * Illustrates how std::weak_ptr can be used for breaking cyclic dependencies.
  *
- * http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *   [2] https://visualstudiomagazine.com/articles/2012/10/19/circular-references.aspx
+ *   [3] https://backwardsincompatibilities.wordpress.com/2014/05/29/pointing-the-way-redux-part-6-weak_ptr/
  */
 
 #include <iostream>
