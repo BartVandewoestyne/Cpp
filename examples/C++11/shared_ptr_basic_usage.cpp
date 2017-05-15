@@ -9,7 +9,7 @@
  * References:
  *
  *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
- *   [2] http://shaharmike.com/cpp/shared-ptr/ (haven't read this yet...)
+ *   [2] http://shaharmike.com/cpp/shared-ptr/
  */
 
 #include <memory>
@@ -18,7 +18,7 @@
 class foo
 { 
   public:
-    void print() { std::cout << "foo::print" << std::endl; }
+    void print() { std::cout << "foo::print()" << std::endl; }
 };
 
 
