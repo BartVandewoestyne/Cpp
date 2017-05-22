@@ -40,7 +40,7 @@ int main()
 
     // weak1 is expired!
 
-    if(auto tmp = weak1.lock())
+    if (auto tmp = weak1.lock())
         std::cout << *tmp << '\n';
     else
         std::cout << "weak1 is expired\n";
