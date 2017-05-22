@@ -37,6 +37,7 @@ std::string f(const int n)
 int main()
 {
     std::vector<std::future<std::string>> futures;
+
     for (const auto& s : {1, 5})
     {
         futures.push_back(std::async(std::launch::async, f, s));
