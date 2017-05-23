@@ -1,6 +1,7 @@
 /*
  * References:
  *  [1] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
+ *  [2] https://mortoray.com/2013/08/02/safely-using-enable_shared_from_this/
  */
 
 #include <memory>
