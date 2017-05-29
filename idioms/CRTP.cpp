@@ -8,6 +8,7 @@
  *   [5] http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
  *   [6] http://www.fluentcpp.com/2017/05/12/curiously-recursive-template-pattern/
  *   [7] http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
+ *   [8] http://www.fluentcpp.com/2017/05/19/crtp-helper/
  */
 
 #include <iostream>
