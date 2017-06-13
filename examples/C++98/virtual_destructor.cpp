@@ -59,4 +59,14 @@ int main()
 
     Base* b2 = new Derived2;
     delete b2;
+
+    {
+        std::cout << "\n{ Base b; } " << std::endl;
+        Base b;
+    }
+
+    {
+        std::cout << "\n{ Derived d; } " << std::endl;
+        Derived d;
+    }
 }
