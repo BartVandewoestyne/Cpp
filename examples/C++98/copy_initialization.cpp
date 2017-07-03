@@ -12,6 +12,7 @@ struct Person {
 
   Person& operator=(const Person& rhs) {
     std::cout << "operator=()" << std::endl;
+    return *this;
   }
 
 };
