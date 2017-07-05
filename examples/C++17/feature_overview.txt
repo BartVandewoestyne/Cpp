@@ -10,6 +10,7 @@ http://becpp.org/blog/wp-content/uploads/2016/12/Peter-Van-Weert-BeC17-Part-I.pp
 http://becpp.org/blog/wp-content/uploads/2017/02/Peter-Van-Weert-BeC17-Part-II.pptx
 https://youtu.be/22jIHfvelZk
 https://youtu.be/YUCW_MnksjQ
+https://youtu.be/uSYCjHOgdh4 (Meeting C++ live - C++17 with Tony van Eerd)
 https://vimeo.com/213566682
 https://github.com/tvaneerd/cpp17_in_TTs
 http://www.grimm-jaud.de/index.php/blog/c-17-kern
