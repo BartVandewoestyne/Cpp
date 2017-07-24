@@ -4,6 +4,7 @@
  * References:
  *
  *   http://msdn.microsoft.com/en-us/library/dd293608.aspx
+ *   https://mayankj08.github.io/2017/07/23/Lambdas-In-C++/
  */
 
 #include <algorithm>
