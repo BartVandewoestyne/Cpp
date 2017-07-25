@@ -3,9 +3,10 @@
  *
  *   [1] http://en.wikipedia.org/wiki/Volatile_variable
  *   [2] http://www.drdobbs.com/cpp/volatile-the-multithreaded-programmers-b/184403766
+ *   [3] 'Concurrency with Modern C++', Meyers Singleton example around page 161
  *
  * TODO:
- *   find a good example.
+ *   There is a nice example for the volatile keyword in [3].
  */
 
 // A volatile specifier is a hint to a compiler that an object may change its
