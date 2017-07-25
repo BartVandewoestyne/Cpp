@@ -10,3 +10,8 @@ Compile-time code checking
 GSL
   https://github.com/Microsoft/GSL
   https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
+
+Other
+-----
+Include what you use
+  https://include-what-you-use.org/
