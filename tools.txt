@@ -1,7 +1,9 @@
 Static analyzers
 ----------------
-clazy
+clazy (for Qt)
   https://github.com/KDE/clazy
+  https://www.kdab.com/clazy-1-2-released/
+  https://www.kdab.com/uncovering-32-qt-best-practices-compile-time-clazy/
 
 Compile-time code checking
 --------------------------
