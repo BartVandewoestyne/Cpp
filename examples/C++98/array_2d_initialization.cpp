@@ -2,6 +2,8 @@
  * References:
  *   [1] https://stackoverflow.com/questions/3948290/whats-the-safe-way-to-fill-multidimensional-array-using-stdfill
  *   [2] https://stackoverflow.com/questions/3586774/fill-multidimensional-array-elements-with-0s
+ *   [3] http://en.cppreference.com/w/c/language/array_initialization
+ *   [4] http://en.cppreference.com/w/cpp/language/aggregate_initialization
  */
 
 #include <algorithm>
@@ -34,10 +36,13 @@ int main()
 
     // Initializing to zero.
     {
-        int x1[NB_ROWS][NB_COLS] = {};
+        int x1[NB_ROWS][NB_COLS] = {};  // empty braced initialization performs aggregation-initialization?
         print(x1);
 
         int x2[NB_ROWS][NB_COLS] = {{0}};
         print(x2);
+
+        //int x3[NB_ROWS][NB_COLS] {};  // C++11
+        //print(x3);
     }
 }
