@@ -4,6 +4,7 @@
  *   [2] https://stackoverflow.com/questions/3586774/fill-multidimensional-array-elements-with-0s
  */
 
+#include <algorithm>
 #include <iostream>
 
 const int NB_ROWS = 2;
