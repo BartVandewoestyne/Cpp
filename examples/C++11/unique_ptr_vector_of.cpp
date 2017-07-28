@@ -1,5 +1,8 @@
 /*
  * Self-written test program to see if we can copy vectors of std::unique_ptr.
+ *
+ * References:
+ *   [1] https://jonasdevlieghere.com/containers-of-unique-pointers/
  */
 
 #include <iostream>
