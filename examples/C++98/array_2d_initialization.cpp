@@ -2,8 +2,8 @@
  * References:
  *   [1] https://stackoverflow.com/questions/3948290/whats-the-safe-way-to-fill-multidimensional-array-using-stdfill
  *   [2] https://stackoverflow.com/questions/3586774/fill-multidimensional-array-elements-with-0s
- *   [3] http://en.cppreference.com/w/c/language/array_initialization
  *   [4] http://en.cppreference.com/w/cpp/language/aggregate_initialization
+ *   [5] ISO
  */
 
 #include <algorithm>
@@ -36,7 +36,11 @@ int main()
 
     // Initializing to zero.
     {
-        int x1[NB_ROWS][NB_COLS] = {};  // empty braced initialization performs aggregation-initialization?
+        // See section '8.5.1 Aggregates' in [5]:
+        // "An empty initializer-list can be used to initialize any aggregate. If the aggregate is not an
+        //  empty class, then each member of the aggregate shall be initialized with a value of the form T() (5.2.3),
+        //  where T represents the type of the uninitialized member."
+        int x1[NB_ROWS][NB_COLS] = {};
         print(x1);
 
         int x2[NB_ROWS][NB_COLS] = {{0}};
