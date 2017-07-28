@@ -3,7 +3,7 @@
  *   [1] https://stackoverflow.com/questions/3948290/whats-the-safe-way-to-fill-multidimensional-array-using-stdfill
  *   [2] https://stackoverflow.com/questions/3586774/fill-multidimensional-array-elements-with-0s
  *   [4] http://en.cppreference.com/w/cpp/language/aggregate_initialization
- *   [5] ISO
+ *   [5] C++98 standard ISO/IEC 14882:1998
  */
 
 #include <algorithm>
