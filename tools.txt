@@ -11,6 +11,12 @@ GSL
   https://github.com/Microsoft/GSL
   https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
 
+Runtime code checking
+---------------------
+Thread Sanitizer (for detecting data races)
+  https://clang.llvm.org/docs/ThreadSanitizer.html
+  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
+
 Package managers
 ----------------
 Buckaroo
