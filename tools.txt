@@ -18,6 +18,23 @@ Buckaroo
 Conan
   https://www.conan.io/
 
+Buildsystems
+------------
+CMake
+  https://cmake.org/
+qmake
+  http://doc.qt.io/qt-5/qmake-manual.html
+SCons
+  http://scons.org/
+Gradle
+  https://gradle.org/
+Meson
+  http://mesonbuild.com/
+build2
+  https://build2.org/
+Cook
+  https://getcook.org/
+
 Other
 -----
 Include what you use
