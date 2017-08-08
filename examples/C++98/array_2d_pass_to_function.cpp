@@ -2,6 +2,11 @@
  * Program to test how to pass 2D arrays to functions in two cases:
  *   1. When you don't modify the array (see printArray function)
  *   2. When you modify the array (see modifyArray function)
+ *
+ * References:
+ *   [1] https://stackoverflow.com/questions/8767166/passing-a-2d-array-to-a-c-function
+ *   [2] https://stackoverflow.com/questions/26210323/pass-2d-array-to-a-function-in-c
+ *   [3] https://www.codeproject.com/Articles/79898/How-to-Pass-a-Two-Dimensional-Array-to-a-Function
  */
 
 #include <iostream>
