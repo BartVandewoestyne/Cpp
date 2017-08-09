@@ -3,6 +3,9 @@
  *
  * References:
  *
+ *   [chen2004] C++ scoped static initialization is not thread-safe, on purpose!
+ *     URL: https://blogs.msdn.microsoft.com/oldnewthing/20040308-00/?p=40363
+ *
  *   [meyers2004alexandrescu] C++ and the Perils of Double-Checked Locking,
  *     Meyers S. and Alexandrescu Andrei,
  *     URL: http://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf
