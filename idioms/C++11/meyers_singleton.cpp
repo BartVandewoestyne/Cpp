@@ -4,6 +4,7 @@
  *   [1] http://www.devartplus.com/3-simple-ways-to-create-singleton-in-c/
  *   [2] Concurrency with Modern C++ (singletonSingleThreaded.cpp)
  *   [3] https://arkaitzj.wordpress.com/tag/meyers-singleton/
+ *   [4] https://stackoverflow.com/questions/1661529/is-meyers-implementation-of-the-singleton-pattern-thread-safe
  */
 
 class Singleton
