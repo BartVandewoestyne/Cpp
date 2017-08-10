@@ -2,6 +2,9 @@
  * References:
  *   [1] https://www.quora.com/How-does-std-atomic-work-in-C++11
  *   [2] https://baptiste-wicht.com/posts/2012/07/c11-concurrency-tutorial-part-4-atomic-type.html
+ *   [3] http://www.modernescpp.com/index.php/atomics
+ *   [4] https://stackoverflow.com/questions/18850752/must-i-call-atomic-load-store-explicitly?noredirect=1&lq=1
+ *   [5] https://stackoverflow.com/questions/34915926/is-assignment-equivalent-to-load-store-for-stdatomicbool?noredirect=1&lq=1
  */
 
 #include <thread>
