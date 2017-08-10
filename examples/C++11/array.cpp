@@ -33,4 +33,20 @@ int main()
     array.fill(999);
     std::for_each(array.begin(), array.end(), [](int v){ std::cout << v << " "; });
     std::cout << std::endl;
+
+
+    // My own little tests for range-based for loops in combination with std::array.
+    {
+        std::array<int, 8> array{1, 2, 3, 4, 5, 6, 7, 8};
+        
+        // TODO: auto?  const auto???
+        for (auto it = array.cbegin(); it != array.cend(); ++it)
+        {
+            // TODO: Check if we are the last element?
+            if (std::next(it) == array.cend())
+            {
+                std::cout << *it << std::endl;
+            }
+        }
+    }
 }
