@@ -5,6 +5,8 @@
  *   [3] http://www.modernescpp.com/index.php/atomics
  *   [4] https://stackoverflow.com/questions/18850752/must-i-call-atomic-load-store-explicitly?noredirect=1&lq=1
  *   [5] https://stackoverflow.com/questions/34915926/is-assignment-equivalent-to-load-store-for-stdatomicbool?noredirect=1&lq=1
+ *   [6] https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2
+ *   [7] https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2
  */
 
 #include <thread>
