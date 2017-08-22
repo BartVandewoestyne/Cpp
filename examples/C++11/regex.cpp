@@ -5,6 +5,7 @@
  * References:
  *   [1] https://youtu.be/IOxKjqC1Ozo
  *   [2] https://stackoverflow.com/questions/26696250/difference-between-stdregex-match-stdregex-search
+ *   [3] https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Tim-Shen-Regular-Expressions-in-C-Present-and-Future
  */
 
 #include <iostream>

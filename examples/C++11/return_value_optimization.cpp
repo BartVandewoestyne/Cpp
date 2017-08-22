@@ -26,6 +26,7 @@
  *   [1] C++ 11 standard, section 12.8/31.
  *   [2] Effective Modern C++, Item 25, pages 174-176.
  *   [3] https://www.ibm.com/developerworks/community/blogs/5894415f-be62-4bc0-81c5-3956e82276f3/entry/RVO_V_S_std_move
+ *   [4] http://shaharmike.com/cpp/rvo/
  *   
  */
 

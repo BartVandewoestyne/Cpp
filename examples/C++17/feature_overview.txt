@@ -8,6 +8,7 @@ http://www.bfilipek.com/2017/06/cpp17-details-templates.html
 http://www.bfilipek.com/2017/07/cpp17-in-details-attributes.html
 http://www.bfilipek.com/2017/07/cpp17-details-simplifications.html
 http://www.bfilipek.com/2017/08/cpp17-details-filesystem.html
+http://www.bfilipek.com/2017/08/cpp17-details-parallel.html
 https://github.com/jfbastien/what-is-cpp17
 http://becpp.org/blog/wp-content/uploads/2016/12/Peter-Van-Weert-BeC17-Part-I.pptx
 http://becpp.org/blog/wp-content/uploads/2017/02/Peter-Van-Weert-BeC17-Part-II.pptx
