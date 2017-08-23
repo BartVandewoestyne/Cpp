@@ -8,6 +8,7 @@
  *   [5] http://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
  *   [6] https://blog.feabhas.com/2016/11/getting-head-around-autos-type-deduction-rules/
  *   [7] https://stackoverflow.com/questions/34560365/c11-auto-declaration-with-and-without-pointer-declarator
+ *   [8] http://www.acodersjourney.com/2016/02/c-11-auto/
  */
 
 #include <list>
