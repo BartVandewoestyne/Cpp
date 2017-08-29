@@ -1,3 +1,17 @@
+IDEs
+----
+QtCreator
+  https://www.qt.io/ide/  
+
+KDevelop
+  https://www.kdevelop.org/
+
+Clion
+  https://www.jetbrains.com/clion/
+
+Visual Studio Code
+  https://code.visualstudio.com/
+
 Static analyzers
 ----------------
 clazy (for Qt)
