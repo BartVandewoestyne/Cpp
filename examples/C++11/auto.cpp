@@ -9,6 +9,7 @@
  *   [6] https://blog.feabhas.com/2016/11/getting-head-around-autos-type-deduction-rules/
  *   [7] https://stackoverflow.com/questions/34560365/c11-auto-declaration-with-and-without-pointer-declarator
  *   [8] http://www.acodersjourney.com/2016/02/c-11-auto/
+ *   [9] http://h-deb.clg.qc.ca/Sujets/Divers--cplusplus/auto-when.html
  */
 
 #include <list>
