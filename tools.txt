@@ -12,6 +12,12 @@ Clion
 Visual Studio Code
   https://code.visualstudio.com/
 
+NetBeans
+  https://netbeans.org/
+
+Eclipse CDT
+  https://eclipse.org/cdt/
+
 Static analyzers
 ----------------
 clazy (for Qt)
