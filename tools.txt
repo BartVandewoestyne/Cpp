@@ -43,8 +43,12 @@ Package managers
 ----------------
 Buckaroo
   https://www.buckaroo.pm/
+
 Conan
   https://www.conan.io/
+
+Vcpkg
+  https://github.com/Microsoft/vcpkg
 
 Buildsystems
 ------------
