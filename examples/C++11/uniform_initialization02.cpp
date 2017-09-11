@@ -3,6 +3,8 @@
  *
  *   [1] http://www.reddit.com/r/cpp/comments/x3o9z/psa_the_most_vexing_parse/
  *   [2] http://en.wikipedia.org/wiki/C%2B%2B11#Uniform_initialization
+ *   [revzin2017] Uniform initialization isn’t
+ *                https://medium.com/@barryrevzin/uniform-initialization-isnt-82533d3b9c11
  */
 #include <vector>
 #include <iostream>
