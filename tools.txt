@@ -62,6 +62,8 @@ CMake
   https://cmake.org/
 qmake
   http://doc.qt.io/qt-5/qmake-manual.html
+Qbs
+  http://doc.qt.io/qbs/
 SCons
   http://scons.org/
 Gradle
