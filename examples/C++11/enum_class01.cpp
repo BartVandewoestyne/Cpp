@@ -1,7 +1,11 @@
 /**
  * References:
  *
- *   [1] http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html
+ *   [allain] Better types in C++11 - nullptr, enum classes (strongly typed enumerations) and cstdint
+ *            http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html
+ *
+ *   [oleksiy2013] Why is enum class preferred over plain enum?
+ *                 https://stackoverflow.com/questions/18335861/why-is-enum-class-preferred-over-plain-enum
  */
 
 // this code won't compile!
