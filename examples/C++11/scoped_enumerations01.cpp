@@ -3,6 +3,8 @@
  *
  *   [1] C++ Primer, 5th Edition, Chapter 19.3.
  *
+ *   [kalev2013] Closer to Perfection: Get to Know C++11 Scoped and Based Enum Types
+ *               https://blog.smartbear.com/programming-languages/closer-to-perfection-get-to-know-c11-scoped-and-based-enum-types/
  */
 
 // Scoped enumeration
