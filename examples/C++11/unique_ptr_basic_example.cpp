@@ -37,6 +37,17 @@ int main(int argc, char** argv) {
     cerr << "Exiting scope\n";
   } // fp will be destroyed, and will destruct the pointed object
 
+  cerr << "Demonstrating reset functionality:\n";
+  {
+    cerr << "Creating new unique_ptr...\n";
+    unique_ptr<Foo> fp(new Foo());
+    cerr << "done.\n";
+
+    cerr << "Resetting...\n";
+    fp.reset(new Foo());
+    cerr << "done.\n";
+  }
+
   return 0;
 
 }
