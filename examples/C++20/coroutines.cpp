@@ -1,5 +1,7 @@
 /*
  * References:
+ *   [allsopp2017cppcon] Coroutines: what can't they do?  [CppCon 2017]
+ *     https://youtu.be/mlP1MKP8d_Q
  *   [1] http://www.modernescpp.com/index.php/coroutines
  *   [2] https://toby-allsopp.github.io/2017/04/22/coroutines-reference-params.html
  *   [3] https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-James-McNellis-Introduction-to-C-Coroutines
