@@ -1,7 +1,8 @@
 /**
  * References:
  *
- *   [1] http://www.grimm-jaud.de/index.php/blog/die-zeitdauer
+ *   [grimm2016] Die Zeitdauer.
+ *     http://www.grimm-jaud.de/index.php/blog/die-zeitdauer
  */
 
 #include <iostream>
