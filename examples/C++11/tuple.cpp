@@ -1,5 +1,9 @@
 /*
  * References:
+ *
+ *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
+ *     https://youtu.be/XkDEzfpdcSg?t=34m15s
+ *
  *   [1] http://en.cppreference.com/w/cpp/utility/tuple
  */
 
@@ -23,6 +27,8 @@ int main()
               << "GPA: " << std::get<0>(student0) << ", "
               << "grade: " << std::get<1>(student0) << ", "
               << "name: " << std::get<2>(student0) << '\n';
+ 
+    // Note: from C++17 on, you can use structured bindings for this.
  
     double gpa1;
     char grade1;
