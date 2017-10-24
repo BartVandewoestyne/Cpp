@@ -1,0 +1,3 @@
+C++17 STL Cookbook
+
+Modern C++ Programming Cookbook (May 2017)
