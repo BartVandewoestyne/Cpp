@@ -1,6 +1,11 @@
 /*
  * References:
+ *
+ *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
+ *     https://youtu.be/XkDEzfpdcSg?t=32m17s
+ *
  *   [1] http://en.cppreference.com/w/cpp/utility/optional
+ *
  *   [2] Overload 140, page 26
  *       [https://accu.org/var/uploads/journals/Overload140.pdf]
  */
