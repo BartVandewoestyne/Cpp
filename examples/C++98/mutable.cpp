@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [mertz2017] Mutable
+ *     https://arne-mertz.de/2017/10/mutable/
+ *
  *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
  *     https://youtu.be/XkDEzfpdcSg?t=14m38s
  *
