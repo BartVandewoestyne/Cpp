@@ -6,7 +6,9 @@
  *   [3] 'Concurrency with Modern C++', Meyers Singleton example around page 161
  *   [4] https://msdn.microsoft.com/en-us/library/12a04hfd.aspx
  *   [5] https://stackoverflow.com/questions/2484980/why-is-volatile-not-considered-useful-in-multithreaded-c-or-c-programming
- *   [6] https://software.intel.com/en-us/blogs/2007/11/30/volatile-almost-useless-for-multi-threaded-programming
+ *   [6] https://stackoverflow.com/questions/6995310/is-volatile-bool-for-thread-control-considered-wrong
+ *   [7] https://stackoverflow.com/questions/4557979/when-to-use-volatile-with-multi-threading
+ *   [8] https://software.intel.com/en-us/blogs/2007/11/30/volatile-almost-useless-for-multi-threaded-programming
  *
  * TODO:
  *   There is a nice example for the volatile keyword in [3].
