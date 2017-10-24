@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [kolpackov2017cppcon] Building C++ Modules
+ *     https://youtu.be/E8EbDcLQAoc
+ *
  *   [codesynthesis2017] The build2 Build System
  *     https://build2.org/build2/doc/build2-build-system-manual.xhtml
  *                       
