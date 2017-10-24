@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
+ *     https://youtu.be/XkDEzfpdcSg?t=14m38s
+ *
  *   [1] C++ Primer, fifth edition, page 274.
  *
  *   [save2012] Motivation for mutable in C++ [duplicate]
