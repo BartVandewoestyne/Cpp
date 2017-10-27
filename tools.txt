@@ -75,6 +75,17 @@ build2
 Cook
   https://getcook.org/
 
+Automatic source code formatting
+--------------------------------
+astyle
+  http://astyle.sourceforge.net/
+
+clang-format
+  https://clang.llvm.org/docs/ClangFormat.html
+
+UniversalIndentGUI
+  http://universalindent.sourceforge.net/
+
 Other
 -----
 Include what you use
