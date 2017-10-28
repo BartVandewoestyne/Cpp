@@ -6,6 +6,10 @@
  *
  *   [fertig2017overload] About the C++ Core Guidelines, Andreas Fertig, Overload 140, page 26.
  *     https://accu.org/var/uploads/journals/Overload140.pdf
+ *
+ *   [sutter2013factories] GotW #90: Factories
+ *     https://herbsutter.com/2013/05/29/gotw-90-factories/
+ *     https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
  */
 
 #include <iostream>
