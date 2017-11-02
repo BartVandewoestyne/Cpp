@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [turner2017optional] C++ Weekly - Ep 87 - std::optional
+ *     https://youtu.be/PiaZkNp_fIM
+ *
  *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
  *     https://youtu.be/XkDEzfpdcSg?t=32m17s
  *
