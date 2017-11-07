@@ -20,6 +20,10 @@ Eclipse CDT
 
 Static analyzers
 ----------------
+Krazy
+  http://krazy-collection.github.io/krazy/
+  https://github.com/Krazy-collection/krazy
+
 clazy (for Qt)
   https://github.com/KDE/clazy
   https://www.kdab.com/clazy-1-2-released/
