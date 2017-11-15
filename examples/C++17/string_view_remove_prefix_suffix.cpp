@@ -18,8 +18,8 @@ int main()
     cout << str << endl // "   A lot of space
          << strView << endl; // "A lot of space"
 
-    char arr[] = {'A',' ','l','o','t',' ','o','f',' ',
-                  's','p','a','c','e','\0', '\0', '\0'};
+    const char arr[] = {'A',' ','l','o','t',' ','o','f',' ',
+			's','p','a','c','e','\0', '\0', '\0'};
     string_view strView2(arr, sizeof arr);
     const auto trimPos = strView2.find('\0');
     if(trimPos != strView2.npos) strView2.remove_suffix(strView2.size() - trimPos);
