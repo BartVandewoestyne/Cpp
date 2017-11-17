@@ -22,6 +22,8 @@ https://github.com/tvaneerd/cpp17_in_TTs
 http://www.grimm-jaud.de/index.php/blog/c-17-kern
 http://www.grimm-jaud.de/index.php/blog/c-17-more-details-zur-neuen-kernsprache
 Bryce Adelstein Lelbach's talk to be seen at C++Now 2017
+  https://youtu.be/fI2xiUqqH3Q (part 1)
+  https://youtu.be/qjxBKINAWk0 (part 2)
 https://tech.io/playgrounds/2205/7-features-of-c17-that-will-simplify-your-code/introduction
 
 Other C++17 stuff
