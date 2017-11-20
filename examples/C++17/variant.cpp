@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm2017unions] C++ Core Guidelines: Regeln fur Unions
+ *     https://www.heise.de/developer/artikel/C-Core-Guidelines-Regeln-fuer-Unions-3893493.html
+ *
  *   [grimm2017cpplibrary] The C++ Standard Library, Second Edition, Rainer Grimm.
  *     
  *   [bolton2016] Breaking Down the Current State of C++ 17
