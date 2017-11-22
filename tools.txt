@@ -55,14 +55,16 @@ Thread Sanitizer (for detecting data races)
 
 Package managers
 ----------------
+Conan
+  https://www.conan.io/
+  https://www.reddit.com/r/cpp/comments/7e7jbt/who_is_using_conanio/
+
 Buckaroo
   https://www.buckaroo.pm/
 
-Conan
-  https://www.conan.io/
-
 Vcpkg
   https://github.com/Microsoft/vcpkg
+  https://www.reddit.com/r/cpp/comments/7egtlh/who_is_using_vcpkg/
 
 Buildsystems
 ------------
