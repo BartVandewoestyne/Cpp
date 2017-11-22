@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
+  https://youtu.be/ky_eXBMcJK0
+
 http://www.bfilipek.com/2017/01/cpp17features.html
 http://www.bfilipek.com/2017/05/cpp17-details-fixes-deprecation.html
 http://www.bfilipek.com/2017/06/cpp17-details-clarifications.html
