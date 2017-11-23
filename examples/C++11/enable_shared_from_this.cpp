@@ -1,7 +1,13 @@
 /*
  * References:
- *  [1] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
- *  [2] https://mortoray.com/2013/08/02/safely-using-enable_shared_from_this/
+ *
+ *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
+ *
+ *  [mortoray2013] Safely using enable_shared_from_this
+ *    https://mortoray.com/2013/08/02/safely-using-enable_shared_from_this/
+ *
+ *  [fido2009] What is the usefulness of `enable_shared_from_this`?
+ *    https://stackoverflow.com/questions/712279/what-is-the-usefulness-of-enable-shared-from-this
  */
 
 #include <memory>

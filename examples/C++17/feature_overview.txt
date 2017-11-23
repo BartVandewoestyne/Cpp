@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
+  https://youtu.be/ky_eXBMcJK0
+
 http://www.bfilipek.com/2017/01/cpp17features.html
 http://www.bfilipek.com/2017/05/cpp17-details-fixes-deprecation.html
 http://www.bfilipek.com/2017/06/cpp17-details-clarifications.html
@@ -22,6 +25,8 @@ https://github.com/tvaneerd/cpp17_in_TTs
 http://www.grimm-jaud.de/index.php/blog/c-17-kern
 http://www.grimm-jaud.de/index.php/blog/c-17-more-details-zur-neuen-kernsprache
 Bryce Adelstein Lelbach's talk to be seen at C++Now 2017
+  https://youtu.be/fI2xiUqqH3Q (part 1)
+  https://youtu.be/qjxBKINAWk0 (part 2)
 https://tech.io/playgrounds/2205/7-features-of-c17-that-will-simplify-your-code/introduction
 
 Other C++17 stuff

@@ -33,6 +33,10 @@ Compile-time code checking
 --------------------------
 GSL
   https://github.com/Microsoft/GSL
+  https://github.com/martinmoene/gsl-lite
+  https://github.com/viboes/GSL
+  https://github.com/mbasaglia/Cxx-MiscLib/blob/master/include/misclib/gsl.hpp
+
   https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
 
 Unit testing
@@ -51,14 +55,16 @@ Thread Sanitizer (for detecting data races)
 
 Package managers
 ----------------
+Conan
+  https://www.conan.io/
+  https://www.reddit.com/r/cpp/comments/7e7jbt/who_is_using_conanio/
+
 Buckaroo
   https://www.buckaroo.pm/
 
-Conan
-  https://www.conan.io/
-
 Vcpkg
   https://github.com/Microsoft/vcpkg
+  https://www.reddit.com/r/cpp/comments/7egtlh/who_is_using_vcpkg/
 
 Buildsystems
 ------------
