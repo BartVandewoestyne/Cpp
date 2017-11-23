@@ -5,6 +5,8 @@
  *
  * References:
  *
+ *   [deane2017turner] constexpr ALL the Things! [CppCon 2017]
+ *     https://youtu.be/PJwd4JLYJJY
  *   [1] http://www.cprogramming.com/c++11/c++11-compile-time-processing-with-constexpr.html
  *   [2] http://blog.smartbear.com/software-quality/bid/248591/using-constexpr-to-improve-security-performance-and-encapsulation-in-c
  *   [3] http://enki-tech.blogspot.be/2012/09/c11-compile-time-calculator-with.html
