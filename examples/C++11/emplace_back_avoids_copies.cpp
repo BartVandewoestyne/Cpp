@@ -2,8 +2,12 @@
  * Program to demonstrate how std::vector::emplace_back avoids extra copies.
  *
  * References:
- *   [1] http://eli.thegreenplace.net/2014/perfect-forwarding-and-universal-references-in-c/
  *
+ *   [bendersky2014] Perfect forwarding and universal references in C++
+ *     http://eli.thegreenplace.net/2014/perfect-forwarding-and-universal-references-in-c/
+ *
+ *   [wright2013totw65] Tip of the Week #65: Putting Things in their Place
+ *     https://abseil.io/tips/65
  */
 
 #include <iostream>
