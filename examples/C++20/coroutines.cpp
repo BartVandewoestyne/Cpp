@@ -7,7 +7,10 @@
  *   [allsopp2017cppcon] Coroutines: what can't they do?  [CppCon 2017]
  *     https://youtu.be/mlP1MKP8d_Q
  *
- *   [baker2017] Coroutine Theory
+ *   [baker2017coawait] C++ Coroutines: Understanding operator co_await
+ *     https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
+ *
+ *   [baker2017theory] Coroutine Theory
  *     https://lewissbaker.github.io/2017/09/25/coroutine-theory
  *
  *   [nishanov2017] Coroutines with Gor Nishanov
