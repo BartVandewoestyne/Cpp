@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
+ *     https://youtu.be/ky_eXBMcJK0?t=4m59s
+ *
  *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
  *     https://youtu.be/XkDEzfpdcSg?t=34m15s
  *
