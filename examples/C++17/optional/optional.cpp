@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
+ *     https://youtu.be/ky_eXBMcJK0?t=33m40s
+ *
  *   [turner2017optional] C++ Weekly - Ep 87 - std::optional
  *     https://youtu.be/PiaZkNp_fIM
  *
