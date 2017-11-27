@@ -2,6 +2,8 @@
  * References:
  *
  *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
+ *  [klitzke2017] Notes on std::shared_ptr and std::weak_ptr
+ *    https://eklitzke.org/notes-on-std-shared-ptr-and-std-weak-ptr
  *
  *  [mortoray2013] Safely using enable_shared_from_this
  *    https://mortoray.com/2013/08/02/safely-using-enable_shared_from_this/
