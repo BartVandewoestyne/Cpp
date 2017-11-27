@@ -9,14 +9,14 @@
 int main()
 {
     std::vector<int> empty;
-    std::vector<int> numbers = { 1, 2, 3 };
+    std::vector<int> nonempty = { 1, 2, 3 };
 
     for (const auto& item : empty)
     {
         std::cout << item << std::endl;
     }
 
-    for (const auto& number : numbers )
+    for (const auto& number : nonempty )
     {
         std::cout << number << std::endl;
     }
