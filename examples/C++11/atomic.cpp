@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [doumler2017] The new C++17 and why it's good for you - Timur Doumler
+ *     https://youtu.be/ky_eXBMcJK0?t=18m44s
+ *
  *   [grimm2016atomic] Atomics
  *     http://www.modernescpp.com/index.php/atomics
  *
