@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
+ *     https://youtu.be/ky_eXBMcJK0?t=27m8s
+ *
  *   [grimm2017unions] C++ Core Guidelines: Regeln fur Unions
  *     https://www.heise.de/developer/artikel/C-Core-Guidelines-Regeln-fuer-Unions-3893493.html
  *

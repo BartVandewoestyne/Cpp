@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
+ *     https://youtu.be/ky_eXBMcJK0?t=32m40s
+ *
  *   [grimm2017cpplibrary2nd] The C++ Standard Library, Second Edition, Rainer Grimm.
  */
 
