@@ -2,10 +2,6 @@
  * Reference:
  *
  *   `The C++ Programming Language, Special Edition', page 147.
- *
- * Compile with:
- *
- *   g++ -c -Wall argument_passing02.cpp
  */
 
 void update(float& i);
