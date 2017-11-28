@@ -1,17 +1,20 @@
 /**
- * Demonstrates the use of the frexp library function from <math.h>.
+ * Demonstrates the use of the std::frexp library function.
  */
 
-#include <stdio.h>
-#include <math.h>
+#include <cstdio>
+#include <cmath>
 
 int main ()
 {
-  double param, result;
+  double param;
+  double result;
   int n;
 
   param = 8.0;
-  result = frexp (param , &n);
-  printf ("%lf * 2^%d = %f\n", result, n, param);
+  result = std::frexp(param , &n);
+
+  std::printf("%lf * 2^%d = %f\n", result, n, param);
+
   return 0;
 }
