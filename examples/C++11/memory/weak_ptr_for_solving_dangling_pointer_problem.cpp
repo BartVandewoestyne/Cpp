@@ -13,44 +13,44 @@
 
 int main()
 {
-    // OLD, problem with dangling pointer
-    // PROBLEM: ref will point to undefined data!
+    /** Problem illustration **/
 
     int* ptr = new int(10);
     int* ref = ptr;
-    delete ptr;
+    delete ptr;  // Problem: ref will point to undefined data (dangling pointer)!
 
-    // NEW
-    // SOLUTION: check expired() or lock() to determine if pointer is valid
 
-    // empty definition
+    /** Solution: check expired() or lock() to determine if pointer is valid. **/
+
     std::shared_ptr<int> sptr;
 
-    // takes ownership of pointer
     sptr.reset(new int);
     *sptr = 10;
 
-    // get pointer to data without taking ownership
+    // Get pointer to data without taking ownership.
     std::weak_ptr<int> weak1 = sptr;
 
-    // deletes managed object, acquires new pointer
+    // Delete managed object and acquire new pointer.
     sptr.reset(new int);
     *sptr = 5;
 
-    // get pointer to new data without taking ownership
+    // Get pointer to new data without taking ownership.
     std::weak_ptr<int> weak2 = sptr;
 
-    // weak1 is expired!
 
-    if (auto tmp = weak1.lock())
+    // Note that weak1 is expired!
+
+    if (auto tmp = weak1.lock()) {
         std::cout << *tmp << '\n';
-    else
+    } else {
         std::cout << "weak1 is expired\n";
+    }
 
-    // weak2 points to new data (5)
+    // Note that weak2 still points to the new data (5).
 
-    if(auto tmp = weak2.lock())
+    if (auto tmp = weak2.lock()) {
         std::cout << *tmp << '\n';
-    else
+    } else {
         std::cout << "weak2 is expired\n";
+    }
 }
