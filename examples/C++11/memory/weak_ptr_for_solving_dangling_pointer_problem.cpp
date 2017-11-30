@@ -40,16 +40,16 @@ int main()
 
     // Note that weak1 is expired!
 
-    if (auto tmp = weak1.lock()) {
-        std::cout << *tmp << '\n';
+    if (auto spt = weak1.lock()) {  // Has to be copied into a shared_ptr
+        std::cout << *spt << '\n';  // before usage.
     } else {
         std::cout << "weak1 is expired\n";
     }
 
     // Note that weak2 still points to the new data (5).
 
-    if (auto tmp = weak2.lock()) {
-        std::cout << *tmp << '\n';
+    if (auto spt = weak2.lock()) {  // Has to be copied into a shared_ptr
+        std::cout << *spt << '\n';  // before usage.
     } else {
         std::cout << "weak2 is expired\n";
     }
