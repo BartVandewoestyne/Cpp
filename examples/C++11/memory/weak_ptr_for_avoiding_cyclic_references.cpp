@@ -1,9 +1,11 @@
 /*
- * Illustrates how weak ptrs can help in breaking cyclic dependencies (which have
- * as a problem that memory is not released.
+ * Illustrates how weak ptrs can help in breaking cyclic dependencies (which
+ * have as a problem that memory is not released).
  *
  * References:
- *     [1] http://www.acodersjourney.com/2016/05/top-10-dumb-mistakes-avoid-c-11-smart-pointers/ (Mistake #8)
+ *
+ *   [haldar2016] Top 10 dumb mistakes to avoid with C++ 11 smart pointers (mistake 8).
+ *     http://www.acodersjourney.com/2016/05/top-10-dumb-mistakes-avoid-c-11-smart-pointers/
  */
 
 #include <iostream>

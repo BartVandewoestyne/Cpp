@@ -1,9 +1,11 @@
 /*
- * Example to illustrate how using std::weak_ptr is a good way to solve the dangling
- * pointer problem.
+ * Example to illustrate how using std::weak_ptr is a good way to solve the
+ * dangling pointer problem.
  *
  * References:
- *   [1] http://stackoverflow.com/questions/12030650/when-is-stdweak-ptr-useful
+ *
+ *   [user1434698_2012] When is std::weak_ptr useful?
+ *     http://stackoverflow.com/questions/12030650/when-is-stdweak-ptr-useful
  */
 
 #include <iostream>

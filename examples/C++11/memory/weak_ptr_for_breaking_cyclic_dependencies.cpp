@@ -1,10 +1,18 @@
 /*
  * Illustrates how std::weak_ptr can be used for breaking cyclic dependencies.
  *
- *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
- *   [2] https://visualstudiomagazine.com/articles/2012/10/19/circular-references.aspx
- *   [3] https://backwardsincompatibilities.wordpress.com/2014/05/29/pointing-the-way-redux-part-6-weak_ptr/
- *   [4] http://www.acodersjourney.com/2016/05/top-10-dumb-mistakes-avoid-c-11-smart-pointers/
+ * References:
+ *
+ *   [haldar2016] Top 10 dumb mistakes to avoid with C++ 11 smart pointers (mistake 8).
+ *     http://www.acodersjourney.com/2016/05/top-10-dumb-mistakes-avoid-c-11-smart-pointers/
+ *
+ *   [hall2014] POINTING THE WAY REDUX, PART 6: WEAK_PTR
+ *     https://backwardsincompatibilities.wordpress.com/2014/05/29/pointing-the-way-redux-part-6-weak_ptr/
+ *
+ *   [dagum2012] Weak Pointers and Circular References in C++ 11.
+ *     https://visualstudiomagazine.com/articles/2012/10/19/circular-references.aspx
+ *   [bancila2008] A TR1 Tutorial: Smart Pointers.
+ *     http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
  */
 
 #include <iostream>

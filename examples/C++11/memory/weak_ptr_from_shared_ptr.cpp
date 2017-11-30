@@ -1,6 +1,8 @@
 /*
  * References:
- *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *
+ *   [bancila2008] A TR1 Tutorial: Smart Pointers.
+ *     http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
  */
 
 #include <iostream>
