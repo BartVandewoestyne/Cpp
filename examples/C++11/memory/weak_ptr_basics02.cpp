@@ -10,26 +10,23 @@
 
 int main()
 {
-
-  std::shared_ptr<int> p1(new int(5));
-  std::weak_ptr<int> wp1 = p1; // p1 owns the memory.
+  std::shared_ptr<int> sp1(new int(5));
+  std::weak_ptr<int> wp1 = sp1;  // sp1 owns the memory.
    
   {
-    std::shared_ptr<int> p2 = wp1.lock(); // Now p1 and p2 own the memory.
-    if (p2) // Always check to see if the memory still exists.
+    std::shared_ptr<int> sp2 = wp1.lock();  // Now sp1 and sp2 own the memory.
+    if (sp2)  // Always check to see if the memory still exists.
     { 
-      std::cout << "Do something with p2." << std::endl;
+      std::cout << "Do something with sp2." << std::endl;
     }
-  } // p2 is destroyed.  Memory is owned by p1.
+  } // sp2 is destroyed.  Memory is owned by sp1.
    
-  p1.reset(); // Memory is deleted.
+  sp1.reset(); // Memory is deleted.
    
-  std::shared_ptr<int> p3 = wp1.lock(); // Memory is gone, so we get an empty
-                                        // shared_ptr.
-  if (p3)
+  std::shared_ptr<int> sp3 = wp1.lock();  // Memory is gone, so we get an empty
+  if (sp3)                                // shared_ptr.
   {
     // Will not execute this.
     std::cout << "This should NOT be printed!" << std::endl;
   }
-
 }
