@@ -11,6 +11,9 @@
  *
  *  [fido2009] What is the usefulness of `enable_shared_from_this`?
  *    https://stackoverflow.com/questions/712279/what-is-the-usefulness-of-enable-shared-from-this
+ *
+ *  [becker2005] Weak Pointers.
+ *    http://www.drdobbs.com/weak-pointers/184402026
  */
 
 #include <memory>

@@ -8,8 +8,14 @@
  *
  * References:
  *
- *   [1] http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
- *   [2] http://shaharmike.com/cpp/shared-ptr/
+ *   [shahar2016] Exploring std::shared_ptr
+ *     http://shaharmike.com/cpp/shared-ptr/
+ *
+ *   [bancila2008] A TR1 Tutorial: Smart Pointers
+ *     http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c15361/A-TR1-Tutorial-Smart-Pointers.htm
+ *
+ *   [becker2005] Weak Pointers.
+ *     http://www.drdobbs.com/weak-pointers/184402026
  */
 
 #include <memory>
