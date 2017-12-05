@@ -20,7 +20,10 @@ Foo f0;  // initialization (what type exactly?)
 int main()
 {
     Foo f1;       // no initialization
-    Foo f2 = {};  // value initialization
+
+    Foo f2 = Foo();       // value initialization (method 1)
+    //Foo f2 = {};          // value initialization (method 2)
+    //Foo f2 = { 0.0, 0 };  // value initialization (method 3)
 
     std::cout << f0.x << std::endl;
     std::cout << f0.i << std::endl;
