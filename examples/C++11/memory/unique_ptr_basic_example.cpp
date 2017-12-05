@@ -21,17 +21,14 @@ using namespace std;
 
 struct Foo {
 
-  Foo() {
-    cerr << "Foo [" << this << "] constructed\n";
-  }
+  Foo() { cerr << "Foo [" << this << "] constructed\n"; }
 
-  virtual ~Foo() {
-    cerr << "Foo [" << this << "] destructed\n";
-  }
+  virtual ~Foo() { cerr << "Foo [" << this << "] destructed\n"; }
 
 };
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv)
+{
 
   // .. some code
   {
@@ -56,5 +53,4 @@ int main(int argc, char** argv) {
   }
 
   return 0;
-
 }
