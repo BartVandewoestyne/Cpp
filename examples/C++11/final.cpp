@@ -1,9 +1,11 @@
 /**
  * References:
  *
- *   [1] http://akrzemi1.wordpress.com/2012/09/30/why-make-your-classes-final/
+ *   [barnett2017] Is the final function specifier redundant when using the final class specifier?
+ *     https://stackoverflow.com/questions/43704769/is-the-final-function-specifier-redundant-when-using-the-final-class-specifier
  *
- * TODO: this didn't seem to compile with g++ 4.6.2...
+ *   [krzemienski2012] Why make your classes final?
+ *     http://akrzemi1.wordpress.com/2012/09/30/why-make-your-classes-final/
  */
 
 struct B final {
