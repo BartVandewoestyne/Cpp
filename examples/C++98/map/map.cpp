@@ -1,8 +1,7 @@
 /**
  * References:
  *
- *   [1] The C++ Standard Library, A Tutorial and Reference, Jossutis, 1999,
- *       page 180-183.
+ *   [jossutis1999] The C++ Standard Library, A Tutorial and Reference, Jossutis, 1999, page 180-183.
  */
 
 #include <iostream>
@@ -15,7 +14,8 @@ int main()
 
     // ...
 
-    if (coll.insert(std::make_pair("otto", 22.3)).second) {
+    if (coll.insert(std::make_pair("otto", 22.3)).second)
+    {
         std::cout << "OK, could insert otto/22.3" << std::endl;
     }
     else
