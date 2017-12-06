@@ -6,6 +6,9 @@
  *   [brotcrunsher2017] Multithreading in C++ [012] - std::lock_guard
  *     https://youtu.be/wg3td0Dz5hw
  *
+ *   [geier2014] Mutex lock guards in C++11
+ *     https://geidav.wordpress.com/2014/01/09/mutex-lock-guards-in-c11/
+ *
  *   [milewski2012] C++11 Concurrency, Part 7.
  *     https://youtu.be/4zWbQRE3tWk?t=19m55s
  */   
