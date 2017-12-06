@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [brand2017] Functional exceptionless error-handling with optional and expected
+ *     https://blog.tartanllama.xyz/optional-expected/
+ *
  *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
  *     https://youtu.be/ky_eXBMcJK0?t=33m40s
  *
