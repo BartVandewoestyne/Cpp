@@ -5,6 +5,9 @@
  *
  *   [brotcrunsher2017] Multithreading in C++ [012] - std::lock_guard
  *     https://youtu.be/wg3td0Dz5hw
+ *
+ *   [milewski2012] C++11 Concurrency, Part 7.
+ *     https://youtu.be/4zWbQRE3tWk?t=19m55s
  */   
 
 #include <thread>
