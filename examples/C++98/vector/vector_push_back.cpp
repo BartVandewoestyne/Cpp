@@ -1,18 +1,28 @@
-/*
- * Simple program that creates a vector and adds some elements to it.
+/**
+ * Demonstrates that adding a class to a vector calls the copy constructor.
+ *
+ * References:
+ *
+ *   [1] http://stackoverflow.com/questions/1693042/how-do-stl-containers-copy-objects
+ *   [2] http://stackoverflow.com/questions/7382090/c-vector-push-back
  */
 
+#include <iostream>
 #include <vector>
+
+class Foo {
+public:
+    Foo() { std::cout << "Foo()" << std::endl; }
+    Foo(const Foo&) { std::cout << "Foo(const Foo&)" << std::endl; }
+};
+
 
 int main()
 {
-  std::vector<double> myVector;
+  Foo myFoo;                  // Default constructor called here.
 
-  myVector.push_back(1);
-  myVector.push_back(2);
-  myVector.push_back(3);
+  std::vector<Foo> myVector;
+  myVector.push_back(myFoo);  // Copy constructor called here!
 
-  std::vector<double>::size_type sz = myVector.size();
- 
   return 0;
 }
