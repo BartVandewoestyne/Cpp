@@ -1,6 +1,10 @@
 /*
  * References:
- *   [1] http://en.cppreference.com/w/cpp/thread/lock_guard
+ *
+ *   [cppreference] http://en.cppreference.com/w/cpp/thread/lock_guard
+ *
+ *   [brotcrunsher2017] Multithreading in C++ [012] - std::lock_guard
+ *     https://youtu.be/wg3td0Dz5hw
  */   
 
 #include <thread>
