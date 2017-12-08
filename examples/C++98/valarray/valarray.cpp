@@ -1,6 +1,6 @@
 /*
  * Note: seems like valarray is redundant and could use revision or removal,
- *       see [2].  Probably better not to use it.
+ *       see [sutter199801XX].  Probably better not to use it.
  *
  * References:
  *
