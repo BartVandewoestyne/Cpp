@@ -1,5 +1,8 @@
 The following books cover C++17
 -------------------------------
+
+C++17 - The Complete Guide, Nicolai Josuttis, December 15, 2017.
+
 C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
 
 Mastering the C++17 STL: Make full use of the standard library components
