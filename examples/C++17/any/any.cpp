@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [Z01dbrg20171220] Why was std::any added to C++17?
+ *     https://www.reddit.com/r/cpp/comments/7l3i19/why_was_stdany_added_to_c17/
+ *
  *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
  *     https://youtu.be/ky_eXBMcJK0?t=32m40s
  *
