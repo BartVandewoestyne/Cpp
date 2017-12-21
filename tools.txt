@@ -99,6 +99,8 @@ build2
   https://build2.org/
 Cook
   https://getcook.org/
+Bazel
+  https://bazel.build/
 
 Automatic source code formatting
 --------------------------------
