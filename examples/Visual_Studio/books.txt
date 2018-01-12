@@ -1,0 +1,3 @@
+VS2012
+------
+* Microsoft Visual Studio 2012 Unleashed by Mike Snell, Lars Powers.
