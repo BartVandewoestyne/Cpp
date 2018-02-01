@@ -1,10 +1,12 @@
 /*
- * References on whether to synchronize operations on primitive types or not.
+ * Illustrate that synchronize operations on primitive types are necessary
+ * (or not?).
  *
- * => I have the impression that in theory, one should use locking, but in
- *    practice things can work without...
+ * => From reading the below posts on StackOverflow, I have the impression that
+ *    in order to avoid undefined behavior, one should use locking.  However,
+ *    it seems that in practice things can work without locking???
  *
- * See also C++11 std::atomic<T> as a possible clean solution.
+ * See also C++11's std::atomic<T> as a possible clean solution.
  *
  * References:
  *   [1] https://stackoverflow.com/questions/3618656/should-i-protect-operations-on-primitive-types-with-mutexes-for-being-thread-saf?noredirect=1&lq=1
@@ -13,8 +15,8 @@
  *   [3] https://stackoverflow.com/questions/21319903/testing-the-need-of-synchronization-lock-on-primitive-data-types-with-c?noredirect=1&lq=1
  *
  * TODO:
- *   * Finish this piece of code that should show that locking is necessary for primitive
- *     types.
+ *   * Find a piece of code that illustrates that locking is necessary for
+ *     primitive types.
  */
 
 #include <iostream>
@@ -37,8 +39,8 @@ void reading()
 
 int main()
 {
-    std::thread t1(writing);
-    std::thread t2(reading);
-    t1.join();
-    t2.join();
+    std::thread thread1(writing);
+    std::thread thread2(reading);
+    thread1.join();
+    thread2.join();
 }
