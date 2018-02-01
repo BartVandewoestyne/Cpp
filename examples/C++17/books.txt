@@ -2,6 +2,10 @@ The following books cover C++17
 -------------------------------
 C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
 
+Clean C++, Sustainable Software Development Patterns and Best Practices with C++ 17, Stephan Roth, 2017.
+
+C++17 - The Complete Guide, Nicolai Josuttis, December 15, 2017.
+
 Mastering the C++17 STL: Make full use of the standard library components
 in C++17, Arthur O'Dwyer, September 28, 2017.
 

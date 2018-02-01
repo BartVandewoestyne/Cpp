@@ -20,17 +20,18 @@ Eclipse CDT
 
 Static analyzers
 ----------------
+Cppcheck
+  http://cppcheck.sourceforge.net/
+
 Krazy
   http://krazy-collection.github.io/krazy/
   https://github.com/Krazy-collection/krazy
 
-clazy (for Qt)
-  https://github.com/KDE/clazy
-  https://www.kdab.com/clazy-1-2-released/
-  https://www.kdab.com/uncovering-32-qt-best-practices-compile-time-clazy/
-
 clang-tidy
   http://clang.llvm.org/extra/clang-tidy/
+
+TScanCode
+  https://github.com/Tencent/TscanCode
 
 Compile-time code checking
 --------------------------
@@ -44,8 +45,9 @@ GSL
 
 Unit testing
 ------------
-Catch
+Catch / Catch2
   http://catch-lib.net/
+  https://youtu.be/3tIE6X5FjDE
 
 Google Test
   https://github.com/google/googletest

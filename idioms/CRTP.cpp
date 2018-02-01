@@ -1,14 +1,29 @@
 /**
  * References:
  *
- *   [1] https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
- *   [2] http://codeyarns.com/2015/07/09/how-to-understand-crtp/
- *   [3] http://www.grimm-jaud.de/index.php/blog/c-ist-doch-lazy
- *   [4] http://stevedewhurst.com/once_weakly/once-weakly20170328/once-weakly20170328.pdf
- *   [5] http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
- *   [6] http://www.fluentcpp.com/2017/05/12/curiously-recursive-template-pattern/
- *   [7] http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
- *   [8] http://www.fluentcpp.com/2017/05/19/crtp-helper/
+ *   [wikipedia] Curiously recurring template pattern
+ *     https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+ *
+ *   [boccara20170516] What the CRTP can bring to your code
+ *     http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
+ *
+ *   [boccara20170512] The Curiously Recurring Template Pattern (CRTP)
+ *     http://www.fluentcpp.com/2017/05/12/curiously-recursive-template-pattern/
+ *
+ *   [boccara20170509] An implementation helper for the CRTP
+ *     http://www.fluentcpp.com/2017/05/19/crtp-helper/
+ *
+ *   [dewhurst20170328] Variadic CRTP
+ *     http://stevedewhurst.com/once_weakly/once-weakly20170328/once-weakly20170328.pdf
+ *
+ *   [grimm20161216] C++ ist doch lazy!
+ *     http://www.grimm-jaud.de/index.php/blog/c-ist-doch-lazy
+ *
+ *   [nanjappa20150709] A simple example to understand CRTP
+ *     http://codeyarns.com/2015/07/09/how-to-understand-crtp/
+ *
+ *   [coplien199502XX] Curiously Recurring Template Patterns
+ *     http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
  */
 
 #include <iostream>
