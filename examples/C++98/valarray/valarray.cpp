@@ -13,6 +13,9 @@
  *   [andand20100405] What's the future of std::valarray look like?
  *     https://stackoverflow.com/questions/2576688/whats-the-future-of-stdvalarray-look-like
  *
+ *   [rlbond20091021] C++ valarray vs. vector
+ *     https://stackoverflow.com/questions/1602451/c-valarray-vs-vector
+ *
  *   [sutter199801XX] C++ State of the Union
  *     http://www.gotw.ca/publications/mill01.htm
  */
