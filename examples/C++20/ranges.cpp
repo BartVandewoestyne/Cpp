@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [boccara20180209] Introduction to the C++ Ranges Library
+ *     https://www.fluentcpp.com/2018/02/09/introduction-ranges-library/
+ *
  *   [Z0120171218] What is Missing from Ranges TS
  *     https://medium.com/@gaussnoise/what-is-missing-from-ranges-ts-cab98c64692a
  *
