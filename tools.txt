@@ -63,6 +63,7 @@ Package managers
 Conan
   https://www.conan.io/
   https://www.reddit.com/r/cpp/comments/7e7jbt/who_is_using_conanio/
+  https://fosdem.org/2018/schedule/event/conan/
 
 Conda
   https://conda.io/
@@ -101,6 +102,8 @@ build2
   https://build2.org/
 Cook
   https://getcook.org/
+Bazel
+  https://bazel.build/
 
 Automatic source code formatting
 --------------------------------

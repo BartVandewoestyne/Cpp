@@ -1,10 +1,12 @@
 /*
- * References on whether to synchronize operations on primitive types or not.
+ * Illustrate that synchronize operations on primitive types are necessary
+ * (or not?).
  *
- * => I have the impression that in theory, one should use locking, but in
- *    practice things can work without...
+ * => From reading the below posts on StackOverflow, I have the impression that
+ *    in order to avoid undefined behavior, one should use locking.  However,
+ *    it seems that in practice things can work without locking???
  *
- * See also C++11 std::atomic<T> as a possible clean solution.
+ * See also C++11's std::atomic<T> as a possible clean solution.
  *
  * References:
  *
