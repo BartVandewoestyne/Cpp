@@ -2,9 +2,21 @@
  * Example illustrating inline functions.
  * 
  * References:
- *   [1] http://stackoverflow.com/questions/145838/benefits-of-inline-functions-in-c
- *   [2] http://stackoverflow.com/questions/1932311/when-to-use-inline-function-and-when-not-to-use-it
- *   [3] http://www.gotw.ca/gotw/033.htm
+ *
+ *   [brand20180126] Do compilers take inline as a hint?
+ *     https://blog.tartanllama.xyz/inline-hints/
+ *
+ *   [devilliers20150219] Benefits of inline functions in C++?
+ *     http://stackoverflow.com/questions/145838/benefits-of-inline-functions-in-c
+ *
+ *   [ashish20091219] When to use inline function and when not to use it?
+ *     http://stackoverflow.com/questions/1932311/when-to-use-inline-function-and-when-not-to-use-it
+ *
+ *   [sutter2002] More Exceptional C++
+ *     http://www.gotw.ca/publications/mxc++.htm
+ *
+ *   [sutter19980322] GotW #33: Inline
+ *     http://www.gotw.ca/gotw/033.htm
  *
  * Remarks:
  *   - marking something inline does not give you a guarantee that it will be
