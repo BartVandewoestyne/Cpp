@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [glassborow2018XX] C++ with Meta-classes? (Francis Glassborow, Overload #143)
+ *     https://accu.org/index.php/journals/2464
+ *
  *   [sutter2017qtws17] Meta: Toward generative C++, Herb Sutter, Wt World SUmmit 2017.
  *     https://youtu.be/???
  *
