@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [orr201802XX] CTAD – What Is This New Acronym All About? (Overload Journal #143, Roger Orr)
+ *     https://accu.org/index.php/journals/2465
+ *
  *   [doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
  *     https://youtu.be/ky_eXBMcJK0?t=7m53s
  *     
