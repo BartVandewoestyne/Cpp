@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [brand201802XX] Functional Error-Handling with Optional and Expected (Simon Brand, Overload #143)
+ *     https://accu.org/index.php/journals/2462
+ *
  *   [brand2017] Functional exceptionless error-handling with optional and expected
  *     https://blog.tartanllama.xyz/optional-expected/
  *
