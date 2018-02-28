@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[turner20171109] Practical C++17 - Jason Turner - Meeting C++ 2017
+  https://youtu.be/YePHP4aIc1g
+
 [doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
   https://youtu.be/ky_eXBMcJK0
 
