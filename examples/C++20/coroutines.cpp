@@ -1,39 +1,36 @@
 /*
  * References:
  *
- *   [nishanov2017cppcon] Naked coroutines live (with networking)
+ *   [nishanov20170928] Naked coroutines live (with networking)
  *     https://youtu.be/UL3TtTgt3oU
  *
- *   [allsopp2017cppcon] Coroutines: what can't they do?  [CppCon 2017]
- *     https://youtu.be/mlP1MKP8d_Q
- *
- *   [baker2017coawait] C++ Coroutines: Understanding operator co_await
+ *   [baker20171117] C++ Coroutines: Understanding operator co_await
  *     https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
  *
- *   [baker2017theory] Coroutine Theory
+ *   [baker20170925] Coroutine Theory
  *     https://lewissbaker.github.io/2017/09/25/coroutine-theory
  *
- *   [nishanov2017] Coroutines with Gor Nishanov
+ *   [nishanov20170719] Coroutines with Gor Nishanov
  *     http://cppcast.com/2017/07/gor-nishanov/
  *
- *   [saelensminde2017] How C++ coroutines work
+ *   [saelensminde20170623] How C++ coroutines work
  *     https://kirit.com/How%20C%2B%2B%20coroutines%20work
  *
- *   [battalio2017] Using C++ Coroutines with Boost C++ Libraries
+ *   [battalio20170519] Using C++ Coroutines with Boost C++ Libraries
  *     https://blogs.msdn.microsoft.com/vcblog/2017/05/19/using-c-coroutines-with-boost-c-libraries/
  *
- *   [williams2017] Concurrency, Parallelism and Coroutines - Anthony Williams [ACCU 2017]
+ *   [williams20170429] Concurrency, Parallelism and Coroutines - Anthony Williams [ACCU 2017]
  *     https://youtu.be/UhrIKqDADX8
  *
- *   [allsopp2017] Coroutines and Reference Parameters
+ *   [allsopp20170422] Coroutines and Reference Parameters
  *     https://toby-allsopp.github.io/2017/04/22/coroutines-reference-params.html
  *
- *   [mcnellis2016] Introduction to C++ Coroutines
- *     https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-James-McNellis-Introduction-to-C-Coroutines
+ *   [grimm20170228] Coroutines
+ *     http://www.modernescpp.com/index.php/coroutines
  *
- *   [nishanov2016] C++ Coroutines: Under the covers - Gor Nishanov [CppCon 2016]
+ *   [nishanov20160920] C++ Coroutines: Under the covers - Gor Nishanov [CppCon 2016]
  *     https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Gor-Nishanov-C-Coroutines-Under-the-covers
  *
- *   [grimm2017] Coroutines
- *     http://www.modernescpp.com/index.php/coroutines
+ *   [mcnellis20160920] Introduction to C++ Coroutines
+ *     https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-James-McNellis-Introduction-to-C-Coroutines
  */
