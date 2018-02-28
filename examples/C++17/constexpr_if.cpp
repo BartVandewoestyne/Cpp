@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [weller20180222] How if constexpr simplifies your code in C++17
+ *     https://www.meetingcpp.com/blog/items/How-if-constexpr-simplifies-your-code-in-Cpp17.html
+ *
  *   [doumler2017] Timur Doumler - The new C++17 and why it's good for you (ADC2017)
  *     https://youtu.be/ky_eXBMcJK0?t=12m58s
  *
