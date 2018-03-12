@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180312] Simplify code with 'if constexpr' in C++17
+ *     http://www.bfilipek.com/2018/03/ifconstexpr.html
+ *
  *   [weller20180222] How if constexpr simplifies your code in C++17
  *     https://www.meetingcpp.com/blog/items/How-if-constexpr-simplifies-your-code-in-Cpp17.html
  *
