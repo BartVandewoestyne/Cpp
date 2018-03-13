@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[vaneerd] Descriptions of C++17 features, presented mostly in "Tony Tables"
+  https://github.com/tvaneerd/cpp17_in_TTs/
+
 [turner20171109] Practical C++17 - Jason Turner - Meeting C++ 2017
   https://youtu.be/YePHP4aIc1g
 
