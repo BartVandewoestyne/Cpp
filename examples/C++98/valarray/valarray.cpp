@@ -1,9 +1,9 @@
 /*
- * Note: seems like valarray is redundant and could use revision or removal,
- *       see [sutter199801XX].  Probably better not to use it.
+ * Note: it seems like std::valarray is redundant and could use revision or
+ *       removal, see [sutter199801XX].  Probably better not to use it.
  *
- * TODO: check what the alternatives to std::valarray are.  Is there something in
- *       the standard?  Does one need to use a library?
+ * TODO: check what the alternatives to std::valarray are.  Is there something
+ *       in the standard?  Does one need to use a library?
  *
  * References:
  *
