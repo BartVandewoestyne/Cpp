@@ -1,17 +1,20 @@
 /**
  * References:
  *
- *   [gregory2017cppcon] 10 Core Guidelines You Need to Start Using Now
+ *   [grimm20171127] C++ Core Guidelines: Rules for Enumerations
+ *     http://www.modernescpp.com/index.php/c-core-guidelines-rules-for-enumerations
+ *
+ *   [gregory20170927] 10 Core Guidelines You Need to Start Using Now
  *     https://youtu.be/XkDEzfpdcSg?t=37m38s
+ *
+ *   [macias20151228] ENUM CLASS. WHY SHOULD YOU CARE?
+ *     https://katecpp.wordpress.com/2015/12/28/enum-class/
+ *
+ *   [oleksiy20130820] Why is enum class preferred over plain enum?
+ *     https://stackoverflow.com/questions/18335861/why-is-enum-class-preferred-over-plain-enum
  *
  *   [allain] Better types in C++11 - nullptr, enum classes (strongly typed enumerations) and cstdint
  *     http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html
- *
- *   [macias2015] ENUM CLASS. WHY SHOULD YOU CARE?
- *     https://katecpp.wordpress.com/2015/12/28/enum-class/
- *
- *   [oleksiy2013] Why is enum class preferred over plain enum?
- *     https://stackoverflow.com/questions/18335861/why-is-enum-class-preferred-over-plain-enum
  */
 
 // this code won't compile!
