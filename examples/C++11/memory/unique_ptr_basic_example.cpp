@@ -3,13 +3,13 @@
  *
  * References:
  *
- *   [filipek2017] 5 ways how unique_ptr enhances resource safety in your code
+ *   [filipek20171204] 5 ways how unique_ptr enhances resource safety in your code
  *     http://www.bfilipek.com/2017/12/why-uniqueptr.html
  *
- *   [nelson2012] C++11: unique_ptr
+ *   [nelson20120626] C++11: unique_ptr
  *     http://www.drdobbs.com/cpp/c11-uniqueptr/240002708
  *
- *   [bendersky2012] C++11: using unique_ptr with standard library containers
+ *   [bendersky20120620] C++11: using unique_ptr with standard library containers
  *     http://eli.thegreenplace.net/2012/06/20/c11-using-unique_ptr-with-standard-library-containers/
  */
 
