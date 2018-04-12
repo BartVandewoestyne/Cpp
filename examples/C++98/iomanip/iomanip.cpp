@@ -31,5 +31,4 @@ int main()
   std::cout << std::setw(2) << "--" << std::endl;
   std::cout << std::setw(3) << "--" << std::endl;
   std::cout << std::setw(4) << "--" << std::endl;
-
 }
