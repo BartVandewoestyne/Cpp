@@ -10,6 +10,8 @@
  *         the same and enforcing the const-ness might make sense.
  *     Con's:
  *
+ * It's interesting to compare the generated assembler output on https://godbolt.org/.
+ *
  * References:
  *
  *   [pilpel20160122] Pass an enum to a function - by value or by reference? [duplicate]
@@ -18,3 +20,29 @@
  *   [patton20110726] C++: Is it better to pass an enum as a value or as a const reference?
  *     https://stackoverflow.com/questions/6834581/c-is-it-better-to-pass-an-enum-as-a-value-or-as-a-const-reference
  */
+
+#include <iostream>
+
+enum Color
+{
+    Red,
+    Green,
+    Blue
+};
+
+void byReference(const Color& color)
+{
+    if (color == Red) std::cout << "Red\n";
+}
+
+void byValue(const Color color)
+{
+    if (color == Red) std::cout << "Red\n";
+}
+
+int main()
+{
+    Color color;
+    byReference(color);
+    byValue(color);
+}
