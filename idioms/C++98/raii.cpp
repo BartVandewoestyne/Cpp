@@ -16,4 +16,7 @@
  *   [tambe2007] More C++ Idioms/Resource Acquisition Is Initialization
  *     https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Resource_Acquisition_Is_Initialization
  *
+ *   [stroustrup2000] The C++ Programming Language, Special Edition.
+ *
+ *   [sutter1999] Exceptional C++.
  */
