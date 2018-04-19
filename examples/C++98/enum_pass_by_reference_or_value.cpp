@@ -4,13 +4,14 @@
  *   Pass by value:
  *     Pro's:
  *     Con's:
+ *
  *   Pass by reference:
  *     Pro's:
  *       - If you are later going to replace them with a class, then keeping the API
  *         the same and enforcing the const-ness might make sense.
  *     Con's:
  *
- * It's interesting to compare the generated assembler output on https://godbolt.org/.
+ * It's interesting to compare the generated assembler output at https://godbolt.org/.
  *
  * References:
  *
@@ -19,6 +20,9 @@
  *
  *   [patton20110726] C++: Is it better to pass an enum as a value or as a const reference?
  *     https://stackoverflow.com/questions/6834581/c-is-it-better-to-pass-an-enum-as-a-value-or-as-a-const-reference
+ *
+ *   [pomeranz20070723] 7.2 -- Passing arguments by value
+ *     http://www.learncpp.com/cpp-tutorial/72-passing-arguments-by-value/
  */
 
 #include <iostream>
@@ -30,14 +34,14 @@ enum Color
     Blue
 };
 
-void byReference(const Color& color)
+bool byReference(const Color& color)
 {
-    if (color == Red) std::cout << "Red\n";
+    return color == Red;
 }
 
-void byValue(const Color color)
+bool byValue(const Color color)
 {
-    if (color == Red) std::cout << "Red\n";
+    return color == Red;
 }
 
 int main()
