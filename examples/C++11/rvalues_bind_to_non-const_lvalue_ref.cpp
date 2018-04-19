@@ -8,6 +8,8 @@
  *     https://stackoverflow.com/questions/1565600/how-come-a-non-const-reference-cannot-bind-to-a-temporary-object
  *
  *   [stroustrup1994] The Design and Evolution of C++
+ *
+ * TODO: Visual C++ behaves differently in this respect?  Find doc or blogpost about this.
  */
 
 #include "Foo.h"
