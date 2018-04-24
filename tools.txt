@@ -33,6 +33,14 @@ clang-tidy
 TScanCode
   https://github.com/Tencent/TscanCode
 
+Dependency Visualisers
+----------------------
+cpp-dependencies
+  https://github.com/tomtom-international/cpp-dependencies
+
+Cpp Dependency Graph
+  https://github.com/shreyasbharath/cpp_dependency_graph
+
 Compile-time code checking
 --------------------------
 GSL
