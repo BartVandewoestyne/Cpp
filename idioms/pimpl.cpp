@@ -4,6 +4,9 @@
  *   [cpppatterns] The PIMPL idiom
  *     http://www.cppsamples.com/common-tasks/pimpl.html
  *
+ *   [filipek20180115] pimpl vs Abstract Interface - a practical tutorial
+ *     http://www.bfilipek.com/2018/01/pimpl-interface.html
+ *
  *   [filipek20180108] The Pimpl Pattern - what you should know
  *     http://www.bfilipek.com/2018/01/pimpl.html
  *
