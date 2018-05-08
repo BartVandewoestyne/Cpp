@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180507] Using C++17 std::optional
+ *     https://www.bfilipek.com/2018/05/using-optional.html
+ *
  *   [filipek20180423] Refactoring with C++17 std::optional
  *     https://www.bfilipek.com/2018/04/refactoring-with-c17-stdoptional.html
  *
