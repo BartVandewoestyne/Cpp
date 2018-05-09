@@ -1,5 +1,7 @@
 The following books cover C++17
 -------------------------------
+Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.
+
 C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
 
 Clean C++, Sustainable Software Development Patterns and Best Practices with C++ 17, Stephan Roth, 2017.
