@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [mertz20180509] Modern C++ Features – std::variant and std::visit
+ *     https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/
+ *
  *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
  *     https://youtu.be/ky_eXBMcJK0?t=27m8s
  *
