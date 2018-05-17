@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [brand20180515] std::accumulate vs. std::reduce
+ *     https://blog.tartanllama.xyz/accumulate-vs-reduce/
+ *
  *   [boccara2017] (std::)Accumulate Knowledge On STL Algorithms
  *     https://www.fluentcpp.com/2017/10/17/stdaccumulate-your-knowledge-on-algorithms/
  *
