@@ -4,6 +4,9 @@
  *   [wikipedia] Substitution failure is not an error
  *     http://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error
  *
+ *   [20180515boccara] How to Make SFINAE Pretty - Part 1: What SFINAE Brings to Code
+ *     https://www.fluentcpp.com/2018/05/15/make-sfinae-pretty-1-what-value-sfinae-brings-to-code/
+ *
  *   [warzecha20171110] An inspiring introduction to Templatemetaprogramming.
  *     https://youtu.be/UnIc_qJ0DRc?t=19m43s
  *
