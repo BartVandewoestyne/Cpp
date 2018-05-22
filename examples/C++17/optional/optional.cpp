@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180521] Error Handling and std::optional
+ *     https://www.bfilipek.com/2018/05/errors-and-optional.html
+ *
  *   [filipek20180507] Using C++17 std::optional
  *     https://www.bfilipek.com/2018/05/using-optional.html
  *
