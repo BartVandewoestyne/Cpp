@@ -2,6 +2,11 @@
  * Example to demonstrate why you should not call virtual functions from a
  * constructor.
  *
+ * Note that there are ways around it, see for example the 'Dynamic Binding
+ * During Initialization' idiom (AKA 'Calling Virtuals During Initialization'):
+ *
+ *   https://isocpp.org/wiki/faq/strange-inheritance#calling-virtuals-from-ctor-idiom
+ *
  * References:
  *
  *   [cppfaq] When my base class’s constructor calls a virtual function on its
