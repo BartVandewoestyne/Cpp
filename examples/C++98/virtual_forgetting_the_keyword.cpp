@@ -6,6 +6,7 @@
  *
  *   [lazar20120617] Overriding non-virtual methods
  *     https://stackoverflow.com/questions/11067975/overriding-non-virtual-methods
+ *
  *   [vig20110828] Is the "virtual" keyword optional in base classes in C++?
  *     http://stackoverflow.com/questions/7218763/is-the-virtual-keyword-optional-in-base-classes-in-c
  */
