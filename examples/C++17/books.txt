@@ -1,5 +1,7 @@
 The following books cover C++17
 -------------------------------
+Beginning C++17: From Novice to Professional, Ivor Horton, Peter Van Weert, Apress, 24 Mar 2018.
+
 Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.
 
 C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
