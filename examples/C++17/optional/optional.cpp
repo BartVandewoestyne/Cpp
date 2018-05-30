@@ -1,6 +1,15 @@
 /*
  * References:
  *
+ *   [filipek20180521] Error Handling and std::optional
+ *     https://www.bfilipek.com/2018/05/errors-and-optional.html
+ *
+ *   [filipek20180507] Using C++17 std::optional
+ *     https://www.bfilipek.com/2018/05/using-optional.html
+ *
+ *   [filipek20180423] Refactoring with C++17 std::optional
+ *     https://www.bfilipek.com/2018/04/refactoring-with-c17-stdoptional.html
+ *
  *   [brand201802XX] Functional Error-Handling with Optional and Expected (Simon Brand, Overload #143)
  *     https://accu.org/index.php/journals/2462
  *

@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [petriconi2018] There Is A Better Future - Felix Petriconi [ACCU 2018]
+ *     https://youtu.be/L63XGqiNuhI
+ *
  *   [parent2017] Future Ruminations
  *     http://sean-parent.stlab.cc/2017/07/10/future-ruminations.html
  *

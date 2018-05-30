@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [unkinkedash20171229] typedef struct or just struct
+ *     http://www.cplusplus.com/forum/beginner/227625/
+ *
  *   [criddell20090304] Difference between 'struct' and 'typedef struct' in C++?
  *     https://stackoverflow.com/questions/612328/difference-between-struct-and-typedef-struct-in-c
  */
