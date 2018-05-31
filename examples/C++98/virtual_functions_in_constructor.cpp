@@ -14,6 +14,10 @@
  *            virtual function get invoked?
  *     https://isocpp.org/wiki/faq/strange-inheritance#calling-virtuals-from-ctors
  *
+ *   [meyers20050522] Effective C++, Third Edition, Item 9: Never call virtual
+ *     functions during construction or destruction.
+ *     http://www.aristeia.com/EC3E/3E_item9.pdf
+ *
  *   [stroustrup] The C++ Programming Language, Third Edition, section 15.4.3
  *
  *   [stroustrup] The Design and Evolution of C++, section 13.2.4.2
