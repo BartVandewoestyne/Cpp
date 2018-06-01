@@ -12,9 +12,18 @@
  * 
  * References:
  *
- *   [1] http://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
- *   [2] http://stackoverflow.com/questions/25530108/implementing-pure-virtual-function-in-the-abstract-class-is-there-any-use-of-i
- *   [3] http://www.gotw.ca/gotw/031.htm
+ *   [ontherocks20140827] Implementing pure virtual function in the abstract class - is there any use of it?
+ *     http://stackoverflow.com/questions/25530108/implementing-pure-virtual-function-in-the-abstract-class-is-there-any-use-of-i
+ *
+ *   [skydoor20100118] pure virtual function with implementation
+ *     http://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
+ *
+ *   [sutter20011227] More Exceptional C++
+ *     http://www.gotw.ca/publications/mxc++.htm
+ *
+ *   [sutter19980131] (Im)pure Virtual Functions
+ *     http://www.gotw.ca/gotw/031.htm
+ *
  */
 
 #include <iostream>
