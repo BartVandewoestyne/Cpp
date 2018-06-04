@@ -17,7 +17,9 @@
  *   [meyers20050605] Never Call Virtual Functions during Construction or Destruction
  *     https://www.artima.com/cppsource/nevercall.html
  *
- *   [meyers20050522] Effective C++, Third Edition: Never Call Virtual Functions during Construction or Destruction
+ *   [meyers20050522] Effective C++, Third Edition, Item 9: Never call virtual
+ *     functions during construction or destruction.
+ *     http://www.aristeia.com/EC3E/3E_item9.pdf
  *
  *   [stroustrup] The C++ Programming Language, Third Edition, section 15.4.3
  *

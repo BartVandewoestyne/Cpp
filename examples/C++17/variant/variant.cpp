@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180604] Everything You Need to Know About std::variant from C++17
+ *     https://www.bfilipek.com/2018/06/variant.html
+ *
  *   [mertz20180509] Modern C++ Features – std::variant and std::visit
  *     https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/
  *

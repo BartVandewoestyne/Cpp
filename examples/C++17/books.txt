@@ -1,6 +1,11 @@
 The following books cover C++17
 -------------------------------
-Beginning C++17: From Novice to Professional, Ivor Horton, Peter Van Weert, Apress, 24 Mar 2018.
+
+[horton20180324] Beginning C++17: From Novice to Professional, Ivor Horton, Peter Van Weert, Apress, 24 Mar 2018.
+
+[bjornander20180226] C++17 By Example: Practical projects to get you up and running with C++17
+
+[sehr20180131] C++ High Performance: Boost and optimize the performance of your C++17 code
 
 Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.
 
