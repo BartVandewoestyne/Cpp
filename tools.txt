@@ -92,6 +92,9 @@ CPPAN: C++ Archive Network
 CPM (no longer maintained)
   http://www.cpm.rocks/
 
+Nix
+  https://nixos.org/nix/
+
 Buildsystems
 ------------
 CMake
