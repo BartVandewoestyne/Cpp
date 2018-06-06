@@ -4,8 +4,11 @@
  *
  * References:
  *
- *   [1]
- *   http://stackoverflow.com/questions/4094534/how-and-why-is-it-possible-to-change-access-level-of-a-member
+ *   [nakiya20101104] How and why is it possible to change access level of a member?
+ *     http://stackoverflow.com/questions/4094534/how-and-why-is-it-possible-to-change-access-level-of-a-member
+ *
+ *   [ellis1990stroustrup] The Annotated C++ Reference Manual
+ *     TODO: find section that discusses this
  */
 
 #include <iostream>
