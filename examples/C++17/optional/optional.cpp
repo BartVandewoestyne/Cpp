@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [mertz20180606] Modern C++ Features - std::optional
+ *     https://arne-mertz.de/2018/06/modern-c-features-stdoptional/
+ *
  *   [filipek20180521] Error Handling and std::optional
  *     https://www.bfilipek.com/2018/05/errors-and-optional.html
  *
