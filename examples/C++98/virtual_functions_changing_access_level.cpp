@@ -4,6 +4,10 @@
  *
  * References:
  *
+ *   [tower120_20180606] C++ override private pure virtual method as public
+ *     https://stackoverflow.com/questions/50722824/c-override-private-pure-virtual-method-as-public
+ *     https://www.reddit.com/r/cpp/comments/8p1s70/overriding_private_virtual_method_as_public/
+ *
  *   [nakiya20101104] How and why is it possible to change access level of a member?
  *     http://stackoverflow.com/questions/4094534/how-and-why-is-it-possible-to-change-access-level-of-a-member
  *
