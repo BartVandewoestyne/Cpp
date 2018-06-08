@@ -46,7 +46,7 @@ class Derived : public Parent
 {
 public:
 
-    // Note that the initialization order does not macht the order in
+    // Note that the initialization order does not match the order in
     // which the foo and bar variables are defined!!!
     Derived() : foo(10), bar(foo*2)
     {
