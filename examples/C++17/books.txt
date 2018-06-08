@@ -7,23 +7,22 @@ The following books cover C++17
 
 [sehr20180131] C++ High Performance: Boost and optimize the performance of your C++17 code
 
-Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.
+[nesteruk2018] Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.
 
-C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
+[williams201802XX] C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.
 
-Clean C++, Sustainable Software Development Patterns and Best Practices with C++ 17, Stephan Roth, 2017.
+[roth2017XXYY] Clean C++, Sustainable Software Development Patterns and Best Practices with C++ 17, Stephan Roth, 2017.
 
-C++17 - The Complete Guide, Nicolai Josuttis, December 15, 2017.
+[josuttis20171215] C++17 - The Complete Guide, Nicolai Josuttis, December 15, 2017.
+  http://cppstd17.com
 
-Mastering the C++17 STL: Make full use of the standard library components
-in C++17, Arthur O'Dwyer, September 28, 2017.
+[odwyer20170928] Mastering the C++17 STL: Make full use of the standard library components in C++17, Arthur O'Dwyer, September 28, 2017.
 
-C+ Templates: The Complete Guide, Second Edition, Vandevoorde, Jossuttis,
-14 september 2017.
+[jossuttis20170914] C+ Templates: The Complete Guide, Second Edition, Vandevoorde, Jossuttis,
+  http://tmplbook.com
 
-C++17 STL Cookbook: Discover the latest enhancements to functional programming
-and lambda expressions, Jacek Galowicz, June 28, 2017.
+[galowicz20170628] C++17 STL Cookbook: Discover the latest enhancements to functional programming and lambda expressions, Jacek Galowicz.
 
-Modern C++ Programming Cookbook, May 2017.
+[201705XX] Modern C++ Programming Cookbook, May 2017.
 
 Sams Teach Yourself C++ in One Hour a Day, 8th Edition, January 2, 2017.
