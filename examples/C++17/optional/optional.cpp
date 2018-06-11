@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180611] A Wall of Your std::optional Examples
+ *     https://www.bfilipek.com/2018/06/optional-examples-wall.html
+ *
  *   [mertz20180606] Modern C++ Features - std::optional
  *     https://arne-mertz.de/2018/06/modern-c-features-stdoptional/
  *
