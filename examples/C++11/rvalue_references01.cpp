@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [triangles20180602] C++ rvalue references and move semantics for beginners
+ *     https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners
+ *
  *   [müller20180326] Guidelines For Rvalue References In APIs
  *     https://foonathan.net/blog/2018/03/26/rvalue-references-api-guidelines.html
  *
