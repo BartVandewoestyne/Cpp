@@ -1,8 +1,10 @@
 /**
  * References:
  *
+ *   [bock20160116] How to test static_assert? - Roland Bock - Meeting C++ 2016
+ *     https://youtu.be/zxDzMjfsgjg
+ *
  *   [1] http://j.mp/cpp11ref
- *   [2] https://youtu.be/zxDzMjfsgjg
  */
 
 #include <cstdint>
