@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20180618] Everything You Need to Know About std::any from C++17
+ *     https://www.bfilipek.com/2018/06/any.html
+ *
  *   [Z01dbrg20171220] Why was std::any added to C++17?
  *     https://www.reddit.com/r/cpp/comments/7l3i19/why_was_stdany_added_to_c17/
  *
