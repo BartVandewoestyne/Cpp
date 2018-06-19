@@ -7,9 +7,14 @@
  *
  * References:
  *
- *   [1] http://stackoverflow.com/questions/24032322/is-it-safe-to-cast-an-unsigned-char-to-char-and-treat-the-dereferenced-pointe
+ *   [galowicz20170122] A reinterpret_cast Trap
+ *     https://blog.galowicz.de/2017/01/22/reinterpret_cast_trap/
+ *
+ *   [roseen20140604] Is it safe to cast an unsigned char* to char*, and treat the dereferenced pointer as if it really points to a char?
+ *     http://stackoverflow.com/questions/24032322/is-it-safe-to-cast-an-unsigned-char-to-char-and-treat-the-dereferenced-pointe
+ *
  *   [2] http://www.parashift.com/c++-faq/print-char-or-ptr-as-number.html
- *   [3] https://blog.galowicz.de/2017/01/22/reinterpret_cast_trap/
+ *
  */
 
 #include <climits>
