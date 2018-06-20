@@ -4,6 +4,9 @@ Websites that give an overview of C++17 features:
 [josuttis20180412] C++17 - The Best Features - Nicolai Josuttis [ACCU 2018]
   https://youtu.be/e2ZQyYr0Oi0
 
+[josuttis20180407] Beware of C++17 - Nicolai Josuttis - CoreHard Spring 2018
+  https://youtu.be/560l4b3i4ew
+
 [vaneerd] Descriptions of C++17 features, presented mostly in "Tony Tables"
   https://github.com/tvaneerd/cpp17_in_TTs/
 
