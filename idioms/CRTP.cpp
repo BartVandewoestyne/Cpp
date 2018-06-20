@@ -22,6 +22,9 @@
  *   [nanjappa20150709] A simple example to understand CRTP
  *     http://codeyarns.com/2015/07/09/how-to-understand-crtp/
  *
+ *   [vandevoorde20021112] C++ Templates: The Complete Guide (section 16.3).
+ *     http://www.informit.com/articles/article.aspx?p=31473&seqNum=3
+ *
  *   [coplien199502XX] Curiously Recurring Template Patterns
  *     http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
  */
