@@ -4,6 +4,9 @@
  *   [wikipedia] Curiously recurring template pattern
  *     https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
  *
+ *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
+ *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
+ *
  *   [boccara20170516] What the CRTP can bring to your code
  *     http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
  *
