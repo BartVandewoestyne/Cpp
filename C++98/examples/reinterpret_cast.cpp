@@ -3,7 +3,8 @@
  *
  *   - the use of reinterpret_cast
  *   - how to print a char or char* as a number
- *   - whether char is signed or unsigned is implementation defined (TODO: check this!)
+ *   - whether char is signed or unsigned is implementation defined
+ *     (TODO: check this!)
  *
  * References:
  *
