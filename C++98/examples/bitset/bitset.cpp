@@ -4,6 +4,9 @@
  *
  * References:
  *
+ *   [dhamodaran20180308] C++ Bitset With Example
+ *     https://owlcation.com/stem/C-bitset-with-example
+ *
  *   [austern20010501] The Standard Librarian: Bitsets and Bit Vectors
  *     http://www.drdobbs.com/the-standard-librarian-bitsets-and-bit-v/184401382
  *
