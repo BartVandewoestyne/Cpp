@@ -1,4 +1,6 @@
 /**
+ * TODO: check if this should be moved to C++98 directory.
+ *
  * References:
  *
  *   [1] The C++ Standard Library, A Tutorial and Reference, Second Edition,
