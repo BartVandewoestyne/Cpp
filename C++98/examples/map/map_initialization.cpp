@@ -8,7 +8,7 @@ std::map<int, std::string> create_map()
     m[2] = "Bar";
     return m;
 }
-static std::map<int, std::string> mymap = create_map();
+static const std::map<int, std::string> mymap = create_map();
 
 int main()
 {
