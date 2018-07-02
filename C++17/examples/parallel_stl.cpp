@@ -1,7 +1,10 @@
 /*
  * References:
  *
- *   [filipek20170618] Examples of Parallel Algorithms From C++17
+ *   [filipek20180702] Parallel STL And Filesystem: Files Word Count Example
+ *     https://www.bfilipek.com/2018/07/files-word-count.html
+ *
+ *   [filipek20180625] Examples of Parallel Algorithms From C++17
  *     https://www.bfilipek.com/2018/06/parstl-tests.html
  *
  *   [brown2017cppcon] CppCon 2017: “C++17 ParallelSTL: A Standardization Experience Report for CPU and GPU on SYCL”
