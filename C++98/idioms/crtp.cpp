@@ -1,4 +1,14 @@
 /**
+ * The CRTP can be used to:
+ *
+ *   -> add functionality to a class by inheriting from the base class.
+ *
+ *   -> create static interfaces (the difference with traditional polymorphism
+ *      is that there is no virtual involved and all calls are resolved during
+ *      compilation). Note however that this technique is not the best one for
+ *      static interfaces, and nowhere as good as what concepts are expected
+ *      to bring (see [boccara20170516]).
+ *
  * References:
  *
  *   [wikipedia] Curiously recurring template pattern
@@ -27,6 +37,9 @@
  *
  *   [nanjappa20150709] A simple example to understand CRTP
  *     http://codeyarns.com/2015/07/09/how-to-understand-crtp/
+ *
+ *   [bendersky20131205] The cost of dynamic (virtual calls) vs. static (CRTP) dispatch in C++
+ *     https://eli.thegreenplace.net/2013/12/05/the-cost-of-dynamic-virtual-calls-vs-static-crtp-dispatch-in-c
  *
  *   [nasonov200512XX] Better Encapsulation for the Curiously Recurring Template Pattern
  *     https://accu.org/index.php/journals/296
