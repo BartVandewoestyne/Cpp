@@ -7,6 +7,9 @@
  *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
  *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
  *
+ *   [boccara20170519] An Implementation Helper For The Curiously Recurring Template Pattern
+ *     https://www.fluentcpp.com/2017/05/19/crtp-helper/
+ *
  *   [boccara20170516] What the CRTP can bring to your code
  *     http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
  *
