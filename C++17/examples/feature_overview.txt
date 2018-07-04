@@ -1,0 +1,72 @@
+Websites that give an overview of C++17 features:
+-------------------------------------------------
+
+[josuttis20180412] C++17 - The Best Features - Nicolai Josuttis [ACCU 2018]
+  https://youtu.be/e2ZQyYr0Oi0
+
+[josuttis20180407] Beware of C++17 - Nicolai Josuttis - CoreHard Spring 2018
+  https://youtu.be/560l4b3i4ew
+
+[vaneerd] Descriptions of C++17 features, presented mostly in "Tony Tables"
+  https://github.com/tvaneerd/cpp17_in_TTs/
+
+[turner20171109] Practical C++17 - Jason Turner - Meeting C++ 2017
+  https://youtu.be/YePHP4aIc1g
+
+[doumler2017] The new C++17 and why it's good for you - Timur Doumler, ADC 2017
+  https://youtu.be/ky_eXBMcJK0
+
+[lelbach20170924-29] C++17 Features - Bryce Adelstein Lelbach - C++Now 2017
+  https://youtu.be/fI2xiUqqH3Q (part 1)
+  https://youtu.be/qjxBKINAWk0 (part 2)
+
+[filipek2017]
+  http://www.bfilipek.com/2017/11/cpp17summary.html
+  http://www.bfilipek.com/2017/09/cpp17-details-utils.html
+  http://www.bfilipek.com/2017/09/c17-in-detail-summary-bonus.html
+  http://www.bfilipek.com/2017/08/cpp17-details-filesystem.html
+  http://www.bfilipek.com/2017/08/cpp17-details-parallel.html
+  http://www.bfilipek.com/2017/07/cpp17-in-details-attributes.html
+  http://www.bfilipek.com/2017/07/cpp17-details-simplifications.html
+  http://www.bfilipek.com/2017/06/cpp17-details-clarifications.html
+  http://www.bfilipek.com/2017/06/cpp17-details-templates.html
+  http://www.bfilipek.com/2017/05/cpp17-details-fixes-deprecation.html
+  http://www.bfilipek.com/2017/01/cpp17features.html
+
+[vaneerd2017] Meeting C++ live: C++17 with Tony van Eerd
+  https://youtu.be/uSYCjHOgdh4
+
+[vaneerd2017] C++17 features, presented mostly in "Tony Tables"
+  https://github.com/tvaneerd/cpp17_in_TTs
+
+[turner2017] C++ Weekly - Ep 69 - C++17's Searchers
+  https://youtu.be/YUCW_MnksjQ
+
+[fenbf2017] 7 Features of C++17 that will simplify your code
+  https://tech.io/playgrounds/2205/7-features-of-c17-that-will-simplify-your-code/introduction
+
+[grimm20170410] C++17: More Details zur neuen Kernsprache
+  http://www.grimm-jaud.de/index.php/blog/c-17-more-details-zur-neuen-kernsprache
+
+[grimm20170327] C++17: Was gibts Neues in der Kernsprache?
+  http://www.grimm-jaud.de/index.php/blog/c-17-kern
+
+[josuttis201701XX] C++17: The Language Features - Nicolai Josuttis
+  https://vimeo.com/213566682
+
+[bastien2017] What's in C++17?
+  https://github.com/jfbastien/what-is-cpp17
+
+[vanweert201702XX] Part II – The Standard Library
+  http://becpp.org/blog/wp-content/uploads/2017/02/Peter-Van-Weert-BeC17-Part-II.pptx
+
+[vanweert201612XX] Part I – The Core Language
+  http://becpp.org/blog/wp-content/uploads/2016/12/Peter-Van-Weert-BeC17-Part-I.pptx
+
+[meredith2016] CppCon 2016: Alisdair Meredith "C++17 in Breadth"
+  https://youtu.be/22jIHfvelZk (part 1/2)
+  https://youtu.be/-rIixnNJM4k (part 2/2)
+
+Other C++17 stuff
+-----------------
+https://vittorioromeo.info/index/blog/cpp17_curry.html
