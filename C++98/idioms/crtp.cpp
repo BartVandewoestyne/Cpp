@@ -41,6 +41,9 @@
  *   [bendersky20131205] The cost of dynamic (virtual calls) vs. static (CRTP) dispatch in C++
  *     https://eli.thegreenplace.net/2013/12/05/the-cost-of-dynamic-virtual-calls-vs-static-crtp-dispatch-in-c
  *
+ *   [bendersky20110517] The Curiously Recurring Template Pattern in C++
+ *     https://eli.thegreenplace.net/2011/05/17/the-curiously-recurring-template-pattern-in-c/
+ *
  *   [nasonov200512XX] Better Encapsulation for the Curiously Recurring Template Pattern
  *     https://accu.org/index.php/journals/296
  *
