@@ -1,9 +1,15 @@
 /**
  *
- * CRTP is some kind of static polymorphism technique.
+ * CRTP is some kind of static polymorphism technique.  Alternative names for
+ * it are 'Barton-Nackman trick'.  It can be used for the following things:
  *
- * Alternative names:
- *   Barton-Nackman trick
+ *   -> add functionality to a class by inheriting from the base class.
+ *
+ *   -> create static interfaces (the difference with traditional polymorphism
+ *      is that there is no virtual involved and all calls are resolved during
+ *      compilation). Note however that this technique is not the best one for
+ *      static interfaces, and nowhere as good as what concepts are expected
+ *      to bring (see [boccara20170516]).
  *
  * References:
  *
@@ -12,6 +18,9 @@
  *
  *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
  *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
+ *
+ *   [boccara20170519] An Implementation Helper For The Curiously Recurring Template Pattern
+ *     https://www.fluentcpp.com/2017/05/19/crtp-helper/
  *
  *   [boccara20170516] What the CRTP can bring to your code
  *     http://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
@@ -30,6 +39,12 @@
  *
  *   [nanjappa20150709] A simple example to understand CRTP
  *     http://codeyarns.com/2015/07/09/how-to-understand-crtp/
+ *
+ *   [bendersky20131205] The cost of dynamic (virtual calls) vs. static (CRTP) dispatch in C++
+ *     https://eli.thegreenplace.net/2013/12/05/the-cost-of-dynamic-virtual-calls-vs-static-crtp-dispatch-in-c
+ *
+ *   [bendersky20110517] The Curiously Recurring Template Pattern in C++
+ *     https://eli.thegreenplace.net/2011/05/17/the-curiously-recurring-template-pattern-in-c/
  *
  *   [nasonov200512XX] Better Encapsulation for the Curiously Recurring Template Pattern
  *     https://accu.org/index.php/journals/296
