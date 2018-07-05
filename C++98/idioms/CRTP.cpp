@@ -1,4 +1,10 @@
 /**
+ *
+ * CRTP is some kind of static polymorphism technique.
+ *
+ * Alternative names:
+ *   Barton-Nackman trick
+ *
  * References:
  *
  *   [wikipedia] Curiously recurring template pattern
@@ -31,6 +37,8 @@
  *   [vandevoorde20021112] C++ Templates: The Complete Guide (section 16.3).
  *     http://www.informit.com/articles/article.aspx?p=31473&seqNum=3
  *
+ *   [bartonnackman1997XXXX] Scientific and Engineering C++ (Section 12.6: Restricted Template Expansion)
+ *     
  *   [coplien199502XX] Curiously Recurring Template Patterns
  *     http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
  */
