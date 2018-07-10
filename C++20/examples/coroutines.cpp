@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [allsopp20180108] Coroutines: what can't they do?
+ *     https://channel9.msdn.com/Events/GoingNative/CppCon-2017/014
+ *
  *   [nishanov20170928] Naked coroutines live (with networking)
  *     https://youtu.be/UL3TtTgt3oU
  *
