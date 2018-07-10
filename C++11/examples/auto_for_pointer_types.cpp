@@ -4,6 +4,12 @@
  *   [gregoire20180706] const auto* versus const auto for Pointer Types
  *     http://www.nuonsoft.com/blog/2018/07/06/const-auto-versus-const-auto-for-pointer-types/
  *
+ *   [stackoverflow20171114] Behavior of const auto pointers in C++
+ *     https://stackoverflow.com/questions/47291244/behavior-of-const-auto-pointers-in-c
+ *
+ *   [stackoverflow20171109] How does const auto and auto const apply to pointers?
+ *     https://stackoverflow.com/questions/47212317/how-does-const-auto-and-auto-const-apply-to-pointers
+ *
  *   [stackoverflow20160101] C++11 auto declaration with and without pointer declarator
  *     https://stackoverflow.com/questions/34560365/c11-auto-declaration-with-and-without-pointer-declarator
  */
@@ -23,6 +29,7 @@ int main()
     *ip2 = 2;                    // error, int is const
 
     // const pointer to const int
+    // (Note: you should probably just use a reference here...)
     const auto* const ip3 = &i;  // ip3 is of type const int* const
     ++ip3;                       // error, pointer is const
     *ip3 = 3;                    // error, int is const
