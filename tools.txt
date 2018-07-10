@@ -99,6 +99,7 @@ Buildsystems
 ------------
 CMake
   https://cmake.org/
+  https://crascit.com/professional-cmake/
 qmake
   http://doc.qt.io/qt-5/qmake-manual.html
 Qbs
