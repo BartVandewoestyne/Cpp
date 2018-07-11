@@ -1,7 +1,7 @@
 /**
- *
- * CRTP is some kind of static polymorphism technique.  Alternative names for
- * it are 'Barton-Nackman trick'.  It can be used for the following things:
+ * CRTP is some kind of static (compile-time) polymorphism technique.
+ * Alternative names for it are 'Barton-Nackman trick'.  It can be used for
+ * the following things:
  *
  *   -> add functionality to a class by inheriting from the base class.
  *
@@ -18,6 +18,9 @@
  *
  *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
  *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
+ *
+ *   [EverythingCpp20170613] CRTP: Curiously Recurring Template Pattern
+ *     https://youtu.be/2AwZRWt2suc
  *
  *   [boccara20170519] An Implementation Helper For The Curiously Recurring Template Pattern
  *     https://www.fluentcpp.com/2017/05/19/crtp-helper/
