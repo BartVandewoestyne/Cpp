@@ -18,6 +18,9 @@ NetBeans
 Eclipse CDT
   https://eclipse.org/cdt/
 
+Cevelop (TODO: check license!)
+  https://www.cevelop.com/
+
 Static analyzers
 ----------------
 Cppcheck
