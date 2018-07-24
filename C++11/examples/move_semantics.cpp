@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [raggi20180717] How to Construct C++ Objects Without Making Copies
+ *     https://www.fluentcpp.com/2018/07/17/how-to-construct-c-objects-without-making-copies/
+ *
  *   [triangles20180602] C++ rvalue references and move semantics for beginners
  *     https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners
 
