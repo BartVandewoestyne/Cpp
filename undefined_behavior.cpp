@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [wellons20180720] The Value of Undefined Behavior
+ *     https://nullprogram.com/blog/2018/07/20/
+ *
  *   [walfridsson20170904] Why undefined behavior may call a never-called function
  *     https://kristerw.blogspot.be/2017/09/why-undefined-behavior-may-call-never.html
  *
