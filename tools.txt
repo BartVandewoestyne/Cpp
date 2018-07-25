@@ -119,6 +119,8 @@ Cook
   https://getcook.org/
 Bazel
   https://bazel.build/
+GN
+  https://gn.googlesource.com/gn/
 
 Automatic source code formatting
 --------------------------------
