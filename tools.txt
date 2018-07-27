@@ -88,6 +88,7 @@ Vcpkg
 
 Hunter
   https://docs.hunter.sh/en/latest/
+  https://github.com/ruslo/hunter
 
 CPPAN: C++ Archive Network
   https://cppan.org/
