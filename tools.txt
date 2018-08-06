@@ -21,6 +21,9 @@ Eclipse CDT
 Cevelop (TODO: check license!)
   https://www.cevelop.com/
 
+juCi++
+  https://gitlab.com/cppit/jucipp
+
 Static analyzers
 ----------------
 Cppcheck
