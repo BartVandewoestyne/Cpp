@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [davmac20180820] Wrap on integer overflow is not a good idea
+ *     https://davmac.wordpress.com/2018/08/20/wrap-on-integer-overflow-is-not-a-good-idea/
+ *
  *   [wellons20180720] The Value of Undefined Behavior
  *     https://nullprogram.com/blog/2018/07/20/
  *
