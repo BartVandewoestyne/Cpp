@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [oneal20180821] std::string_view: The Duct Tape of String Types
+ *     https://blogs.msdn.microsoft.com/vcblog/2018/08/21/stdstring_view-the-duct-tape-of-string-types/
+ *
  *   [filipek20180723] Performance of std::string_view vs std::string from C++17
  *     https://www.bfilipek.com/2018/07/string-view-perf.html
  *
