@@ -1,5 +1,7 @@
 /**
- * The CRTP can be used to:
+ * CRTP is some kind of static (compile-time) polymorphism technique.
+ * Alternative names for it are 'Barton-Nackman trick'.  It can be used for
+ * the following things:
  *
  *   -> add functionality to a class by inheriting from the base class.
  *
@@ -16,6 +18,9 @@
  *
  *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
  *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
+ *
+ *   [EverythingCpp20170613] CRTP: Curiously Recurring Template Pattern
+ *     https://youtu.be/2AwZRWt2suc
  *
  *   [boccara20170519] An Implementation Helper For The Curiously Recurring Template Pattern
  *     https://www.fluentcpp.com/2017/05/19/crtp-helper/
@@ -50,6 +55,8 @@
  *   [vandevoorde20021112] C++ Templates: The Complete Guide (section 16.3).
  *     http://www.informit.com/articles/article.aspx?p=31473&seqNum=3
  *
+ *   [bartonnackman1997XXXX] Scientific and Engineering C++ (Section 12.6: Restricted Template Expansion)
+ *     
  *   [coplien199502XX] Curiously Recurring Template Patterns
  *     http://sites.google.com/a/gertrudandcope.com/info/Publications/InheritedTemplate.pdf
  */

@@ -18,6 +18,12 @@ NetBeans
 Eclipse CDT
   https://eclipse.org/cdt/
 
+Cevelop (TODO: check license!)
+  https://www.cevelop.com/
+
+juCi++
+  https://gitlab.com/cppit/jucipp
+
 Static analyzers
 ----------------
 Cppcheck
@@ -85,6 +91,7 @@ Vcpkg
 
 Hunter
   https://docs.hunter.sh/en/latest/
+  https://github.com/ruslo/hunter
 
 CPPAN: C++ Archive Network
   https://cppan.org/
@@ -99,6 +106,7 @@ Buildsystems
 ------------
 CMake
   https://cmake.org/
+  https://crascit.com/professional-cmake/
 qmake
   http://doc.qt.io/qt-5/qmake-manual.html
 Qbs
@@ -115,6 +123,8 @@ Cook
   https://getcook.org/
 Bazel
   https://bazel.build/
+GN
+  https://gn.googlesource.com/gn/
 
 Automatic source code formatting
 --------------------------------

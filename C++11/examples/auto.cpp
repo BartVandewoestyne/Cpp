@@ -10,9 +10,6 @@
  *   [haldar2016] C++ 11 Auto: How to use and avoid abuse
  *     http://www.acodersjourney.com/2016/02/c-11-auto/
  *
- *   [barker2016] C++11 auto declaration with and without pointer declarator
- *     https://stackoverflow.com/questions/34560365/c11-auto-declaration-with-and-without-pointer-declarator
- *
  *   [mertz2015] Modern C++ Features - auto for variables
  *     http://arne-mertz.de/2015/07/new-c-features-auto-for-variables/
  *

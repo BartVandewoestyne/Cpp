@@ -4,7 +4,7 @@
  *   [gregoire20180619] C++17: Attributes
  *     http://www.nuonsoft.com/blog/2018/06/19/c17-attributes/
  *
- *   [llama20170720] C++17 attributes - maybe_unused, fallthrough and nodiscard
+ *   [brand20170720] C++17 attributes - maybe_unused, fallthrough and nodiscard
  *     https://blog.tartanllama.xyz/c++/2017/07/20/c++17-attributes/
  *
  *   [filipek20170710] C++17 in details: Attributes

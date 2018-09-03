@@ -6,8 +6,15 @@
  *   "Try using the function in a constexpr expression and see if you get errors at compile time."
  *
  * References:
- *   [1] http://stackoverflow.com/questions/14248235/when-does-a-constexpr-function-get-evaluated-at-compile-time
- *   [2] http://stackoverflow.com/questions/28988426/how-to-test-if-constexpr-is-evaluated-correctly
+ *
+ *   [bloomfield20151018] How to check that a function is constexpr
+ *     http://avidinsight.uk/2015/10/how-to-check-that-a-function-is-constexpr/
+ *
+ *   [stackoverflow20150311] How to test if constexpr is evaluated correctly
+ *     http://stackoverflow.com/questions/28988426/how-to-test-if-constexpr-is-evaluated-correctly
+ *
+ *   [stackoverflow20130109] When does a constexpr function get evaluated at compile time?
+ *     http://stackoverflow.com/questions/14248235/when-does-a-constexpr-function-get-evaluated-at-compile-time
  */
 
 constexpr
