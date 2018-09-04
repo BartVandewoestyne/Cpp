@@ -1,6 +1,9 @@
 The following books cover C++17
 -------------------------------
 
+[filipek2018XXXX] C++17 in detail
+  [https://leanpub.com/cpp17indetail]
+
 [bancila201805XX] The Modern C++ Challenge
   https://www.packtpub.com/application-development/modern-c-challenge
 
