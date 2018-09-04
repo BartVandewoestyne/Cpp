@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [carter20180904] std::optional: How, when, and why
+ *     https://blogs.msdn.microsoft.com/vcblog/2018/09/04/stdoptional-how-when-and-why/
+ *
  *   [filipek20180611] A Wall of Your std::optional Examples
  *     https://www.bfilipek.com/2018/06/optional-examples-wall.html
  *
