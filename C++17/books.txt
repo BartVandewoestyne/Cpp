@@ -7,6 +7,8 @@ The following books cover C++17
 [bancila201805XX] The Modern C++ Challenge
   https://www.packtpub.com/application-development/modern-c-challenge
 
+[gregoire20180417] Professional C++, 4th Edition
+
 [horton20180324] Beginning C++17: From Novice to Professional, Ivor Horton, Peter Van Weert, Apress, 24 Mar 2018.
 
 [bjornander20180226] C++17 By Example: Practical projects to get you up and running with C++17
