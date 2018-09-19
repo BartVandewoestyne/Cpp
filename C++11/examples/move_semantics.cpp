@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [shahar20180919] Move Semantics
+ *     https://shaharmike.com/cpp/move-semantics/
+ *
  *   [raggi20180717] How to Construct C++ Objects Without Making Copies
  *     https://www.fluentcpp.com/2018/07/17/how-to-construct-c-objects-without-making-copies/
  *
