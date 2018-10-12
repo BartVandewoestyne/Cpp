@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [lavavej20181011] How to Use Class Template Argument Deduction
+ *     https://blogs.msdn.microsoft.com/vcblog/2018/10/11/how-to-use-class-template-argument-deduction/
+ *
  *   [orr201802XX] CTAD – What Is This New Acronym All About? (Overload Journal #143, Roger Orr)
  *     https://accu.org/index.php/journals/2465
  *
