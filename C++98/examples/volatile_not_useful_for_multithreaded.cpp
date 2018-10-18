@@ -1,7 +1,7 @@
 /*
  * References:
  *   
- *   [brandy2017XXXX] Curiously Recurring C++ Bugs at Facebook (CppCon 2017)
+ *   [brandy20170929] Curiously Recurring C++ Bugs at Facebook (CppCon 2017)
  *     https://youtu.be/3MB2iiCkGxg?t=1021
  *     
  *   [???]  ???
