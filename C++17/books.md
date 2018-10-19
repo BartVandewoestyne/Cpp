@@ -4,14 +4,14 @@ The following books cover C++17
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
 
-[stroustrup20180709] A Tour of C++ (2nd Edition) 
+[stroustrup20180709] A Tour of C++ (2nd Edition)  
 http://www.stroustrup.com/tour2.html
 
-[filipek2018XXXX] C++17 in detail
-  [https://leanpub.com/cpp17indetail]
+[filipek2018XXXX] C++17 in detail  
+https://leanpub.com/cpp17indetail
 
-[bancila201805XX] The Modern C++ Challenge
-  https://www.packtpub.com/application-development/modern-c-challenge
+[bancila201805XX] The Modern C++ Challenge  
+https://www.packtpub.com/application-development/modern-c-challenge
 
 [gregoire20180417] Professional C++, 4th Edition
 
