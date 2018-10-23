@@ -1,0 +1,16 @@
+TODO: classify these as C++98/11/14/17/...
+
+Introduction to C++ Template Metaprogramming - Sasha Goldshtein
+https://www.youtube.com/watch?v=lrziylOWBT4
+
+An inspiring introduction to template metaprogramming - Milosz Warzecha
+https://www.youtube.com/watch?v=ZkDGsvh53-U
+
+Metaprogramming in C++14 - Louis Dionne
+https://www.youtube.com/watch?v=Oc4enqNH-Mc
+
+Modern Template Metaprogramming: A Compendium, Part I - Walter E. Brown
+https://www.youtube.com/watch?v=Am2is2QCvxY
+
+Modern Template Metaprogramming: A Compendium, Part II - Walter E. Brown
+https://www.youtube.com/watch?v=a0FliKwcwXE
