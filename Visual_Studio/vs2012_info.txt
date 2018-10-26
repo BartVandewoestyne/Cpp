@@ -1,0 +1,211 @@
+Visual Studio 2012 info
+-----------------------
+
+https://msdn.microsoft.com/en-us/library/x4d2c09s(v=vs.110).aspx
+
+
+Required features
+-----------------
+* ImageWatch:
+  http://docs.opencv.org/doc/tutorials/introduction/windows_visual_studio_image_watch/windows_visual_studio_image_watch.html
+  https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d
+  -> I tried to install this on Visual Studio Express 2012 Version 11.0.61030.00 Update 4 but got the error:
+
+    9/06/2015 11:29:40 - Microsoft VSIX Installer
+    9/06/2015 11:29:40 - -------------------------------------------
+    9/06/2015 11:29:40 - Initializing Install...
+    9/06/2015 11:29:40 - Extension Details...
+    9/06/2015 11:29:40 - 	Identifier      : baf7d0ae-c17e-493f-9c42-cd01b6f60b6d
+    9/06/2015 11:29:40 - 	Name            : Image Watch
+    9/06/2015 11:29:40 - 	Author          : Microsoft
+    9/06/2015 11:29:40 - 	Version         : 1.5.1106.0
+    9/06/2015 11:29:40 - 	Description     : Provides a watch window for visualizing in-memory images (bitmaps) when debugging native C++ code.
+    9/06/2015 11:29:40 - 	Locale          : en-US
+    9/06/2015 11:29:40 - 	MoreInfoURL     : http://go.microsoft.com/fwlink/?LinkId=285460
+    9/06/2015 11:29:40 - 	InstalledByMSI  : False
+    9/06/2015 11:29:40 - 	SupportedFrameworkVersionRange : [4.5,42.0)
+    9/06/2015 11:29:40 - 
+    9/06/2015 11:29:43 - 	SignedBy        : Microsoft Corporation
+    9/06/2015 11:29:43 - 	Certificate Info : [Subject]
+      CN=Microsoft Corporation, OU=MOPR, OU=OPC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    
+    [Issuer]
+      CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    
+    [Serial Number]
+      33000000CC776171D4B17BA1280001000000CC
+    
+    [Not Before]
+      22/04/2014 19:39:04
+    
+    [Not After]
+      22/07/2015 19:39:04
+    
+    [Thumbprint]
+      9DD77A79F7124D8DB128A526833CF3760FCB7794
+    
+    9/06/2015 11:29:43 - 	Supported Products : 
+    9/06/2015 11:29:43 - 		Microsoft.VisualStudio.Pro
+    9/06/2015 11:29:43 - 			Version : [11.0,14.0]
+    9/06/2015 11:29:43 - 
+    9/06/2015 11:29:43 - 	References      : 
+    9/06/2015 11:29:43 - 		-------------------------------------------------------
+    9/06/2015 11:29:43 - 		Identifier   : Microsoft.VisualStudio.MPF.11.0
+    9/06/2015 11:29:43 - 		Name         : Visual Studio MPF 11.0
+    9/06/2015 11:29:43 - 		Version      : 11.0
+    9/06/2015 11:29:43 - 		MoreInfoURL  : 
+    9/06/2015 11:29:43 - 		Nested       : No
+    9/06/2015 11:29:43 - 
+    9/06/2015 11:29:43 - 
+    9/06/2015 11:29:43 - Searching for applicable products...
+    9/06/2015 11:29:43 - Found installed product - Microsoft Visual Studio Express 2012 for Windows Desktop
+    9/06/2015 11:29:43 - Found installed product - Global Location
+    9/06/2015 11:29:43 - VSIXInstaller.NoApplicableSKUsException: This extension is not installable on any currently installed products.
+       at VSIXInstaller.App.InitializeInstall()
+       at System.Threading.Tasks.Task.InnerInvoke()
+       at System.Threading.Tasks.Task.Execute()
+
+* Native Viewer (http://sourceforge.net/projects/nativeviewer/)
+  -> I tried to install this on Visual Studio Express 2012 Version 11.0.61030.00 Update 4 but got the error:
+
+    9/06/2015 11:26:45 - Microsoft VSIX Installer
+    9/06/2015 11:26:45 - -------------------------------------------
+    9/06/2015 11:26:45 - Initializing Install...
+    9/06/2015 11:26:45 - Extension Details...
+    9/06/2015 11:26:45 - 	Identifier      : cc119ce6-70e8-4e92-a486-822d5a238a93
+    9/06/2015 11:26:45 - 	Name            : NativeViewer
+    9/06/2015 11:26:45 - 	Author          : Mikhail Matrosov
+    9/06/2015 11:26:45 - 	Version         : 1.0.0
+    9/06/2015 11:26:45 - 	Description     : Allows to view OpenCV images during debug of native C++ projects.
+    9/06/2015 11:26:45 - 	Locale          : en-US
+    9/06/2015 11:26:45 - 	MoreInfoURL     : http://sourceforge.net/projects/nativeviewer/
+    9/06/2015 11:26:45 - 	InstalledByMSI  : False
+    9/06/2015 11:26:45 - 	SupportedFrameworkVersionRange : 4.5
+    9/06/2015 11:26:45 - 
+    9/06/2015 11:26:45 - 	Supported Products : 
+    9/06/2015 11:26:45 - 		Microsoft.VisualStudio.Pro
+    9/06/2015 11:26:45 - 			Version : 11.0
+    9/06/2015 11:26:45 - 
+    9/06/2015 11:26:45 - 	References      : 
+    9/06/2015 11:26:45 - 		-------------------------------------------------------
+    9/06/2015 11:26:45 - 		Identifier   : Microsoft.VisualStudio.MPF.11.0
+    9/06/2015 11:26:45 - 		Name         : Visual Studio MPF 11.0
+    9/06/2015 11:26:45 - 		Version      : 11.0
+    9/06/2015 11:26:45 - 		MoreInfoURL  : 
+    9/06/2015 11:26:45 - 		Nested       : No
+    9/06/2015 11:26:45 - 
+    9/06/2015 11:26:45 - 
+    9/06/2015 11:26:45 - Searching for applicable products...
+    9/06/2015 11:26:45 - Found installed product - Microsoft Visual Studio Express 2012 for Windows Desktop
+    9/06/2015 11:26:45 - Found installed product - Global Location
+    9/06/2015 11:26:45 - VSIXInstaller.NoApplicableSKUsException: This extension is not installable on any currently installed products.
+       at VSIXInstaller.App.InitializeInstall()
+       at System.Threading.Tasks.Task.InnerInvoke()
+       at System.Threading.Tasks.Task.Execute()
+
+* CppCheck add-in is only available in Pro, Premium and Ultimate:
+
+    11/06/2015 16:38:47 - Microsoft VSIX Installer
+    11/06/2015 16:38:47 - -------------------------------------------
+    11/06/2015 16:38:47 - Initializing Install...
+    11/06/2015 16:38:47 - Extension Details...
+    11/06/2015 16:38:47 - 	Identifier      : 127d8bd3-8cd7-491a-9a63-9b4e89118da9
+    11/06/2015 16:38:47 - 	Name            : cppcheck add-in
+    11/06/2015 16:38:47 - 	Author          : -
+    11/06/2015 16:38:47 - 	Version         : 1.3.1
+    11/06/2015 16:38:47 - 	Description     : Integration for cppcheck - C/C++ code static analysis tool 
+    11/06/2015 16:38:47 - 	Locale          : en-US
+    11/06/2015 16:38:47 - 	MoreInfoURL     : 
+    11/06/2015 16:38:47 - 	InstalledByMSI  : False
+    11/06/2015 16:38:47 - 	SupportedFrameworkVersionRange : 4.5
+    11/06/2015 16:38:47 - 
+    11/06/2015 16:38:47 - 	Supported Products : 
+    11/06/2015 16:38:47 - 		Microsoft.VisualStudio.Pro
+    11/06/2015 16:38:47 - 			Version : [11.0,14.0]
+    11/06/2015 16:38:47 - 		Microsoft.VisualStudio.Premium
+    11/06/2015 16:38:47 - 			Version : [11.0,14.0]
+    11/06/2015 16:38:47 - 		Microsoft.VisualStudio.Ultimate
+    11/06/2015 16:38:47 - 			Version : [11.0,14.0]
+    11/06/2015 16:38:47 - 
+    11/06/2015 16:38:47 - 	References      : 
+    11/06/2015 16:38:47 - 		-------------------------------------------------------
+    11/06/2015 16:38:47 - 		Identifier   : Microsoft.VisualStudio.MPF.11.0
+    11/06/2015 16:38:47 - 		Name         : Visual Studio MPF 11.0
+    11/06/2015 16:38:47 - 		Version      : 11.0
+    11/06/2015 16:38:47 - 		MoreInfoURL  : 
+    11/06/2015 16:38:47 - 		Nested       : No
+    11/06/2015 16:38:47 - 
+    11/06/2015 16:38:47 - 
+    11/06/2015 16:38:47 - Searching for applicable products...
+    11/06/2015 16:38:47 - Found installed product - Microsoft Visual Studio Express 2012 for Windows Desktop
+    11/06/2015 16:38:47 - Found installed product - Global Location
+    11/06/2015 16:38:47 - VSIXInstaller.NoApplicableSKUsException: This extension is not installable on any currently installed products.
+       at VSIXInstaller.App.InitializeInstall()
+       at System.Threading.Tasks.Task.InnerInvoke()
+       at System.Threading.Tasks.Task.Execute()
+
+* Exception assistant:
+  http://stackoverflow.com/questions/14542831/how-to-view-exception-details-in-visual-studio-express
+
+* SVN is not available in the Express editions
+  (According to http://stackoverflow.com/questions/566595/best-subversion-tool-when-using-visual-studio-express)
+
+* Profiling possibilities: niet aanwezig volgens onderstaande websites:
+  https://social.msdn.microsoft.com/Forums/vstudio/en-US/c79cb80f-ec0c-48de-b835-c2b57d1cb79c/profiling-c-code-in-visual-studio-express-2012?forum=vsdebug
+  http://stackoverflow.com/questions/12408610/limitations-of-visual-studio-2012-express-desktop
+
+  Alternatieven?
+  http://www.codersnotes.com/sleepy/
+  http://www.pauldoo.com/proffy/
+  https://code.google.com/p/vsptree/
+  http://lukestackwalker.sourceforge.net/
+  http://developer.amd.com/tools-and-sdks/opencl-zone/codexl/
+  http://developer.amd.com/tools-and-sdks/archive/amd-codeanalyst-performance-analyzer/
+
+* Refactoring:
+  -> Visual Studio 2012 Express niet.
+  -> Visual Studio 2013 Ultimate, Premium en Pro wel.
+     https://www.visualstudio.com/products/compare-visual-studio-products-vs.aspx
+
+* Code coverage:
+  -> Enkel in Visual Studio 2013 Ultimate en Premium:
+     https://www.visualstudio.com/products/compare-visual-studio-products-vs.aspx
+     https://msdn.microsoft.com/en-us/library/dd537628.aspx
+
+* Is Windows XP targeting available in later versions of Visual Studio?
+  http://blogs.msdn.com/b/vcblog/archive/2012/10/08/windows-xp-targeting-with-c-in-visual-studio-2012.aspx
+
+  Project Properties
+    -> Configuration Properties
+      -> General
+        -> Platform Toolset
+          -> Visual Studio 2012 - Windows XP (v110_xp)
+
+  -> Visual Studio 2013 and 2015 can also target Windows XP:
+  https://www.visualstudio.com/en-us/products/visual-studio-2013-compatibility-vs.aspx
+  https://www.visualstudio.com/en-us/products/visual-studio-2015-compatibility-vs.aspx
+
+* CppDepend werkt niet samen met Visual Studio Express:
+  https://cppdepend.uservoice.com/knowledgebase/articles/274344-can-i-use-cppdepend-studio-with-visual-studio-expr
+
+* View Class Diagram.
+  -> Should be doable with Doxygen too???
+
+* Clang-format
+  -> Plugin available at http://llvm.org/builds/ (only for Professional editions)
+
+Things to check:
+----------------
+* vsvim en vsaid als extensies (Yves Frederix).
+
+Tips and tricks:
+----------------
+* debugger type visualizers using .natvis files:
+  https://gist.github.com/gregseth/9bcd0112f8492fa7bfe7
+  https://code.msdn.microsoft.com/Writing-type-visualizers-2eae77a2
+
+Pricing
+-------
+Visual Studio Ultimate with MSDN:     6551.00 EUR (new), 2750.37 EUR (renewal)
+Visual Studio Premium with MSDN:      6551.00 (new),     2750.37 EUR (renewal)
+Visual Studio Professional with MSDN: 1283.65 EUR (new),  855.41 EUR (renewal)
