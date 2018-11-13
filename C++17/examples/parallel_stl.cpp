@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [oneal20180911] Using C++17 Parallel Algorithms for Better Performance
+ *     https://blogs.msdn.microsoft.com/vcblog/2018/09/11/using-c17-parallel-algorithms-for-better-performance/
+ *
  *   [filipek20180702] Parallel STL And Filesystem: Files Word Count Example
  *     https://www.bfilipek.com/2018/07/files-word-count.html
  *

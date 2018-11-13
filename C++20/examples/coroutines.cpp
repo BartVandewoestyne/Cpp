@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [baker20180905] C++ Coroutines: Understanding the promise type
+ *     https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type
+ *
  *   [allsopp20180108] Coroutines: what can't they do?
  *     https://channel9.msdn.com/Events/GoingNative/CppCon-2017/014
  *

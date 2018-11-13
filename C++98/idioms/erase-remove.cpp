@@ -6,7 +6,12 @@
  * References:
  *
  *   [1] http://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom
+ *
+ *   [boccara20180914] How to Remove Elements from a Sequence Container in C++
+ *     https://www.fluentcpp.com/2018/09/14/how-to-remove-elements-from-a-sequence-container/
+ *
  *   [2] Scott Meyers Effective STL book
+ *
  *   [3] C9 lectures on the STL by Stephan T Lavavej, part 2 of N (around 40:00)
  */
 

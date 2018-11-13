@@ -1,0 +1,8 @@
+VS2005 does not support MFC or other advanced functions
+[...]
+Only if the OP really wants MFC. Personally, the only thing I have missed in the Express edition is the profiler. But I can get around that by using better tools like CodeAnalyst (or switch to linux and use gprof). VC++ Express + platform SDK is a development platform capable of producing fully functional and optimized CUDA applications. 
+https://devtalk.nvidia.com/default/topic/376849/visual-studio-2005-express-and-lt-windows-h-gt-/
+
+https://msdn.microsoft.com/en-us/library/hs24szh9%28en-US,VS.80%29.aspx
+
+http://arb.developpez.com/vc++/express/

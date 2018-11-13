@@ -24,6 +24,15 @@ Cevelop (TODO: check license!)
 juCi++
   https://gitlab.com/cppit/jucipp
 
+GNOME Builder
+  https://wiki.gnome.org/Apps/Builder
+
+Code::Blocks
+  http://www.codeblocks.org/
+
+CodeLite
+  https://codelite.org/
+
 Static analyzers
 ----------------
 Cppcheck
