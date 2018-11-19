@@ -118,8 +118,6 @@ CMake
   https://crascit.com/professional-cmake/
 qmake
   http://doc.qt.io/qt-5/qmake-manual.html
-Qbs
-  http://doc.qt.io/qbs/
 SCons
   http://scons.org/
 Gradle
@@ -134,6 +132,9 @@ Bazel
   https://bazel.build/
 GN
   https://gn.googlesource.com/gn/
+Qbs
+  http://doc.qt.io/qbs/
+  (deprecated, see http://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/)
 
 Automatic source code formatting
 --------------------------------
