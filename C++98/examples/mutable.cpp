@@ -1,4 +1,9 @@
 /**
+ * Scenario's for when mutable is acceptable:
+ *
+ *   1. Cached data.
+ *   2. Mutexes.
+ *
  * References:
  *
  *   [mertz20171018] Mutable
