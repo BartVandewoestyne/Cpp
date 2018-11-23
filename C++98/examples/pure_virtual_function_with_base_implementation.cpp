@@ -15,6 +15,9 @@
  *   [ontherocks20140827] Implementing pure virtual function in the abstract class - is there any use of it?
  *     http://stackoverflow.com/questions/25530108/implementing-pure-virtual-function-in-the-abstract-class-is-there-any-use-of-i
  *
+ *   [chen20131011] C++ corner case: You can implement pure virtual functions in the base class.
+ *     https://blogs.msdn.microsoft.com/oldnewthing/20131011-00/?p=2953
+ *
  *   [skydoor20100118] pure virtual function with implementation
  *     http://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
  *
