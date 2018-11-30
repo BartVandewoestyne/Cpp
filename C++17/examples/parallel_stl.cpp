@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20181126] How to Boost Performance with Intel Parallel STL and C++17 Parallel Algorithms
+ *     https://www.bfilipek.com/2018/11/pstl.html
+ *
  *   [oneal20180911] Using C++17 Parallel Algorithms for Better Performance
  *     https://blogs.msdn.microsoft.com/vcblog/2018/09/11/using-c17-parallel-algorithms-for-better-performance/
  *
