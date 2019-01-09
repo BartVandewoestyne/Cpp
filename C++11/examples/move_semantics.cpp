@@ -15,4 +15,7 @@
  *
  *   [maudal20180205] Modern C++ Explained: Move Semantics, Olve Maudal.
  *     http://www.pvv.org/~oma/ModernCPPExplained_MoveSemantics_Feb2018.pdf
+ *
+ *   [hinnant20160916] Everything You Ever Wanted to Know About Move Semantics
+ *     https://youtu.be/vLinb2fgkHk
  */
