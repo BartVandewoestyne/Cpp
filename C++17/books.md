@@ -4,6 +4,9 @@ The following books cover C++17
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
 
+[cukic201811XX] Functional Programming in C++
+https://www.manning.com/books/functional-programming-in-c-plus-plus
+
 [stroustrup20180709] A Tour of C++ (2nd Edition)  
 http://www.stroustrup.com/tour2.html
 
