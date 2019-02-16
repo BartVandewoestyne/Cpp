@@ -3,6 +3,11 @@
  *
  * The const at the end of a member function tells whether this member
  * function changes the this object or not.
+ *
+ * References:
+ *
+ *   [david20161003] Best practice when accessing a non-const method of a member pointer from a const-method
+ *     https://stackoverflow.com/questions/39834068/best-practice-when-accessing-a-non-const-method-of-a-member-pointer-from-a-const
  */
 
 class Person {
