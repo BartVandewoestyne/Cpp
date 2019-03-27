@@ -2,7 +2,15 @@
  * Example of argument-dependent name lookup.
  *
  * References:
+ *
+ *   [20190325turner] C++ Weekly - Argument Dependent Lookup (ADL)
+ *     https://youtu.be/agS-h_eaLj8
+ *
+ *   [20121216bo] Advance C++: Koenig Lookup - Argument Dependent Lookup (ADL)
+ *     https://youtu.be/TxgPZXe8XTo 
+ *
  *   [1] https://en.wikipedia.org/wiki/Argument-dependent_name_lookup
+ *
  *   [2] C++ ANSI ISO IEC 14882-2003 basic.lookup.koenig
  */
 
