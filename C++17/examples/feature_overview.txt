@@ -10,6 +10,9 @@ Websites that give an overview of C++17 features:
 [vaneerd] Descriptions of C++17 features, presented mostly in "Tony Tables"
   https://github.com/tvaneerd/cpp17_in_TTs/
 
+[templeman20171114] C++17 upgrades you should be using in your code
+  https://www.oreilly.com/ideas/c++17-upgrades-you-should-be-using-in-your-code
+
 [turner20171109] Practical C++17 - Jason Turner - Meeting C++ 2017
   https://youtu.be/YePHP4aIc1g
 
