@@ -1,0 +1,2 @@
+Manual:
+  http://doc.qt.io/qt-5/qmake-manual.html

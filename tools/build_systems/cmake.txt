@@ -1,0 +1,5 @@
+Project page:
+  https://cmake.org/
+
+[scott20190315] Professional CMake: A Practical Guide
+  https://crascit.com/professional-cmake/
