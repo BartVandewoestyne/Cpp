@@ -1,0 +1,2 @@
+Main page:
+  https://www.qt.io/ide/
