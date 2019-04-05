@@ -1,18 +1,3 @@
-Static analyzers
-----------------
-Cppcheck
-  http://cppcheck.sourceforge.net/
-
-Krazy
-  http://krazy-collection.github.io/krazy/
-  https://github.com/Krazy-collection/krazy
-
-clang-tidy
-  http://clang.llvm.org/extra/clang-tidy/
-
-TScanCode
-  https://github.com/Tencent/TscanCode
-
 Dependency Visualisers
 ----------------------
 cpp-dependencies
