@@ -1,2 +1,12 @@
 clang-tidy main page:
+
   http://clang.llvm.org/extra/clang-tidy/
+
+Available for Visual Studio via the Clang Power Tools:
+
+     https://www.clangpowertools.com/
+
+References:
+
+  [funk20170316] Clang-Tidy, part 1: Modernize your source code using C++11/C++14
+    https://www.kdab.com/clang-tidy-part-1-modernize-source-code-using-c11c14/
