@@ -20,8 +20,10 @@ private:
     int x;
 };
 
-void printArray(const Foo foo[2][3])  // TODO: check if correct.
+void printArray(const Foo foo[2][3])
 {
+    // foo[1][2] = 99;  // not allowed
+
     for (int i = 0; i < 2; ++i)
     {
         for (int j = 0; j < 3; ++j)
