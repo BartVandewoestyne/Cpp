@@ -1,4 +1,6 @@
 /**
+ * TODO: what is the purpose of this example?
+ *
  * References:
  *
  *   [1] http://j.mp/cpp11ref
