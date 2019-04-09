@@ -3,6 +3,9 @@
  *
  * References:
  *
+ *   [odwyer20190408] ADL insanity
+ *     https://quuxplusone.github.io/blog/2019/04/08/adl-insanity/
+ *
  *   [20190325turner] C++ Weekly - Argument Dependent Lookup (ADL)
  *     https://youtu.be/agS-h_eaLj8
  *
