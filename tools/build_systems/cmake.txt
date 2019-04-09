@@ -3,3 +3,6 @@ Project page:
 
 [scott20190315] Professional CMake: A Practical Guide
   https://crascit.com/professional-cmake/
+
+[arias20180219] It's Time To Do CMake Right
+  https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
