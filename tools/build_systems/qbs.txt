@@ -1,0 +1,6 @@
+IMPORTANT: Qbs is deprecated, see
+
+  http://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/)
+
+Qbs
+  http://doc.qt.io/qbs/

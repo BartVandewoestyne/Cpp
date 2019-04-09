@@ -61,26 +61,6 @@ CPM (no longer maintained)
 Nix
   https://nixos.org/nix/
 
-Buildsystems
-------------
-SCons
-  http://scons.org/
-Gradle
-  https://gradle.org/
-Meson
-  http://mesonbuild.com/
-build2
-  https://build2.org/
-Cook
-  https://getcook.org/
-Bazel
-  https://bazel.build/
-GN
-  https://gn.googlesource.com/gn/
-Qbs
-  http://doc.qt.io/qbs/
-  (deprecated, see http://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/)
-
 Automatic source code formatting
 --------------------------------
 astyle
