@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [sjostrom20190409] How to Emulate the Spaceship Operator Before C++20 with CRTP
+ *     https://www.fluentcpp.com/2019/04/09/how-to-emulate-the-spaceship-operator-before-c20-with-crtp/
+ *
  *   [mueller20180907] Mathematics behind Comparison #4: Three-Way Comparison
  *     https://foonathan.net/blog/2018/09/07/three-way-comparison.html
  *
