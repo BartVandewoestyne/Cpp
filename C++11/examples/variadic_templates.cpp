@@ -13,6 +13,9 @@
  *   [mertz20161109] Modern C++ Features – Variadic Templates
  *     http://arne-mertz.de/2016/11/modern-c-features-variadic-templates/
  *
+ *   [turner20160411] C++ Weekly - Ep 6 Intro To Variadic Templates
+ *     https://youtu.be/o1EvPhz6UNE
+ *
  *   [bendersky20141024] Variadic templates in C++
  *     http://eli.thegreenplace.net/2014/variadic-templates-in-c/
  *
