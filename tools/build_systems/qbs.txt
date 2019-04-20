@@ -1,6 +1,17 @@
-IMPORTANT: Qbs is deprecated, see
-
-  http://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/)
-
 Qbs
   http://doc.qt.io/qbs/
+
+
+IMPORTANT: Qbs is 'deprecated', see
+
+  http://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/
+
+but this only means that it is no longer maintained by the Qt Company. It might
+be maintained by the community in the future:
+
+  https://blog.qt.io/blog/2018/10/29/deprecation-of-qbs/#comment-1205579
+
+Apparently, Qbs 1.13 is the latest release by the Qt Company. After that, the
+project will be handed over to the community:
+
+  https://blog.qt.io/blog/2019/04/18/qbs-1-13-released/
