@@ -5,9 +5,17 @@
  *
  * References:
  *
- *   [1] https://msdn.microsoft.com/en-us/library/34h23df8.aspx
- *   [2] http://stackoverflow.com/questions/27463785/cant-pass-temporary-object-as-reference
- *   [3] https://msdn.microsoft.com/en-us/library/0k0w269d.aspx
+ *   [microsoft] Microsoft extensions to C and C++
+ *     https://msdn.microsoft.com/en-us/library/34h23df8.aspx
+ *
+ *   [microsoft] /Za, /Ze (Disable Language Extensions)
+ *     https://msdn.microsoft.com/en-us/library/0k0w269d.aspx
+ *
+ *   [2] Can't pass temporary object as reference
+ *     http://stackoverflow.com/questions/27463785/cant-pass-temporary-object-as-reference
+ *
+ *   [sawicki20120131] Visual C++ is so Liberal
+ *     http://www.asawicki.info/news_1482_visual_c_is_so_liberal.html
  */
 class Base { };
 
