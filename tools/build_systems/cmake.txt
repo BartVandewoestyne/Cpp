@@ -1,6 +1,9 @@
 Project page:
   https://cmake.org/
 
+[adam20190501] Bundling together static libraries with CMake
+  https://cristianadam.eu/20190501/bundling-together-static-libraries-with-cmake/
+
 [scott20190315] Professional CMake: A Practical Guide
   https://crascit.com/professional-cmake/
 
