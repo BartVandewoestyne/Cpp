@@ -1,0 +1,9 @@
+Main websites:
+
+  https://docs.hunter.sh/en/latest/
+  https://github.com/ruslo/hunter
+
+References:
+
+  [kontsevich20190302] A Quick introduction to Hunter
+    https://geokon-gh.github.io/hunterintro.html
