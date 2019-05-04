@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [dongha20190406] Exploring the C++ Coroutine
+ *     https://github.com/luncliff/coroutine/wiki/ppt/%5BEng%5DExploringTheCppCoroutine.pdf
+ *
  *   [baker20180905] C++ Coroutines: Understanding the promise type
  *     https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type
  *
