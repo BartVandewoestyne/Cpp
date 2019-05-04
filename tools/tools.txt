@@ -31,32 +31,6 @@ Thread Sanitizer (for detecting data races)
   https://clang.llvm.org/docs/ThreadSanitizer.html
   https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
 
-Package managers
-----------------
-Conan
-  https://www.conan.io/
-  https://www.reddit.com/r/cpp/comments/7e7jbt/who_is_using_conanio/
-  https://fosdem.org/2018/schedule/event/conan/
-
-Conda
-  https://conda.io/
-
-Buckaroo
-  https://www.buckaroo.pm/
-
-Vcpkg
-  https://github.com/Microsoft/vcpkg
-  https://www.reddit.com/r/cpp/comments/7egtlh/who_is_using_vcpkg/
-
-CPPAN: C++ Archive Network
-  https://cppan.org/
-
-CPM (no longer maintained)
-  http://www.cpm.rocks/
-
-Nix
-  https://nixos.org/nix/
-
 Automatic source code formatting
 --------------------------------
 astyle

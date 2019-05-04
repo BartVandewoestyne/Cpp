@@ -1,0 +1,3 @@
+Vcpkg
+  https://github.com/Microsoft/vcpkg
+  https://www.reddit.com/r/cpp/comments/7egtlh/who_is_using_vcpkg/
