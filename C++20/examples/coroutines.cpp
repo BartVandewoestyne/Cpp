@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [nikolov20190505] Coroutines & Concurrency in C++
+ *     https://stoyannk.wordpress.com/2019/05/05/coroutines-concurrency-in-c/
+ *
  *   [dongha20190406] Exploring the C++ Coroutine
  *     https://github.com/luncliff/coroutine/wiki/ppt/%5BEng%5DExploringTheCppCoroutine.pdf
  *
