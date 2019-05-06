@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20190506] C++20: Modules
+ *     https://www.heise.de/developer/artikel/C-20-Modules-4411738.html
+ *
  *   [kolpackov2017cppcon] Building C++ Modules
  *     https://youtu.be/E8EbDcLQAoc
  *
