@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [schreiner] An Introduction to Modern CMake
+    https://cliutils.gitlab.io/modern-cmake/
+
   [baratov] CGold: The Hitchhiker’s Guide to the CMake
     https://cgold.readthedocs.io/
   
