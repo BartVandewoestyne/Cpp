@@ -1,11 +1,19 @@
 Project page:
   https://cmake.org/
 
-[adam20190501] Bundling together static libraries with CMake
-  https://cristianadam.eu/20190501/bundling-together-static-libraries-with-cmake/
+References:
 
-[scott20190315] Professional CMake: A Practical Guide
-  https://crascit.com/professional-cmake/
-
-[arias20180219] It's Time To Do CMake Right
-  https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
+  [baratov] CGold: The Hitchhiker’s Guide to the CMake
+    https://cgold.readthedocs.io/
+  
+  [kirilov] Awesome CMake
+    https://github.com/onqtam/awesome-cmake
+  
+  [adam20190501] Bundling together static libraries with CMake
+    https://cristianadam.eu/20190501/bundling-together-static-libraries-with-cmake/
+  
+  [scott20190315] Professional CMake: A Practical Guide
+    https://crascit.com/professional-cmake/
+  
+  [arias20180219] It's Time To Do CMake Right
+    https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
