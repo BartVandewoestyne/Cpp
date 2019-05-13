@@ -3,10 +3,16 @@ Project page:
 
 References:
 
+  [binna????????] Effective Modern CMake
+    https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1
+
+  [llvm??????] CMake Primer
+    https://llvm.org/docs/CMakePrimer.html
+
   [schreiner] An Introduction to Modern CMake
     https://cliutils.gitlab.io/modern-cmake/
 
-  [baratov] CGold: The Hitchhiker’s Guide to the CMake
+  [baratov] CGold: The Hitchhiker's Guide to the CMake
     https://cgold.readthedocs.io/
   
   [kirilov] Awesome CMake
@@ -18,5 +24,23 @@ References:
   [scott20190315] Professional CMake: A Practical Guide
     https://crascit.com/professional-cmake/
   
+  [horenovsky20180602] Basic CMake, part 2: libraries
+    https://codingnest.com/basic-cmake-part-2/
+
+  [horenovsky20180520] Basic CMake usage
+    https://codingnest.com/basic-cmake/
+
   [arias20180219] It's Time To Do CMake Right
     https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
+
+  [bahadir2018????] More Modern CMake - Deniz Bahadir - Meeting C++ 2018
+    https://youtu.be/y7ndUhdQuU8
+
+  [pfeifer2017????] C++Now 2017: Daniel Pfeifer "Effective CMake"
+    https://youtu.be/bsXLMQ6WgIk
+
+  [ropert20171013] CppCon 2017: Mathieu Ropert "Using Modern CMake Patterns to Enforce a Good Modular Design"
+    https://youtu.be/eC9-iRN2b04
+
+  [turner20170828] C++ Weekly - Ep 78 - Intro to CMake
+    https://youtu.be/HPMvU64RUTY
