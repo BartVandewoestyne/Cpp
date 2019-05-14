@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [silisteanu20190509] C++17 STL Parallel Algorithms - with GCC 9.1 and Intel TBB on Linux and macOS
+ *     https://solarianprogrammer.com/2019/05/09/cpp-17-stl-parallel-algorithms-gcc-intel-tbb-linux-macos/
+ *
  *   [filipek20181126] How to Boost Performance with Intel Parallel STL and C++17 Parallel Algorithms
  *     https://www.bfilipek.com/2018/11/pstl.html
  *
