@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20190513] C++20: Mehr Details zu Modulen
+ *     https://www.heise.de/developer/artikel/C-20-Mehr-Details-zu-Modulen-4418052.html
+ *
  *   [grimm20190506] C++20: Modules
  *     https://www.heise.de/developer/artikel/C-20-Modules-4411738.html
  *
