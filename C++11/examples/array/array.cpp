@@ -1,12 +1,20 @@
 /*!
  * References:
  *
- *   [varun2017] C++11: std::array Tutorial and examples
+ *   [grimm20190516] C++ Core Guidelines: The Standard Library
+ *     http://www.modernescpp.com/index.php/c-core-guidelines-the-standard-library
+ *
+ *   [varun20171119] C++11: std::array Tutorial and examples
  *     http://thispointer.com/c11-stdarray-tutorial-and-examples/
  *
- *   [1] http://www.modernescpp.com/index.php/std-array-dynamic-memory-no-thanks
- *   [2] https://www.embeddedrelated.com/showarticle/1031.php
- *   [3] https://a4z.bitbucket.io/blog/2017/01/19/A-convenient-constructor-for-std::array.html
+ *   [eshleman20170226] Favorite Tools: C++11 std::array
+ *     https://www.embeddedrelated.com/showarticle/1031.php
+ *
+ *   [achitz20170119] A convenient way creating a std::array
+ *     https://a4z.bitbucket.io/blog/2017/01/19/A-convenient-constructor-for-std::array.html
+ *
+ *   [grimm20161219] http://www.modernescpp.com/index.php/std-array-dynamic-memory-no-thanks
+ *     http://www.modernescpp.com/index.php/std-array-dynamic-memory-no-thanks
  */
 
 #include <algorithm>
