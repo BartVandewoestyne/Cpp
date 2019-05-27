@@ -1,6 +1,9 @@
 /*!
  * References:
  *
+ *   [grimm20190527] C++ Core Guidelines: std::array und std::vector sind die erste Wahl
+ *     https://www.heise.de/developer/artikel/C-Core-Guidelines-std-array-und-std-vector-sind-die-erste-Wahl-4431985.html
+ *
  *   [grimm20190516] C++ Core Guidelines: The Standard Library
  *     http://www.modernescpp.com/index.php/c-core-guidelines-the-standard-library
  *
