@@ -11,7 +11,7 @@
  *   [microsoft] /Za, /Ze (Disable Language Extensions)
  *     https://msdn.microsoft.com/en-us/library/0k0w269d.aspx
  *
- *   [2] Can't pass temporary object as reference
+ *   [stackoverflow20141213] Can't pass temporary object as reference
  *     http://stackoverflow.com/questions/27463785/cant-pass-temporary-object-as-reference
  *
  *   [sawicki20120131] Visual C++ is so Liberal
