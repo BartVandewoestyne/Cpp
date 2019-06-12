@@ -20,6 +20,9 @@
  *   [sawicki20120131] Visual C++ is so Liberal
  *     http://www.asawicki.info/news_1482_visual_c_is_so_liberal.html
  *
+ *   [stackoverflow20091014] How come a non-const reference cannot bind to a temporary object?
+ *     https://stackoverflow.com/questions/1565600/how-come-a-non-const-reference-cannot-bind-to-a-temporary-object
+ *
  *   [sutter20080101] GotW #88: A Candidate For the ``Most Important const''
  *     https://herbsutter.com/2008/01/01/gotw-88-a-candidate-for-the-most-important-const/
  */
