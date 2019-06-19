@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fahller20190613] Variant visitation variations
+ *     https://youtu.be/ERHYJy5KxQo
+ *
  *   [liber20190510] The Many Variants of std::variant
  *     https://youtu.be/JUxhwf7gYLg
  *

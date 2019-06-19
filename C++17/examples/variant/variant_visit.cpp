@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fahller20190613] Variant visitation variations
+ *     https://youtu.be/ERHYJy5KxQo
+ *
  *   [grimm2017cpplibrary] The C++ Standard Library, Second Edition, Rainer Grimm.
  */
 
