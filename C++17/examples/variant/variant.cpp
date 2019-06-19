@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [liber20190510] The Many Variants of std::variant
+ *     https://youtu.be/JUxhwf7gYLg
+ *
  *   [arias20180626] std::variant Doesn't Let Me Sleep
  *      https://pabloariasal.github.io/2018/06/26/std-variant/
  *
