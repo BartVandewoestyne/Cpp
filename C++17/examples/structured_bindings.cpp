@@ -16,3 +16,16 @@
  *
  *   [3] http://www.nuonsoft.com/blog/2017/07/26/c17-structured-bindings/
  */
+
+int main()
+{
+
+    // Iterating over a map using structured bindings:
+    std::map<int, int> m;
+    for (const auto& [key, value] : m)
+    {
+        std::cout << key << std::endl;
+        std::cout << value << std::endl;
+    }
+
+}
