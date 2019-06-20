@@ -1,3 +1,8 @@
 xmake
   https://xmake.io
   https://github.com/xmake-io/xmake
+
+References:
+
+  [tboox20190529] xmake vs cmake
+    https://tboox.org/2019/05/29/xmake-vs-cmake/
