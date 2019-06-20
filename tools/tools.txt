@@ -18,10 +18,6 @@ GSL
 
 Unit testing
 ------------
-Catch / Catch2
-  http://catch-lib.net/
-  https://youtu.be/3tIE6X5FjDE
-
 Google Test
   https://github.com/google/googletest
 
