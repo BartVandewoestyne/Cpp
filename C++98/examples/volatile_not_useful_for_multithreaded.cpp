@@ -1,6 +1,9 @@
 /*
  * References:
  *   
+ *   [karls20190602] Should volatile really never be used for multi-threading?
+ *     https://www.reddit.com/r/cpp/comments/bw2au4/should_volatile_really_never_be_used_for/
+ *
  *   [brandy20170929] Curiously Recurring C++ Bugs at Facebook (CppCon 2017)
  *     https://youtu.be/3MB2iiCkGxg?t=1021
  *     
