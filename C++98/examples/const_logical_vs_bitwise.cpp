@@ -1,11 +1,17 @@
 /*
  * References:
  *
+ *   [isocpp] How can it help me design better classes if I distinguish logical state from physical state?
+ *     https://isocpp.org/wiki/faq/const-correctness#logical-vs-physical-state
+ *
  *   [meyers] Effective C++
  *     TODO: find item
  *
  *   [subramaniyan20171028] Logic Constness and Bitwise Constness in c++
  *     https://youtu.be/bKIqdkjWFfU
+ *
+ *  [chatterjee20170307] Check for const correctness with the C++ Core Guidelines Checker
+ *     https://blogs.msdn.microsoft.com/vcblog/2017/03/07/check-for-const-correctness-with-the-c-core-guidelines-checker/
  *
  *   [sutter20130524] GotW #6a Solution: Const-Correctness, Part 1
  *     https://herbsutter.com/2013/05/24/gotw-6a-const-correctness-part-1-3/
