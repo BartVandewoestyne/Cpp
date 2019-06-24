@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [kozhevnikov20190615]  The Future of C++ with Modules
+ *     https://youtu.be/yRuxpVo5wJQ
+ *
  *   [grimm20190513] C++20: Mehr Details zu Modulen
  *     https://www.heise.de/developer/artikel/C-20-Mehr-Details-zu-Modulen-4418052.html
  *
