@@ -1,2 +1,5 @@
+[microsoft20190605] C++ Language Reference
+  https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference
+
 [cppdepend20180209] The 15 C++11 features you must really use in your C++ projects.
   http://cppdepend.com/blog/?p=319
