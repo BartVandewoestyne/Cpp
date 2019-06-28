@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20190615] Concepts in C++20: A Revolution (itCppCon19)
+ *     https://youtu.be/3XYrw1N-Ev4
+ *
  *   [dibella20180515] Prepping Yourself to Conceptify Algorithms
  *     http://cjdb.com.au/blog/2018/05/15/prepping-yourself-to-conceptify-algorithms
  *   [grimm20170320] Concepts definieren
