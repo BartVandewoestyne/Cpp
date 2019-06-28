@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [barbati20190615] Coroutines in practice (itCppCon19)
+ *     https://youtu.be/sUajXn2YCgg
+ *
  *   [nikolov20190505] Coroutines & Concurrency in C++
  *     https://stoyannk.wordpress.com/2019/05/05/coroutines-concurrency-in-c/
  *
