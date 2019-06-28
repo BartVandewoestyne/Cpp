@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [dacamara20190627] Simplify Your Code With Rocket Science: C++20's Spaceship Operator
+ *     https://devblogs.microsoft.com/cppblog/simplify-your-code-with-rocket-science-c20s-spaceship-operator/
+ *
  *   [sjostrom20190409] How to Emulate the Spaceship Operator Before C++20 with CRTP
  *     https://www.fluentcpp.com/2019/04/09/how-to-emulate-the-spaceship-operator-before-c20-with-crtp/
  *
