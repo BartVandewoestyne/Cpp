@@ -7,6 +7,9 @@
  *   [shahar20180919] Move Semantics
  *     https://shaharmike.com/cpp/move-semantics/
  *
+ *   [josuttis20180830] The Nightmare of Move Semantics for Trivial C++ Classes
+ *     https://vimeo.com/292914829
+ *
  *   [raggi20180717] How to Construct C++ Objects Without Making Copies
  *     https://www.fluentcpp.com/2018/07/17/how-to-construct-c-objects-without-making-copies/
  *
@@ -18,6 +21,9 @@
  *
  *   [maudal20180205] Modern C++ Explained: Move Semantics, Olve Maudal.
  *     http://www.pvv.org/~oma/ModernCPPExplained_MoveSemantics_Feb2018.pdf
+ *
+ *   [josuttis20170926] The Nightmare of Move Semantics for Trivial Classes
+ *     https://youtu.be/PNRju6_yn3o
  *
  *   [hinnant20160916] Everything You Ever Wanted to Know About Move Semantics
  *     https://youtu.be/vLinb2fgkHk
