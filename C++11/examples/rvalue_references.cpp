@@ -28,3 +28,22 @@
  *   [hinnant_stroustrup_kozicki20080310] A Brief Introduction to Rvalue References
  *     http://www.artima.com/cppsource/rvalue.html
  */
+
+struct A {
+};
+
+int main()
+{
+    A a;
+
+    //A& a_ref1 = a;   // an lvalue reference
+    //A&& a_ref2 = a;  // an rvalue reference
+
+    // An rvalue reference behaves just like an lvalue reference except that it
+    // can bind to a temporary (an rvalue), whereas you can not bind a (non
+    // const) lvalue reference to an rvalue.
+    //A& a_ref3 = A();  // error: cannot bind non-const lvalue reference of type 'A&' to an rvalue of type 'A'
+    A&& a_ref4 = A();   // OK!
+
+    // TODO: continue with the tutorial in (hinnant_stroustrup_kozicki20080310)
+}
