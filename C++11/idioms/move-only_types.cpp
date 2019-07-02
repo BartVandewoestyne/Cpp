@@ -5,12 +5,18 @@
  *     cannot/should not be shared between objects.  For example
  *     a Socket class (see [stackoverflow20151024]).
  *
- *   - Other?
+ *   - ... other?
  *
- * Examples of move-only types:
+ * Note that movable but non-copyable types...
+ *    ... can be returned by value from factory functions,
+ *    ... can safely be put into standard containers.
  *
+ * Some examples of move-only types:
+ *
+ *   fstream
  *   std::atomic
  *   std::unique_ptr
+ *   a type representing a thread of execution
  *
  * References:
  *
@@ -25,6 +31,9 @@
  *
  *   [meyers20140724] Should move-only types ever be passed by value?
  *     http://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html
+ *
+ *   [hinnant_stroustrup_kozicki_20080310] A Brief Introduction to Rvalue References
+ *     http://www.devx.com/cplus/10MinuteSolution/34577
  */
 
 #include <string>
