@@ -21,4 +21,7 @@
  *
  *   [hinnant20160916] Everything You Ever Wanted to Know About Move Semantics
  *     https://youtu.be/vLinb2fgkHk
+ *
+ *   [kalev20070510] Move Semantics: Make Your Next Move
+ *     http://www.devx.com/cplus/10MinuteSolution/34577
  */
