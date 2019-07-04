@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [berner20190624] Cmake line by line - creating a header-only library
+    http://dominikberner.ch/cmake-interface-lib/
+
   [binna????????] Effective Modern CMake
     https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1
 
