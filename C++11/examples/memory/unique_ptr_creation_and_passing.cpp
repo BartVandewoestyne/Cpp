@@ -17,45 +17,42 @@
 #include <cstdlib>
 #include <memory>
 
-using namespace std;
-
 struct Foo {
 
   Foo() {
-    cerr << "Foo [" << this << "] constructed\n";
+    std::cerr << "Foo [" << this << "] constructed\n";
   }
 
   virtual ~Foo() {
-    cerr << "Foo [" << this << "] destructed\n";
+    std::cerr << "Foo [" << this << "] destructed\n";
   }
 
 };
 
 
-void sink(unique_ptr<Foo> p) {
-  cerr << "Sink owns Foo [" << p.get() << "]\n";
+void sink(std::unique_ptr<Foo> p) {
+  std::cerr << "Sink owns Foo [" << p.get() << "]\n";
 }
 
 
-unique_ptr<Foo> source() {
-    cerr << "Creating Foo in source\n";
-    return unique_ptr<Foo>(new Foo);
+std::unique_ptr<Foo> source() {
+    std::cerr << "Creating Foo in source\n";
+    return std::unique_ptr<Foo>(new Foo);
 }
 
 
 int main(int argc, char** argv) {
 
-    cerr << "Calling source()\n";
-    unique_ptr<Foo> pmain = source();  // Can also be written as
-                                       // auto pmain = source();
+    std::cerr << "Calling source()\n";
+    auto pmain = source();
 
-    cerr << "Now pmain owns Foo [" << pmain.get() << "]\n";
+    std::cerr << "Now pmain owns Foo [" << pmain.get() << "]\n";
 
-    cerr << "Passing it to sink()\n";
-    //sink(pmain);                    // ERROR! can't copy unique_ptr
-    sink(move(pmain));              // OK: can move it!
+    std::cerr << "Passing it to sink()\n";
+    //sink(pmain);                    // ERROR: can't copy std::unique_ptr!
+    sink(std::move(pmain));           // OK: can move it!
 
-    cerr << "Main done\n";
+    std::cerr << "Main done\n";
     return 0;
 
 }
