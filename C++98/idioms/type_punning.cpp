@@ -6,4 +6,7 @@
  *
  *   [regehr20130611] Type Punning, Strict Aliasing, and Optimization
  *     https://blog.regehr.org/archives/959
+ *
+ *   [TheChernoProject] Type Punning in C++
+ *     https://youtu.be/8egZ_5GA9Bc
  */
