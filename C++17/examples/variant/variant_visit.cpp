@@ -1,6 +1,8 @@
 /*
  * References:
  *
+ *   [mestre20190710] Templated Runtime Polymorphism
+ *     https://sebmestre.blogspot.com/2019/07/templated-runtime-polymorphism.html
  *   [fahller20190613] Variant visitation variations
  *     https://youtu.be/ERHYJy5KxQo
  *
