@@ -1,6 +1,14 @@
-[clow2019XXXX] Changes to the C++ standard library for C++20
-  https://youtu.be/coXGSfUak-Q
+References:
 
-https://github.com/tvaneerd/cpp20_in_TTs
-https://www.reddit.com/r/cpp/comments/85d5v0/jacksonville18_iso_c_report_j_daniel_garc%C3%ADa/
-https://usingstdcpp.org/2018/03/18/jacksonville18-iso-cpp-report/
+  [vaneerd] C++20 features described in Before/After tables ("Tony Tables")
+    https://github.com/tvaneerd/cpp20_in_TTs
+
+  [sutter20190720] Trip report: Summer ISO C++ standards meeting (Cologne)
+    https://herbsutter.com/2019/07/20/trip-report-summer-iso-c-standards-meeting-cologne/
+  
+  [clow2019XXXX] Changes to the C++ standard library for C++20
+    https://youtu.be/coXGSfUak-Q
+  
+  [garcia20180318] Jacksonville’18 ISO C++ Report
+    https://usingstdcpp.org/2018/03/18/jacksonville18-iso-cpp-report/
+    https://www.reddit.com/r/cpp/comments/85d5v0/jacksonville18_iso_c_report_j_daniel_garc%C3%ADa/
