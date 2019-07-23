@@ -3,9 +3,21 @@
  * and std::regex_search.
  *
  * References:
- *   [1] https://youtu.be/IOxKjqC1Ozo
- *   [2] https://stackoverflow.com/questions/26696250/difference-between-stdregex-match-stdregex-search
- *   [3] https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Tim-Shen-Regular-Expressions-in-C-Present-and-Future
+ *
+ *   [grimm20190722] Mehr Regeln zu regulären Ausdrücken
+ *     https://www.heise.de/developer/artikel/Mehr-Regeln-zu-regulaeren-Ausdruecken-4475875.html
+ *
+ *   [grimm20190715] "The Regular Expression"-Bibliothek
+ *     https://www.heise.de/developer/artikel/The-Regular-Expression-Bibliothek-4469602.html
+ *
+ *   [turner20170508] C++ Weekly - Ep 62 - std::regex
+ *     https://youtu.be/IOxKjqC1Ozo
+ *
+ *   [stackoverflow20141102] Difference between std::regex_match & std::regex_search?
+ *     https://stackoverflow.com/questions/26696250/difference-between-stdregex-match-stdregex-search
+ *
+ *   [shen20161102] CppCon 2016: Tim Shen “Regular Expressions in C++, Present and Future"
+ *     https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Tim-Shen-Regular-Expressions-in-C-Present-and-Future
  */
 
 #include <iostream>
