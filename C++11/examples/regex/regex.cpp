@@ -7,6 +7,9 @@
  *   [grimm20190722] Mehr Regeln zu regulären Ausdrücken
  *     https://www.heise.de/developer/artikel/Mehr-Regeln-zu-regulaeren-Ausdruecken-4475875.html
  *
+ *   [grimm20190718] More Rules to the Regular Expression Library
+ *     http://www.modernescpp.com/index.php/more-rules-to-the-regular-expression-library
+ *
  *   [grimm20190715] "The Regular Expression"-Bibliothek
  *     https://www.heise.de/developer/artikel/The-Regular-Expression-Bibliothek-4469602.html
  *
