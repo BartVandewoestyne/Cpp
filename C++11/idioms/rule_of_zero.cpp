@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [odwyer20190820] Self-assignment and the Rule of Zero
+ *     https://quuxplusone.github.io/blog/2019/08/20/rule-of-zero-pitfall/
+ *
  *   [cppcoreguidelines] C.20: If you can avoid defining default operations, do
  *     http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero
  *
