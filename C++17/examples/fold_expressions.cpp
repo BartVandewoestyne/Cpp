@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [cukic20191030] Efficient QString concatenation with C++17 fold expressions
+ *     https://www.qt.io/blog/efficient-qstring-concatenation-with-c17-fold-expressions
+ *
  *   [grimm20190408] C++ Insights: Variadic Templates
  *     https://www.heise.de/developer/artikel/C-Insights-Variadic-Templates-4365343.html
  *
