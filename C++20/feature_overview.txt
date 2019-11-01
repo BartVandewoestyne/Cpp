@@ -1,5 +1,8 @@
 References:
 
+  [gregoire20191010] C++20: What's in it for you?
+    http://becpp.org/blog/wp-content/uploads/2019/10/Marc-Gregoire-C20-Whats-In-It-For-You.pptx
+
   [vaneerd] C++20 features described in Before/After tables ("Tony Tables")
     https://github.com/tvaneerd/cpp20_in_TTs
 
