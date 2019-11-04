@@ -1,6 +1,9 @@
 /*
  * References:
  *   
+ *   [bastien20190920] Deprecating volatile (CppCon 2019)
+ *     https://youtu.be/KJW_DLaVXIY
+ *
  *   [karls20190602] Should volatile really never be used for multi-threading?
  *     https://www.reddit.com/r/cpp/comments/bw2au4/should_volatile_really_never_be_used_for/
  *
