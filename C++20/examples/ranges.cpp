@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [schoedl20191010] From Iterators To Ranges - The Upcoming Evolution Of the Standard Library
+ *     http://becpp.org/blog/wp-content/uploads/2019/10/Arno-Schoedl-From-Iterators-To-Ranges.pdf
+ *
  *   [boccara20180209] Introduction to the C++ Ranges Library
  *     https://www.fluentcpp.com/2018/02/09/introduction-ranges-library/
  *
