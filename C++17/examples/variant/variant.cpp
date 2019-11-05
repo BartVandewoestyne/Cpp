@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [copperspice20191010] std::variant
+ *     https://youtu.be/FFZKH7jVjmg
+ *
  *   [fahller20190613] Variant visitation variations
  *     https://youtu.be/ERHYJy5KxQo
  *
