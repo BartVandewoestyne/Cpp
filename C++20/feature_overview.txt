@@ -1,5 +1,8 @@
 References:
 
+  [grimm20191028] C++20: The Big Four
+    http://www.modernescpp.com/index.php/thebigfour
+
   [gregoire20191010] C++20: What's in it for you?
     http://becpp.org/blog/wp-content/uploads/2019/10/Marc-Gregoire-C20-Whats-In-It-For-You.pptx
 
