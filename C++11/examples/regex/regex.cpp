@@ -16,11 +16,11 @@
  *   [turner20170508] C++ Weekly - Ep 62 - std::regex
  *     https://youtu.be/IOxKjqC1Ozo
  *
- *   [stackoverflow20141102] Difference between std::regex_match & std::regex_search?
- *     https://stackoverflow.com/questions/26696250/difference-between-stdregex-match-stdregex-search
- *
  *   [shen20161102] CppCon 2016: Tim Shen “Regular Expressions in C++, Present and Future"
  *     https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Tim-Shen-Regular-Expressions-in-C-Present-and-Future
+ *
+ *   [stackoverflow20141102] Difference between std::regex_match & std::regex_search?
+ *     https://stackoverflow.com/questions/26696250/difference-between-stdregex-match-stdregex-search
  */
 
 #include <iostream>
@@ -28,8 +28,11 @@
 
 int main()
 {
-    std::string s("one two three four");
-    std::regex re("three");
+    //std::string s("one two three four");
+    //std::regex re("three");
+    
+    std::string s("foo$.xml");
+    std::regex re("(.*)\\$.xml");
 
     if (std::regex_match(s, re))
     {
