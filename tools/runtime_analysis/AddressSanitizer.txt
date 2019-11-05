@@ -1,0 +1,4 @@
+https://github.com/google/sanitizers/wiki/AddressSanitizer
+
+[20191023cppteamblog] AddressSanitizer (ASan) for Windows with MSVC
+  https://devblogs.microsoft.com/cppblog/addresssanitizer-asan-for-windows-with-msvc/
