@@ -1,5 +1,8 @@
 References:
 
+  [grimm20191103] C++ 20: The Core Language
+    http://www.modernescpp.com/index.php/c-20-the-core-language
+
   [grimm20191028] C++20: The Big Four
     http://www.modernescpp.com/index.php/thebigfour
 
