@@ -3,6 +3,9 @@
  *
  *   [grimm20191202] C++20: Concepts - die Details
  *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Details-4599997.html
+ *   [grimm20191129] C++20: Concepts, the Details
+ *     http://www.modernescpp.com/index.php/c-20-concepts-the-details
+ *
  *   [grimm20191125] C++20: Two Extremes and the Rescue with Concepts
  *     http://www.modernescpp.com/index.php/concepts-two-extrems-and-the-solution
  *   [grimm20190615] Concepts in C++20: A Revolution (itCppCon19)
