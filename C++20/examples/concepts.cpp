@@ -1,8 +1,12 @@
 /*
  * References:
  *
+ *   [grimm20191209] C++20: Concepts - die Placeholder Syntax
+ *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Placeholder-Syntax-4607890.html
+ *
  *   [grimm20191202] C++20: Concepts - die Details
  *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Details-4599997.html
+ *
  *   [grimm20191129] C++20: Concepts, the Details
  *     http://www.modernescpp.com/index.php/c-20-concepts-the-details
  *
