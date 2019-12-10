@@ -4,6 +4,9 @@
  *   [grimm20191209] C++20: Concepts - die Placeholder Syntax
  *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Placeholder-Syntax-4607890.html
  *
+ *   [grimm20191208] C++20: Concepts, the Placeholder Syntax
+ *     http://www.modernescpp.com/index.php/c-20-concepts-the-placeholder-syntax
+ *
  *   [grimm20191202] C++20: Concepts - die Details
  *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Details-4599997.html
  *
