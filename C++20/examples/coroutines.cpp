@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20191209] C++ coroutines: Getting started with awaitable objects
+ *     https://devblogs.microsoft.com/oldnewthing/20191209-00/?p=103195
+ *
  *   [barbati20190615] Coroutines in practice (itCppCon19)
  *     https://youtu.be/sUajXn2YCgg
  *
