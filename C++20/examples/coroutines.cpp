@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20191210] C++ coroutines: Constructible awaitable or function returning awaitable?
+ *     https://devblogs.microsoft.com/oldnewthing/20191210-00/?p=103197
+ *
  *   [chen20191209] C++ coroutines: Getting started with awaitable objects
  *     https://devblogs.microsoft.com/oldnewthing/20191209-00/?p=103195
  *
