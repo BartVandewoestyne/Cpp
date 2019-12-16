@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20191216] C++20: Concepts - Syntactic Sugar
+ *     https://www.heise.de/developer/artikel/C-20-Concepts-Syntactic-Sugar-4615468.html
+ *
  *   [grimm20191209] C++20: Concepts - die Placeholder Syntax
  *     https://www.heise.de/developer/artikel/C-20-Concepts-die-Placeholder-Syntax-4607890.html
  *
