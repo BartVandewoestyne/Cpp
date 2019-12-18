@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20191213] C++ coroutines: Short-circuiting suspension, part 1
+ *     https://devblogs.microsoft.com/oldnewthing/20191213-00/?p=103210
+ *
  *   [chen20191210] C++ coroutines: Constructible awaitable or function returning awaitable?
  *     https://devblogs.microsoft.com/oldnewthing/20191210-00/?p=103197
  *
