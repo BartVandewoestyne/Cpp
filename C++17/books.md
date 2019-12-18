@@ -2,7 +2,10 @@ The following books cover C++17
 -------------------------------
 
 [lakos20191217] Large-Scale C++ Volume I: Process and Architecture
-  http://www.informit.com/store/large-scale-c-plus-plus-volume-i-process-and-architecture-9780201717068
+http://www.informit.com/store/large-scale-c-plus-plus-volume-i-process-and-architecture-9780201717068
+
+[grimm20191015] Concurrency with Modern C++
+https://leanpub.com/concurrencywithmodernc
 
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
@@ -15,6 +18,9 @@ http://www.stroustrup.com/tour2.html
 
 [filipek2018XXXX] C++17 in detail  
 https://leanpub.com/cpp17indetail
+
+[grimm20180611] Modernes C++: Concurrency meistern
+https://www.grimm-jaud.de/index.php/modernes-c-concurrency-meistern
 
 [bancila201805XX] The Modern C++ Challenge  
 https://www.packtpub.com/application-development/modern-c-challenge
