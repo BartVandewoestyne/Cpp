@@ -1,6 +1,9 @@
 The following books cover C++17
 -------------------------------
 
+[lakos20191217] Large-Scale C++ Volume I: Process and Architecture
+  http://www.informit.com/store/large-scale-c-plus-plus-volume-i-process-and-architecture-9780201717068
+
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
 
