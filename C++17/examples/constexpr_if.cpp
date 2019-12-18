@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [mertz20191211] Constexpr FizzBuzz - An Exercise in Compile-Time Calculations
+ *     https://arne-mertz.de/2019/12/constexpr-fizzbuzz/
+ *
  *   [filipek20180312] Simplify code with 'if constexpr' in C++17
  *     http://www.bfilipek.com/2018/03/ifconstexpr.html
  *
