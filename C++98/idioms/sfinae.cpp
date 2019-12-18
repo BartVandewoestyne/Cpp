@@ -4,6 +4,9 @@
  *   [wikipedia] Substitution failure is not an error
  *     http://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error
  *
+ *   [20191104alhadi] Substitution Failure is Error and Not An Error
+ *     https://medium.com/@MKahsari/sfinae-step-by-step-67e6ef6154da
+ *
  *   [20180518boccara] How to Make SFINAE Pretty – Part 2: the Hidden Beauty of SFINAE
  *     https://www.fluentcpp.com/2018/05/18/make-sfinae-pretty-2-hidden-beauty-sfinae/
  *
