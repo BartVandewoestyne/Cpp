@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[josuttis20191114] Combining C++17 Features - Nicolai Josuttis - Meeting C++ 2019
+  https://youtu.be/6HoxXeEBtW0
+
 [josuttis20180412] C++17 - The Best Features - Nicolai Josuttis [ACCU 2018]
   https://youtu.be/e2ZQyYr0Oi0
 
