@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20191216] C++ coroutines: Short-circuiting suspension, part 2
+ *     https://devblogs.microsoft.com/oldnewthing/20191216-00/?p=103217
+ *
  *   [chen20191213] C++ coroutines: Short-circuiting suspension, part 1
  *     https://devblogs.microsoft.com/oldnewthing/20191213-00/?p=103210
  *
