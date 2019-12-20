@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [mueller20191115] Using C++20 three way comparison - Jonathan Müller - Meeting C++ 2019
+ *     https://youtu.be/bysb-tzglqg
+ *
  *   [dacamara20190627] Simplify Your Code With Rocket Science: C++20's Spaceship Operator
  *     https://devblogs.microsoft.com/cppblog/simplify-your-code-with-rocket-science-c20s-spaceship-operator/
  *
