@@ -1,6 +1,10 @@
 /*
  * References:
  *
+ *   [bradley20190524] A Study on the Effects of Exception Usage in Open-Source C++ Systems
+ *     https://uwspace.uwaterloo.ca/handle/10012/14714
+ *     https://plg.uwaterloo.ca/~migod/papers/2019/scam19.pdf
+ *
  *   [stroustrup20191118] C++ exceptions and alternatives
  *     http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1947r0.pdf
  *
