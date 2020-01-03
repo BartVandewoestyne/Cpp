@@ -1,0 +1,5 @@
+These are the tools discussed in Appendix C of John Lakos his book Large-Scale C++ Software Design.
+
+https://gzuliani.bitbucket.io/tools/idep.html
+http://www.apibook.com/blog/archives/41
+http://rdfintrospector.blogspot.com/2006/08/configuration-tools-part-1-lsc-large.html

@@ -1,0 +1,5 @@
+https://www.reddit.com/r/cpp/comments/5meabk/cppdep_cc_dependency_analyzer_a_rewrite_of_john/
+
+https://github.com/rakhimov/cppdep
+https://github.com/yuzhichang/cppdep
+=> Note: I'm not sure if these two are the same...
