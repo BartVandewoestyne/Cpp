@@ -8,6 +8,8 @@
  *
  *   [cppcoreguidelines20150928] I.27: Use assert for self-checking and documentation
  *     https://github.com/isocpp/CppCoreGuidelines/issues/183
+ *
+ *   [lakos1996XXXX] Large-Scale C++ Software Design (section 1.3 page 32).
  */
 
 #include <cassert>
