@@ -2,6 +2,7 @@ cppdep can help finding the following issues:
 
   * missing includes
   * redundant includes
+  * duplicate includes
   * problems with include order
   * ... other... ?
 
