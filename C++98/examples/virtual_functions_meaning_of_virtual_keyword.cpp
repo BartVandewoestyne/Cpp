@@ -2,9 +2,19 @@
  * Example demonstrating a case where the virtual keyword is really necessary
  * in order to get polymorphic behavior.
  *
+ *   -> Non-virtual member functions bind statically.  Function resolution
+ *      occurs at compile time.
+ *
+ *   -> Virtual member functions bind dynamically.  Function resolution
+ *      occurs when the object is created.
+ *
  * References:
  *
- *   [1] http://stackoverflow.com/questions/6397356/what-does-virtual-keyword-when-overriding-method
+ *   [powell20150923] CppCon 2015: Richard Powell “Intro to the C++ Object Model"
+ *     https://youtu.be/iLiDezv_Frk?t=929
+ *
+ *   [stackoverflow20110618] What does the virtual keyword mean when overriding a method?
+ *     http://stackoverflow.com/questions/6397356/what-does-virtual-keyword-when-overriding-method
  */
 
 #include <iostream>
