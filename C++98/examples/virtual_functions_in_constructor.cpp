@@ -14,6 +14,9 @@
  *            virtual function get invoked?
  *     https://isocpp.org/wiki/faq/strange-inheritance#calling-virtuals-from-ctors
  *
+ *   [powell20150923] CppCon 2015: Richard Powell 'Intro to the C++ Object Model'
+ *     https://youtu.be/iLiDezv_Frk?t=1669
+ *
  *   [meyers20050605] Never Call Virtual Functions during Construction or Destruction
  *     https://www.artima.com/cppsource/nevercall.html
  *
