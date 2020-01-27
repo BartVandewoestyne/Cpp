@@ -1,5 +1,5 @@
 /**
- * A constexpr function is a named constant expression with parameters.  It’s
+ * A constexpr function is a named constant expression with parameters.  It is
  * meant to replace macros and hardcoded literals without sacrificing
  * performance or type safety.
  *
@@ -7,6 +7,9 @@
  *
  *   [grimm20190204] C++ Core Guidelines: Programmierung zur Compilezeit mit constexpr
  *     https://www.heise.de/developer/artikel/C-Core-Guidelines-Programmierung-zur-Compilezeit-mit-constexpr-4296535.html
+ *
+ *   [popa20180626] Convert Macros to Constexpr
+ *     https://devblogs.microsoft.com/cppblog/convert-macros-to-constexpr/
  *
  *   [iddn2017reddit] constexpr: why is it needed
  *     https://www.reddit.com/r/cpp/comments/7ddcq9/constexpr_why_is_it_needed/
