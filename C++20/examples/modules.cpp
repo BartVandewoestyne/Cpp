@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [dacamara20200122] C++ Modules conformance improvements with MSVC in Visual Studio 2019 16.5
+ *     https://devblogs.microsoft.com/cppblog/c-modules-conformance-improvements-with-msvc-in-visual-studio-2019-16-5/
+ *
  *   [kozhevnikov20190615]  The Future of C++ with Modules
  *     https://youtu.be/yRuxpVo5wJQ
  *
