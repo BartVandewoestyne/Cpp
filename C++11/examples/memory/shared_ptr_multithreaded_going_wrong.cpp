@@ -36,7 +36,7 @@ void thread_fcn()
     for(int i = 0; i < 10000; i++)
     {
         // Use this lock_guard to be safe!
-        //const std::lock_guard<std::mutex> lock(global_instance_mutex);
+        const std::lock_guard<std::mutex> lock(global_instance_mutex);
 
         *global_instance = *global_instance + 1;
     }
@@ -57,9 +57,6 @@ int main(int argc, char** argv)
     std::thread thread8(thread_fcn);
     std::thread thread9(thread_fcn);
     std::thread thread10(thread_fcn);
-
-    //std::chrono::milliseconds duration(10000);
-    //std::this_thread::sleep_for(duration);
 
     thread1.join();
     thread2.join();
