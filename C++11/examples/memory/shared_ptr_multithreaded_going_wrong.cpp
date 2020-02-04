@@ -35,8 +35,8 @@ void thread_fcn()
     // It'll be something else.
     for(int i = 0; i < 10000; i++)
     {
-        // Comment this in to be safe!
-        const std::lock_guard<std::mutex> lock(global_instance_mutex);
+        // Use this lock_guard to be safe!
+        //const std::lock_guard<std::mutex> lock(global_instance_mutex);
 
         *global_instance = *global_instance + 1;
     }
