@@ -1,6 +1,9 @@
 /* 
  * References:
  *
+ *   [josuttis20190902-05] C++ Smart Pointers - Usage and Secrets
+ *     https://youtu.be/XH4xIyS9B2I?t=1847
+ *     
  *   [wang20180911] c++ why std::shared_ptr need atomic_store, atomic_load or why we need atomic shared_ptr
  *     http://www.comrite.com/wp/c-why-need-atomic_store-atomic_load-on-shared_ptr-atomic-shared_ptr/
  *
