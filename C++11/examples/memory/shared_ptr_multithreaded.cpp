@@ -10,6 +10,10 @@
  *   [park20180903] std::shared_ptr is not thread safe
  *     https://marsettler.com/2018/09/03/shared-ptr-is-not-thread-safe.html
  * 
+ *   [pusz20161115] std::shared_ptr<T> (not so) smart hammer for every pointy nail
+ *     https://cdn2-ecros.pl/event/codedive/files/presentations/2016/std_shared_ptr.pdf
+ *     https://youtu.be/hHQS-Q7aMzg?t=896
+ *
  *   [shahar20161113] Exploring std::shared_ptr - Performance & thread safety
  *     https://shaharmike.com/cpp/shared-ptr/#performance-thread-safety
  *
