@@ -3,6 +3,9 @@
  *
  *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
  *
+ *  [odwyer20190919] Back to Basics: Smart Pointers
+ *    https://youtu.be/xGDLkt-jBJ4?t=2578
+ *
  *  [klitzke2017] Notes on std::shared_ptr and std::weak_ptr
  *    https://eklitzke.org/notes-on-std-shared-ptr-and-std-weak-ptr
  *
@@ -19,7 +22,7 @@
 #include <memory>
 #include <iostream>
  
-struct Good: std::enable_shared_from_this<Good> // note: public inheritance
+struct Good : std::enable_shared_from_this<Good> // note: public inheritance
 {
     std::shared_ptr<Good> getptr() {
         return shared_from_this();
