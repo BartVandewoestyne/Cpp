@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [odwyer20190919] Back to Basics: Smart Pointers
+ *     https://youtu.be/xGDLkt-jBJ4
+ *
  *   [josuttis20190902-05] C++ Smart Pointers - Usage and Secrets
  *     https://youtu.be/XH4xIyS9B2I
  *
