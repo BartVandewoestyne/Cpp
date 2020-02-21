@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [sutter20200217] Move, simply
+ *     https://herbsutter.com/2020/02/17/move-simply/
+ *
  *   [winward20190117] C++ moves for people who don't know or care what rvalues are
  *     https://medium.com/@winwardo/c-moves-for-people-who-dont-know-or-care-what-rvalues-are-%EF%B8%8F-56ee122dda7
  *
