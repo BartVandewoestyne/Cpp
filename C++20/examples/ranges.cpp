@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [grimm20200217] C++20: The Ranges Library
+ *     http://www.modernescpp.com/index.php/c-20-the-ranges-library
+ *
  *   [schoedl20191010] From Iterators To Ranges - The Upcoming Evolution Of the Standard Library
  *     http://becpp.org/blog/wp-content/uploads/2019/10/Arno-Schoedl-From-Iterators-To-Ranges.pdf
  *
