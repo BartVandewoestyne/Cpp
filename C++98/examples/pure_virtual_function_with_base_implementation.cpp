@@ -12,6 +12,9 @@
  * 
  * References:
  *
+ *   [reddit20200226] Today I learned that you can declare a virtual method to be pure even if it has a definition in a base class
+ *     https://www.reddit.com/r/cpp/comments/f9dgxf/today_i_learned_that_you_can_declare_a_virtual/
+ *
  *   [ontherocks20140827] Implementing pure virtual function in the abstract class - is there any use of it?
  *     http://stackoverflow.com/questions/25530108/implementing-pure-virtual-function-in-the-abstract-class-is-there-any-use-of-i
  *
