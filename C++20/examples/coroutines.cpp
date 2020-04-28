@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20200416] C++20: Coroutines with cppcoro
+ *     http://www.modernescpp.com/index.php/c-20-coroutines-with-cppcoro
+ *
  *   [chen20191216] C++ coroutines: Short-circuiting suspension, part 2
  *     https://devblogs.microsoft.com/oldnewthing/20191216-00/?p=103217
  *
