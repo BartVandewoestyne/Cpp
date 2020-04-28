@@ -1,13 +1,3 @@
-Compile-time code checking
---------------------------
-GSL
-  https://github.com/Microsoft/GSL
-  https://github.com/martinmoene/gsl-lite
-  https://github.com/viboes/GSL
-  https://github.com/mbasaglia/Cxx-MiscLib/blob/master/include/misclib/gsl.hpp
-
-  https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
-
 Unit testing
 ------------
 Google Test
