@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20200615] C++20: The Three-Way Comparison Operator
+ *     https://www.modernescpp.com/index.php/c-20-the-three-way-comparison-operator
+ *
  *   [mueller20191115] Using C++20 three way comparison - Jonathan Müller - Meeting C++ 2019
  *     https://youtu.be/bysb-tzglqg
  *
