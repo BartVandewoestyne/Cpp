@@ -3,6 +3,9 @@
  *
  *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
  *
+ *  [kumar20200524] enable_shared_from_this - overview, examples, and internals
+ *    https://www.nextptr.com/tutorial/ta1414193955/enable_shared_from_this-overview-examples-and-internals
+ *
  *  [odwyer20190919] Back to Basics: Smart Pointers
  *    https://youtu.be/xGDLkt-jBJ4?t=2578
  *
