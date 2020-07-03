@@ -7,6 +7,9 @@ http://www.informit.com/store/large-scale-c-plus-plus-volume-i-process-and-archi
 [grimm20191015] Concurrency with Modern C++
 https://leanpub.com/concurrencywithmodernc
 
+[lospinoso201909XX] C++ Crash Course - A Fast-Paced Introduction
+https://nostarch.com/cppcrashcourse
+
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
 
@@ -62,3 +65,7 @@ https://www.packtpub.com/application-development/c17-stl-cookbook
 https://www.packtpub.com/application-development/modern-c-programming-cookbook
 
 Sams Teach Yourself C++ in One Hour a Day, 8th Edition, January 2, 2017.
+
+
+There is also a list at:
+  * https://devblogs.microsoft.com/cppblog/books-on-c17/
