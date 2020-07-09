@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20200706] Designated Initializers
+ *     http://www.modernescpp.com/index.php/designated-initializers
+ *
  *   [grimm20200706] C++20: Designated Initializers
  *     https://www.heise.de/developer/artikel/C-20-Designated-Initializers-4835833.html
  *
