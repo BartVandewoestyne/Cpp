@@ -4,6 +4,9 @@
  *   [wikipedia] Immediately invoked function expression
  *     https://en.wikipedia.org/wiki/Immediately-invoked_function_expression
  *
+ *   [rigtorp20200713] Uses of immediately invoked function expressions (IIFE) in C++
+ *     https://rigtorp.se/iife/
+ *
  *   [filipek20191021] C++ Tricks: IIFE for Complex Variable Initialization
  *     https://www.bfilipek.com/2016/11/iife-for-complex-initialization.html
  *
