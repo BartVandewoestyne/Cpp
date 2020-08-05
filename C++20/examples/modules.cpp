@@ -4,6 +4,9 @@
  *   [dacamara20200122] C++ Modules conformance improvements with MSVC in Visual Studio 2019 16.5
  *     https://devblogs.microsoft.com/cppblog/c-modules-conformance-improvements-with-msvc-in-visual-studio-2019-16-5/
  *
+ *   [sidwell20190917] CppCon 2019: Nathan Sidwell "Converting to C++20 Modules"
+ *     https://youtu.be/KVsWIEw3TTw
+ *
  *   [kozhevnikov20190615]  The Future of C++ with Modules
  *     https://youtu.be/yRuxpVo5wJQ
  *
