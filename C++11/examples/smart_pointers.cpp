@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [becker20200717] C++ Smart Pointers - Do I really need them? When?
+ *     https://youtu.be/Zt0zUcDHi7I
+ *
  *   [odwyer20190919] Back to Basics: Smart Pointers
  *     https://youtu.be/xGDLkt-jBJ4
  *
