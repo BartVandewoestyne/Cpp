@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [orians20200716] Improving Readability With Class Template Argument Deduction - A.J. Orians [ C++ on Sea 2020 ]
+ *     https://cpponsea.uk/2020/sessions/improving-readability-with-class-template-argument-deduction.html
+ *
  *   [lavavej20181011] How to Use Class Template Argument Deduction
  *     https://blogs.msdn.microsoft.com/vcblog/2018/10/11/how-to-use-class-template-argument-deduction/
  *
