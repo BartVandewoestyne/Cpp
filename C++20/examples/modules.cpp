@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm202008XX] C++20: A Simple Math Module
+ *     https://accu.org/index.php/journals/2822
+ *
  *   [dacamara20200122] C++ Modules conformance improvements with MSVC in Visual Studio 2019 16.5
  *     https://devblogs.microsoft.com/cppblog/c-modules-conformance-improvements-with-msvc-in-visual-studio-2019-16-5/
  *
