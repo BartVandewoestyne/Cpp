@@ -38,6 +38,9 @@
  *
  *   [shahar20170817] Need to demonstrate RVO performance with Clang and modern C++
  *     https://www.reddit.com/r/cpp/comments/6u78dp/need_to_demonstrate_rvo_performance_with_clang/
+ *
+ *   [boccara20161128] Return value optimizations
+ *     https://www.fluentcpp.com/2016/11/28/return-value-optimizations/
  */
 
 #include <iostream>
