@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [nayar20200819] C++20 in 2020: Modules
+ *     https://pspdfkit.com/blog/2020/cpp20-in-2020-modules/
+ *
  *   [grimm202008XX] C++20: A Simple Math Module
  *     https://accu.org/index.php/journals/2822
  *
