@@ -12,6 +12,7 @@ https://nostarch.com/cppcrashcourse
 
 [lippman201901XX] C++ Primer, 6th edition  
 https://www.amazon.co.uk/dp/0135161797
+https://www.amazon.com/dp/0135161797/ref=cm_sw_em_r_mt_dp_YQlrFbTD09429
 
 [cukic201811XX] Functional Programming in C++  
 https://www.manning.com/books/functional-programming-in-c-plus-plus
