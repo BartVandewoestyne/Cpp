@@ -1,5 +1,8 @@
 References:
 
+  [grimm20200824] volatile und andere kleine Verbesserungen in C++20
+    https://www.heise.de/developer/artikel/volatile-und-andere-kleine-Verbesserungen-in-C-20-4874333.html
+
   [grimm20191103] C++ 20: The Core Language
     http://www.modernescpp.com/index.php/c-20-the-core-language
 
