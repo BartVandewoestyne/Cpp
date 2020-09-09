@@ -20,6 +20,9 @@
  *
  * References:
  *
+ *   [cukic20200827] Meeting C++ online: Ivan Cukic - Move-only types can save the API
+ *     https://youtu.be/ojTsSGlhVLo
+ *
  *   [microsoft20190705] Value Types (Modern C++)
  *     https://docs.microsoft.com/en-us/cpp/cpp/value-types-modern-cpp
  *
