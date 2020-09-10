@@ -1,8 +1,11 @@
 /**
  * References:
  *
- *   [1] http://stackoverflow.com/questions/6963894/c11-how-to-use-range-based-for-loop-with-stdmap
- *   [2] http://mbevin.blogspot.be/2012/11/range-based-for.html
+ *   [bevin20121113] New syntax - Range-based for
+ *     http://mbevin.blogspot.be/2012/11/range-based-for.html
+ *
+ *   [stackoverflow20110806] How to use range-based for() loop with std::map?
+ *     http://stackoverflow.com/questions/6963894/c11-how-to-use-range-based-for-loop-with-stdmap
  */
 
 #include <iostream>
