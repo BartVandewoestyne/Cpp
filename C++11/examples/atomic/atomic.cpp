@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [saif20200825] std::atomic and Memory orders in C++
+ *     https://youtu.be/IE6EpkT7cJ4
+ *
  *   [doumler2017] The new C++17 and why it's good for you - Timur Doumler
  *     https://youtu.be/ky_eXBMcJK0?t=18m44s
  *
