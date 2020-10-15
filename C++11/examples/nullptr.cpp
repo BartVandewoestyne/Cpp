@@ -1,8 +1,15 @@
 /**
  * References:
- *   [1] http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html
- *   [2] http://en.cppreference.com/w/cpp/types/nullptr_t
+ *
+ *   [chen20180307] When MSDN says NULL, is it okay to use nullptr?
+ *     https://devblogs.microsoft.com/oldnewthing/20180307-00/?p=98175
+ *
+ *   [allain] Better types in C++11 - nullptr, enum classes (strongly typed enumerations) and cstdint
+ *     http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html
+ *
+ *   [cppreference] http://en.cppreference.com/w/cpp/types/nullptr_t
  */
+
 #include <cstddef>
 #include <iostream>
 
