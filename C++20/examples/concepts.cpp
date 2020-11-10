@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [vergel20200712] Programando con C++20 (Parte I): Concepts
+ *     https://dgvergel.blogspot.com/2020/06/programando-cpp20-parte-i.html
+ *
  *   [fertig20200804] C++20 Concepts: Testing constrained functions
  *     https://andreasfertig.blog/2020/08/cpp20-concepts-testing-constrained-functions/
  *
