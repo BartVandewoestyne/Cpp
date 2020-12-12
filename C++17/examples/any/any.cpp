@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [oopscene20201030] C++17: std::any
+ *     https://oopscenities.net/2020/10/30/cpp17_std_any/
+ *
  *   [filipek20180618] Everything You Need to Know About std::any from C++17
  *     https://www.bfilipek.com/2018/06/any.html
  *
