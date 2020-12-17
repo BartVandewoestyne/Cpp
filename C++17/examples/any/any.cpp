@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [kumar20201123] std::any - comparison with void* and motivating examples
+ *     https://www.nextptr.com/tutorial/ta1571648512/stdany-comparison-with-void-and-motivating-examples
+ *
  *   [oopscene20201030] C++17: std::any
  *     https://oopscenities.net/2020/10/30/cpp17_std_any/
  *
