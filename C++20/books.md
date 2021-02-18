@@ -1,4 +1,4 @@
-[gregoire202002XX] Professional C++, 5th Edition, Marc Gregoire
+[gregoire202002XX] Professional C++, 5th Edition, Marc Gregoire<br>
 https://www.wiley.com/en-us/Professional+C%2B%2B%2C+5th+Edition-p-9781119695509
 
 [grimm2020] C++20 Get the Details
