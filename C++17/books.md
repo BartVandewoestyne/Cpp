@@ -44,7 +44,7 @@ https://www.packtpub.com/application-development/c-high-performance
 [nesteruk2018] Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design, Dmitri Nesteruk, 2018.<br>
 https://www.apress.com/gp/book/9781484236024
 
-=> [williams201802XX] C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.<br>
+[williams201802XX] C++ Concurrency in Action, Second Edition, Anthony Williams, February 2018.<br>
 https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
 
 [roth2017XXYY] Clean C++, Sustainable Software Development Patterns and Best Practices with C++ 17, Stephan Roth, 2017.<br>
