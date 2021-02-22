@@ -4,6 +4,9 @@
  *   [becker20200717] C++ Smart Pointers - Do I really need them? When?
  *     https://youtu.be/Zt0zUcDHi7I
  *
+ *   [kumar20200705] unique_ptr, shared_ptr, weak_ptr, or reference_wrapper for class relationships
+ *     https://www.nextptr.com/tutorial/ta1450413058/unique_ptr-shared_ptr-weak_ptr-or-reference_wrapper-for-class-relationships
+ *
  *   [odwyer20190919] Back to Basics: Smart Pointers
  *     https://youtu.be/xGDLkt-jBJ4
  *
