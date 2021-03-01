@@ -2,7 +2,12 @@ clang-tidy main page:
 
   http://clang.llvm.org/extra/clang-tidy/
 
-Available for Visual Studio via the Clang Power Tools:
+Clang-Tidy support is available starting in Visual Studio 2019 version 16.4.
+It's included automatically when you choose a C++ workload in the Visual Studio
+Installer.
+
+For older versions of Visual Studio, it is available for Visual Studio via the
+Clang Power Tools:
 
      https://www.clangpowertools.com/
 
