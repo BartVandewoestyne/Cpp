@@ -8,6 +8,9 @@ Available for Visual Studio via the Clang Power Tools:
 
 References:
 
+  [microsoft20200219] Using Clang-Tidy in Visual Studio
+    https://docs.microsoft.com/en-us/cpp/code-quality/clang-tidy
+
   [reddit20200121] Using clang-tidy on windows for a visual studio project
     https://www.reddit.com/r/cpp/comments/ers58p/using_clangtidy_on_windows_for_a_visual_studio/
 
