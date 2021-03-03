@@ -4,6 +4,9 @@
  *   [grimm20210301] C++20: Einfache Futures mit Coroutinen implementieren
  *     https://www.heise.de/developer/artikel/C-20-Einfache-Futures-mit-Coroutinen-implementieren-5066861.html
  *
+ *   [mazières202102XX] My tutorial and take on C++20 coroutines
+ *     https://www.scs.stanford.edu/~dm/blog/c++-coroutines.html
+ *
  *   [grimm20200416] C++20: Coroutines with cppcoro
  *     http://www.modernescpp.com/index.php/c-20-coroutines-with-cppcoro
  *
