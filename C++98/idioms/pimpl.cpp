@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [plastis20210222] The Pointer to Implementation (pImpl) idiom in C++
+ *     https://youtu.be/lETcZQuKQBs
+ *
  *   [cpppatterns] The PIMPL idiom
  *     http://www.cppsamples.com/common-tasks/pimpl.html
  *
