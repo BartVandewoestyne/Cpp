@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [richardson20200305] Modern CMake - An Introduction
+    https://youtu.be/bDdkJu-nVTo
+
   [berner20190624] Cmake line by line - creating a header-only library
     http://dominikberner.ch/cmake-interface-lib/
 
