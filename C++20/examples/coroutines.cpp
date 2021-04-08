@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20210405] C++ coroutines: Making the promise itself be the shared state, the outline
+ *     https://devblogs.microsoft.com/oldnewthing/20210405-00/?p=105054
+ *
  *   [grimm20210301] Implementing Simple Futures with Coroutines
  *     http://www.modernescpp.com/index.php/implementing-futures-with-coroutines
  *
