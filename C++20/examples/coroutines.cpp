@@ -9,6 +9,12 @@
  *
  *   [chen20210401] C++ coroutines: What happens if an exception occurs in my return_value?
  *     https://devblogs.microsoft.com/oldnewthing/20210401-00/?p=105043
+ *
+ *   [chen20210331] C++ coroutines: The initial and final suspend, and improving our return_value method
+ *     https://devblogs.microsoft.com/oldnewthing/20210331-00/?p=105028
+ *
+ *   [chen20210330] C++ coroutines: Basic implementation of a promise type
+ *     https://devblogs.microsoft.com/oldnewthing/20210330-00/?p=105019
  *     
  *   [grimm20210301] Implementing Simple Futures with Coroutines
  *     http://www.modernescpp.com/index.php/implementing-futures-with-coroutines
