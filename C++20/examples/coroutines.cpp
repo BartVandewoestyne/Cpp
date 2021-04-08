@@ -6,6 +6,9 @@
  *
  *   [chen20210402] C++ coroutines: Making the promise itself be the shared state, the inspiration
  *     https://devblogs.microsoft.com/oldnewthing/20210402-00/?p=105047
+ *
+ *   [chen20210401] C++ coroutines: What happens if an exception occurs in my return_value?
+ *     https://devblogs.microsoft.com/oldnewthing/20210401-00/?p=105043
  *     
  *   [grimm20210301] Implementing Simple Futures with Coroutines
  *     http://www.modernescpp.com/index.php/implementing-futures-with-coroutines
