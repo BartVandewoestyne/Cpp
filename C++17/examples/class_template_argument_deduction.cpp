@@ -1,4 +1,11 @@
 /*
+ * Key ideas:
+ *
+ *   * Class template parameter types can now be deduced according to
+ *     arguments passed to the constructor.
+ *
+ *   * Partial class template argument deduction is not possible
+ *
  * References:
  *
  *   [orians20200716] Improving Readability With Class Template Argument Deduction - A.J. Orians [ C++ on Sea 2020 ]
@@ -40,6 +47,13 @@ class D
     D(T1 x = T1(), T2 y = T2()) {}
 };
 
+template <typename T1, typename T2, typename T3 = T2>
+class C
+{
+  public:
+    C(T1 x = T1(), T2 y = T2(), T3 z = T3()) {}
+};
+
 int main()
 {
     // OK, T1 and T2 are std::string
@@ -64,4 +78,43 @@ int main()
 
     // Error: args do not have the same type.
     //std::cout << std::complex(5, 3.3);
+
+    // OK, T1, T2 are string, T2 is int
+    C<std::string, std::string, int> c0;
+
+    // OK, T1, T2 are string, T2 is int
+    C<std::string, std::string, int> c1("hi", "guy", 42);
+
+    // OK, T1 is int, T2 and T3 are strings
+    C<int, std::string> c2(52, "my");
+
+    // OK, T1, T2, T3 are strings
+    C<std::string, std::string> c3("hi", "my", "guy");
+
+    // Error: 42 is not a string
+    //C<std::string, std::string> c4("hi", "my", 42);
+
+    // Error: T1 and T2 undefined.
+    //C c5;
+
+    // Error: T2 undefined
+    //C c6("hi");
+
+    // OK since C++17, T1 is int, T2 and T3 are double
+    C c7(22, 44.3);
+
+    // OK since C++17, T1 is int, T2 is double, T3 is const char[3]
+    C c8(22, 44.3, "hi");
+
+    // OK since C++17, T1 is const char[3], T2 and T3 are const char[4]
+    C c9("hi", "guy");
+
+    // Error: only T1 explicitly defined
+    //C<std::string> c10("hi", "my");
+
+    // Error: neither T1 nor T2 explicitly defined
+    //C<> c11(22, 44.3);
+
+    // Error: neither T1 nor T2 explicitly defined
+    //C<> c12(22, 44.3, 42);
 }
