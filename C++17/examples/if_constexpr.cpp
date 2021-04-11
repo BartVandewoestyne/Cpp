@@ -1,4 +1,9 @@
 /*
+ * Key ideas:
+ *
+ *   - if constexpr can simplify templates by avoiding special case to end the
+ *     recursion.
+ *
  * References:
  *
  *   [mertz20191211] Constexpr FizzBuzz - An Exercise in Compile-Time Calculations
@@ -15,7 +20,41 @@
  *
  *   [groarke2017] Simplifying Compile-Time Options With if constexpr
  *     https://philippegroarke.com/blog/2017/11/20/simplifying-compile-time-options-with-if-constexpr/
+
+ *   [josuttis201701XX] C++17: The Language Features - Nicolai Josuttis
+ *     https://youtu.be/pEzV32yRu4U
  *
  *   [brand20161212] Simplifying templates and #ifdefs with if constexpr
  *     https://tartanllama.github.io/c++/2016/12/12/if-constexpr/
  */
+
+#include <iostream>
+
+// C++11 version
+
+//void print()
+//{}
+//
+//template<typename T, typename... Types>
+//void print(const T& firstArg, const Types&... args)
+//{
+//    std::cout << firstArg << std::endl;
+//    print(args...);
+//}
+
+
+// C++17 version with if constexpr
+
+template <typename T, typename... Types>
+void print(const T& firstArg, const Types&... args)
+{
+    std::cout << firstArg << std::endl;
+    if constexpr(sizeof...(args) > 0) {
+        print(args...);
+    }
+}
+
+int main()
+{
+    print(42, "hello", 2.3, 'a');
+}
