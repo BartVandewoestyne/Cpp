@@ -1,27 +1,26 @@
 /**
- * TODO: what is the purpose of this example?
+ *
+ * Basic example illustrating the use of Variadic Templates.
  *
  * References:
  *
- *   [1] http://j.mp/cpp11ref
+ *   [josuttis201701XX] C++17: The Language Features - Nicolai Josuttis
+ *     https://youtu.be/pEzV32yRu4U 
  */
 
 #include <iostream>
-using namespace std;
 
-template<class T>
-void print_list(T value)
-{
-    cout << value << endl;
-}
+void print()
+{}
 
-template<class First, class ...Rest>
-void print_list(First first, Rest ...rest)
+template<typename T, typename... Types>
+void print(const T& firstArg, const Types&... args)
 {
-    cout << first << ",";  print_list(rest...);
+    std::cout << firstArg << std::endl;
+    print(args...);
 }
 
 int main()
 {
-    print_list(42, "hello", 2.3, 'a');
+    print(42, "hello", 2.3, 'a');
 }
