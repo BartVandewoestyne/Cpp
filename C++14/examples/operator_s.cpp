@@ -1,4 +1,11 @@
 /*
+ * Key ideas:
+ *   * You can use operator_s for type deduction.
+ *   * You can use operator_s to initialize a std::string with null characters '\0':
+ *   * It enables you to write shorter and clearer code.
+ *   * Don't use it if you don't want a string, but only a character array or
+ *     pointer to a character array.
+ *
  * References:
  *
  *   [cppreference] http://en.cppreference.com/w/cpp/string/basic_string/operator%22%22s
@@ -9,13 +16,46 @@
 
 #include <string>
 #include <iostream>
- 
+
+// You need this to be able to use operator""s.
+using namespace std::string_literals;
+
+// Type deduction
+auto fn()
+{
+    return "fn returns a std::string"s;
+}
+
+// Type deduction
+template<typename T>
+void g(T&& param)
+{
+    // ...
+}
+
 int main()
 {
-    using namespace std::string_literals;
+    // Type deduction
+    auto str = "I am a std::string"s;  // str's type is std::string
+
+    // Type deduction
+    g("param's type is rvalue reference to std::string"s);
+
+    // Initialize with null characters.
+    std::string s1 = "here is a null char: \0, yeah..."s;
+
+    // Shorter and clearer code:
+    //auto s = std::string{"foo"};
+    // vs
+    auto s2 = "foo"s;
+
+    // Shorter and clearer code:
+    g("cool"s);
+    // vs
+    //g(std::string("not as cool"));
  
-    std::string s1 = "abc\0\0def";
-    std::string s2 = "abc\0\0def"s;
-    std::cout << "s1: " << s1.size() << " \"" << s1 << "\"\n";
-    std::cout << "s2: " << s2.size() << " \"" << s2 << "\"\n";
+    std::string s3 = "abc\0\0def";
+    std::string s4 = "abc\0\0def"s;
+    std::cout << "s3: " << s3.size() << " \"" << s3 << "\"\n";
+    std::cout << "s4: " << s4.size() << " \"" << s4 << "\"\n";
 }
