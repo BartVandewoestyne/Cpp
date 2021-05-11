@@ -1,5 +1,5 @@
 /*
- * Key ideas
+ * Key ideas:
  *   * auto can have the usual qualifiers & and const.
  *   
  * References:
