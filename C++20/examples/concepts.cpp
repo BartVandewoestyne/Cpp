@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20210503] C++20 Concepts - a Quick Introduction
+ *     https://www.cppstories.com/2021/concepts-intro/
+ *
  *   [boccara20210226] C++ Concepts: More than Syntactic Requirements
  *     https://www.fluentcpp.com/2021/02/26/c-concepts-more-than-syntactic-requirements/
  *
