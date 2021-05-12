@@ -12,6 +12,9 @@
  * 
  * References:
  *
+ *   [dheeraj20210510] Pure virtual function in C++: Is it possible to define a Pure Virtual Function in C++?
+ *     https://www.jhadheeraj.com/post/pure-virtual-function-in-cpp
+ *
  *   [reddit20200226] Today I learned that you can declare a virtual method to be pure even if it has a definition in a base class
  *     https://www.reddit.com/r/cpp/comments/f9dgxf/today_i_learned_that_you_can_declare_a_virtual/
  *
