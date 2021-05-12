@@ -6,6 +6,12 @@ References:
   [richardson20200305] Modern CMake - An Introduction
     https://youtu.be/bDdkJu-nVTo
 
+  [mao20200808] CMake: Public VS Private VS Interface
+    CMake: Public VS Private VS Interface
+
+  [sejdak20200118] Modern CMake is like inheritance
+    https://kubasejdak.com/modern-cmake-is-like-inheritance
+
   [berner20190624] Cmake line by line - creating a header-only library
     http://dominikberner.ch/cmake-interface-lib/
 
@@ -29,6 +35,9 @@ References:
   
   [scott20190315] Professional CMake: A Practical Guide
     https://crascit.com/professional-cmake/
+
+  [mueller20181017] Tutorial: Managing Compiler Warnings with CMake
+    https://www.foonathan.net/2018/10/cmake-warnings/
   
   [horenovsky20180602] Basic CMake, part 2: libraries
     https://codingnest.com/basic-cmake-part-2/
