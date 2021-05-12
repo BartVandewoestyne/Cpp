@@ -1,3 +1,6 @@
+[ostrowski202104XX] Software Architecture with C++<br>
+https://www.packtpub.com/product/software-architecture-with-c/9781838554590
+
 [grimm20210330] The C++ Standard Library - Third Edition<br>
 https://leanpub.com/cpplibrary
 
