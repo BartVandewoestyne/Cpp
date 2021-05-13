@@ -1,7 +1,7 @@
-C++ Core Guidelines<br>
+C++ Core Guidelines
 * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
-Google C++ Style Guide<br>
+Google C++ Style Guide
 * https://google.github.io/styleguide/cppguide.html
 * https://www.amazon.com/Effective-Google-C-Style-Guide/dp/B08928JBV5
 
@@ -26,6 +26,6 @@ Joint Strike Fighter Air Vehicle C++ Coding Standards<br>
 (Note: covers C++03)
 * https://www.stroustrup.com/JSF-AV-rules.pdf
 
-More at:
+Other references:
 * Navigating the jungle of Secure Coding Standards<br>
   https://www.slideshare.net/ChantalWauters/navigating-the-jungle-of-secure-coding-standards
