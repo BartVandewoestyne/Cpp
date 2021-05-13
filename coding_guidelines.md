@@ -30,3 +30,6 @@ Joint Strike Fighter Air Vehicle C++ Coding Standards<br>
 Other references:
 * Navigating the jungle of Secure Coding Standards<br>
   https://www.slideshare.net/ChantalWauters/navigating-the-jungle-of-secure-coding-standards
+
+Rulecheckers:
+* https://www.absint.com/rulechecker/
