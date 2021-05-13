@@ -8,6 +8,9 @@ https://leanpub.com/cpplibrary
 https://leanpub.com/c20<br>
 http://www.modernescpp.com/index.php/i-m-proud-to-present-c-20
 
+[turner20210114] C++ Best Practices - 45ish Simple Rules with Specific Action Items for Better C++
+https://leanpub.com/cppbestpractices
+
 [filipek20210214] C++ Lambda Story<br>
 https://leanpub.com/cpplambda
 
