@@ -5,6 +5,9 @@ Google C++ Style Guide<br>
 * https://google.github.io/styleguide/cppguide.html
 * https://www.amazon.com/Effective-Google-C-Style-Guide/dp/B08928JBV5
 
+High Integrity C++ Coding Standard (HIC++)
+* https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
+
 MISRA C++:2008 Guidelines for the use of the C++ language in critical systems<br>
 (Note: covers C++03)
 * https://www.misra.org.uk/MISRACHome/tabid/128/Default.aspx
