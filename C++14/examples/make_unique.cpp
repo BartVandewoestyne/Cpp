@@ -1,15 +1,28 @@
 /*
  * Key ideas:
  *
- *   - make_unique must mention the type only once, e.g. compare
+ *   - The addition of make_unique finally means we can tell people to 'never'
+ *     use new rather than the previous tule to "'never' use new except when
+ *     you make a unique_ptr".
+ *
+ *   - make_unique is safe for creating temporaries, whereas with explicit use
+ *     of new you have to remember the rule about not using unnamed temporaries:
+ *
+ *       foo(make_unique<T>(), make_unique<U>());  // exception safe
+ *
+ *       foo(unique_ptr<T>(new T()), unique_ptr<U>(new U()));  // unsafe*
+ *
+ *       [*] It is expected that C++17 will include a rule change that means
+ *           that this is no longer unsafe.  See C++ committee papers
+ *           P0400R0 and P0145R3.
+ *
+ *   - make_unique does not require redundant type usage, e.g. compare
  *
  *       std::unique_ptr<LongTypeName> up(new LongTypeName(args))
  *
  *     with
  *
  *       auto up = std::make_unique<LongTypeName>(args)
- *
- *   - TODO: other advantages of using std::make_unique.
  *
  * References:
  * 
