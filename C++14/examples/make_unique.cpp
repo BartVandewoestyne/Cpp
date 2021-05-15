@@ -1,4 +1,16 @@
 /*
+ * Key ideas:
+ *
+ *   - make_unique must mention the type only once, e.g. compare
+ *
+ *       std::unique_ptr<LongTypeName> up(new LongTypeName(args))
+ *
+ *     with
+ *
+ *       auto up = std::make_unique<LongTypeName>(args)
+ *
+ *   - TODO: other advantages of using std::make_unique.
+ *
  * References:
  * 
  *   [cppreference] http://en.cppreference.com/w/cpp/memory/unique_ptr/make_unique
