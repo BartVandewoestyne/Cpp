@@ -33,3 +33,5 @@ Other references:
 
 Rulecheckers:
 * https://www.absint.com/rulechecker/
+* https://www.sonarsource.com/cpp/
+* https://www.sonarlint.org/ (Open Source)
