@@ -1,0 +1,4 @@
+https://drmemory.org/
+
+[bruenig2011] Practical Memory Checking with Dr. Memory
+  https://research.google/pubs/pub37274/

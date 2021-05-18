@@ -1,5 +1,8 @@
 https://github.com/google/sanitizers/wiki/AddressSanitizer
 
+[cadieux20210510] Finding Bugs with AddressSanitizer: Patterns from Open Source Projects
+  https://devblogs.microsoft.com/cppblog/finding-bugs-with-addresssanitizer-patterns-from-open-source-projects/
+
 [popa20210407] Finding Bugs with AddressSanitizer: MSVC Compiler
   https://devblogs.microsoft.com/cppblog/finding-bugs-with-addresssanitizer-msvc-compiler/
 
