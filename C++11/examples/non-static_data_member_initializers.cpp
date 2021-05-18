@@ -2,7 +2,12 @@
  * Illustrates default member initializers.
  * 
  * References:
- *   [1] http://en.cppreference.com/w/cpp/language/data_members#Member_initialization
+ *
+ *   [cppreference] Member initialization
+ *     http://en.cppreference.com/w/cpp/language/data_members#Member_initialization
+ *
+ *   [filipek20200302] In-class Member Initialisation: From C++11 to C++20
+ *     https://www.bfilipek.com/2015/02/non-static-data-members-initialization.html
  */
 
 #include <iostream>
