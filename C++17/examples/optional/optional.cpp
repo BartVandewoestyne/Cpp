@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [boccara20210514] A Default Value to Dereference Null Pointers
+ *     https://www.fluentcpp.com/2021/05/14/a-default-value-to-dereference-null-pointers/
+ *
  *   [carter20180904] std::optional: How, when, and why
  *     https://blogs.msdn.microsoft.com/vcblog/2018/09/04/stdoptional-how-when-and-why/
  *
