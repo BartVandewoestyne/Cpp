@@ -10,6 +10,9 @@ https://leanpub.com/concurrencywithmodernc
 [lospinoso201909XX] C++ Crash Course - A Fast-Paced Introduction<br>
 https://nostarch.com/cppcrashcourse
 
+[pikus201901XX] Hands-On Design Patterns with C++<br>
+https://www.packtpub.com/product/hands-on-design-patterns-with-c/9781788832564
+
 [lippman201901XX] C++ Primer, 6th edition<br>
 https://www.amazon.co.uk/dp/0135161797<br>
 https://www.amazon.com/dp/0135161797/ref=cm_sw_em_r_mt_dp_YQlrFbTD09429
