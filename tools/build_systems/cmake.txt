@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [daler20210524] Using CMake and managing dependencies
+    https://eliasdaler.github.io/using-cmake/
+
   [richardson20200305] Modern CMake - An Introduction
     https://youtu.be/bDdkJu-nVTo
 
