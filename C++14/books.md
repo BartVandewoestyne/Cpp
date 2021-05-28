@@ -1,6 +1,9 @@
 The following books cover C++14
 -------------------------------
 
+[lakos20210630] Embracing Modern C++ Safely
+  http://emcpps.com/
+
 [falcou201609XX] Practical C++ Metaprogramming
   https://www.oreilly.com/library/view/practical-c-metaprogramming/9781492042778/
 
