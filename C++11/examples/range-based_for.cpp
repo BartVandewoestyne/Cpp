@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [boccara20210522] The Subtle Dangers of Temporaries in for Loops
+ *     https://www.fluentcpp.com/2021/05/22/the-subtle-dangers-of-temporaries-in-for-loops/
+ *
  *   [bevin20121113] New syntax - Range-based for
  *     http://mbevin.blogspot.be/2012/11/range-based-for.html
  *
