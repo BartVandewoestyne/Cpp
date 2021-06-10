@@ -4,6 +4,11 @@
  *   [chovatiyaXXXXXX] C++20 Coroutine: Under The Hood
  *     http://www.vishalchovatiya.com/cpp20-coroutine-under-the-hood/
  *
+ *   [gulgulia20210531-20210906] Painless C++ Coroutines
+ *     https://ggulgulia.medium.com/painless-c-coroutines-part-1-ba90dd101adb (Part 1)
+ *     https://ggulgulia.medium.com/painless-coroutines-part2-29b36008b507 (Part 2)
+ *     https://ggulgulia.medium.com/painless-c-coroutine-part-3-536e4bce4f4f (Part 3)
+ *
  *   [chen20210405] C++ coroutines: Making the promise itself be the shared state, the outline
  *     https://devblogs.microsoft.com/oldnewthing/20210405-00/?p=105054
  *
