@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [reddit20210609] A very quick try to modules in gcc 11: compiling a partition + module interface + main
+ *     https://www.reddit.com/r/cpp/comments/nvsjps/a_very_quick_try_to_modules_in_gcc_11_compiling_a/
+ *
  *   [nayar20200819] C++20 in 2020: Modules
  *     https://pspdfkit.com/blog/2020/cpp20-in-2020-modules/
  *
