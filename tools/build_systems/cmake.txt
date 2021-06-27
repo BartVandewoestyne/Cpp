@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [hoffman20210503] CMake: One Tool To Build Them All - Bill Hoffman [CppNow 2021]
+    https://youtu.be/wULu83jQmIQ
+
   [daler20210524] Using CMake and managing dependencies
     https://eliasdaler.github.io/using-cmake/
 
