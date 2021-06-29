@@ -1,6 +1,12 @@
 /*
  * References:
  *
+ *   [gulgulia20210628] C++20 three-way comparison operator-Part 2
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-2-fd520fb75e00
+ *
+ *   [gulgulia20210624] C++20 three-way comparison operator: Part-1
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-1-60e2946ae4a3
+ *
  *   [grimm20200615] C++20: The Three-Way Comparison Operator
  *     https://www.modernescpp.com/index.php/c-20-the-three-way-comparison-operator
  *
