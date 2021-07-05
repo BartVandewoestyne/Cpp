@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [gulgulia20210629] C++20 three-way comparison operator: Part 3
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-3-143ac397b3f1
+ *
  *   [gulgulia20210628] C++20 three-way comparison operator-Part 2
  *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-2-fd520fb75e00
  *
