@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [engert20210701] The three secret spices of C++ Modules - Meeting C++ online
+ *     https://youtu.be/l_83lyxWGtE
+ *
  *   [reddit20210609] A very quick try to modules in gcc 11: compiling a partition + module interface + main
  *     https://www.reddit.com/r/cpp/comments/nvsjps/a_very_quick_try_to_modules_in_gcc_11_compiling_a/
  *
