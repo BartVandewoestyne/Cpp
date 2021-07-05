@@ -3,17 +3,6 @@ Unit testing
 Google Test
   https://github.com/google/googletest
 
-Automatic source code formatting
---------------------------------
-astyle
-  http://astyle.sourceforge.net/
-
-clang-format
-  https://clang.llvm.org/docs/ClangFormat.html
-
-UniversalIndentGUI
-  http://universalindent.sourceforge.net/
-
 Other
 -----
 Include what you use
