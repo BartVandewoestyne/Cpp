@@ -1,3 +1,6 @@
+[fertig202XXXXX] Programming with C++20 - Concepts, Coroutines, Ranges, and more
+https://leanpub.com/programming-with-cpp20
+  
 [ostrowski202104XX] Software Architecture with C++<br>
 https://www.packtpub.com/product/software-architecture-with-c/9781838554590
 
