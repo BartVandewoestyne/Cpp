@@ -1,2 +1,5 @@
 clang-format
   https://clang.llvm.org/docs/ClangFormat.html
+
+[popa20180313] ClangFormat Support in Visual Studio 2017
+  https://devblogs.microsoft.com/cppblog/clangformat-support-in-visual-studio-2017-15-7-preview-1/
