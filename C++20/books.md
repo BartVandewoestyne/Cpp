@@ -1,5 +1,9 @@
 [fertig202XXXXX] Programming with C++20 - Concepts, Coroutines, Ranges, and more
 https://leanpub.com/programming-with-cpp20
+
+[roth20210618] Clean C++20: Sustainable Software Development Patterns and Best Practices - Second Edition
+https://www.apress.com/gp/book/9781484259481
+https://github.com/Apress/clean-cpp20
   
 [ostrowski202104XX] Software Architecture with C++<br>
 https://www.packtpub.com/product/software-architecture-with-c/9781838554590
