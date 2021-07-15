@@ -11,3 +11,8 @@ Include what you use
 Code complexity
 ---------------
 http://www.lizard.ws/
+
+Code coverage
+-------------
+OpenCppCoverage
+https://about.codecov.io/blog/how-to-set-up-codecov-with-c-plus-plus-and-github-actions/
