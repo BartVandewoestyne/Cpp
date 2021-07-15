@@ -1,6 +1,18 @@
 /*
  * References:
  *
+ *   [gulgulia20210712] C++20 three way comparison operator: Part 7
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-7-8de8186bd5fc
+ *
+ *   [gulgulia20210711] C++20 three way comparison operator: Part 6
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-6-c66a173dcc99
+ *
+ *   [gulgulia20210708] C++20 three way comparison operator: Part 5
+ *     https://medium.com/geekculture/c-20-three-way-comparison-operator-part-5-e986b5ab29d9
+ *
+ *   [gulgulia20210705] C++20 three-way comparison operator: Part 4
+ *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-4-6a8ea2c0a3f0
+ *
  *   [gulgulia20210629] C++20 three-way comparison operator: Part 3
  *     https://medium.com/nerd-for-tech/c-20-three-way-comparison-operator-part-3-143ac397b3f1
  *
