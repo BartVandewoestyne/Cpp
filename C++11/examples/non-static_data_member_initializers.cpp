@@ -14,6 +14,9 @@
  *
  *   [kalev202120823] C++11 Tutorial: New Constructor Features that Make Object Initialization Faster and Smoother
  *     https://smartbear.com/blog/c11-tutorial-new-constructor-features-that-make-ob/
+ *
+ *   [stackoverflow20130513] Why can in-class initializers only use = or {}?
+ *     https://stackoverflow.com/questions/16329962/why-can-in-class-initializers-only-use-or
  */
 
 #include <iostream>
