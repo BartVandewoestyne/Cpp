@@ -7,6 +7,7 @@ https://github.com/Apress/clean-cpp20
   
 [ostrowski202104XX] Software Architecture with C++<br>
 https://www.packtpub.com/product/software-architecture-with-c/9781838554590
+Review at https://www.cppstories.com/2021/cpp-arch-book/
 
 [grimm20210330] The C++ Standard Library - Third Edition<br>
 https://leanpub.com/cpplibrary
