@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [mueller20210729] C++20 concepts are structural: What, why, and how to change it?
+ *     https://www.foonathan.net/2021/07/concepts-structural-nominal/
+ *
  *   [filipek20210517] Predefined C++20 Concepts: Callables
  *     https://www.cppstories.com/2021/concepts-callables/
  *
