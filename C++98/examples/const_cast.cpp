@@ -3,6 +3,9 @@
  *
  * References:
  *
+ *   [20210802turner] C++ Weekly - Ep 283 - Stop Using const_cast!
+ *     https://youtu.be/iuLwHoMFP_Y
+ *
  *   [1] C++ Primer, 4th Edition, Lipman, Lajoi, Moo, 2005, section 5.12.6
  *   'Named Casts'.
  */
