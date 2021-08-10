@@ -9,6 +9,9 @@
  *
  *   [stackoverflow20100224] constant variables not working in header
  *     https://stackoverflow.com/questions/2328671/constant-variables-not-working-in-header
+ *
+ *   [stackoverflow] Static variables in C++
+ *     https://stackoverflow.com/questions/3698043/static-variables-in-c
  */
 
 #ifndef CONSTANTS_H
@@ -26,6 +29,12 @@ inline constexpr int ci2 = 10;
 
 // Note that constexpr on static data members implies inline, so inline is
 // actually unnecessary here...
+//
+// Furthermore, by declaring the variables as static here, it will have
+// 'internal linkage' and every translation unit that includes this header will
+// get its *own*, *individual* variable (which is not visible outside your
+// translation unit).  So if you have N .cpp files that include this header,
+// you will have N individual copies of these static constant variables.
 inline static const int sci1 = 20;  // TODO: for this one, the address is different in the two translation units.  Why???
 inline static constexpr int sci2 = 20;  // TODO: for this one, the address is different in the two translation units.  Why???
 
