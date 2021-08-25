@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [c++faq] C++ Super-FAQ - Containers
+ *     https://isocpp.org/wiki/faq/containers
+ *
  *   [barr20210405] Back To Basics: C++ Containers
  *     https://youtu.be/6OoSgY6NVVk
  *
