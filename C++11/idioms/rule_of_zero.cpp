@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [odwyer20190917] Back to Basics: RAII and the Rule of Zero - Arthur O'Dwyer - CppCon 2019
+ *     https://youtu.be/7Qgd9B1KuMQ
+ *
  *   [odwyer20190820] Self-assignment and the Rule of Zero
  *     https://quuxplusone.github.io/blog/2019/08/20/rule-of-zero-pitfall/
  *
