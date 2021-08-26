@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [vorbrodt20210825] C++20 Concepts
+ *     https://vorbrodt.blog/2021/08/25/c20-concepts/
+ *
  *   [mueller20210729] C++20 concepts are structural: What, why, and how to change it?
  *     https://www.foonathan.net/2021/07/concepts-structural-nominal/
  *
