@@ -20,7 +20,8 @@ http://www.modernescpp.com/index.php/i-m-proud-to-present-c-20
 https://leanpub.com/cppbestpractices
 
 [filipek20210214] C++ Lambda Story<br>
-https://leanpub.com/cpplambda
+https://leanpub.com/cpplambda<br>
+Review: https://vorbrodt.blog/2021/08/20/c-lambda-story-a-book-review/
 
 [mueller202101XX] C++ All-in-One For Dummies, 4th Edition<br>
 https://www.dummies.com/programming/cpp/c-all-in-one-for-dummies-4th-edition/
