@@ -1,2 +1,4 @@
 Main page:
   https://www.jetbrains.com/clion/
+
+Note that someone mentioned CLion is not free or open source...
