@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [boccara20210902] How to Make Your Classes Compatible with Range for Loop
+ *     https://www.fluentcpp.com/2021/09/02/how-to-make-your-classes-compatible-with-range-for-loop/
+ *
  *   [boccara20210522] The Subtle Dangers of Temporaries in for Loops
  *     https://www.fluentcpp.com/2021/05/22/the-subtle-dangers-of-temporaries-in-for-loops/
  *
