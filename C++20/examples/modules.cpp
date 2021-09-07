@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fertig20210907] C++20 Modules: The possible speedup
+ *     https://andreasfertig.blog/2021/09/cpp20-modules-the-possible-speedup/
+ *
  *   [grimm20210906] C++20 Modules: Private Module Fragment and Header Units
  *     http://www.modernescpp.com/index.php/c-20-modules-private-module-fragment-and-header-units
  *
