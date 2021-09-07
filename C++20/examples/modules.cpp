@@ -7,6 +7,9 @@
  *   [grimm20210906] C++20 Modules: Private Module Fragment and Header Units
  *     http://www.modernescpp.com/index.php/c-20-modules-private-module-fragment-and-header-units
  *
+ *   [toth20210906] C++20 Modules — Complete Guide
+ *     https://itnext.io/c-20-modules-complete-guide-ae741ddbae3d
+ *
  *   [engert20210701] The three secret spices of C++ Modules - Meeting C++ online
  *     https://youtu.be/l_83lyxWGtE
  *
