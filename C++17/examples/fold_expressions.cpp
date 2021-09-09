@@ -1,6 +1,8 @@
 /*
  * Key ideas:
+ *
  *   - Apply binary operators to all elements of a parameter pack.
+ *
  *   - Supported syntax:
  *       (... OP pack)            => 'left binding'
  *       (init OP ... OP pack)
@@ -8,6 +10,9 @@
  *       (pack OP ... OP init)
  *
  * References:
+ *
+ *   [mueller20200505] Nifty Fold Expression Tricks
+ *     https://www.foonathan.net/2020/05/fold-tricks/
  *
  *   [cukic20191030] Efficient QString concatenation with C++17 fold expressions
  *     https://www.qt.io/blog/efficient-qstring-concatenation-with-c17-fold-expressions
