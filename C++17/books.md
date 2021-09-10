@@ -4,9 +4,6 @@ The following books cover C++17
 [lakos20191217] Large-Scale C++ Volume I: Process and Architecture<br>
 http://www.informit.com/store/large-scale-c-plus-plus-volume-i-process-and-architecture-9780201717068
 
-[grimm20191015] Concurrency with Modern C++<br>
-https://leanpub.com/concurrencywithmodernc
-
 [lospinoso201909XX] C++ Crash Course - A Fast-Paced Introduction<br>
 https://nostarch.com/cppcrashcourse
 
