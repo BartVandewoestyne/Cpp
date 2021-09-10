@@ -12,7 +12,7 @@ Review at https://www.cppstories.com/2021/cpp-arch-book/
 [grimm20210708] Concurrency with Modern C++<br>
 https://leanpub.com/concurrencywithmodernc
 
-[grimm20210330] The C++ Standard Library - Third Edition<br>
+[grimm20210330] The C++ Standard Library - Third Edition includes C++20<br>
 https://leanpub.com/cpplibrary
 
 [grimm2021XXXX] C++20 Get the Details<br>
