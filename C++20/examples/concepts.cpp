@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [toth20210915] C++20 Concepts — Complete Guide
+ *     https://itnext.io/c-20-concepts-complete-guide-42c9e009c6bf
+ *
  *   [vorbrodt20210825] C++20 Concepts
  *     https://vorbrodt.blog/2021/08/25/c20-concepts/
  *
