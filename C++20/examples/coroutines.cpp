@@ -4,6 +4,9 @@
  *   [chovatiyaXXXXXX] C++20 Coroutine: Under The Hood
  *     http://www.vishalchovatiya.com/cpp20-coroutine-under-the-hood/
  *
+ *   [bond20210916] C++20 Coroutines
+ *     https://blog.feabhas.com/2021/09/c20-coroutines/
+ *
  *   [gulgulia20210531-20210906] Painless C++ Coroutines
  *     https://ggulgulia.medium.com/painless-c-coroutines-part-1-ba90dd101adb (Part 1)
  *     https://ggulgulia.medium.com/painless-coroutines-part2-29b36008b507 (Part 2)
