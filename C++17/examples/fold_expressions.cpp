@@ -11,6 +11,9 @@
  *
  * References:
  *
+ *   [grimm20210913] From Variadic Templates to Fold Expressions
+ *     http://www.modernescpp.com/index.php/from-variadic-templates-to-fold-expressions
+ *
  *   [mueller20200505] Nifty Fold Expression Tricks
  *     https://www.foonathan.net/2020/05/fold-tricks/
  *
