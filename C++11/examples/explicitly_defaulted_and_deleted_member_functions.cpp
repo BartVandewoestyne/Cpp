@@ -14,6 +14,9 @@
  *     https://vorbrodt.blog/2021/09/16/delete-not-just-for-special-member-functions/
  */
 
+struct OtherType {
+};
+
 // The following type explicitly declares that it is using the default
 // constructor:
 struct SomeType {
@@ -49,4 +52,11 @@ struct NoInt {
 struct OnlyDouble {
     void f(double d);
     template<class T> void f(T) = delete;
+};
+
+// You can even generalize this a bit more and delete all overloads regardless
+// of the type and number of parameters:
+struct OnlyVoidPointer {
+    void foo(void*) {};
+    template<typename ...Ts> void foo(Ts&&...) = delete;
 };
