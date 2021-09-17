@@ -2,6 +2,7 @@
  * Key ideas:
  *
  *   - Basic examples of defaulted and deleted functions.
+ *
  *   - The = delete specifier can also be used to prohibit calling *any* function,
  *     which can be used to disallow calling a member function with particular parameters.
  *
