@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [krzemienski20210916] Concepts ¿ case studies
+ *     https://akrzemi1.wordpress.com/2021/09/16/concepts-case-studies/
+ *
  *   [toth20210915] C++20 Concepts — Complete Guide
  *     https://itnext.io/c-20-concepts-complete-guide-42c9e009c6bf
  *
