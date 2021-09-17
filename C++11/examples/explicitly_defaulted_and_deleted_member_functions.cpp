@@ -1,7 +1,17 @@
 /**
+ * Key ideas:
+ *
+ *   - Basic examples of defaulted and deleted functions.
+ *   - The = delete specifier can also be used to prohibit calling *any* function,
+ *     which can be used to disallow calling a member function with particular parameters.
+ *
  * References:
  *
- *   [1] http://en.wikipedia.org/wiki/C%2B%2B11#Explicitly_defaulted_and_deleted_special_member_functions
+ *   [wikipedia] Explicitly defaulted and deleted special member functions.
+ *     http://en.wikipedia.org/wiki/C%2B%2B11#Explicitly_defaulted_and_deleted_special_member_functions
+ *
+ *   [20210916vorbrodt] = delete; // not just for special member functions
+ *     https://vorbrodt.blog/2021/09/16/delete-not-just-for-special-member-functions/
  */
 
 // The following type explicitly declares that it is using the default
