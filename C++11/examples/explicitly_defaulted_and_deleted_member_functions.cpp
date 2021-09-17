@@ -44,6 +44,8 @@ struct NoInt {
 
 // This can be generalized to disallow calling the function with any type other
 // than double as follows:
+// (but note however that there is a shorter and sweeter syntax in C++20:
+//   void f(auto) = delete;)
 struct OnlyDouble {
     void f(double d);
     template<class T> void f(T) = delete;
