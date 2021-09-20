@@ -11,6 +11,9 @@
  *
  * References:
  *
+ *   [grimm20210920] Smart Tricks with Parameter Packs and Fold Expressions
+ *     http://www.modernescpp.com/index.php/smart-tricks-with-fold-expressions
+ *
  *   [grimm20210913] From Variadic Templates to Fold Expressions
  *     http://www.modernescpp.com/index.php/from-variadic-templates-to-fold-expressions
  *
