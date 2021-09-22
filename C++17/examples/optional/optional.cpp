@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [carvalho20210919] std::optional and non-POD C++ types
+ *     http://blog.felipe.rs/2021/09/19/std-optional-and-non-pod-types-in-cpp/
+ *
  *   [boccara20210514] A Default Value to Dereference Null Pointers
  *     https://www.fluentcpp.com/2021/05/14/a-default-value-to-dereference-null-pointers/
  *
