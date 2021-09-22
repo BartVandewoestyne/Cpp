@@ -1,6 +1,12 @@
 /*
  * References:
  *
+ *   [reddit20210921] Are Metaclasses still coming to C++?
+ *     https://www.reddit.com/r/cpp/comments/psi5y3/are_metaclasses_still_coming_to_c/
+ *
+ *   [reddit20210824] metaclasses when
+ *     https://www.reddit.com/r/cpp/comments/palb5k/metaclasses_when/
+ *
  *   [glassborow2018XX] C++ with Meta-classes? (Francis Glassborow, Overload #143)
  *     https://accu.org/index.php/journals/2464
  *
