@@ -1,8 +1,12 @@
 /*
  * References:
  *
+ *   [grimm20210927] Visiting a std::variant with the Overload Pattern
+ *     http://www.modernescpp.com/index.php/visiting-a-std-variant-with-the-overload-pattern
+ *
  *   [mestre20190710] Templated Runtime Polymorphism
  *     https://sebmestre.blogspot.com/2019/07/templated-runtime-polymorphism.html
+ *
  *   [fahller20190613] Variant visitation variations
  *     https://youtu.be/ERHYJy5KxQo
  *
