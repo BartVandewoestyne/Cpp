@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20210927] C++ Smart Pointers Reference Card
+ *     https://www.cppstories.com/2021/smart-ptr-ref-card/
+ *
  *   [becker20200717] C++ Smart Pointers - Do I really need them? When?
  *     https://youtu.be/Zt0zUcDHi7I
  *
