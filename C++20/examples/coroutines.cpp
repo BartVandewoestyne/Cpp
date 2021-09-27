@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [toth20210926] C++20 Coroutines — Complete* Guide
+ *     https://itnext.io/c-20-coroutines-complete-guide-7c3fc08db89d
+ *
  *   [chovatiyaXXXXXX] C++20 Coroutine: Under The Hood
  *     http://www.vishalchovatiya.com/cpp20-coroutine-under-the-hood/
  *
