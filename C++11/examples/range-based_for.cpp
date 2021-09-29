@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [josuttis202109XX] P201R2 - Fix the Range-Based for Loop
+ *     http://josuttis.de/cpp/210929_rangebasedfor_p2012r2.pdf
+ *
  *   [boccara20210902] How to Make Your Classes Compatible with Range for Loop
  *     https://www.fluentcpp.com/2021/09/02/how-to-make-your-classes-compatible-with-range-for-loop/
  *
