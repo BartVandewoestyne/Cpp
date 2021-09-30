@@ -11,6 +11,9 @@
  *   [fahller20190613] Variant visitation variations
  *     https://youtu.be/ERHYJy5KxQo
  *
+ *   [mertz20180509] Modern C++ Features – std::variant and std::visit
+ *     https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/
+ *
  *   [grimm2017cpplibrary] The C++ Standard Library, Second Edition, Rainer Grimm.
  */
 
