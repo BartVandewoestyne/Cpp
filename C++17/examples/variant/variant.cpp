@@ -1,4 +1,9 @@
 /*
+ * Key ideas:
+ *
+ *   - Variants are for example useful for tree structures where the nodes of
+ *     the tree can be of different types, and you don't want to use inheritance.
+ *
  * References:
  *
  *   [copperspice20191010] std::variant
