@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fertig20211005] C++20 Modules: Controlling your interfaces
+ *     https://andreasfertig.blog/2021/10/cpp20-modules-controlling-your-interfaces/
+ *
  *   [fertig20210907] C++20 Modules: The possible speedup
  *     https://andreasfertig.blog/2021/09/cpp20-modules-the-possible-speedup/
  *
