@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [chen20211004] Some lesser-known powers of std::optional
+ *     https://devblogs.microsoft.com/oldnewthing/20211004-00/?p=105754
+ *
  *   [carvalho20210919] std::optional and non-POD C++ types
  *     http://blog.felipe.rs/2021/09/19/std-optional-and-non-pod-types-in-cpp/
  *
