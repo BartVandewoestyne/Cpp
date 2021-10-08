@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [boccara20211008] A Recap on User Defined Literals
+ *     https://www.fluentcpp.com/2021/10/08/a-recap-on-user-defined-literals/
+ *
  *   [grimm2016] Die Zeitdauer.
  *     http://www.grimm-jaud.de/index.php/blog/die-zeitdauer
  */
@@ -10,8 +13,8 @@
 
 using namespace std::literals::chrono_literals;
 
-int main(){
-
+int main()
+{
   std::cout << std::endl;
 
   constexpr auto schoolHour= 45min;
@@ -35,5 +38,4 @@ int main(){
   std::cout << "School day in milliseconds: " << schoolDayInMilliseconds.count() << std::endl;
 
   std::cout << std::endl;
-
 }
