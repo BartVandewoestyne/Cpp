@@ -1,7 +1,10 @@
-[fertig202XXXXX] Programming with C++20 - Concepts, Coroutines, Ranges, and more
+[pikus202110XX] The Art of Writing Efficient Programs<br>
+https://www.packtpub.com/product/the-art-of-writing-efficient-programs/9781800208117
+
+[fertig202XXXXX] Programming with C++20 - Concepts, Coroutines, Ranges, and more<br>
 https://leanpub.com/programming-with-cpp20
 
-[roth20210618] Clean C++20: Sustainable Software Development Patterns and Best Practices - Second Edition
+[roth20210618] Clean C++20: Sustainable Software Development Patterns and Best Practices - Second Edition<br>
 https://www.apress.com/gp/book/9781484259481
 https://github.com/Apress/clean-cpp20
   
