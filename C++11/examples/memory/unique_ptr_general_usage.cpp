@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20211018] 6 Ways to Refactor new/delete into unique ptr
+ *     https://www.cppstories.com/2021/refactor-into-uniqueptr/
+ *
  *   [krzaq20170626] You don't need a stateful deleter in your unique_ptr (usually)
  *     https://dev.krzaq.cc/post/you-dont-need-a-stateful-deleter-in-your-unique_ptr-usually/
  *
