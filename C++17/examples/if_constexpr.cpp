@@ -4,6 +4,8 @@
  *   - if constexpr can simplify templates by avoiding special case to end the
  *     recursion.
  *
+ *   - #ifdefs can be simplified using if constexpr.
+ *
  * References:
  *
  *   [mertz20191211] Constexpr FizzBuzz - An Exercise in Compile-Time Calculations
@@ -26,6 +28,12 @@
  *
  *   [brand20161212] Simplifying templates and #ifdefs with if constexpr
  *     https://tartanllama.github.io/c++/2016/12/12/if-constexpr/
+ *
+ *   [turner20160708] C++ Weekly Special Edition - Using C++17's constexpr if
+ *     https://youtu.be/_Ny6Qbm_uMI
+ *
+ *   [turner20160705] C++ Weekly - Ep 18 C++17's constexpr if
+ *     https://youtu.be/qHgM5UdzPQU
  */
 
 #include <iostream>
