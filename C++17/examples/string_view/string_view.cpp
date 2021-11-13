@@ -1,5 +1,12 @@
 /*
+ * Key ideas:
+ *
+ *   - It is idiomatic to pass std::string_view by value.
+ *
  * References:
+ *
+ *   [odwyer20211109] Three reasons to pass std::string_view by value
+ *     https://quuxplusone.github.io/blog/2021/11/09/pass-string-view-by-value/
  *
  *   [miller20191009] C++ std::string_view for better performance: An example use case
  *     https://www.nextptr.com/tutorial/ta1217154594/cplusplus-stdstring_view-for-better-performance-an-example-use-case
