@@ -17,6 +17,9 @@
  *   [filipek20180723] Performance of std::string_view vs std::string from C++17
  *     https://www.bfilipek.com/2018/07/string-view-perf.html
  *
+ *   [gregoire20180606] C++17: std::string_view
+ *     http://www.nuonsoft.com/blog/2018/06/06/c17-stdstring_view/
+ *
  *   [mutz20171111] StringViews, StringViews everywhere! - Marc Mutz - Meeting C++ 2017
  *     https://youtu.be/0QFPKgvLhao
  *
@@ -28,15 +31,18 @@
  *
  *   [müller20170322] std::string_view accepting temporaries: good idea or horrible pitfall?
  *     http://foonathan.net/blog/2017/03/22/string_view-temporary.html
+ *
+ *   [clow20150924] CppCon 2015: Marshall Clow 'string_view'
+ *     https://www.youtube.com/watch?v=H9gAaNRoon4
  */
 
 #include <string>
 
 // Notice the difference in assembler output when using std::string vs
-// std::string_view, as shown in [4].
+// std::string_view, as shown in [turner20170724].
 //
 //std::size_t length(const std::string& s)
-std::size_t length(const std::string_view& s)
+std::size_t length(std::string_view s)
 {
     return s.size();
 }
