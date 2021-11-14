@@ -72,9 +72,13 @@ Websites that give an overview of C++17 features:
 [vanweert201612XX] Part I – The Core Language
   http://becpp.org/blog/wp-content/uploads/2016/12/Peter-Van-Weert-BeC17-Part-I.pptx
 
-[meredith2016] CppCon 2016: Alisdair Meredith "C++17 in Breadth"
+[bolton20161215] Breaking Down the Current State of C++ 17
+  http://insights.dice.com/2016/12/15/breaking-down-current-state-c-17/
+
+[meredith2016XXXX] CppCon 2016: Alisdair Meredith "C++17 in Breadth"
   https://youtu.be/22jIHfvelZk (part 1/2)
   https://youtu.be/-rIixnNJM4k (part 2/2)
+
 
 Other C++17 stuff
 -----------------

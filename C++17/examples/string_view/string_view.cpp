@@ -28,9 +28,6 @@
  *
  *   [müller20170322] std::string_view accepting temporaries: good idea or horrible pitfall?
  *     http://foonathan.net/blog/2017/03/22/string_view-temporary.html
- *
- *   [bolton20161215] Breaking Down the Current State of C++ 17
- *     http://insights.dice.com/2016/12/15/breaking-down-current-state-c-17/
  */
 
 #include <string>
