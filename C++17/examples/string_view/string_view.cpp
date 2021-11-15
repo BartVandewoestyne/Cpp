@@ -1,7 +1,16 @@
 /*
  * Key ideas:
  *
+ *   - When would you use a string_view instead of a string [clow20150924]?
+ *       -> Passing as a parameter to a "pure" function.
+ *       -> Returning from a function.
+ *       -> A reference to part of a long-lived data structure.
+ *
  *   - It is idiomatic to pass std::string_view by value.
+ *
+ *   - Drawbacks of std::string_view:
+ *       -> Lifetime management: there's no connection between the std::string_view and the storage it points to (except what you make yourself).
+ *       -> An std::string_view is not necessarily null-terminated.
  *
  * References:
  *
@@ -47,8 +56,17 @@ std::size_t length(std::string_view s)
     return s.size();
 }
 
+
+//void legacy_call(const char* x) {}     // old form without std::string_view
+void legacy_call(std::string_view x) {}  // new form using std::string_view
+
 int main()
 {
+    legacy_call("Hi mom");
+    
+    std::string foo;
+    legacy_call(foo.c_str());  // works
+    legacy_call(foo);          // better
 
     return length("hello world, long string");
 }
