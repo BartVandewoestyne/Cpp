@@ -65,3 +65,8 @@ References:
 
   [turner20170828] C++ Weekly - Ep 78 - Intro to CMake
     https://youtu.be/HPMvU64RUTY
+
+Discussions:
+
+  [reddit20211115] what's the hate for CMake all about? Is CMake really that bad?
+    https://www.reddit.com/r/cpp/comments/qum4sq/whats_the_hate_for_cmake_all_about_is_cmake/
