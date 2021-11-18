@@ -1,0 +1,5 @@
+https://github.com/KDAB/hotspot
+
+* Opensource GUI for perf, written by KDAB.
+* Easy to use, supports the most common use cases.
+    * CPU cycles, off-CPU time
