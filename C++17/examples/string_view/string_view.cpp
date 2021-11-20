@@ -14,6 +14,9 @@
  *
  * References:
  *
+ *   [odwyer20211119] A footnote on “Three reasons to pass std::string_view by value”
+ *     https://quuxplusone.github.io/blog/2021/11/19/string-view-by-value-ps/
+ *
  *   [odwyer20211109] Three reasons to pass std::string_view by value
  *     https://quuxplusone.github.io/blog/2021/11/09/pass-string-view-by-value/
  *
