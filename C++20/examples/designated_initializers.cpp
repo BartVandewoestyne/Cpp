@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20211122] Designated Initializers in C++20
+ *     https://www.cppstories.com/2021/designated-init-cpp20/
+ *
  *   [grimm20200706] Designated Initializers
  *     http://www.modernescpp.com/index.php/designated-initializers
  *
