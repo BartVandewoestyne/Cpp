@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [filipek20211108] 6 More Ways to Refactor new/delete into unique ptr
+ *     https://www.cppstories.com/2021/more-refactor-into-uniqueptr/
+ *
  *   [filipek20211018] 6 Ways to Refactor new/delete into unique ptr
  *     https://www.cppstories.com/2021/refactor-into-uniqueptr/
  *
