@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fertig20211102] C++20 Modules: Reachability and Visibility
+ *     https://andreasfertig.blog/2021/11/cpp20-modules-reachability-and-visibility/
+ *
  *   [fertig20211005] C++20 Modules: Controlling your interfaces
  *     https://andreasfertig.blog/2021/10/cpp20-modules-controlling-your-interfaces/
  *
