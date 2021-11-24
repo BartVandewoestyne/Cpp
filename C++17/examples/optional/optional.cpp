@@ -1,4 +1,10 @@
 /*
+ * Key idea:
+ *
+ *   - The most common place to use std::optional is when you want to indicate
+ *     there is no value, or something was not found in a return type or a
+ *     parameter.
+ *
  * References:
  *
  *   [chen20211004] Some lesser-known powers of std::optional
@@ -9,6 +15,9 @@
  *
  *   [boccara20210514] A Default Value to Dereference Null Pointers
  *     https://www.fluentcpp.com/2021/05/14/a-default-value-to-dereference-null-pointers/
+ *
+ *   [copperspice20190912] Any Optional
+ *     https://youtu.be/6A3Y3YDTC-0
  *
  *   [carter20180904] std::optional: How, when, and why
  *     https://blogs.msdn.microsoft.com/vcblog/2018/09/04/stdoptional-how-when-and-why/
