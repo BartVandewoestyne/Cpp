@@ -17,4 +17,7 @@
  *
  *   [brand20161202] Type erasure with unified call syntax
  *     https://tartanllama.github.io/c++/2016/12/02/type-erasure-unified-call/
+ *
+ *   [parent20130923] Inheritance Is The Base Class of Evil
+ *     https://youtu.be/bIhUE5uUFOA
  */
