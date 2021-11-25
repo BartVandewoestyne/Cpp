@@ -20,4 +20,7 @@
  *
  *   [parent20130923] Inheritance Is The Base Class of Evil
  *     https://youtu.be/bIhUE5uUFOA
+ *
+ *   [henney200007XX] Valued Conversions (C++ Report 12(7), July-August 2000) - Kevlin Henney
+ *     https://www.slideshare.net/Kevlin/valued-conversions
  */
