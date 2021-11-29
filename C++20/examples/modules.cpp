@@ -16,6 +16,9 @@
  *   [toth20210906] C++20 Modules — Complete Guide
  *     https://itnext.io/c-20-modules-complete-guide-ae741ddbae3d
  *
+ *   [engert20211110] Daniela Engert - A short tour of C++ Modules - Modules demystified and applied - Meeting C++ 2021
+ *     https://youtu.be/35SlLAGLRIA
+ *
  *   [engert20210701] The three secret spices of C++ Modules - Meeting C++ online
  *     https://youtu.be/l_83lyxWGtE
  *
@@ -30,6 +33,9 @@
  *
  *   [dacamara20200122] C++ Modules conformance improvements with MSVC in Visual Studio 2019 16.5
  *     https://devblogs.microsoft.com/cppblog/c-modules-conformance-improvements-with-msvc-in-visual-studio-2019-16-5/
+ *
+ *   [engert20191114] Modules the beginner's guide - Daniela Engert - Meeting C++ 2019
+ *     https://youtu.be/Kqo-jIq4V3I
  *
  *   [sidwell20190917] CppCon 2019: Nathan Sidwell "Converting to C++20 Modules"
  *     https://youtu.be/KVsWIEw3TTw
