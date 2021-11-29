@@ -11,6 +11,9 @@
  *   [cppreference] std::basic_string_view<CharT,Traits>::data (Notes)
  *     https://en.cppreference.com/w/cpp/string/basic_string_view/data
  *
+ *   [reddit20211124] std::string_view could be made null character ending aware for interoperability with C
+ *     https://www.reddit.com/r/cpp/comments/r17x40/stdstring_view_could_be_made_null_character/
+ *
  *   [dicanio20210326] The Case of string_view and the Magic String
  *     https://blogs.msmvps.com/gdicanio/2021/03/26/the-case-of-string_view-and-the-magic-string/
  *
