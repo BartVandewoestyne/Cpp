@@ -12,8 +12,9 @@ https://www.apress.com/gp/book/9781484259481
 https://github.com/Apress/clean-cpp20
   
 [ostrowski202104XX] Software Architecture with C++<br>
-https://www.packtpub.com/product/software-architecture-with-c/9781838554590
-Review at https://www.cppstories.com/2021/cpp-arch-book/
+https://www.packtpub.com/product/software-architecture-with-c/9781838554590<br>
+Review at https://www.cppstories.com/2021/cpp-arch-book/<br>
+Discussion at https://cppcast.com/cpp-software-architecture/
 
 [grimm20210708] Concurrency with Modern C++<br>
 https://leanpub.com/concurrencywithmodernc
