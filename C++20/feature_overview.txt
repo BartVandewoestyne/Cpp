@@ -1,5 +1,8 @@
 References:
 
+  [josuttis20211110] C++20 - My Favourite Code Examples
+    https://youtu.be/ey4pTOfdi9k
+
   [koval20210402] All C++20 core language features with examples
     https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html
 
