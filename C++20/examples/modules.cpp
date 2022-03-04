@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [burn202202XX] How to Use C++20 Modules with Bazel and Clang
+ *     https://buildingblock.ai/cpp20-modules-bazel
+ *
  *   [fertig20211102] C++20 Modules: Reachability and Visibility
  *     https://andreasfertig.blog/2021/11/cpp20-modules-reachability-and-visibility/
  *
