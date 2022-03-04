@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [schneide20220221] My favorite C++20 feature
+ *     https://schneide.blog/2022/02/21/my-favorite-c20-feature/
+ *
  *   [filipek20211122] Designated Initializers in C++20
  *     https://www.cppstories.com/2021/designated-init-cpp20/
  *
