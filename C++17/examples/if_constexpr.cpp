@@ -8,6 +8,9 @@
  *
  * References:
  *
+ *   [grimm20220214] constexpr if
+ *     http://www.modernescpp.com/index.php/constespr-if
+ *
  *   [mertz20191211] Constexpr FizzBuzz - An Exercise in Compile-Time Calculations
  *     https://arne-mertz.de/2019/12/constexpr-fizzbuzz/
  *
