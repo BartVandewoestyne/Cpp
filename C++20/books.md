@@ -1,3 +1,7 @@
+[josuttis2022XXXX] C++20 - The Complete Guide
+https://leanpub.com/cpp20
+https://cppstd20.com/
+
 [davidsongregory20211223] Beautiful C++: 30 Core Guidelines for Writing Clean, Safe, and Fast Code<br>
 https://www.informit.com/store/beautiful-c-plus-plus-30-core-guidelines-for-writing-9780137647842
 
