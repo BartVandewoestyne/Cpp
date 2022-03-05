@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [kootker20220302] Modern C++ In-Depth — Move Semantics, Part 1
+ *     https://medium.com/factset/modern-c-in-depth-move-semantics-part-1-8a29d33944e4
+ *
  *   [sutter20200217] Move, simply
  *     https://herbsutter.com/2020/02/17/move-simply/
  *
