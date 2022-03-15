@@ -9,6 +9,9 @@
  *   [grimm20220314] Temporäre Objekte vermeiden mit Expression Templates
  *     https://www.heise.de/developer/artikel/Temporaere-Objekte-vermeiden-mit-Expression-Templates-6546908.html
  *
+ *   [grimm20220308] Avoiding Temporaries with Expression Templates
+ *     http://www.modernescpp.com/index.php/avoiding-temporaries-with-expression-templates
+ *
  *   [vandevoorde2017] C++ Templates: The Complete Guide von David Vandervoorde, Nicolai M. Josuttis, und Douglas Gregor
  *     http://www.tmplbook.com/
  *
