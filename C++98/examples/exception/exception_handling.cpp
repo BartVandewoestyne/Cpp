@@ -1,6 +1,12 @@
 /*
  * References:
  *
+ *   [google] Google C++ Style Guide - Exceptions
+ *     https://google.github.io/styleguide/cppguide.html#Exceptions
+ *
+ *   [microsoft] Modern C++ best practices for exceptions and error handling
+ *     https://docs.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp
+ *
  *   [bradley20190524] A Study on the Effects of Exception Usage in Open-Source C++ Systems
  *     https://uwspace.uwaterloo.ca/handle/10012/14714
  *     https://plg.uwaterloo.ca/~migod/papers/2019/scam19.pdf
