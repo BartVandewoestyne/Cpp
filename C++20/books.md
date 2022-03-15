@@ -59,7 +59,9 @@ https://www.apress.com/gp/book/9781484258835
 https://www.packtpub.com/product/modern-c-cookbook-second-edition/9781800208988
 
 [dmitrovic20200722] Modern C++ for Absolute Beginners<br>
-https://www.apress.com/gp/book/9781484260463
+https://www.apress.com/gp/book/9781484260463<br>
+https://github.com/Apress/modern-cpp-for-absolute-beginners<br>
+https://www.cppstories.com/2022/moderncpp-beginners-book/ (review)
 
 [gregoire202002XX] Professional C++, 5th Edition, Marc Gregoire<br>
 https://www.wiley.com/en-us/Professional+C%2B%2B%2C+5th+Edition-p-9781119695509
