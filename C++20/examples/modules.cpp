@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [will20220317] C++ Modules in CMake with Visual Studio
+ *     https://devblogs.microsoft.com/cppblog/cpp20-modules-in-cmake-with-vs/
+ *
  *   [burn202202XX] How to Use C++20 Modules with Bazel and Clang
  *     https://buildingblock.ai/cpp20-modules-bazel
  *
