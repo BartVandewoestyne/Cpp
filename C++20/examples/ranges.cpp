@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [toth20211103] C++20 Ranges - Complete Guide
+ *     https://itnext.io/c-20-ranges-complete-guide-4d26e3511db0
+ *
  *   [grimm20200217] C++20: The Ranges Library
  *     http://www.modernescpp.com/index.php/c-20-the-ranges-library
  *
