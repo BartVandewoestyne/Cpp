@@ -44,6 +44,9 @@
  *   [hinnant20160916] Everything You Ever Wanted to Know About Move Semantics
  *     https://youtu.be/vLinb2fgkHk
  *
- *   [kalev20070510] Move Semantics: Make Your Next Move
- *     http://www.devx.com/cplus/10MinuteSolution/34577
+ *   [kalev20120709] Move Semantics in C++11, Part 2: Design and Implementation of Special Move Functions
+ *     https://www.informit.com/articles/article.aspx?p=1916419
+ *
+ *   [kalev20120702] Move Semantics in C++11, Part 1: A New Way of Thinking About Objects
+ *     https://www.informit.com/articles/article.aspx?p=1914190
  */
