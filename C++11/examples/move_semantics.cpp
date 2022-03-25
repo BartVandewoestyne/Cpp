@@ -4,8 +4,18 @@
  *   [kootker20220302] Modern C++ In-Depth — Move Semantics, Part 1
  *     https://medium.com/factset/modern-c-in-depth-move-semantics-part-1-8a29d33944e4
  *
+ *   [josuttis20211026] Back to Basics: Move Semantics - Nicolai Josuttis - CppCon 2021
+ *     https://youtu.be/Bt3zcJZIalk
+ *
+ *   [olsen20200917] Back to Basics: Move Semantics - David Olsen - CppCon 2020
+ *     https://youtu.be/ZG59Bqo7qX4
+ *
  *   [sutter20200217] Move, simply
  *     https://herbsutter.com/2020/02/17/move-simply/
+ *
+ *   [iglberger20190916] Back to Basics: Move Semantics - Klaus Iglberger - CppCon 2019
+ *     https://youtu.be/St0MNEU5b0o (part 1 of 2)
+ *     https://youtu.be/pIzaZbKUw2s (part 2 of 2)
  *
  *   [winward20190117] C++ moves for people who don't know or care what rvalues are
  *     https://medium.com/@winwardo/c-moves-for-people-who-dont-know-or-care-what-rvalues-are-%EF%B8%8F-56ee122dda7
