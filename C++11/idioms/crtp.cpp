@@ -1,4 +1,19 @@
 /*
+ * Key idea of CRTP:
+ *
+ *   A class Derived derives from a class template Base and Base has Derived as a template argument:
+ *
+ *     template<typename T>
+ *     class Base
+ *     {
+ *         ...
+ *     };
+ *
+ *     class Derived : public Base<Derived>
+ *     {
+ *         ...
+ *     };
+ *   
  * References:
  *
  *   [sjostrom20190409] How to Emulate the Spaceship Operator Before C++20 with CRTP
