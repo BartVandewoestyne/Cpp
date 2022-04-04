@@ -1,7 +1,14 @@
 /*
+ * Key ideas:
+ *
+ *   - std::enable_shared_from_this is a prominent example of an application of the CRTP idiom.
+ *
  * References:
  *
  *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
+ *
+ *  [grimm20220307] Mixins
+ *    http://www.modernescpp.com/index.php/mixins
  *
  *  [kumar20200524] enable_shared_from_this - overview, examples, and internals
  *    https://www.nextptr.com/tutorial/ta1414193955/enable_shared_from_this-overview-examples-and-internals
