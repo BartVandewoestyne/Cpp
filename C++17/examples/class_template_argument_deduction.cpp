@@ -8,11 +8,15 @@
  *
  * References:
  *
+ *   [chen20220420] Class template argument deduction may be the new hotness, but we’ll always have maker functions
+ *     https://devblogs.microsoft.com/oldnewthing/20220420-00/?p=106506
+ *
  *   [orians20200716] Improving Readability With Class Template Argument Deduction - A.J. Orians [ C++ on Sea 2020 ]
  *     https://cpponsea.uk/2020/sessions/improving-readability-with-class-template-argument-deduction.html
  *
  *   [lavavej20181011] How to Use Class Template Argument Deduction
  *     https://blogs.msdn.microsoft.com/vcblog/2018/10/11/how-to-use-class-template-argument-deduction/
+ *     https://devblogs.microsoft.com/cppblog/how-to-use-class-template-argument-deduction/
  *
  *   [orr201802XX] CTAD – What Is This New Acronym All About? (Overload Journal #143, Roger Orr)
  *     https://accu.org/index.php/journals/2465
