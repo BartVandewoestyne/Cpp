@@ -1,8 +1,14 @@
 /*
  * Key ideas:
- *   * auto can have the usual qualifiers & and const.
+ *
+ *   - Structured bindings can be used for creating *new* variables to hold the result.
+ *     If you want to assign the result to *existing* variables, then you can use the old standby std::tie.
+ *   - auto can have the usual qualifiers & and const.
  *   
  * References:
+ *
+ *   [chen20200925] Structured binding may be the new hotness, but we’ll always have std::tie
+ *     https://devblogs.microsoft.com/oldnewthing/20200925-00/?p=104297
  *
  *   [khizbullin20200924] C++17 structured bindings for more safe, functional code
  *     https://itnext.io/c-17-structured-bindings-for-more-safe-functional-code-c0c5b4d31b0d
