@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [filipek20220516] C++20 Ranges Algorithms - 11 Modifying Operations
+ *     https://www.cppstories.com/2022/ranges-alg-part-two/
+ *
  *   [toth20211103] C++20 Ranges - Complete Guide
  *     https://itnext.io/c-20-ranges-complete-guide-4d26e3511db0
  *
