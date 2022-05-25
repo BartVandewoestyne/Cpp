@@ -1,0 +1,2 @@
+[lohmann20030518] Using MC.exe, message resources and the NT event log in your own projects
+  https://www.codeproject.com/Articles/4166/Using-MC-exe-message-resources-and-the-NT-event-lo

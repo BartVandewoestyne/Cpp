@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [kumar20200604] Scoped (class) enums: fundamentals and examples
+ *     https://www.nextptr.com/tutorial/ta1423015134/scoped-class-enums-fundamentals-and-examples
+ *
  *   [grimm20171127] C++ Core Guidelines: Rules for Enumerations
  *     http://www.modernescpp.com/index.php/c-core-guidelines-rules-for-enumerations
  *

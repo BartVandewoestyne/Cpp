@@ -1,6 +1,15 @@
 /*
  * References:
  *
+ *   [kootker20220207] Improving Stability with Modern C++, Part 5 - Revisiting the Rule of Three
+ *     https://medium.com/factset/improving-stability-with-modern-c-part-5-revisiting-the-rule-of-three-402415ef09ec
+ *
+ *   [odwyer20190917] Back to Basics: RAII and the Rule of Zero - Arthur O'Dwyer - CppCon 2019
+ *     https://youtu.be/7Qgd9B1KuMQ
+ *
+ *   [odwyer20190820] Self-assignment and the Rule of Zero
+ *     https://quuxplusone.github.io/blog/2019/08/20/rule-of-zero-pitfall/
+ *
  *   [cppcoreguidelines] C.20: If you can avoid defining default operations, do
  *     http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero
  *

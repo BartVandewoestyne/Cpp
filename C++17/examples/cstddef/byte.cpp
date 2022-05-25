@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [codingjesus20200707] C++ - std::byte
+ *     https://youtu.be/VTsOJIcBpRQ
+ *
  *   [mertz20181128] std::string is not a Container for Raw Data
  *     https://arne-mertz.de/2018/11/string-not-for-raw-data/
  *

@@ -1,0 +1,3 @@
+Thread Sanitizer (for detecting data races)
+  https://clang.llvm.org/docs/ThreadSanitizer.html
+  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual

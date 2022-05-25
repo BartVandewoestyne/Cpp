@@ -1,6 +1,9 @@
 /**
  * Reference:
  *
+ *   [nash20180406] East End Functions
+ *     https://levelofindirection.com/blog/east-end-functions.html
+ *
  *   [mertz20180502] Trailing Return Types, East Const, and Code Style Consistency
  *     https://arne-mertz.de/2018/05/trailing-return-types-east-const-and-code-style-consistency/
  *

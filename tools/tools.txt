@@ -1,48 +1,18 @@
-Dependency Visualisers
-----------------------
-cpp-dependencies
-  https://github.com/tomtom-international/cpp-dependencies
-
-Cpp Dependency Graph
-  https://github.com/shreyasbharath/cpp_dependency_graph
-
-Compile-time code checking
---------------------------
-GSL
-  https://github.com/Microsoft/GSL
-  https://github.com/martinmoene/gsl-lite
-  https://github.com/viboes/GSL
-  https://github.com/mbasaglia/Cxx-MiscLib/blob/master/include/misclib/gsl.hpp
-
-  https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
-
 Unit testing
 ------------
-Catch / Catch2
-  http://catch-lib.net/
-  https://youtu.be/3tIE6X5FjDE
-
 Google Test
   https://github.com/google/googletest
-
-Runtime code checking
----------------------
-Thread Sanitizer (for detecting data races)
-  https://clang.llvm.org/docs/ThreadSanitizer.html
-  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
-
-Automatic source code formatting
---------------------------------
-astyle
-  http://astyle.sourceforge.net/
-
-clang-format
-  https://clang.llvm.org/docs/ClangFormat.html
-
-UniversalIndentGUI
-  http://universalindent.sourceforge.net/
 
 Other
 -----
 Include what you use
   https://include-what-you-use.org/
+
+Code complexity
+---------------
+http://www.lizard.ws/
+
+Code coverage
+-------------
+OpenCppCoverage
+https://about.codecov.io/blog/how-to-set-up-codecov-with-c-plus-plus-and-github-actions/

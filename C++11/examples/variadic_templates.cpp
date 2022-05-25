@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [grimm20210816] More about Variadic Templates...
+ *     http://www.modernescpp.com/index.php/more-arbout-variadic-templates
+ *
  *   [grimm20190408] C++ Insights: Variadic Templates
  *     https://www.heise.de/developer/artikel/C-Insights-Variadic-Templates-4365343.html
  *
