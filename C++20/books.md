@@ -36,7 +36,7 @@ http://www.modernescpp.com/index.php/i-m-proud-to-present-c-20
 [cyganek20210208] Introduction to Programming with C++ for Engineers<br>
 http://home.agh.edu.pl/~cyganek/BookCpp.htm
 
-[turner20210114] C++ Best Practices - 45ish Simple Rules with Specific Action Items for Better C++
+[turner20210114] C++ Best Practices - 45ish Simple Rules with Specific Action Items for Better C++<br>
 https://leanpub.com/cppbestpractices
 
 [filipek20210214] C++ Lambda Story<br>
