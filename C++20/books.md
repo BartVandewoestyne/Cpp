@@ -1,5 +1,5 @@
-[josuttis2022XXXX] C++20 - The Complete Guide
-https://leanpub.com/cpp20
+[josuttis2022XXXX] C++20 - The Complete Guide<br>
+https://leanpub.com/cpp20<br>
 https://cppstd20.com/
 
 [deitel20220414] C++20 for Programmers<br>
@@ -15,7 +15,7 @@ https://www.packtpub.com/product/the-art-of-writing-efficient-programs/978180020
 https://leanpub.com/programming-with-cpp20
 
 [roth20210618] Clean C++20: Sustainable Software Development Patterns and Best Practices - Second Edition<br>
-https://www.apress.com/gp/book/9781484259481
+https://www.apress.com/gp/book/9781484259481<br>
 https://github.com/Apress/clean-cpp20
   
 [ostrowski202104XX] Software Architecture with C++<br>
