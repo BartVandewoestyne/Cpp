@@ -1,10 +1,13 @@
 /*
  * References:
  *
- *   [krzemienski20210916] Concepts ¿ case studies
+ *   [fertig] C++20 Concepts - Andreas Fertig - ACCU 2022
+ *     https://youtu.be/XOMv4VilN50
+ *
+ *   [krzemienski20210916] Concepts Â¿ case studies
  *     https://akrzemi1.wordpress.com/2021/09/16/concepts-case-studies/
  *
- *   [toth20210915] C++20 Concepts — Complete Guide
+ *   [toth20210915] C++20 Concepts â€” Complete Guide
  *     https://itnext.io/c-20-concepts-complete-guide-42c9e009c6bf
  *
  *   [vorbrodt20210825] C++20 Concepts
@@ -45,11 +48,13 @@
  *
  *   [grimm20191125] C++20: Two Extremes and the Rescue with Concepts
  *     http://www.modernescpp.com/index.php/concepts-two-extrems-and-the-solution
+ *
  *   [grimm20190615] Concepts in C++20: A Revolution (itCppCon19)
  *     https://youtu.be/3XYrw1N-Ev4
  *
  *   [dibella20180515] Prepping Yourself to Conceptify Algorithms
  *     http://cjdb.com.au/blog/2018/05/15/prepping-yourself-to-conceptify-algorithms
+ *
  *   [grimm20170320] Concepts definieren
  *     http://www.grimm-jaud.de/index.php/blog/concepts-definieren
  *
