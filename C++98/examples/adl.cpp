@@ -12,19 +12,24 @@
  *   [20121216bo] Advance C++: Koenig Lookup - Argument Dependent Lookup (ADL)
  *     https://youtu.be/TxgPZXe8XTo 
  *
- *   [1] https://en.wikipedia.org/wiki/Argument-dependent_name_lookup
+ *   [wikipedia] Argument-dependent name lookup
+ *     https://en.wikipedia.org/wiki/Argument-dependent_name_lookup
  *
  *   [2] C++ ANSI ISO IEC 14882-2003 basic.lookup.koenig
  */
 
-namespace NS 
+#include <iostream>
+
+namespace foo
 {
    class A {};
-   void f( A &a, int i) {}
+
+   void f(const A& a, int i) { std::cout << "Calling foo::f(A&, int)." << std::endl; }
 }
 
 int main() 
 {
-   NS::A a;
-   f( a, 0 );    //calls NS::f
+   foo::A a;
+
+   f(a, 0);  // calls foo::f
 }
