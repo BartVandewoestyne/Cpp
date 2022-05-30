@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [grimm20220516] Check Types with Concepts
+ *     http://www.modernescpp.com/index.php/check-types-with-concepts
+ *
  *   [fertig] C++20 Concepts - Andreas Fertig - ACCU 2022
  *     https://youtu.be/XOMv4VilN50
  *
