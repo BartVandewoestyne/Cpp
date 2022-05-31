@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [grimm20220530] Projections with Ranges
+ *     http://www.modernescpp.com/index.php/projections-with-ranges
+ *
  *   [filipek20220516] C++20 Ranges Algorithms - 11 Modifying Operations
  *     https://www.cppstories.com/2022/ranges-alg-part-two/
  *
