@@ -15,8 +15,9 @@
  *     };
  *
  * CRTP is some kind of static (compile-time) polymorphism technique.
- * Alternative names for it are 'Barton-Nackman trick'.  It can be used for
- * the following things:
+ * It is sometimes also referred to as the 'Barton-Nackman trick', but that
+ * is incorrect, see [vandevoorde20021112], section 16.5 on page 299.  CRTP
+ * can be used for the following things:
  *
  *   -> add functionality to a class by inheriting from the base class.
  *
