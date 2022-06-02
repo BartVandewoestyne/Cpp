@@ -4,10 +4,17 @@
  *   - Expression templates are typically used in Linear Algebra code and
  *     avoid temporary objects.
  *
+ *   - Expression templates were developed independently by Todd Veldhuizen and
+ *     David Vandevoorde (Todd coined the term).
+ *
  * References:
  *
- *   [grimm20220314] Temporäre Objekte vermeiden mit Expression Templates
- *     https://www.heise.de/developer/artikel/Temporaere-Objekte-vermeiden-mit-Expression-Templates-6546908.html
+ *   [boost] Boost Basic Linear Algebra Library
+ *     https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/index.html
+ *
+ *   [wikipedia] Expression templates
+ *     https://en.wikipedia.org/wiki/Expression_templates
+ *
  *
  *   [grimm20220308] Avoiding Temporaries with Expression Templates
  *     http://www.modernescpp.com/index.php/avoiding-temporaries-with-expression-templates
@@ -15,11 +22,14 @@
  *   [vandevoorde2017] C++ Templates: The Complete Guide von David Vandervoorde, Nicolai M. Josuttis, und Douglas Gregor
  *     http://www.tmplbook.com/
  *
- *   [boost] Boost Basic Linear Algebra Library
- *     https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/index.html
- *
  *   [iglberger2014] Expression Templates Revisited - Meeting C++ 2014
  *     https://youtu.be/hfn0BVOegac
+ *
+ *   [vandevoorde20021112] C++ Templates - The Complete Guide - Chapter 18 Expression Templates
+ *     https://www.josuttis.com/tmplbook/tmplbook.html
+ *
+ *   [veldhuizen1995] Expression Templates - C++ Report 7 (5) pages 26-31.
+ *     https://web.archive.org/web/20050210090012/http://osl.iu.edu/~tveldhui/papers/Expression-Templates/exprtmpl.html
  */
 
 #include <cassert>
