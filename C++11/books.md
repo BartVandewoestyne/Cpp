@@ -7,7 +7,7 @@ The following books cover C++11
 [stroustrup20130916] A Tour of C++<br>
   https://www.stroustrup.com/Tour.html
   
-[stroustrup20130509] The C++ Programming Language (4th Edition)
+[stroustrup20130509] The C++ Programming Language (4th Edition)<br>
   https://www.stroustrup.com/4th.html
 
 [lippmann20120806] C++ Primer (5th Edition)<br>
