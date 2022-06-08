@@ -4,6 +4,9 @@ The following books cover C++11
 [josuttis202001XX] C++ Move Semantics - The Complete Guide<br>
   http://www.cppmove.com/
   
+[digennaro20150430] Advanced Metaprogramming in Classic C++<br>
+  https://link.springer.com/book/10.1007/978-1-4842-1010-9
+  
 [stroustrup20130916] A Tour of C++<br>
   https://www.stroustrup.com/Tour.html
   
