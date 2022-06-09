@@ -5,6 +5,9 @@ References:
 
   [koval20210402] All C++20 core language features with examples
     https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html
+    
+  [doumler20200918] How C++20 Changes the Way We Write Code - Timur Doumler - CppCon 2020
+    https://youtu.be/ImLFlLjSveM
 
   [grimm20200824] volatile und andere kleine Verbesserungen in C++20
     https://www.heise.de/developer/artikel/volatile-und-andere-kleine-Verbesserungen-in-C-20-4874333.html
