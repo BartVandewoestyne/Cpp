@@ -1,7 +1,13 @@
 /*
  * References:
  *
- *   [kootker20220302] Modern C++ In-Depth — Move Semantics, Part 1
+ *   [severeijns20220512] Modern C++ In-Depth — Perfect Forwarding
+ *     https://medium.com/factset/modern-c-in-depth-perfect-forwarding-570f242261f8
+ *
+ *   [severeijns20220503] Modern C++ In-Depth — Move Semantics, Part 2
+ *     https://medium.com/factset/modern-c-in-depth-move-semantics-part-2-4c53e90d5f2
+ *
+ *   [severeijns20220302] Modern C++ In-Depth — Move Semantics, Part 1
  *     https://medium.com/factset/modern-c-in-depth-move-semantics-part-1-8a29d33944e4
  *
  *   [josuttis20211026] Back to Basics: Move Semantics - Nicolai Josuttis - CppCon 2021
