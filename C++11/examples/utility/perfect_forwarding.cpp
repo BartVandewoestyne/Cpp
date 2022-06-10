@@ -13,6 +13,12 @@
  *   [carnie20180426] Your handy cut-out-and-keep guide to std::forward and std::move
  *     https://blog.feabhas.com/2018/04/handy-cut-keep-guide-stdforward-stdmove/
  *
+ *   [shirinian20170223] Perfect Forwarding in C++11
+ *     https://agop.me/post/perfect-forwarding-cpp-11.html
+ *
+ *   [bendersky20141103] Perfect forwarding and universal references in C++
+ *     http://eli.thegreenplace.net/2014/perfect-forwarding-and-universal-references-in-c/
+ *
  *   [aCuria20120312] What's the difference between std::move and std::forward
  *     https://stackoverflow.com/questions/9671749/whats-the-difference-between-stdmove-and-stdforward
  */
