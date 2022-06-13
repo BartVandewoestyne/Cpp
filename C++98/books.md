@@ -12,4 +12,8 @@ The following books cover C++98
 [josuttis19990822] The C++ Standard Library: A Tutorial and Reference 1st Edition
   http://www.josuttis.com/libbook/
 
+[lakos19960821] Large Scale C++ Software Design
+  Review:
+    https://stackoverflow.com/questions/1860796/your-thoughts-on-large-scale-c-software-design
+
 [coplien1992] J. Coplien. Advanced C++ Programming Styles and Idioms (Addison-Wesley, 1992).
