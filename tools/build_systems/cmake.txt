@@ -13,7 +13,7 @@ References:
     https://youtu.be/bDdkJu-nVTo
 
   [mao20200808] CMake: Public VS Private VS Interface
-    CMake: Public VS Private VS Interface
+    https://leimao.github.io/blog/CMake-Public-Private-Interface/
 
   [sejdak20200118] Modern CMake is like inheritance
     https://kubasejdak.com/modern-cmake-is-like-inheritance
