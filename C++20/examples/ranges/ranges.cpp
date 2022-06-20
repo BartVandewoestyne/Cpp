@@ -7,8 +7,8 @@
  *   [grimm20220530] Projections with Ranges
  *     http://www.modernescpp.com/index.php/projections-with-ranges
  *
- *   [filipek20220516] C++20 Ranges Algorithms - 11 Modifying Operations
- *     https://www.cppstories.com/2022/ranges-alg-part-two/
+ *   [filipek20220328] C++20 Ranges: The Key Advantage - Algorithm Composition
+ *     https://www.cppstories.com/2022/ranges-composition/
  *
  *   [toth20211103] C++20 Ranges - Complete Guide
  *     https://itnext.io/c-20-ranges-complete-guide-4d26e3511db0
