@@ -8,6 +8,9 @@
  *   [filipek20220613] C++20 Ranges Algorithms - sorting, sets, other and C++23 updates
  *     https://www.cppstories.com/2022/ranges-alg-part-three/
  *
+ *   [grimm20220606] Sentinels and Concepts with Ranges Algorithms
+ *     http://www.modernescpp.com/index.php/sentinels-and-concepts
+ *
  *   [filipek20220522] C++20 Ranges Algorithms - 11 Modifying Operations
  *     https://www.cppstories.com/2022/ranges-alg-part-two/
  *
