@@ -1,6 +1,9 @@
 /*
  * References
  *
+ *   [grimm20220609] Improved Iterators with Ranges
+ *     http://www.modernescpp.com/index.php/improved-iterators-with-ranges
+ *
  *   [grimm20220530] Projections with Ranges
  *     http://www.modernescpp.com/index.php/projections-with-ranges
  *
