@@ -16,7 +16,8 @@ https://www.informit.com/store/beautiful-c-plus-plus-30-core-guidelines-for-writ
 https://www.packtpub.com/product/the-art-of-writing-efficient-programs/9781800208117
 
 [fertig20211018] Programming with C++20 - Concepts, Coroutines, Ranges, and more<br>
-https://leanpub.com/programming-with-cpp20
+https://leanpub.com/programming-with-cpp20<br>
+https://andreasfertig.blog/2022/06/using-a-new-cpp-standard-the-pain-of-being-at-the-cutting-edge/
 
 [roth20210618] Clean C++20: Sustainable Software Development Patterns and Best Practices - Second Edition<br>
 https://www.apress.com/gp/book/9781484259481<br>
