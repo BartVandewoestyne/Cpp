@@ -3,6 +3,9 @@ Project page:
 
 References:
 
+  [mueller20220629] Tutorial: Preparing libraries for CMake FetchContent
+    https://www.foonathan.net/2022/06/cmake-fetchcontent/
+    
   [hoffman20210503] CMake: One Tool To Build Them All - Bill Hoffman [CppNow 2021]
     https://youtu.be/wULu83jQmIQ
 
