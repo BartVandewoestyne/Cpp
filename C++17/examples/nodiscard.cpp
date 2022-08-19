@@ -1,6 +1,12 @@
 /*
  * References:
  *
+ *   [stackoverflow20210412] Why clang-tidy suggests to add [[nodiscard]] everywhere?
+ *     https://stackoverflow.com/questions/67059884/why-clang-tidy-suggests-to-add-nodiscard-everywhere
+ *
+ *   [stackexchange20171230] What's the reason for not using C++17's [[nodiscard]] almost everywhere in new code?
+ *     https://softwareengineering.stackexchange.com/questions/363169/whats-the-reason-for-not-using-c17s-nodiscard-almost-everywhere-in-new-c
+ *
  *   [filipek2017nodiscard] [[nodiscard]]
  *     http://www.bfilipek.com/2017/11/nodiscard.html
  *
