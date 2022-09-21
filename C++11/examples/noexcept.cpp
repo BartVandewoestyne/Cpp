@@ -69,6 +69,8 @@
  *   [20161212quasardb] When noexcept?
  *     https://blog.quasardb.net/when-noexcept-2/
  *
+ *   [201411XX] Effective Modern C++ - Item 14: Declare functions noexcept if they won't emit exceptions.
+ *
  *   [20131231] When to Use noexcept And When to Not
  *     https://xinhuang.github.io/posts/2013-12-31-when-to-use-noexcept-and-when-to-not.html
  *
