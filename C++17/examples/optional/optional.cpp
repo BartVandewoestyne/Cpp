@@ -22,6 +22,9 @@
  *
  * References:
  *
+ *   [boost] When to use Optional
+ *     https://www.boost.org/doc/libs/1_63_0/libs/optional/doc/html/boost_optional/tutorial/when_to_use_optional.html
+ *
  *   [chen20211004] Some lesser-known powers of std::optional
  *     https://devblogs.microsoft.com/oldnewthing/20211004-00/?p=105754
  *
