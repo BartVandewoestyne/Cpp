@@ -1,0 +1,6 @@
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html
+
+* Very powerful, good UI, Linux and Windows
+* Currently (November 18, 2021) available for free as part of Intel System
+  Studio
+* Requires Intel hardware

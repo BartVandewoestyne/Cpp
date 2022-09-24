@@ -4,6 +4,11 @@
 
 #include <iostream>
 
+void foo(double x)
+{
+    std::cout << "x = " << x << "\n";
+}
+
 int main()
 {
     {   // implicit conversion turns floating point number into integer: 'double' to 'int'
@@ -26,5 +31,10 @@ int main()
 	} else {
 	    std::cout << "x2 is false" << std::endl;
 	}
+    }
+
+    {
+        // Passing a float to a function that expects a double -> float gets converted to double
+        foo(5.0f);
     }
 }

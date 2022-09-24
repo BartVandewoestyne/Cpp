@@ -1,2 +1,0 @@
-[cppdepend20180209] The 15 C++11 features you must really use in your C++ projects.
-  http://cppdepend.com/blog/?p=319

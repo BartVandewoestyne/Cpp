@@ -1,0 +1,15 @@
+Website:
+
+  https://www.chalet-work.space/
+
+Primary repository:
+
+  https://github.com/chalet-org/chalet
+
+Examples:
+
+  https://github.com/chalet-org
+
+Discussions:
+
+  https://www.reddit.com/r/cpp/comments/v8wu0n/chalet_a_crossplatform_project_format_build_tool/

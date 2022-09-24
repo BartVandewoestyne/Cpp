@@ -1,0 +1,8 @@
+CPPAN: C++ Archive Network
+  https://cppan.org/
+  https://github.com/cppan/cppan
+
+References:
+
+  [pugin2016XXXX] C++ Archive Network (CPPAN)
+    https://www.reddit.com/r/cpp/comments/4c6s5f/c_archive_network_cppan/

@@ -1,5 +1,41 @@
 /*
+ * Key ideas:
+ *
+ *   - The most common place to use std::optional is when you want to indicate
+ *     there is no value, or something was not found in a return type or a
+ *     parameter.
+ *
+ *   - With std::optional, there’s no way to know what was the reason why a
+ *     value wasn’t computed.  It is therefore recommended to use optional<T> in
+ *     situations where there is exactly one, clear (to all parties) reason for
+ *     having no value of type T, and where the lack of value is as natural as
+ *     having any regular value of T.
+ *
+ *   - If you also want to know the *reason* for why no error was returned, you
+ *     might checkout C++23's std::expected.
+ *
+ *   - Any time you need a tool to express “value-or-not-value”, or “possibly
+ *     an answer”, or “object with delayed initialization”, you should reach into
+ *     your toolbox for std::optional. Using a vocabulary type for these cases
+ *     raises the level of abstraction, making it easier for others to understand
+ *     what your code is doing.
+ *
  * References:
+ *
+ *   [boost] When to use Optional
+ *     https://www.boost.org/doc/libs/1_63_0/libs/optional/doc/html/boost_optional/tutorial/when_to_use_optional.html
+ *
+ *   [chen20211004] Some lesser-known powers of std::optional
+ *     https://devblogs.microsoft.com/oldnewthing/20211004-00/?p=105754
+ *
+ *   [carvalho20210919] std::optional and non-POD C++ types
+ *     http://blog.felipe.rs/2021/09/19/std-optional-and-non-pod-types-in-cpp/
+ *
+ *   [boccara20210514] A Default Value to Dereference Null Pointers
+ *     https://www.fluentcpp.com/2021/05/14/a-default-value-to-dereference-null-pointers/
+ *
+ *   [copperspice20190912] Any Optional
+ *     https://youtu.be/6A3Y3YDTC-0
  *
  *   [carter20180904] std::optional: How, when, and why
  *     https://blogs.msdn.microsoft.com/vcblog/2018/09/04/stdoptional-how-when-and-why/
@@ -35,7 +71,7 @@
  *     https://youtu.be/XkDEzfpdcSg?t=32m17s
  *
  *   [fertig2017overload] About the C++ Core Guidelines, Andreas Fertig, Overload 140, page 26.
- *     https://accu.org/var/uploads/journals/Overload140.pdf
+ *     https://members.accu.org/index.php/journals/2402
  *
  *   [sutter2013factories] GotW #90: Factories
  *     https://herbsutter.com/2013/05/29/gotw-90-factories/

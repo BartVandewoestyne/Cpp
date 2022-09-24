@@ -1,6 +1,12 @@
 /*
  * References:
  *
+ *   [reddit20211128] When to use the PIMPL idiom?
+ *     https://www.reddit.com/r/cpp/comments/r4atq2/when_to_use_the_pimpl_idiom/
+ *
+ *   [plastis20210222] The Pointer to Implementation (pImpl) idiom in C++
+ *     https://youtu.be/lETcZQuKQBs
+ *
  *   [cpppatterns] The PIMPL idiom
  *     http://www.cppsamples.com/common-tasks/pimpl.html
  *

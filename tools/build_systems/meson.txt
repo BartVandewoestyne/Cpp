@@ -1,0 +1,6 @@
+Meson
+  http://mesonbuild.com/
+
+  https://www.reddit.com/r/cpp/comments/erxiw6/a_manual_for_the_meson_build_system_is_now/
+  https://meson-manual.com/
+  https://nibblestew.blogspot.com/2020/01/the-meson-manual-is-now-available-for.html

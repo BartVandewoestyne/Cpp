@@ -1,0 +1,8 @@
+https://en.wikipedia.org/wiki/Cpplint
+
+Google version:
+  https://github.com/google/styleguide/tree/gh-pages/cpplint
+
+Fork that is more open to issues and pull requests:
+  https://pypi.org/project/cpplint/
+  https://github.com/cpplint/cpplint

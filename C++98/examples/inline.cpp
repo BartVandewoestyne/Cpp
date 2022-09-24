@@ -3,6 +3,9 @@
  * 
  * References:
  *
+ *   [TimurHu20200730] Should you use the inline keyword or not?
+ *     https://www.reddit.com/r/cpp/comments/i0haek/should_you_use_the_inline_keyword_or_not/
+ *
  *   [brand20180126] Do compilers take inline as a hint?
  *     https://blog.tartanllama.xyz/inline-hints/
  *
