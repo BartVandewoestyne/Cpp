@@ -1,9 +1,24 @@
 /*
- * Key idea:
+ * Key ideas:
  *
  *   - The most common place to use std::optional is when you want to indicate
  *     there is no value, or something was not found in a return type or a
  *     parameter.
+ *
+ *   - With std::optional, there’s no way to know what was the reason why a
+ *     value wasn’t computed.  It is therefore recommended to use optional<T> in
+ *     situations where there is exactly one, clear (to all parties) reason for
+ *     having no value of type T, and where the lack of value is as natural as
+ *     having any regular value of T.
+ *
+ *   - If you also want to know the *reason* for why no error was returned, you
+ *     might checkout C++23's std::expected.
+ *
+ *   - Any time you need a tool to express “value-or-not-value”, or “possibly
+ *     an answer”, or “object with delayed initialization”, you should reach into
+ *     your toolbox for std::optional. Using a vocabulary type for these cases
+ *     raises the level of abstraction, making it easier for others to understand
+ *     what your code is doing.
  *
  * References:
  *
