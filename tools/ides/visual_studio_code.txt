@@ -1,0 +1,7 @@
+Main page:
+  https://code.visualstudio.com/
+
+References:
+
+  [dalheimer20191127] Using Visual Studio Code for Writing Qt Applications
+    https://www.kdab.com/using-visual-studio-code-for-writing-qt-applications/

@@ -3,8 +3,14 @@
  *
  * References:
  *
+ *   [microsoft] Lambda expressions in C++
  *   http://msdn.microsoft.com/en-us/library/dd293608.aspx
- *   https://mayankj08.github.io/2017/07/23/Lambdas-In-C++/
+ *
+ *   [nurak20211117] Lambda expressions in modern C++ (in depth step by step tutorial)
+ *     https://youtu.be/MH8mLFqj-n8
+ *
+ *   [jain20170723] Lambdas in C++
+ *     https://mayankj08.github.io/2017/07/23/Lambdas-In-C++/
  */
 
 #include <algorithm>

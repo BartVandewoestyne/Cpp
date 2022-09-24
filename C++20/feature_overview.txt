@@ -1,0 +1,35 @@
+References:
+
+  [josuttis20211110] C++20 - My Favourite Code Examples
+    https://youtu.be/ey4pTOfdi9k
+
+  [koval20210402] All C++20 core language features with examples
+    https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html
+    
+  [doumler20200918] How C++20 Changes the Way We Write Code - Timur Doumler - CppCon 2020
+    https://youtu.be/ImLFlLjSveM
+
+  [grimm20200824] volatile und andere kleine Verbesserungen in C++20
+    https://www.heise.de/developer/artikel/volatile-und-andere-kleine-Verbesserungen-in-C-20-4874333.html
+
+  [grimm20191103] C++ 20: The Core Language
+    http://www.modernescpp.com/index.php/c-20-the-core-language
+
+  [grimm20191028] C++20: The Big Four
+    http://www.modernescpp.com/index.php/thebigfour
+
+  [gregoire20191010] C++20: What's in it for you?
+    http://becpp.org/blog/wp-content/uploads/2019/10/Marc-Gregoire-C20-Whats-In-It-For-You.pptx
+
+  [vaneerd] C++20 features described in Before/After tables ("Tony Tables")
+    https://github.com/tvaneerd/cpp20_in_TTs
+
+  [sutter20190720] Trip report: Summer ISO C++ standards meeting (Cologne)
+    https://herbsutter.com/2019/07/20/trip-report-summer-iso-c-standards-meeting-cologne/
+  
+  [clow2019XXXX] Changes to the C++ standard library for C++20
+    https://youtu.be/coXGSfUak-Q
+  
+  [garcia20180318] Jacksonville’18 ISO C++ Report
+    https://usingstdcpp.org/2018/03/18/jacksonville18-iso-cpp-report/
+    https://www.reddit.com/r/cpp/comments/85d5v0/jacksonville18_iso_c_report_j_daniel_garc%C3%ADa/

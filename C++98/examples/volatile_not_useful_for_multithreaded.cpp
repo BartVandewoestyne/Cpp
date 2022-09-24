@@ -1,6 +1,12 @@
 /*
  * References:
  *   
+ *   [bastien20190920] Deprecating volatile (CppCon 2019)
+ *     https://youtu.be/KJW_DLaVXIY
+ *
+ *   [karls20190602] Should volatile really never be used for multi-threading?
+ *     https://www.reddit.com/r/cpp/comments/bw2au4/should_volatile_really_never_be_used_for/
+ *
  *   [brandy20170929] Curiously Recurring C++ Bugs at Facebook (CppCon 2017)
  *     https://youtu.be/3MB2iiCkGxg?t=1021
  *     
@@ -30,9 +36,6 @@
  *   [DeMarcus2010] Am I or Alexandrescu wrong about singletons?
  *     https://groups.google.com/forum/?hl=en#!topic/comp.lang.c++.moderated/_O9XxTmkLvU%5B1-25%5D
  *
- *   [meyers200409alexandrescu] C++ and the Perils of Double-Checked Locking
- *     http://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf
- *
  *   [sutter20090108] volatile vs. volatile
  *     http://www.drdobbs.com/parallel/volatile-vs-volatile/212701484
  *
@@ -47,6 +50,9 @@
  *
  *   [hedstrom2006] Stay away from Volatile in threaded code?
  *     https://sites.google.com/site/kjellhedstrom2/stay-away-from-volatile-in-threaded-code
+ *
+ *   [meyers200409alexandrescu] C++ and the Perils of Double-Checked Locking
+ *     http://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf
  *
  *   [schwartz2003] Does anyone think 'volatile' is a platform-independent way to make variable access thread safe?
  *     https://groups.google.com/forum/embed/#!topic/comp.programming.threads/H6SoLdqRaxg

@@ -1,0 +1,5 @@
+https://pypi.org/project/cppclean/
+https://github.com/myint/cppclean
+
+Old archive (does no longer contain code):
+  https://code.google.com/archive/p/cppclean/

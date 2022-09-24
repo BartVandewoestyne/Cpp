@@ -15,6 +15,9 @@
  *
  * References:
  *
+ *   [boccara20190723] What Every C++ Developer Should Know to (Correctly) Define Global Constants
+ *     https://www.fluentcpp.com/2019/07/23/how-to-define-a-global-constant-in-cpp/
+ *
  *   [arun20130207] C++ static local function vs global function
  *     https://stackoverflow.com/questions/14742664/c-static-local-function-vs-global-function
  *

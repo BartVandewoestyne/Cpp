@@ -3,8 +3,11 @@
  *
  * References:
  *  
- *   [1] http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors
- *   [2] http://stackoverflow.com/questions/7403883/derived-class-with-non-virtual-destructor
+ *   [stackoverflow20090120] When to use virtual destructors?
+ *     http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors
+ *
+ *   [stackoverflow20110913] Derived class with non-virtual destructor
+ *     http://stackoverflow.com/questions/7403883/derived-class-with-non-virtual-destructor
  */
 
 #include <iostream>

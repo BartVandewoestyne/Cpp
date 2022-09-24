@@ -1,14 +1,25 @@
 /*
+ * Key ideas:
+ *
+ *   - Variants are for example useful for tree structures where the nodes of
+ *     the tree can be of different types, and you don't want to use inheritance.
+ *
  * References:
+ *
+ *   [copperspice20191010] std::variant
+ *     https://youtu.be/FFZKH7jVjmg
+ *
+ *   [fahller20190613] Variant visitation variations
+ *     https://youtu.be/ERHYJy5KxQo
+ *
+ *   [liber20190510] The Many Variants of std::variant
+ *     https://youtu.be/JUxhwf7gYLg
  *
  *   [arias20180626] std::variant Doesn't Let Me Sleep
  *      https://pabloariasal.github.io/2018/06/26/std-variant/
  *
  *   [filipek20180604] Everything You Need to Know About std::variant from C++17
  *     https://www.bfilipek.com/2018/06/variant.html
- *
- *   [mertz20180509] Modern C++ Features – std::variant and std::visit
- *     https://arne-mertz.de/2018/05/modern-c-features-stdvariant-and-stdvisit/
  *
  *   [doumler2017] The new C++17 and why it's good for you (ADC'17)
  *     https://youtu.be/ky_eXBMcJK0?t=27m8s

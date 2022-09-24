@@ -1,0 +1,12 @@
+Vcpkg
+  https://github.com/Microsoft/vcpkg
+  https://www.reddit.com/r/cpp/comments/7egtlh/who_is_using_vcpkg/
+
+[mazzuca20210524] How to start using registries with vcpkg
+  https://devblogs.microsoft.com/cppblog/how-to-start-using-registries-with-vcpkg/
+
+[popa20210519] All vcpkg enterprise features now generally available: versioning, binary caching, manifests and registries
+  https://devblogs.microsoft.com/cppblog/all-vcpkg-enterprise-features-now-generally-available-versioning-binary-caching-manifests-and-registries/
+
+[thomson20201209] VcPkg: The Open Source Cross-Platform Package Manager from Microsoft
+  https://youtu.be/gpBDHh47w-I

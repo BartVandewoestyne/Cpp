@@ -1,7 +1,10 @@
 /*
  * References:
  *
- *   [deane2017turner] CppCon 2017: Ben Deane & Jason Turner “constexpr ALL the Things!”
+ *   [trailofbits20190627] Use constexpr for faster, smaller, and safer code
+ *     https://blog.trailofbits.com/2019/06/27/use-constexpr-for-faster-smaller-and-safer-code/
+ *     
+ *   [deane2017turner] CppCon 2017: constexpr ALL the Things! - Ben Deane & Jason Turner
  *     https://youtu.be/PJwd4JLYJJY
  *     https://github.com/CppCon/CppCon2017/tree/master/Presentations/constexpr%20ALL%20the%20things
  *

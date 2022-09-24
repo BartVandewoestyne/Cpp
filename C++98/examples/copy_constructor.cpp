@@ -1,3 +1,10 @@
+/*
+ * References:
+ *
+ *   [wikipedia] Copy constructor (C++) - Examples - User-defined copy constructor
+ *     https://en.wikipedia.org/wiki/Copy_constructor_(C%2B%2B)#User-defined_copy_constructor
+ */
+
 #include <iostream>
 
 struct Person {

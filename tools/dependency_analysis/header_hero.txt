@@ -1,0 +1,9 @@
+Original program:
+  https://bitsquid.blogspot.com/2011/10/caring-by-sharing-header-hero.html
+  https://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html
+  https://ourmachinery.com/post/physical-design/
+  https://bitbucket.org/bitsquid/header_hero (dead link)
+
+Slightly modified version:
+  https://aras-p.info/blog/2018/01/17/Header-Hero-Improvements/
+  https://github.com/aras-p/header_hero

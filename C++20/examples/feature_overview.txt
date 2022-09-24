@@ -1,3 +1,0 @@
-https://github.com/tvaneerd/cpp20_in_TTs
-https://www.reddit.com/r/cpp/comments/85d5v0/jacksonville18_iso_c_report_j_daniel_garc%C3%ADa/
-https://usingstdcpp.org/2018/03/18/jacksonville18-iso-cpp-report/

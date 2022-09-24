@@ -1,0 +1,21 @@
+Guidelines Support Library (GSL)
+--------------------------------
+
+General info:
+  https://www.heise.de/developer/artikel/C-Core-Guidelines-The-Guideline-Support-Library-3780760.html
+
+
+Microsoft implementation:
+
+  https://github.com/Microsoft/GSL
+  https://devblogs.microsoft.com/cppblog/gsl-3-0-0-release/
+
+Single-file header-only version of ISO C++ Guidelines Support Library (GSL) for C++98, C++11, and later
+(originally based on Microsoft GSL)
+  https://github.com/gsl-lite/gsl-lite
+
+Microsoft/GSL fork supporting C++11/C++14/C++1z compilers
+  https://github.com/viboes/GSL
+
+A simple GSL implementation for C++11 (and C++14)
+  https://gitlab.com/mattia.basaglia/Cxx-MiscLib/blob/master/include/misclib/gsl.hpp

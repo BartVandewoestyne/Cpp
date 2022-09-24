@@ -1,0 +1,4 @@
+Cppcheck main page:
+  http://cppcheck.sourceforge.net/
+
+https://dojofive.com/blog/be-the-cppcheck-ruler/

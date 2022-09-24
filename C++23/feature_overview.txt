@@ -1,0 +1,8 @@
+[cppreference] C++ compiler support
+  https://en.cppreference.com/w/cpp/compiler_support
+
+[downey202206XX] C++23 Status Report
+  https://github.com/steve-downey/papers/blob/master/wg21-status.org
+
+[garland20211111] C++23 Standard Library Preview - Jeff Garland - Meeting C++ 2021
+  https://youtu.be/rTVQe7zVQUw

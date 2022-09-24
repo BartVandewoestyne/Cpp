@@ -1,7 +1,23 @@
 /**
+ * Key idea of CRTP:
+ *
+ *   A class Derived derives from a class template Base and Base has Derived as a template argument:
+ *
+ *     template<typename T>
+ *     class Base
+ *     {
+ *         ...
+ *     };
+ *
+ *     class Derived : public Base<Derived>
+ *     {
+ *         ...
+ *     };
+ *
  * CRTP is some kind of static (compile-time) polymorphism technique.
- * Alternative names for it are 'Barton-Nackman trick'.  It can be used for
- * the following things:
+ * It is sometimes also referred to as the 'Barton-Nackman trick', but that
+ * is incorrect, see [vandevoorde20021112], section 16.5 on page 299.  CRTP
+ * can be used for the following things:
  *
  *   -> add functionality to a class by inheriting from the base class.
  *
@@ -15,6 +31,9 @@
  *
  *   [wikipedia] Curiously recurring template pattern
  *     https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+ *
+ *   [grimm20220228] More about Dynamic and Static Polymorphism
+ *     http://www.modernescpp.com/index.php/more-about-dynamic-and-static-polymorhism
  *
  *   [boccara20180622] Variadic CRTP: An Opt-in for Class Features, at Compile Time
  *     https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
@@ -62,63 +81,48 @@
  */
 
 #include <iostream>
-using namespace std;
 
 template <typename Derived>
-struct Creature
-{
-    int eye_num;
+struct Base{
 
-    friend bool operator == (const Derived& lhs, const Derived& rhs)
-    {
-        return lhs.IsEqual(rhs);
-    }
+  void interface() {
+    static_cast<Derived*>(this)->implementation();  // this is the key point of the CRTP idiom: dispatch to the implementation of the derived class
+  }
 
-    friend bool operator != (const Derived& lhs, const Derived& rhs)
-    {
-        return !(lhs.IsEqual(rhs));
-    }
+  void implementation() {
+    std::cout << "Implementation Base" << std::endl;  // default implementation for the static polymorphism for the class Derived3
+  }
+
 };
 
-struct Bird: Creature<Bird>
-{
-    int wing_num;
-
-    bool IsEqual(const Bird& b) const
-    {
-        return eye_num == b.eye_num && wing_num == b.wing_num;
-    }
+struct Derived1: Base<Derived1>{
+  void implementation(){
+    std::cout << "Implementation Derived1" << std::endl;
+  }
 };
 
-struct Fish: Creature<Fish>
-{
-    int fin_num;
-
-    bool IsEqual(const Fish& f) const
-    {
-        return eye_num == f.eye_num && fin_num == f.fin_num;
-    }
+struct Derived2: Base<Derived2>{
+  void implementation(){
+    std::cout << "Implementation Derived2" << std::endl;
+  }
 };
+
+struct Derived3: Base<Derived3>{};
+
+template <typename T>
+void execute(T& base) {
+    base.interface();  // in this function template, we use static polymorphism
+}
+
 
 int main()
 {
-    Bird b1, b2, b3;
+  Derived1 d1;
+  execute(d1);  // Implementation Derived1
 
-    b1.eye_num  = 2;
-    b2.eye_num  = 2;
-    b3.eye_num  = 2;
+  Derived2 d2;
+  execute(d2);  // Implementation Derived2
 
-    b1.wing_num = 2;
-    b2.wing_num = 2;
-    b3.wing_num = 3;
-
-    if (b1 != b2) cout << "Bird equal\n";
-    else          cout << "Bird not equal\n";
-    if (b1 == b3) cout << "Bird equal\n";
-    else          cout << "Bird not equal\n";
-
-    // You can do the same with Fish:
-    // Fish f1, f2, f3;
-    // f1.fin_num = 5;
-    // and so on ...
+  Derived3 d3;
+  execute(d3);  // Implementation Base
 }

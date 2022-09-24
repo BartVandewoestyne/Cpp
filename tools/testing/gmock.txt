@@ -1,0 +1,5 @@
+[saif20220311] Google Test and Mock Platform - Part 3: Mocking Classes and Functions with GMock
+  https://youtu.be/vxCH4AuVRgo
+
+[dargo20220302] Mocking virtual functions with gMock
+  https://www.sandordargo.com/blog/2022/03/02/mocking-non-virtual-and-free-functions

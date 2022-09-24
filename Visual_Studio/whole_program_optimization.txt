@@ -1,0 +1,5 @@
+/*
+ * References:
+ *   [goodwin20090224] Quick Tips On Using Whole Program Optimization
+ *     https://devblogs.microsoft.com/cppblog/quick-tips-on-using-whole-program-optimization/
+ */
