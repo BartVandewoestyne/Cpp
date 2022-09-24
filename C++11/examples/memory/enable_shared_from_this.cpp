@@ -1,7 +1,20 @@
 /*
+ * Key ideas:
+ *
+ *   - std::enable_shared_from_this is a prominent example of an application of the CRTP idiom.
+ *
  * References:
  *
  *  [cppreference] http://en.cppreference.com/w/cpp/memory/enable_shared_from_this
+ *
+ *  [grimm20220307] Mixins
+ *    http://www.modernescpp.com/index.php/mixins
+ *
+ *  [kumar20200524] enable_shared_from_this - overview, examples, and internals
+ *    https://www.nextptr.com/tutorial/ta1414193955/enable_shared_from_this-overview-examples-and-internals
+ *
+ *  [odwyer20190919] Back to Basics: Smart Pointers
+ *    https://youtu.be/xGDLkt-jBJ4?t=2578
  *
  *  [klitzke2017] Notes on std::shared_ptr and std::weak_ptr
  *    https://eklitzke.org/notes-on-std-shared-ptr-and-std-weak-ptr
@@ -19,7 +32,7 @@
 #include <memory>
 #include <iostream>
  
-struct Good: std::enable_shared_from_this<Good> // note: public inheritance
+struct Good : std::enable_shared_from_this<Good> // note: public inheritance
 {
     std::shared_ptr<Good> getptr() {
         return shared_from_this();

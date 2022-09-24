@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [meyers200409XX] C++ and the Perils of Double-Checked Locking
+ *     https://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf
+ *
  * TODO:
  *   There are nice examples for the volatile keyword in [grimm2017,meyers2014emc++].
  */

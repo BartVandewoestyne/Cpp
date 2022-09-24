@@ -1,0 +1,16 @@
+References:
+
+  [microsoft20191016] Using the C++ Core Guidelines checkers
+    https://docs.microsoft.com/en-us/visualstudio/code-quality/cpp-core-guidelines-warnings
+
+  [microsoft20191016] Use the C++ Core Check guidelines in Visual Studio 2015 projects
+    https://docs.microsoft.com/en-us/visualstudio/code-quality/cpp-core-guidelines-warnings?view=vs-2019#vs2015_corecheck
+
+  [maples20190813] New C++ Core Check Rules
+    https://devblogs.microsoft.com/cppblog/new-c-core-check-rules/
+
+  [pardoe20170815] How to use the C++ Core Guidelines Checker outside of Visual Studio
+    https://devblogs.microsoft.com/cppblog/how-to-use-the-c-core-guidelines-checker-outside-of-visual-studio/
+
+  [pardoe20170814] Managing warnings in the C++ Core Guidelines Checker
+    https://devblogs.microsoft.com/cppblog/managing-warnings-in-the-c-core-guidelines-checker/

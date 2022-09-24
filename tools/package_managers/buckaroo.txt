@@ -1,0 +1,8 @@
+Buckaroo
+  https://www.buckaroo.pm/
+  https://github.com/LoopPerfect/buckaroo/wiki
+
+References:
+
+  [buckaroo20170717] Approaches to C++ Dependency Management, or Why We Built Buckaroo
+    https://hackernoon.com/approaches-to-c-dependency-management-or-why-we-built-buckaroo-26049d4646e7

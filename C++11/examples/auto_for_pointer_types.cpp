@@ -28,9 +28,14 @@ int main()
     ++ip2;                       // OK, pointer is non-const
     *ip2 = 2;                    // error, int is const
 
+    // non-const pointer to const int (alternative)
+    auto const *ip3 = &i;        // ip3 is of type const int*
+    ++ip3;                       // OK, pointer is non-const
+    *ip3 = 3;                    // error, int is const
+
     // const pointer to const int
     // (Note: you should probably just use a reference here...)
-    const auto* const ip3 = &i;  // ip3 is of type const int* const
-    ++ip3;                       // error, pointer is const
-    *ip3 = 3;                    // error, int is const
+    const auto* const ip4 = &i;  // ip3 is of type const int* const
+    ++ip4;                       // error, pointer is const
+    *ip4 = 4;                    // error, int is const
 }

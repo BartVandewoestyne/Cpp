@@ -1,5 +1,19 @@
 /*
+ * Key idea:
+ *
+ *   - std::any is a container which can store a single value of any data type
+ *     (with some exceptoins)
+ *
  * References:
+ *
+ *   [kumar20201123] std::any - comparison with void* and motivating examples
+ *     https://www.nextptr.com/tutorial/ta1571648512/stdany-comparison-with-void-and-motivating-examples
+ *
+ *   [oopscene20201030] C++17: std::any
+ *     https://oopscenities.net/2020/10/30/cpp17_std_any/
+ *
+ *   [copperspice20190912] Any Optional
+ *     https://youtu.be/6A3Y3YDTC-0
  *
  *   [filipek20180618] Everything You Need to Know About std::any from C++17
  *     https://www.bfilipek.com/2018/06/any.html

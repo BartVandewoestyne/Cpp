@@ -1,5 +1,10 @@
 /**
+ * Private inheritance is seldom used, and is affectionately termed as
+ * a 'WasA' relationship.
+ *
  * References:
+ *
+ *   [lakos1996] Large-Scale C++ Software Design (Section 1.6.6.3 WasA).
  *
  *   [1] http://blog.knatten.org/2012/09/20/private-inheritance/
  */

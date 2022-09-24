@@ -23,12 +23,24 @@
  *
  * References:
  *
- *   [1] C++ 11 standard, section 12.8/31.
- *   [2] Effective Modern C++, Item 25, pages 174-176.
- *   [3] https://www.ibm.com/developerworks/community/blogs/5894415f-be62-4bc0-81c5-3956e82276f3/entry/RVO_V_S_std_move
- *   [4] http://shaharmike.com/cpp/rvo/
- *   [5] https://www.reddit.com/r/cpp/comments/6u78dp/need_to_demonstrate_rvo_performance_with_clang/
+ *   [cppstandard] C++ 11 standard, section 12.8/31.
  *   
+ *   [raghav20200816] But I was helping the compiler!
+ *     https://pankajraghav.com/2020/08/16/RVO.html
+ *
+ *   [meyers] Effective Modern C++, Item 25, pages 174-176.
+ *
+ *   [ibm?????]
+ *     https://www.ibm.com/developerworks/community/blogs/5894415f-be62-4bc0-81c5-3956e82276f3/entry/RVO_V_S_std_move
+ *
+ *   [shahar20170818] Return Value Optimization
+ *     http://shaharmike.com/cpp/rvo/
+ *
+ *   [shahar20170817] Need to demonstrate RVO performance with Clang and modern C++
+ *     https://www.reddit.com/r/cpp/comments/6u78dp/need_to_demonstrate_rvo_performance_with_clang/
+ *
+ *   [boccara20161128] Return value optimizations
+ *     https://www.fluentcpp.com/2016/11/28/return-value-optimizations/
  */
 
 #include <iostream>

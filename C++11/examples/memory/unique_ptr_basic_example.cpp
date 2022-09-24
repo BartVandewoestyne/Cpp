@@ -1,5 +1,5 @@
 /**
- * Illustrates the use of unique_ptr.
+ * Illustrates the use of std::unique_ptr.
  *
  * References:
  *
@@ -17,13 +17,11 @@
 #include <cstdlib>
 #include <memory>
 
-using namespace std;
-
 struct Foo {
 
-  Foo() { cerr << "Foo [" << this << "] constructed\n"; }
+  Foo() { std::cerr << "Foo [" << this << "] constructed\n"; }
 
-  virtual ~Foo() { cerr << "Foo [" << this << "] destructed\n"; }
+  virtual ~Foo() { std::cerr << "Foo [" << this << "] destructed\n"; }
 
 };
 
@@ -32,24 +30,24 @@ int main(int argc, char** argv)
 
   // .. some code
   {
-    unique_ptr<Foo> fp(new Foo());
+    std::unique_ptr<Foo> fp(new Foo());
 
-    //unique_ptr<Foo> fp2(fp);    // ERROR! can't copy unique_ptr
-    unique_ptr<Foo> fp3;
-    //fp3 = fp;                   // ERROR! can't assign unique_ptr
+    //std::unique_ptr<Foo> fp2(fp);    // ERROR! can't copy std::unique_ptr
+    std::unique_ptr<Foo> fp3;
+    //fp3 = fp;                        // ERROR! can't assign std::unique_ptr
 
-    cerr << "Exiting scope\n";
+    std::cerr << "Exiting scope\n";
   } // fp will be destroyed, and will destruct the pointed object
 
-  cerr << "Demonstrating reset functionality:\n";
+  std::cerr << "Demonstrating reset functionality:\n";
   {
-    cerr << "Creating new unique_ptr...\n";
-    unique_ptr<Foo> fp(new Foo());
-    cerr << "done.\n";
+    std::cerr << "Creating new std::unique_ptr...\n";
+    std::unique_ptr<Foo> fp(new Foo());
+    std::cerr << "done.\n";
 
-    cerr << "Resetting...\n";
+    std::cerr << "Resetting...\n";
     fp.reset(new Foo());
-    cerr << "done.\n";
+    std::cerr << "done.\n";
   }
 
   return 0;

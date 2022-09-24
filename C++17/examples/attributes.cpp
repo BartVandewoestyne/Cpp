@@ -18,4 +18,7 @@
  *
  *   [mertz20161128] Modern C++ Features - Attributes
  *     https://arne-mertz.de/2016/12/modern-c-features-attributes/
+ *
+ *   [turner20160919] C++ Weekly - Episode 29: C++17's [[maybe_unused]] Attribute
+ *     https://youtu.be/WSPmNL9834U
  */

@@ -1,6 +1,9 @@
 /**
  * References:
  *
+ *   [odwyer20190218] The Knightmare of Initialization in C++
+ *     https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/
+ *
  *   [1] http://www.reddit.com/r/cpp/comments/x3o9z/psa_the_most_vexing_parse/
  *   [2] http://en.wikipedia.org/wiki/C%2B%2B11#Uniform_initialization
  *   [revzin2017] Uniform initialization isn’t

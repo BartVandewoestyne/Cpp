@@ -1,0 +1,5 @@
+https://perf.wiki.kernel.org/index.php/Main_Page
+
+* Very powerful, part of Linux kernel.
+* Works on x86, ARM, PPC and SH processors.
+* No GUI.

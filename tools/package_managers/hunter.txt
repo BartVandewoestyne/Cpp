@@ -1,0 +1,12 @@
+Main websites:
+
+  https://docs.hunter.sh/en/latest/
+  https://github.com/ruslo/hunter
+
+Note that on July 21, 2019 it was announced that Hunter might no longer be
+maintained.  See https://github.com/ruslo/hunter/issues/1921
+
+References:
+
+  [kontsevich20190302] A Quick introduction to Hunter
+    https://geokon-gh.github.io/hunterintro.html

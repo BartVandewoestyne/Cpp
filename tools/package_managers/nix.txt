@@ -1,0 +1,2 @@
+Nix
+  https://nixos.org/nix/

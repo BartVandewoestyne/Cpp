@@ -1,7 +1,11 @@
 /*
  * References:
- *   [1] http://stackoverflow.com/questions/2254263/order-of-member-constructor-and-destructor-calls
- *   [2] http://stackoverflow.com/questions/28356069/what-order-are-destructors-called-and-member-variables-destroyed-in-c-using-in
+ *
+ *   [stackoverflow20100212] Order of member constructor and destructor calls
+ *     http://stackoverflow.com/questions/2254263/order-of-member-constructor-and-destructor-calls
+ *
+ *   [stackoverflow20150205] What order are destructors called and member variables destroyed in C++ using inhertitance?
+ *     http://stackoverflow.com/questions/28356069/what-order-are-destructors-called-and-member-variables-destroyed-in-c-using-in
  */
 
 #include <iostream>

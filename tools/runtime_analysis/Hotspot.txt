@@ -1,0 +1,7 @@
+https://github.com/KDAB/hotspot
+https://www.kdab.com/hotspot-to-fix-string-copy/
+https://www.kdab.com/hotspot-video/
+
+* Opensource GUI for perf, written by KDAB.
+* Easy to use, supports the most common use cases.
+    * CPU cycles, off-CPU time

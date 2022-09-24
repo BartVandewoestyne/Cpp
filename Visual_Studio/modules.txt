@@ -1,0 +1,4 @@
+/*
+ * [buik20201029] A Tour of C++ Modules in Visual Studio
+ *   https://devblogs.microsoft.com/cppblog/a-tour-of-cpp-modules-in-visual-studio/
+ */

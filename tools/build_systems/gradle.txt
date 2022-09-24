@@ -1,0 +1,7 @@
+Gradle
+  https://gradle.org/
+
+References:
+
+  [mahr20190410] Introduction into C++ Builds with Gradle
+    https://thoughts-on-cpp.com/2019/04/10/introduction-into-c-builds-with-gradle/

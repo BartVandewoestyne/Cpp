@@ -1,0 +1,18 @@
+Unit testing
+------------
+Google Test
+  https://github.com/google/googletest
+
+Other
+-----
+Include what you use
+  https://include-what-you-use.org/
+
+Code complexity
+---------------
+http://www.lizard.ws/
+
+Code coverage
+-------------
+OpenCppCoverage
+https://about.codecov.io/blog/how-to-set-up-codecov-with-c-plus-plus-and-github-actions/
