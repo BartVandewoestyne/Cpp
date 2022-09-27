@@ -4,7 +4,7 @@
  *
  * References:
  *
- *   [trivedi????????] C++ bitset and its application
+ *   [trivedi20180904] C++ bitset and its application
  *     https://www.geeksforgeeks.org/c-bitset-and-its-application/
  *
  *   [dhamodaran20180308] C++ Bitset With Example
