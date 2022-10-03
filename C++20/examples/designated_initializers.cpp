@@ -1,4 +1,12 @@
 /*
+ * Key ideas:
+ *
+ *   - One of the main reasons to use designated initializers is to increase
+ *     readability.
+ *
+ *   - Another reason is flexibility: you can skip some data members and rely
+ *     on default values for others.
+ *
  * References:
  *
  *   [elvert20220221] My favorite C++20 feature
