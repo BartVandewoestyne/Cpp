@@ -16,3 +16,18 @@
  *   [widlund20181119] Exploring C++20 - Designated initialisers
  *     https://blog.therocode.net/2018/11/exploring-cpp-20-designated-initializers
  */
+
+struct Date {
+    int year;
+    int month;
+    int day;
+};
+
+int main()
+{
+    // Old, less readable way.
+    Date inFuture { 2050, 4, 10 };
+
+    // New, more readable way.
+    //Date inFuture { .year = 2050, .month = 4, .day = 10 };
+}
