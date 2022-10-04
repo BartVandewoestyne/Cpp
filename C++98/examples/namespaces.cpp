@@ -1,4 +1,10 @@
 /*
+ * Key ideas:
+ *
+ *   - Namespaces are used
+ *       1. to organize code into logical groups,
+ *       2. to prevent name collisions that can occur especially when your code base includes multiple libraries.
+ *
  * References:
  *
  *   [microsoft] Namespaces (C++)
