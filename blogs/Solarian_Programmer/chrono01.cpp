@@ -44,7 +44,7 @@ int main(){
     // Print the time difference between start and end.
     cout << chrono::duration <double, milli> (diff).count() << " ms" << endl;
     cout << chrono::duration <double, nano> (diff).count() << " ns" << endl;
-    diff_sec = chrono::duration_cast<chrono::nanoseconds>(diff);
+    const auto diff_sec = chrono::duration_cast<chrono::nanoseconds>(diff);
     cout << diff_sec.count() << endl;
 
     return 0;    
