@@ -14,6 +14,12 @@
  *
  * References:
  *
+ *   [cppcoreguidelines] C++ Core Guidelines - CP.42: Don’t wait without a condition
+ *     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rconc-wait
+ *
+ *   [grimm20180604] C++ Core Guidelines: Be Aware of the Traps of Condition Variables
+ *     https://www.modernescpp.com/index.php/c-core-guidelines-be-aware-of-the-traps-of-condition-variables
+ *
  *   [grimm20160523] Condition Variables
  *     https://www.modernescpp.com/index.php/condition-variables
  */
@@ -38,7 +44,7 @@ void waitingForWork()
     std::cout << "Worker: Waiting for work." << std::endl;
 
     std::unique_lock<std::mutex> lck(mutex_);
-    condVar.wait(lck, []{return dataReady;});
+    condVar.wait(lck, []{return dataReady;});  // prevent spurious wakeup!!!
     doTheWork();
     std::cout << "Work done." << std::endl;
 }
