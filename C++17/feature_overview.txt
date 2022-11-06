@@ -1,6 +1,9 @@
 Websites that give an overview of C++17 features:
 -------------------------------------------------
 
+[filipek20221010] C++17
+  https://www.cppstories.com/2017/01/cpp17features/
+
 [copperspice20200213] Moving to C++17
   https://youtu.be/IaH9tTmF0UI
 
