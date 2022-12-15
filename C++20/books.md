@@ -1,3 +1,6 @@
+[grimm20220422] C++ Core Guidelines Explained: Best Practices for Modern C++<br>
+https://www.informit.com/store/c-plus-plus-core-guidelines-explained-best-practices-9780136875673
+
 [josuttis2022XXXX] C++20 - The Complete Guide<br>
 https://leanpub.com/cpp20<br>
 https://cppstd20.com/
