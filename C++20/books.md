@@ -6,12 +6,12 @@ https://leanpub.com/cpp20<br>
 https://cppstd20.com/
 
 [filipek2022XXXX] Data Member Initialization in Modern C++<br>
-  https://leanpub.com/cppinitbook<br>
-  https://www.cppstories.com/2022/cpp-init-book/
+https://leanpub.com/cppinitbook<br>
+https://www.cppstories.com/2022/cpp-init-book/
   
 [bancila202208XX] Template Metaprogramming with C++<br>
-  https://mariusbancila.ro/blog/2022/08/19/my-book-template-metaprogramming-with-cpp-is-now-available/<br>
-  https://www.packtpub.com/product/template-metaprogramming-with-c/9781803243450
+https://mariusbancila.ro/blog/2022/08/19/my-book-template-metaprogramming-with-cpp-is-now-available/<br>
+https://www.packtpub.com/product/template-metaprogramming-with-c/9781803243450
 
 [deitel20220414] C++20 for Programmers<br>
 https://deitel.com/c-plus-plus-20-for-programmers/
