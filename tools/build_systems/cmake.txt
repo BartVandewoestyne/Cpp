@@ -5,6 +5,9 @@ References:
 
   [mueller20220629] Tutorial: Preparing libraries for CMake FetchContent
     https://www.foonathan.net/2022/06/cmake-fetchcontent/
+
+  [berner202205XX] CMake Best Practices
+    https://www.packtpub.com/product/cmake-best-practices/9781803239729
     
   [hoffman20210503] CMake: One Tool To Build Them All - Bill Hoffman [CppNow 2021]
     https://youtu.be/wULu83jQmIQ
