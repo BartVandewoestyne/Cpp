@@ -11,7 +11,12 @@
  *        then you never know what the user provided function will do.  It might
  *        end up locking another mutex and then you have two mutexes being locked.
  *        Or it might even try to lock the same mutex again.
- 
+ *
+ * Compile and run:
+ *
+ *   clang -g -fsanitize=thread deadlock.cpp -lpthread -lstdc++
+ *   TSAN_OPTIONS=detect_deadlocks=1:second_deadlock_stack=1 ./a.out
+ *  
  * References:
  *
  *   [youtube] C++ Threading #4: Deadlock
