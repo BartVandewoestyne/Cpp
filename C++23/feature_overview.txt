@@ -1,3 +1,6 @@
+[copperspice20230112] A Peek at C++23
+  https://youtu.be/CizysBtbsPw
+
 [cppreference] C++ compiler support
   https://en.cppreference.com/w/cpp/compiler_support
 
