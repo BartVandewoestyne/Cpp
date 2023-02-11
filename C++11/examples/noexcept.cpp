@@ -60,6 +60,9 @@
  *   [cppreference] noexcept operator (since C++11)
  *     https://en.cppreference.com/w/cpp/language/noexcept
  *
+ *   [fertig20211215] C++ Insights - Episode 21: How noexcept works
+ *     https://youtu.be/2xHfTLbEkko
+ *
  *   [20191119microsoft] noexcept (C++)
  *     https://docs.microsoft.com/en-us/cpp/cpp/noexcept-cpp?view=msvc-160
  *
