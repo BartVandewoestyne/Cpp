@@ -22,7 +22,7 @@
  *       - destructor
  *       - deallocation functions
  *
- *   - Examples of code that *might* trhow:
+ *   - Examples of code that *might* throw:
  *       - allocating memory -> can throw std::bad_alloc
  *       - every function you call
  *       - every object you instantiate
