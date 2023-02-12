@@ -4,7 +4,7 @@
  * References:
  *
  *   [microsoft] Lambda expressions in C++
- *   http://msdn.microsoft.com/en-us/library/dd293608.aspx
+ *     http://msdn.microsoft.com/en-us/library/dd293608.aspx
  *
  *   [nurak20211117] Lambda expressions in modern C++ (in depth step by step tutorial)
  *     https://youtu.be/MH8mLFqj-n8
