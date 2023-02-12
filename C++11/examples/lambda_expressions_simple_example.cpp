@@ -6,6 +6,15 @@
  *   [microsoft] Lambda expressions in C++
  *     http://msdn.microsoft.com/en-us/library/dd293608.aspx
  *
+ *   [kristofik20230201] Modern C++ In-Depth — Lambdas, Part 3
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-3-561823a990e6
+ *
+ *   [kristofik20230106] Modern C++ In-Depth — Lambdas, Part 2
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-2-a2d54c7b51
+ *
+ *   [adusumilli20221129] Modern C++ In-Depth — Lambdas, Part 1
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-1-d03fe8153ee1
+ *
  *   [nurak20211117] Lambda expressions in modern C++ (in depth step by step tutorial)
  *     https://youtu.be/MH8mLFqj-n8
  *
