@@ -16,12 +16,11 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
-using namespace std;
 
 int main() 
 {
   // Create a vector object that contains 10 elements.
-  vector<int> v;
+  std::vector<int> v;
   for (int i = 0; i < 10; ++i) 
   {
     v.push_back(i);
@@ -30,24 +29,22 @@ int main()
   // Count the number of even numbers in the vector by 
   // using the for_each function and a lambda expression.
   int evenCount = 0;
-  for_each(v.begin(), v.end(), [&evenCount] (int n) {
-    cout << n;
+  std::for_each(v.begin(), v.end(), [&evenCount] (int n) {
+    std::cout << n;
 
     if (n % 2 == 0) 
     {
-      cout << " is even " << endl;
-
-      // Increment the counter.
+      std::cout << " is even " << std::endl;
       evenCount++;
     }
     else 
     {
-      cout << " is odd " << endl;
+      std::cout << " is odd " << std::endl;
     }
   });
 
   // Print the count of even numbers to the console.
-  cout << "There are " << evenCount 
-       << " even numbers in the vector." << endl;
+  std::cout << "There are " << evenCount 
+       << " even numbers in the vector." << std::endl;
 
 }
