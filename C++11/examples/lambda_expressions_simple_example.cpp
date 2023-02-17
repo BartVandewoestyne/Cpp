@@ -4,7 +4,16 @@
  * References:
  *
  *   [microsoft] Lambda expressions in C++
- *   http://msdn.microsoft.com/en-us/library/dd293608.aspx
+ *     http://msdn.microsoft.com/en-us/library/dd293608.aspx
+ *
+ *   [kristofik20230201] Modern C++ In-Depth — Lambdas, Part 3
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-3-561823a990e6
+ *
+ *   [kristofik20230106] Modern C++ In-Depth — Lambdas, Part 2
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-2-a2d54c7b51
+ *
+ *   [adusumilli20221129] Modern C++ In-Depth — Lambdas, Part 1
+ *     https://medium.com/factset/modern-c-in-depth-lambdas-part-1-d03fe8153ee1
  *
  *   [nurak20211117] Lambda expressions in modern C++ (in depth step by step tutorial)
  *     https://youtu.be/MH8mLFqj-n8
@@ -16,12 +25,11 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
-using namespace std;
 
 int main() 
 {
   // Create a vector object that contains 10 elements.
-  vector<int> v;
+  std::vector<int> v;
   for (int i = 0; i < 10; ++i) 
   {
     v.push_back(i);
@@ -30,24 +38,22 @@ int main()
   // Count the number of even numbers in the vector by 
   // using the for_each function and a lambda expression.
   int evenCount = 0;
-  for_each(v.begin(), v.end(), [&evenCount] (int n) {
-    cout << n;
+  std::for_each(v.begin(), v.end(), [&evenCount] (int n) {
+    std::cout << n;
 
     if (n % 2 == 0) 
     {
-      cout << " is even " << endl;
-
-      // Increment the counter.
+      std::cout << " is even " << std::endl;
       evenCount++;
     }
     else 
     {
-      cout << " is odd " << endl;
+      std::cout << " is odd " << std::endl;
     }
   });
 
   // Print the count of even numbers to the console.
-  cout << "There are " << evenCount 
-       << " even numbers in the vector." << endl;
+  std::cout << "There are " << evenCount 
+       << " even numbers in the vector." << std::endl;
 
 }
