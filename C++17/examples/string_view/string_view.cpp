@@ -31,6 +31,9 @@
  *   [miller20191009] C++ std::string_view for better performance: An example use case
  *     https://www.nextptr.com/tutorial/ta1217154594/cplusplus-stdstring_view-for-better-performance-an-example-use-case
  *
+ *   [zavrsnik2019] Notes from porting to std::string_view
+ *     http://www.blog.matejzavrsnik.com/notes_from_porting_to_std_string_view.html
+ *
  *   [oneal20180821] std::string_view: The Duct Tape of String Types
  *     https://blogs.msdn.microsoft.com/vcblog/2018/08/21/stdstring_view-the-duct-tape-of-string-types/
  *
