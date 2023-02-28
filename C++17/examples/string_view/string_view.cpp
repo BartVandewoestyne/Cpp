@@ -6,6 +6,11 @@
  *       -> Returning from a function.
  *       -> A reference to part of a long-lived data structure.
  *
+ *   - "std::string_view" should be used to pass a read-only string to a function [sonarsource-rspec-6009]
+ *       -> Everywhere where you have const std::string& function arguments,
+ *          they can be safely replaced with std::string_view ones if you are
+ *          not relying on the null-termination character.
+ * 
  *   - It is idiomatic to pass std::string_view by value.
  *
  *   - Drawbacks of std::string_view:
@@ -13,6 +18,9 @@
  *       -> An std::string_view is not necessarily null-terminated.
  *
  * References:
+ *
+ *   [sonarsource-rspec-6009] "std::string_view" should be used to pass a read-only string to a function
+ *     https://rules.sonarsource.com/cpp/RSPEC-6009
  *
  *   [odwyer20211119] A footnote on “Three reasons to pass std::string_view by value”
  *     https://quuxplusone.github.io/blog/2021/11/19/string-view-by-value-ps/
