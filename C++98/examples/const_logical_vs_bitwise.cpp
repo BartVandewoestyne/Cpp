@@ -4,8 +4,8 @@
  *   [isocpp] How can it help me design better classes if I distinguish logical state from physical state?
  *     https://isocpp.org/wiki/faq/const-correctness#logical-vs-physical-state
  *
- *   [meyers] Effective C++
- *     TODO: find item
+ *   [meyers20050512] Effective C++ (Third Edition) - Item 3: Use const whenever possible
+ *     https://www.amazon.com/gp/product/0321334876
  *
  *   [subramaniyan20171028] Logic Constness and Bitwise Constness in c++
  *     https://youtu.be/bKIqdkjWFfU
