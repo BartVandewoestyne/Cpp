@@ -1,7 +1,7 @@
 # TODO:
 #   * Create a nice CMake build system.
 
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.0)
 
 project(boost_examples)
 
@@ -16,3 +16,4 @@ message(status "** Boost Libraries: ${Boost_REGEX_LIBRARY}")
 include_directories(${Boost_INCLUDE_DIRS})
 
 add_subdirectory(filesystem)
+add_subdirectory(stacktrace)
