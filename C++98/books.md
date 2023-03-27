@@ -1,3 +1,8 @@
+Official standard
+-----------------
+* [ISO/IEC 14882:1998](https://www.iso.org/standard/25845.html)
+* [N1146 - C++98 final working draft](https://open-std.org/JTC1/SC22/WG21/docs/wp/pdf/nov97-2/)
+
 The following books cover C++98
 -------------------------------
 
