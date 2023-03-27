@@ -29,5 +29,6 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 add_subdirectory(C++98)
+add_subdirectory(C++03)
 add_subdirectory(googletest)
 add_subdirectory(gmock)
