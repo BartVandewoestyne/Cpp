@@ -8,14 +8,42 @@
 class Painter
 {
 public:
-    Painter(Turtle* turtle) : mTurtle(turtle) { std::cout << "Painter() called" << std::endl; }
+    Painter(Turtle* turtle) : mTurtle(turtle) {}
 
     bool DrawCircle(int x, int y, int radius)
     {
-        std::cout << "Painter::DrawCircle called" << std::endl;
         // TODO: implement DrawCircle
         mTurtle->PenDown();
         return true;
+    }
+
+    bool moveForward100()
+    {
+        mTurtle->Forward(100);
+        //mTurtle->Forward(100);
+        return true;
+    }
+
+    bool ThreeTimesWithSpecifiedReturn()
+    {
+        mTurtle->GetX();
+        mTurtle->GetX();
+        mTurtle->GetX();
+        mTurtle->GetX();
+        return true;
+    }
+
+    void DrawLineSegment()
+    {
+        mTurtle->PenDown();
+        mTurtle->Forward(100);
+        mTurtle->PenUp();
+    }
+
+    void demoNaggyBehavior()
+    {
+        mTurtle->GetX();
+        mTurtle->GetY();
     }
 
 private:
