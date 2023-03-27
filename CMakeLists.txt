@@ -10,6 +10,7 @@ project(Cpp)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED YES)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 enable_testing()
 
