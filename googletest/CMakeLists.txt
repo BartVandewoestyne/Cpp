@@ -1,12 +1,3 @@
-# To build and run the tests:
-#
-#   cmake -S . -B build
-#   cmake --build build
-#   cd build && ctest
-
-cmake_minimum_required(VERSION 3.14)
-project(googletest)
-
 # GoogleTest requires at least C++14
 set(CMAKE_CXX_STANDARD 14)
 
