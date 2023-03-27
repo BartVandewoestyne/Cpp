@@ -15,7 +15,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 enable_testing()
 
 if (CMAKE_VERSION VERSION_GREATER_EQUAL "3.24.0")
-    cmake_policy(SET CMP0135 NEW)
+  cmake_policy(SET CMP0135 NEW)
 endif()
 
 include(FetchContent)
