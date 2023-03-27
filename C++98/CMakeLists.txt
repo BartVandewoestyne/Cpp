@@ -1,1 +1,2 @@
+add_executable(char_arrays_vs_strings char_arrays_vs_strings.cpp)
 add_executable(conditional_operator conditional_operator.cpp)
