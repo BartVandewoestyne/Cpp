@@ -1,0 +1,1 @@
+add_executable(conditional_operator conditional_operator.cpp)
