@@ -1,3 +1,10 @@
+/*
+ * References:
+ *
+ *   [catchorg] Writing tests
+ *     https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests
+ */
+
 #include <catch2/catch_test_macros.hpp>
 
 #include <cstdint>
