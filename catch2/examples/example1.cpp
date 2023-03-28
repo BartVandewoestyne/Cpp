@@ -9,13 +9,20 @@
 
 #include <cstdint>
 
-uint32_t factorial( uint32_t number ) {
-    return number <= 1 ? number : factorial(number-1) * number;
+unsigned int Factorial(unsigned int number) {
+    return number > 1 ? Factorial(number-1)*number : 1;
 }
 
-TEST_CASE( "Factorials are computed", "[factorial]" ) {
-    REQUIRE( factorial( 1) == 1 );
-    REQUIRE( factorial( 2) == 2 );
-    REQUIRE( factorial( 3) == 6 );
-    REQUIRE( factorial(10) == 3'628'800 );
+TEST_CASE( "Factorial handles zero input", "[factorial]")
+{
+    REQUIRE( Factorial(0) == 1 ); 
+} 
+
+TEST_CASE( "Factorials are computed", "[factorial]" )
+{
+    REQUIRE( Factorial(1) == 1 );
+    REQUIRE( Factorial(2) == 2 );
+    REQUIRE( Factorial(3) == 6 );
+    REQUIRE( Factorial(8) == 40320 );
+}
 }
