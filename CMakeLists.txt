@@ -34,11 +34,16 @@ FetchContent_Declare(
   GIT_TAG        v3.0.1 # or a later release
 )
 FetchContent_MakeAvailable(Catch2)
-
 include(Catch)
+
+FetchContent_Declare(trompeloeil
+    URL https://github.com/rollbear/trompeloeil/archive/v42.zip)
+
+FetchContent_MakeAvailable(trompeloeil)
 
 add_subdirectory(C++98)
 add_subdirectory(C++03)
 add_subdirectory(googletest)
 add_subdirectory(gmock)
 add_subdirectory(catch2)
+add_subdirectory(trompeloeil)
