@@ -14,3 +14,14 @@ TEST(FooTest, ItDoesNotThrow)
         auto x = 1 + 2;
     });
 }
+
+TEST(NumbersTest, ComparingNumbers)
+{
+  double x = 1.0;
+  EXPECT_DOUBLE_EQ(1.0, x);
+
+  float y = 2.0f;
+  EXPECT_FLOAT_EQ(2.0f, y);
+  
+  EXPECT_NEAR(1.0/3, 1 - 2.0/3, 1e-6);
+}
