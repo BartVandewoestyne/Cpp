@@ -7,5 +7,4 @@ target_link_libraries(OrderTest
     trompeloeil::trompeloeil)
 
 # Optional: Use CTest to manage your tests
-add_test(NAME OrderTest COMMAND OrderTest ) # May need to call enable_testing() elsewhere also
-
+add_test(NAME OrderTest COMMAND OrderTest )
