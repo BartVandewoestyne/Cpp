@@ -14,3 +14,6 @@
  *     https://www.nayuki.io/page/undefined-behavior-in-c-and-cplusplus-programs
  *
  */
+
+int main()
+{}

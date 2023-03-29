@@ -12,3 +12,6 @@
  *
  *   [lakos19960821] Large Scale C++ Software Design
  */
+
+int main()
+{}

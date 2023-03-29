@@ -10,3 +10,6 @@
  *   [powell20150923] CppCon 2015: Richard Powell “Intro to the C++ Object Model"
  *     https://youtu.be/iLiDezv_Frk
  */
+
+int main()
+{}
