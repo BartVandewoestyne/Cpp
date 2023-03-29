@@ -6,3 +6,4 @@ target_link_libraries(example01
 add_test(NAME example01 COMMAND example01)
 
 add_subdirectory(libwarehouse)
+add_subdirectory(logo_testing)
