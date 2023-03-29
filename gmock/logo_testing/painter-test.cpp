@@ -22,7 +22,7 @@ TEST(PainterTest, CanDrawSomething) {
   // EXPECT_CALL() and calls to the mock functions, and do not set any
   // expectations on a mock aftere passing the mock to an API.
   // -> Here, we test that PenDown() is called at least once.
-  EXPECT_CALL(turtle, PenDown())                  // #3
+  EXPECT_CALL(turtle, penDown())                  // #3
       .Times(AtLeast(1));
 
   // Exercise some code that uses the mocks; *optionally*, check the result
@@ -38,7 +38,7 @@ TEST(PainterTest, MoveForward100)
 {
   MockTurtle turtle;
 
-  EXPECT_CALL(turtle, Forward(100));
+  EXPECT_CALL(turtle, forward(100));
 
   Painter painter(&turtle);
   EXPECT_TRUE(painter.moveForward100());
@@ -50,8 +50,8 @@ TEST(PainterTest, SpecifyActions)
 
   MockTurtle turtle;
 
-  // Specify that GetX will be called at least 3 times, the first times returning 100, 200 and 300 and if called more returning 400.
-  EXPECT_CALL(turtle, GetX())
+  // Specify that getX will be called at least 3 times, the first times returning 100, 200 and 300 and if called more returning 400.
+  EXPECT_CALL(turtle, getX())
     .WillOnce(Return(100))
     .WillOnce(Return(200))
     .WillOnce(Return(300))
@@ -70,9 +70,9 @@ TEST(PainterTest, DrawLineSegment)
   {
     InSequence seq;
 
-    EXPECT_CALL(turtle, PenDown());
-    EXPECT_CALL(turtle, Forward(100));
-    EXPECT_CALL(turtle, PenUp());
+    EXPECT_CALL(turtle, penDown());
+    EXPECT_CALL(turtle, forward(100));
+    EXPECT_CALL(turtle, penUp());
   }
 
   Painter painter(&turtle);
@@ -88,12 +88,12 @@ TEST(PainterTest, DemoNaggyBehavior)
   //NiceMock<MockTurtle> turtle;    // suppress warnings for uninteresting calls
   //StrictMock<MockTurtle> turtle;  // give error on uninteresting calls
 
-  // If turtle has other methods than GetX, then for the other methods, you
+  // If turtle has other methods than getX, then for the other methods, you
   // will get the warning:
   //
   //   GMOCK WARNING:
   //   Uninteresting mock function call - returning default value.
-  //       Function call: GetY()
+  //       Function call: getY()
   //             Returns: 0
   //   NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect for details.
   //
@@ -101,10 +101,10 @@ TEST(PainterTest, DemoNaggyBehavior)
   //
   //   unknown file: Failure
   //   Uninteresting mock function call - returning default value.
-  //       Function call: GetY()
+  //       Function call: getY()
   //             Returns: 0
   //
-  EXPECT_CALL(turtle, GetX())
+  EXPECT_CALL(turtle, getX())
     .Times(AtLeast(1));
 
   Painter painter(&turtle);

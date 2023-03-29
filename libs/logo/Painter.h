@@ -13,37 +13,37 @@ public:
     bool DrawCircle(int x, int y, int radius)
     {
         // TODO: implement DrawCircle
-        mTurtle->PenDown();
+        mTurtle->penDown();
         return true;
     }
 
     bool moveForward100()
     {
-        mTurtle->Forward(100);
-        //mTurtle->Forward(100);
+        mTurtle->forward(100);
+        //mTurtle->forward(100);
         return true;
     }
 
     bool ThreeTimesWithSpecifiedReturn()
     {
-        mTurtle->GetX();
-        mTurtle->GetX();
-        mTurtle->GetX();
-        mTurtle->GetX();
+        mTurtle->getX();
+        mTurtle->getX();
+        mTurtle->getX();
+        mTurtle->getX();
         return true;
     }
 
     void DrawLineSegment()
     {
-        mTurtle->PenDown();
-        mTurtle->Forward(100);
-        mTurtle->PenUp();
+        mTurtle->penDown();
+        mTurtle->forward(100);
+        mTurtle->penUp();
     }
 
     void demoNaggyBehavior()
     {
-        mTurtle->GetX();
-        mTurtle->GetY();
+        mTurtle->getX();
+        mTurtle->getY();
     }
 
 private:
