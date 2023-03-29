@@ -1,1 +1,1 @@
-add_subdirectory(libturtle)
+add_subdirectory(logo_testing)

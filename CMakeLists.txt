@@ -43,6 +43,7 @@ FetchContent_MakeAvailable(trompeloeil)
 
 add_subdirectory(C++98)
 add_subdirectory(C++03)
+add_subdirectory(libs)
 add_subdirectory(googletest)
 add_subdirectory(gmock)
 add_subdirectory(catch2)
