@@ -17,27 +17,77 @@ public:
         return true;
     }
 
-    bool moveForward100()
+    void fiveTimesGetX() const
+    {
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+    }
+
+    void moveForward100()
     {
         mTurtle->forward(100);
-        //mTurtle->forward(100);
-        return true;
     }
 
-    bool ThreeTimesWithSpecifiedReturn()
+    void moveToX50()
     {
-        mTurtle->getX();
-        mTurtle->getX();
-        mTurtle->getX();
-        mTurtle->getX();
-        return true;
+        mTurtle->goTo(50, 123);
     }
 
-    void DrawLineSegment()
+    void moveForwardByAtLeast100()
+    {
+        mTurtle->forward(123);
+    }
+
+    void moveForwardAndGoto()
+    {
+        mTurtle->forward(123);
+        mTurtle->goTo(123, 456);
+    }
+
+    void threeTimesWithSpecifiedReturn()
+    {
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+    }
+
+    void atLeastsTwoTimesWithSpecifiedReturn()
+    {
+        std::cout << "Turtle::getY() called and it returned " << mTurtle->getY() << std::endl;
+        std::cout << "Turtle::getY() called and it returned " << mTurtle->getY() << std::endl;
+        std::cout << "Turtle::getY() called and it returned " << mTurtle->getY() << std::endl;
+        std::cout << "Turtle::getY() called and it returned " << mTurtle->getY() << std::endl;
+    }
+
+    void threeTimesForward()
+    {
+        mTurtle->forward(10);
+        mTurtle->forward(10);
+        mTurtle->forward(20);
+    }
+
+    void drawLineSegment()
     {
         mTurtle->penDown();
         mTurtle->forward(100);
         mTurtle->penUp();
+    }
+
+    void goToOriginThreeTimes()
+    {
+        mTurtle->goTo(0, 0);
+        mTurtle->goTo(0, 0);
+        mTurtle->goTo(0, 0);
+    }
+
+    void threeTimesGetXDecreasing()
+    {
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
+        std::cout << "Turtle::getX() called and it returned " << mTurtle->getX() << std::endl;
     }
 
     void demoNaggyBehavior()
