@@ -24,6 +24,9 @@
  *
  *   [digtestcpp] std::packaged_task c++11
  *     https://digestcpp.com/cpp11/packagedtask/
+ *
+ *   [brotcruncher20170928] Multithreading in C++ [027] - std::packaged_task
+ *     https://youtu.be/Y1xak1NzfRI
  */
 
 // Code example from cppreference
