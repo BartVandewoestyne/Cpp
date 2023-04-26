@@ -17,6 +17,8 @@
  *     http://thispointer.com/c11-multithreading-part-8-stdfuture-stdpromise-and-returning-values-from-thread/
  */
 
+// Listing 4.6 from williams2012
+
 #include <future>
 #include <iostream>
 
