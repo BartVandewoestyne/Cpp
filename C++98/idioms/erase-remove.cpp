@@ -3,6 +3,9 @@
  * have a vector and you want to remove certain elements from it for which a
  * certain predicate is true.  E.g. you want to remove all odd elements or so.
  *
+ * Note that in C++20, there is std::erase and std::erase_if so this idiom is
+ * no longer necessary.
+ *
  * References:
  *
  *   [1] http://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom
@@ -13,6 +16,9 @@
  *   [2] Scott Meyers Effective STL book
  *
  *   [3] C9 lectures on the STL by Stephan T Lavavej, part 2 of N (around 40:00)
+ *
+ *   [grimm2022XXXX] Back to Basics: Standard Library Containers in Cpp - Rainer Grimm - CppCon 2022
+ *     https://youtu.be/ZMUKa2kWtTk?t=483
  */
 
 #include <algorithm>
