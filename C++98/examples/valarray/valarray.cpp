@@ -6,11 +6,14 @@
  *
  *   2) In a recent Twitter post, Bryce Lelbach announced that
  *   he is hoping to deprecate std::valarray for C++20.
- 
+ *
  * TODO: check what the alternatives to std::valarray are.  Is there something
  *       in the standard?  Does one need to use a library?
  *
  * References:
+ *
+ *   [turner20230313] C++ Weekly - Ep 367 - Forgotten C++: std::valarray
+ *     https://youtu.be/hxcrOwfPhkE
  *
  *   [lelbach20170308] Don't use valarray, I am hoping to deprecate it for C++20
  *     https://twitter.com/blelbach/status/839743137761259521
