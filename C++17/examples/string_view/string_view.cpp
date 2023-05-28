@@ -15,6 +15,7 @@
  *
  *   - Drawbacks of std::string_view:
  *       -> Lifetime management: there's no connection between the std::string_view and the storage it points to (except what you make yourself).
+ *          For example, be careful not to return a string_view from a function if it refers to a function-local string object.
  *       -> An std::string_view is not necessarily null-terminated.
  *
  * References:
