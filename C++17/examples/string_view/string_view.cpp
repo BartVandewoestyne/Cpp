@@ -22,6 +22,9 @@
  *   [sonarsource-rspec-6009] "std::string_view" should be used to pass a read-only string to a function
  *     https://rules.sonarsource.com/cpp/RSPEC-6009
  *
+ *   [kristofik20230511] Modern C++ In-Depth — Is string_view Worth It?
+ *     https://medium.com/factset/modern-c-in-depth-is-string-view-worth-it-7ae7570b7830
+ *
  *   [odwyer20211119] A footnote on “Three reasons to pass std::string_view by value”
  *     https://quuxplusone.github.io/blog/2021/11/19/string-view-by-value-ps/
  *
