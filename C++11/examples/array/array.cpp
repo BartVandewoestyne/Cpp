@@ -1,6 +1,9 @@
 /*!
  * References:
  *
+ *   [turner20200530] C++ Weekly - Ep 378 - Should You Ever std::move An std::array?
+ *     https://youtu.be/56DMwqKffi0
+ *
  *   [odwyer20200806] The “array size constant” antipattern
  *     https://quuxplusone.github.io/blog/2020/08/06/array-size/
  *
