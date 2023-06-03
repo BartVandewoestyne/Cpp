@@ -1,3 +1,9 @@
+[lavavej20230602] MSVC C++23 Update
+  https://youtu.be/Dk_C_E8AtRs
+
+[gregoire20230519] C++23 – What’s in it for You? (Marc Gregoire)
+  http://becpp.org/blog/wp-content/uploads/2023/05/Marc-Gregoire-C23-Whats-In-It-For-You.pptx
+
 [copperspice20230112] A Peek at C++23
   https://youtu.be/CizysBtbsPw
 
