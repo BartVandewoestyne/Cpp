@@ -9,6 +9,9 @@
  *
  * References:
  *
+ *   [filipek20221128] const vs constexpr vs consteval vs constinit in C++20
+ *     https://www.cppstories.com/2022/const-options-cpp20/
+ *
  *   [fertig20210706] C++20: A neat trick with consteval
  *     https://andreasfertig.blog/2021/07/cpp20-a-neat-trick-with-consteval/
  */
