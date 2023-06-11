@@ -1,3 +1,6 @@
+[buontempo2024XXXX] C++ Bookcamp<br>
+https://www.manning.com/books/c-plus-plus-bookcamp
+
 [grimm20220422] C++ Core Guidelines Explained: Best Practices for Modern C++<br>
 https://www.informit.com/store/c-plus-plus-core-guidelines-explained-best-practices-9780136875673
 
