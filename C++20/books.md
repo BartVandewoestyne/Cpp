@@ -48,6 +48,9 @@ https://leanpub.com/cpplibrary
 https://leanpub.com/c20<br>
 http://www.modernescpp.com/index.php/i-m-proud-to-present-c-20
 
+[hortonvanweert20210212] Beginning C++20: From Novice to Professional - Horton Ivor, Van Weert Peter<br>
+https://link.springer.com/book/10.1007/978-1-4842-5884-2
+
 [cyganek20210208] Introduction to Programming with C++ for Engineers<br>
 http://home.agh.edu.pl/~cyganek/BookCpp.htm
 
