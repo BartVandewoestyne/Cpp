@@ -13,8 +13,18 @@
  *
  * References:
  *
+ *   [cppcoreguidelines] C.128: Virtual functions should specify exactly one of virtual, override, or final
+ *     https://github.com/isocpp/CppCoreGuidelines/blob/036324/CppCoreGuidelines.md#c128-virtual-functions-should-specify-exactly-one-of-virtual-override-or-final
+ *
+ *   [sonarsource] "override" or "final" should be used instead of "virtual"
+ *     https://rules.sonarsource.com/cpp/RSPEC-3471/
+ *
  *   [daniel2016] virtual? override? or both? C++ [duplicate]
  *     https://stackoverflow.com/questions/39932391/virtual-override-or-both-c
+ *
+ *   [misracpp2008] Rule 10–3–2 (Required) Each overriding virtual function shall be declared with the virtual keyword.
+ *     http://www.tlemp.com/download/rule/MISRA-CPP-2008-STANDARD.pdf (page 129)
+ *     => Note that this was a guideline from before C++11 was introduced!
  */
 
 class Base
