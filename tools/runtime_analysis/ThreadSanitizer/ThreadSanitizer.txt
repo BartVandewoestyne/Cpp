@@ -5,8 +5,8 @@ Thread Sanitizer (for detecting data races)
 [serebryany] ThreadSanitizer – data race detection in practice
   https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf
 
-Interesting info:
------------------
+Interesting things to know:
+---------------------------
 * Typical slowdown introduced by ThreadSanitizer is about 5x-15x.
   Typical memory overhead introduced by ThreadSanitizer is about 5x-10x.
   See https://clang.llvm.org/docs/ThreadSanitizer.html section 'Introduction'.
@@ -14,3 +14,15 @@ Interesting info:
 * Simply compile and link your program with -fsanitize=thread. To get a
   reasonable performance add -O1 or higher. Use -g to get file names and line
   numbers in the warning messages.
+
+* To start, run your tests using ThreadSanitizer. The race detector only finds
+  races that happen at runtime, so it can't find races in code paths that are
+  not executed. If your tests have incomplete coverage, you may find more races
+  by running a binary built with -fsanitize=thread under a realistic workload.
+
+* ThreadSanitizer generally requires all code to be compiled with
+  -fsanitize=thread. If some code (e.g. dynamic libraries) is not compiled with
+  the flag, it can lead to false positive race reports, false negative race
+  reports and/or missed stack frames in reports depending on the nature of
+  non-instrumented code.
+  See https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual#Non-instrumented-code
