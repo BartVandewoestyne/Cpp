@@ -15,7 +15,7 @@ https://github.com/google/sanitizers/wiki/AddressSanitizer
 [20191023cppteamblog] AddressSanitizer (ASan) for Windows with MSVC
   https://devblogs.microsoft.com/cppblog/addresssanitizer-asan-for-windows-with-msvc/
 
-[2012] AddressSanitizer: A Fast Address Sanity Checker
+[2012serebryany] AddressSanitizer: A Fast Address Sanity Checker
   http://research.google.com/pubs/pub37752.html
 
 [20111118serebryany] Finding Races and Memory Errors with LLVM Instrumentation - LLVM Developers Meeting
