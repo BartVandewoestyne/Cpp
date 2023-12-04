@@ -2,6 +2,9 @@ Thread Sanitizer (for detecting data races)
   https://clang.llvm.org/docs/ThreadSanitizer.html
   https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
 
+[serebryany] ThreadSanitizer – data race detection in practice
+  https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf
+
 Interesting info:
 -----------------
 * Typical slowdown introduced by ThreadSanitizer is about 5x-15x.
