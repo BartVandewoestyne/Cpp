@@ -26,7 +26,9 @@ Some important things to notice
 -------------------------------
 
 * Typical slowdown introduced by AddressSanitizer is 2x.
-  See https://clang.llvm.org/docs/AddressSanitizer.html section 'Introduction'.
+  See:
+    - https://clang.llvm.org/docs/AddressSanitizer.html section 'Introduction'.
+    - https://github.com/google/sanitizers/wiki/AddressSanitizer section 'Introduction'.
 
 * If a bug is detected, the program will print an error message to stderr and exit with a non-zero exit code. AddressSanitizer exits on the first detected error. This is by design.
   See https://clang.llvm.org/docs/AddressSanitizer.html section 'Usage'.
@@ -36,3 +38,6 @@ Some important things to notice
     * AddressSanitizer uses more stack memory. We have seen up to 3x increase.
     * On 64-bit platforms AddressSanitizer maps (but not reserves) 16+ Terabytes of virtual address space. This means that tools like ulimit may not work as usually expected.
     * Static linking of executables is not supported.
+
+* AddressSanitizer is a part of LLVM starting with version 3.1 and a part of GCC starting with version 4.8.
+  See https://github.com/google/sanitizers/wiki/AddressSanitizer section 'Getting AddressSanitizer'.
