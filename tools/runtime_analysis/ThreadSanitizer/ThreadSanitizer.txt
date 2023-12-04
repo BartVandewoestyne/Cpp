@@ -1,0 +1,13 @@
+Thread Sanitizer (for detecting data races)
+  https://clang.llvm.org/docs/ThreadSanitizer.html
+  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
+
+Interesting info:
+-----------------
+* Typical slowdown introduced by ThreadSanitizer is about 5x-15x.
+  Typical memory overhead introduced by ThreadSanitizer is about 5x-10x.
+  See https://clang.llvm.org/docs/ThreadSanitizer.html section 'Introduction'.
+
+* Simply compile and link your program with -fsanitize=thread. To get a
+  reasonable performance add -O1 or higher. Use -g to get file names and line
+  numbers in the warning messages.
