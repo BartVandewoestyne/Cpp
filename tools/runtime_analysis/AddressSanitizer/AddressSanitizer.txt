@@ -1,3 +1,5 @@
+References:
+-----------
 https://clang.llvm.org/docs/AddressSanitizer.html
 https://github.com/google/sanitizers/wiki/AddressSanitizer
 
@@ -12,3 +14,18 @@ https://github.com/google/sanitizers/wiki/AddressSanitizer
 
 [20191023cppteamblog] AddressSanitizer (ASan) for Windows with MSVC
   https://devblogs.microsoft.com/cppblog/addresssanitizer-asan-for-windows-with-msvc/
+
+Some important things to notice
+-------------------------------
+
+* Typical slowdown introduced by AddressSanitizer is 2x.
+  See https://clang.llvm.org/docs/AddressSanitizer.html section 'Introduction'.
+
+* If a bug is detected, the program will print an error message to stderr and exit with a non-zero exit code. AddressSanitizer exits on the first detected error. This is by design.
+  See https://clang.llvm.org/docs/AddressSanitizer.html section 'Usage'.
+
+* Limitations (see https://clang.llvm.org/docs/AddressSanitizer.html section 'Limitations'):
+    * AddressSanitizer uses more real memory than a native run. Exact overhead depends on the allocations sizes. The smaller the allocations you make the bigger the overhead is.
+    * AddressSanitizer uses more stack memory. We have seen up to 3x increase.
+    * On 64-bit platforms AddressSanitizer maps (but not reserves) 16+ Terabytes of virtual address space. This means that tools like ulimit may not work as usually expected.
+    * Static linking of executables is not supported.
