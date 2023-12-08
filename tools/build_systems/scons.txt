@@ -1,2 +1,5 @@
 SCons
   http://scons.org/
+
+YouTube playlist:
+  https://youtube.com/playlist?list=PLM8I07a5v247ibB1SkqJcCr2-yEiPEeCV&si=DFzrjAzWEU_Layx5
