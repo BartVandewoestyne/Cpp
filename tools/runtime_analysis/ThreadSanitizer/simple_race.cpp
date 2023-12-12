@@ -1,6 +1,6 @@
 // Compile and run with:
 //
-//   $ clang++ simple_race.cc -fsanitize=thread -fPIE -pie -g
+//   $ clang++ simple_race.cpp -fsanitize=thread -fPIE -pie -g
 //   $ ./a.out
 //
 // References:
