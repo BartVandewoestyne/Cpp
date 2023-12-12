@@ -1,3 +1,6 @@
+// Reference:
+//   https://clang.llvm.org/docs/ThreadSanitizer.html
+//
 // Compile with:
 //   clang -fsanitize=thread -g -O1 tiny_race.cpp
 
