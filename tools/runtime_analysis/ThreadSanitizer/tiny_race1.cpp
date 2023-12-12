@@ -1,4 +1,5 @@
-// clang -fsanitize=thread -g -O1 tiny_race.c
+// Compile with:
+//   clang -fsanitize=thread -g -O1 tiny_race.cpp
 
 // TODO: why doesn't this work?
 
