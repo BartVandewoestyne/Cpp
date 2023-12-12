@@ -1,7 +1,11 @@
-// Reference:
-//  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
+// Compile and run with:
 //
-// TODO: how to compile and run this?
+//   clang++ tiny_race2.cpp -fsanitize=thread -g
+//   ./a.out
+//
+// Reference:
+//
+//  https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual
 
 #include <pthread.h>
 #include <stdio.h>
