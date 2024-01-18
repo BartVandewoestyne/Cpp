@@ -1,8 +1,16 @@
 /**
  * Example on virtual destructors.
  *
+ * Key ideas:
+ *
+ *   - Declare destructors virtual in polymorphic base classes.
+ *   - Gratuitiously declaring all destructors virtual is just as wrong as never declaring them virtual.
+ *
  * References:
  *  
+ *   [livinginjapan20200505] Effective C++ Series Item 7
+ *     https://livinginjapan.github.io/2020-04-29/Effective-C++-Series-Item-6
+ *
  *   [stackoverflow20090120] When to use virtual destructors?
  *     http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors
  *
