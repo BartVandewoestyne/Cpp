@@ -12,7 +12,7 @@ References:
   [berner202205XX] CMake Best Practices
     https://www.packtpub.com/product/cmake-best-practices/9781803239729
 
-  [202202XX] Modern CMake for C++
+  [swidzinski202202XX] Modern CMake for C++
     https://www.packtpub.com/product/modern-cmake-for-c/9781801070058
     https://github.com/PacktPublishing/Modern-CMake-for-Cpp
     
