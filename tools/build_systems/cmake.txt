@@ -11,6 +11,10 @@ References:
 
   [berner202205XX] CMake Best Practices
     https://www.packtpub.com/product/cmake-best-practices/9781803239729
+
+  [202202XX] Modern CMake for C++
+    https://www.packtpub.com/product/modern-cmake-for-c/9781801070058
+    https://github.com/PacktPublishing/Modern-CMake-for-Cpp
     
   [hoffman20210503] CMake: One Tool To Build Them All - Bill Hoffman [CppNow 2021]
     https://youtu.be/wULu83jQmIQ
