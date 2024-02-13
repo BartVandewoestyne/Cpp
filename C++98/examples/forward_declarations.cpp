@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [sutter] GotW #34 - Forward Declarations
+ *     http://www.gotw.ca/gotw/034.htm
+ *
  *   [mertz20180321] Forward-declaring Templates and Enums
  *     https://arne-mertz.de/2018/03/forward-declaring-templates-and-enums/
  *
