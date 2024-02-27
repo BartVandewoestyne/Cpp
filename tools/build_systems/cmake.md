@@ -12,10 +12,14 @@ References:
   [berner202205XX] CMake Best Practices
     https://www.packtpub.com/product/cmake-best-practices/9781803239729
 
+  [bailey20220406] Things I Learnt While Trying to Avoid Becoming a CMake Expert
+    https://accu.org/conf-docs/PDFs_2022/cb_bailey-Thinks_I_learnt.pdf
+    https://www.youtube.com/watch?v=852VSXFaDO0
+    
   [swidzinski202202XX] Modern CMake for C++
     https://www.packtpub.com/product/modern-cmake-for-c/9781801070058
     https://github.com/PacktPublishing/Modern-CMake-for-Cpp
-    
+
   [hoffman20210503] CMake: One Tool To Build Them All - Bill Hoffman [CppNow 2021]
     https://youtu.be/wULu83jQmIQ
 
