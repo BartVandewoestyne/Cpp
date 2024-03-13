@@ -41,3 +41,7 @@ Some important things to notice
 
 * AddressSanitizer is a part of LLVM starting with version 3.1 and a part of GCC starting with version 4.8.
   See https://github.com/google/sanitizers/wiki/AddressSanitizer section 'Getting AddressSanitizer'.
+  After some experimentation, I found that:
+    4.8.1 - 4.8.5 -> no correct source line info
+    4.9.0 - 4.9.3 -> source line info ok!
+    4.9.4         -> did not detect an issue?
