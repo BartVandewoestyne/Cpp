@@ -25,3 +25,10 @@ TEST(NumbersTest, ComparingNumbers)
   
   EXPECT_NEAR(1.0/3, 1 - 2.0/3, 1e-6);
 }
+
+TEST(SimpleTest, Addition)
+{
+    EXPECT_EQ(1+1, 3);
+    EXPECT_EQ(2+2, 5);
+    EXPECT_EQ(3+3, 6);
+}
