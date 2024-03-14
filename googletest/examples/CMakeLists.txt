@@ -13,6 +13,9 @@ target_link_libraries(test_fixtures_vector GTest::gtest_main)
 add_executable(nesting_gtest nesting.cpp)
 target_link_libraries(nesting_gtest GTest::gtest_main)
 
+add_executable(value-parameterized_tests_gtest value-parameterized_tests_gtest.cpp)
+target_link_libraries(value-parameterized_tests_gtest GTest::gtest_main)
+
 # Enable CMake’s test runner to discover the tests included in the binary,
 # using the GoogleTest CMake module.
 include(GoogleTest)
@@ -21,4 +24,5 @@ gtest_discover_tests(simple_tests)
 gtest_discover_tests(test_fixtures)
 gtest_discover_tests(test_fixtures_vector)
 gtest_discover_tests(nesting_gtest)
+gtest_discover_tests(value-parameterized_tests_gtest)
 
