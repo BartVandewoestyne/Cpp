@@ -42,3 +42,10 @@ TEST_CASE( "Comparing numbers", "[numbersTest]" )
 
     REQUIRE_THAT(1.0/3, Catch::Matchers::WithinAbs(1 - 2.0/3, 1e-6));
 }
+
+TEST_CASE( "Simple Test", "[Addition]")
+{
+    CHECK(1+1 == 2);
+    CHECK(2+2 == 4);
+    CHECK(3+3 == 6);
+}
