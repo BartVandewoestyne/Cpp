@@ -25,6 +25,13 @@ TEST_CASE( "Factorials are computed", "[factorial]" )
     REQUIRE( Factorial(8) == 40320 );
 }
 
+TEST_CASE( "Foo test", "[nothrow]" )
+{
+    REQUIRE_NOTHROW([&](){
+        auto x = 1 + 2;
+    }());
+}
+
 TEST_CASE( "Comparing numbers", "[numbersTest]" )
 {
     double x = 1.0;
