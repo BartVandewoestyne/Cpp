@@ -2,7 +2,7 @@ add_executable(hello_test hello_test.cpp)
 target_link_libraries(hello_test GTest::gtest_main)
 
 add_executable(simple_tests simple_tests.cpp)
-target_link_libraries(simple_tests GTest::gtest_main)
+target_link_libraries(simple_tests math GTest::gtest_main)
 
 add_executable(test_fixtures test_fixtures.cpp)
 target_link_libraries(test_fixtures GTest::gtest_main)
