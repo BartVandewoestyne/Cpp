@@ -2,6 +2,8 @@ clang-tidy main page:
 
   http://clang.llvm.org/extra/clang-tidy/
 
+Visual Studio Support
+---------------------
 Clang-Tidy support is available starting in Visual Studio 2019 version 16.4.
 It's included automatically when you choose a C++ workload in the Visual Studio
 Installer.
@@ -11,7 +13,18 @@ Clang Power Tools:
 
      https://www.clangpowertools.com/
 
+VS Code support
+---------------
+To use clang-tidy in VSCode, make sure you have the [C/C++ extension for VSCode|https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools] installed.
+
+
 References:
+
+  [microsoft20220426] clang-tidy in Visual Studio Code
+    https://learn.microsoft.com/en-us/shows/pure-virtual-cpp-2022/clang-tidy-in-visual-studio-code
+
+  [microsoft20211214] Visual Studio Code C++ December 2021 Update: clang-tidy
+    https://devblogs.microsoft.com/cppblog/visual-studio-code-c-december-2021-update-clang-tidy/
 
   [microsoft20200219] Using Clang-Tidy in Visual Studio
     https://docs.microsoft.com/en-us/cpp/code-quality/clang-tidy
