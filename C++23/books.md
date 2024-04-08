@@ -1,6 +1,6 @@
 # Books that cover C++23
 
-[gregoire202402XX] Professional C++, 6th Edition  
+[gregoire20240213] Professional C++, 6th Edition  
 <https://www.wiley.com/en-be/Professional+C++,+6th+Edition-p-9781394193172>
 
 [grimm20240120] Concurrency with Modern C++  

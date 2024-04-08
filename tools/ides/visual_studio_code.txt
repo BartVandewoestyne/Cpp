@@ -3,5 +3,8 @@ Main page:
 
 References:
 
+  [20231107bhattacharya] VS Code: Tips and tricks for beginners
+    https://developer.mozilla.org/en-US/blog/vs-code-tips-tricks/
+
   [dalheimer20191127] Using Visual Studio Code for Writing Qt Applications
     https://www.kdab.com/using-visual-studio-code-for-writing-qt-applications/
