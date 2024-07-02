@@ -4,7 +4,7 @@
  *   * Class template parameter types can now be deduced according to
  *     arguments passed to the constructor.
  *
- *   * Partial class template argument deduction is not possible
+ *   * Partial class template argument deduction is not possible.
  *
  * References:
  *
