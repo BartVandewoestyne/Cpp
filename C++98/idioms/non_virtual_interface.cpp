@@ -10,6 +10,9 @@
  *   [c++faq] Should I use protected virtuals instead of public virtuals?
  *     https://isocpp.org/wiki/faq/strange-inheritance#protected-virtuals
  *
+ *   [iglberger20211025] Designing Classes (part 1 of 2) - Klaus Iglberger
+ *     https://youtu.be/motLOioLJfg?si=5ZEEMXef0AeTnYqu&t=2090
+ *
  *   [carr20110903] Non-Virtual Interface Design Pattern
  *     http://www.blackwasp.co.uk/NVI.aspx
  *
