@@ -4,9 +4,12 @@
  *   * Class template parameter types can now be deduced according to
  *     arguments passed to the constructor.
  *
- *   * Partial class template argument deduction is not possible
+ *   * Partial class template argument deduction is not possible.
  *
  * References:
+ *
+ *   [ranns20240417] Embracing CTAD - Nina Ranns - ACCU 2024
+ *     https://www.youtube.com/watch?v=c3R7aNf39o0
  *
  *   [chen20220420] Class template argument deduction may be the new hotness, but we’ll always have maker functions
  *     https://devblogs.microsoft.com/oldnewthing/20220420-00/?p=106506

@@ -1,5 +1,8 @@
 # Books that cover C++23
 
+[reddy2024XXXX] API Design for C++ 2nd Edition  
+<http://www.apibook.com/>
+
 [gregoire20240213] Professional C++, 6th Edition  
 <https://www.wiley.com/en-be/Professional+C++,+6th+Edition-p-9781394193172>
 

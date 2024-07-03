@@ -1,3 +1,9 @@
+# C++20 books
+
+[knatten202406XX] C++ Brain Teasers - Exercise Your Mind  
+<https://pragprog.com/titles/akbrain/c-brain-teasers/>  
+TODO: check if this one is C++20
+
 [buontempo2024XXXX] C++ Bookcamp<br>
 https://www.manning.com/books/c-plus-plus-bookcamp
 

@@ -4,5 +4,8 @@ clang-format
 [clion] ClangFormat as alternative formatter
   https://www.jetbrains.com/help/clion/clangformat-as-alternative-formatter.html
 
+[kazakova202310] Lightning Talk: ClangFormat Is Not It - Anastasia Kazakova - CppCon 2023
+  https://www.youtube.com/watch?v=NnQraMtpvws
+
 [popa20180313] ClangFormat Support in Visual Studio 2017
   https://devblogs.microsoft.com/cppblog/clangformat-support-in-visual-studio-2017-15-7-preview-1/

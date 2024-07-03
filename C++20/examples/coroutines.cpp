@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [fertig2024XXXX] C++20's Coroutines for Beginners - Andreas Fertig - C++Online 2024
+ *     https://www.youtube.com/watch?v=4xdef0fRsQ0
+ *
  *   [fertig20220912] C++20¿s Coroutines for Beginners - Andreas Fertig - CppCon 2022
  *     https://youtu.be/8sEe-4tig_A
  *
