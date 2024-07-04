@@ -9,6 +9,9 @@
  *   [cppreference] Member initialization
  *     http://en.cppreference.com/w/cpp/language/data_members#Member_initialization
  *
+ *   [iglberger20211025] Back to Basics: Designing Classes (part 2 of 2)
+ *     https://youtu.be/O65lEiYkkbc?si=jGNK8b4wqPKbrWhW&t=804
+ *
  *   [filipek20200302] In-class Member Initialisation: From C++11 to C++20
  *     https://www.bfilipek.com/2015/02/non-static-data-members-initialization.html
  *
