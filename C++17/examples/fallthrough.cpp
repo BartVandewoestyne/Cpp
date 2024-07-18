@@ -5,6 +5,7 @@
  *
  * Compile with:
  *   gcc --std=c++17 -Wextra
+ *   clang --std=c++17 -Wimplicit-fallthrough
  *
  * References:
  *
