@@ -1,6 +1,9 @@
 [lavavej20230602] MSVC C++23 Update
   https://youtu.be/Dk_C_E8AtRs
 
+[gregoire20231005] C++23: An Overview of Almost All New and Updated Features
+  https://youtu.be/Cttb8vMuq-Y?si=q-X6bsARVzt5EA0V
+
 [gregoire20230519] C++23 – What’s in it for You? (Marc Gregoire)
   http://becpp.org/blog/wp-content/uploads/2023/05/Marc-Gregoire-C23-Whats-In-It-For-You.pptx
 
