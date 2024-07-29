@@ -6,6 +6,9 @@
  *
  * References:
  *
+ *   [turner20240729] C++ Weekly - Ep 439 - mutable (And Why To Avoid It)
+ *     https://youtu.be/CagZYOdxYcA?si=e3fA-kSYkbyGznqZ
+ *
  *   [mertz20171018] Mutable
  *     https://arne-mertz.de/2017/10/mutable/
  *
