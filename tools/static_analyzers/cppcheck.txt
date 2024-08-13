@@ -2,3 +2,4 @@ Cppcheck main page:
   http://cppcheck.sourceforge.net/
 
 https://dojofive.com/blog/be-the-cppcheck-ruler/
+https://cppcon2024.sched.com/event/1gZdy/building-cppcheck-what-we-learned-from-17-years-of-development
