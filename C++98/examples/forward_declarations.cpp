@@ -4,6 +4,9 @@
  *   [sutter] GotW #34 - Forward Declarations
  *     http://www.gotw.ca/gotw/034.htm
  *
+ *   [google] Google C++ Style Guide - Forward Declarations
+ *     https://google.github.io/styleguide/cppguide.html#Forward_Declarations
+ *
  *   [pearcy20240418] Reducing compilation times through good design - ACCU 2024
  *     https://youtu.be/ItcGevumW-8?si=1d2w2h_kheQUIuTY&t=1109
  *
