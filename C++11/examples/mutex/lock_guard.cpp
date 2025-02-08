@@ -10,6 +10,9 @@
  *
  *   [cppreference] http://en.cppreference.com/w/cpp/thread/lock_guard
  *
+ *   [hamilton20241030] std::lock_guard vs. std::scoped_lock: When to Choose Which?
+ *     https://www.php.cn/faq/1796656796.html
+ *
  *   [brotcrunsher2017] Multithreading in C++ [012] - std::lock_guard
  *     https://youtu.be/wg3td0Dz5hw
  *

@@ -11,9 +11,12 @@
  *   - A scoped_lock with a a single constructor argument acts like a,
  *     lock_guard.  Therefore, you *can* replace all uses of lock_guard with
  *     scoped_lock, but you shouldn't always (see [holly20210818,
- *     stackoverflow20170325]).
+ *     stackoverflow20170325, hamilton20241030]).
  *
  * References:
+ *
+ *   [hamilton20241030] std::lock_guard vs. std::scoped_lock: When to Choose Which?
+ *     https://www.php.cn/faq/1796656796.html
  *
  *   [holly20210818] Why I Still Use std::lock_guard
  *     https://www.approxion.com/why-i-still-use-stdlock_guard/
