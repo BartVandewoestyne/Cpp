@@ -1,10 +1,11 @@
-Project page:
-  https://cmake.org/
+# CMake
 
-References:
+Project page: <https://cmake.org/>
 
-  [vredeveld20230421] CMake: A Case Study - Hans Vredeveld - ACCU 2023
-    https://youtu.be/8l53O3FaJdM
+References:  
+
+  [vredeveld20230421] CMake: A Case Study - Hans Vredeveld - ACCU 2023  
+    <https://youtu.be/8l53O3FaJdM>
 
   [mueller20220629] Tutorial: Preparing libraries for CMake FetchContent
     https://www.foonathan.net/2022/06/cmake-fetchcontent/
@@ -87,3 +88,15 @@ Discussions:
 
   [reddit20211115] what's the hate for CMake all about? Is CMake really that bad?
     https://www.reddit.com/r/cpp/comments/qum4sq/whats_the_hate_for_cmake_all_about_is_cmake/
+
+
+
+
+CMake Cookbook Packt Radovan Bast and Roberto Di Remigio
+
+Modern CMake for C++ Rafal Swid;..
+
+CMake Best Practices
+Dominik Berner
+
+Modern CMake for C++ <packt?>
