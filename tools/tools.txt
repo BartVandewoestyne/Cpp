@@ -8,6 +8,9 @@ Other
 Include what you use
   https://include-what-you-use.org/
 
+Link what you use
+  https://cmake.org/cmake/help/latest/prop_tgt/LINK_WHAT_YOU_USE.html
+
 Code complexity
 ---------------
 http://www.lizard.ws/
