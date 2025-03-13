@@ -1,7 +1,8 @@
 /**
  * References:
  *
- *   [1] http://blog.smartbear.com/software-quality/bid/259230/closer-to-perfection-get-to-know-c11-scoped-and-based-enum-types
+ *   [kalev20130206] Closer to Perfection: Get to Know C++11 Scoped and Based Enum Types
+ *     https://smartbear.com/blog/closer-to-perfection-get-to-know-c11-scoped-and-ba/
  */
 
 enum class Bool: char {False, True}; // C++11 scoped and based enum
