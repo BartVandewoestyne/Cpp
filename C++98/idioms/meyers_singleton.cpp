@@ -10,7 +10,7 @@
  *     https://stackoverflow.com/questions/1661529/is-meyers-implementation-of-the-singleton-pattern-thread-safe
  *
  *   [chen20040308] C++ scoped static initialization is not thread-safe, on purpose!
- *     https://blogs.msdn.microsoft.com/oldnewthing/20040308-00/?p=40363
+ *     https://devblogs.microsoft.com/oldnewthing/20040308-00/?p=40363
  *
  *   [meyers200409XXalexandrescu] C++ and the Perils of Double-Checked Locking,
  *     Meyers S. and Alexandrescu Andrei,
