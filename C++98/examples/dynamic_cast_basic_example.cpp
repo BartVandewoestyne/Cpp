@@ -22,15 +22,15 @@ public:
 class Foo : public Base
 {
 public:
-    virtual void DoIt() { std::cout << "Foo" << std::endl; }
-    void FooIt() { std::cout << "Fooing It..." << std::endl; }
+    virtual void DoIt() { std::cout << "Foo::DoIt()" << std::endl; }
+    void FooIt() { std::cout << "Foo::FooIt()" << std::endl; }
 };
 
 class Bar : public Base
 {
 public :
-    virtual void DoIt() { std::cout << "Bar" << std::endl; }
-    void BarIt() { std::cout << "Baring It..." << std::endl; }
+    virtual void DoIt() { std::cout << "Bar::DoIt()" << std::endl; }
+    void BarIt() { std::cout << "Bar::BarIt()" << std::endl; }
 };
 
 
@@ -55,6 +55,8 @@ int main()
         // ... so this C-style cast is decidedly not type-safe.
         Bar* bar = (Bar*)base;
         bar->BarIt();
+
+        std::cout << std::endl;
     }
 
 
@@ -71,6 +73,8 @@ int main()
             bar->BarIt();
         if (foo)
             foo->FooIt();
+
+        std::cout << std::endl;
     }
 
 
