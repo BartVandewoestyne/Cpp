@@ -1,6 +1,8 @@
 /*
  * References:
  *
+ *   [josuttis20200926] C++17 - The Complete Guide - 5.1 Mandatory Copy Elision or Passing Unmaterialized Objects
+ *
  *   [andrzej20180516] Rvalues redefined
  *     https://akrzemi1.wordpress.com/2018/05/16/rvalues-redefined/
  *
@@ -22,3 +24,50 @@
  *   [rodriguez20110810] Value semantics: Copy elision
  *     http://definedbehavior.blogspot.be/2011/08/value-semantics-copy-elision.html
  */
+
+
+// This example is based on [josuttis20200926].
+
+#include <iostream>
+
+class MyClass {
+public:
+    MyClass() {
+        std::cout << "Default constructor\n";
+    }
+
+    MyClass(const MyClass&) {
+        std::cout << "Copy constructor\n";
+    }
+
+    MyClass(MyClass&&) {
+        std::cout << "Move constructor\n";
+    }
+
+    ~MyClass() {
+        std::cout << "Destructor\n";
+    }
+};
+
+MyClass bar() {
+    return MyClass();  // returns temporary
+}
+
+void foo(MyClass param) {  // param is initialized byy passed argument
+    std::cout << "Inside foo\n";
+}
+
+MyClass foo2() {
+  MyClass obj;
+  return obj;  // Named Return Value Optimization still requires copy/move support
+               // (TODO: check this, if I comment out copy and move constructor, it still works)
+}
+
+int main()
+{
+    foo(MyClass{});     // pass temporary to initialize param
+    MyClass x = bar();  // use returned temporary to initialize x
+    foo(bar());         // use returned temporary to initialize param
+
+    foo2();
+}
