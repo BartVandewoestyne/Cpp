@@ -2,3 +2,7 @@ To classify:
 
 Advanced C and C++ Compiling 1st ed. Edition
 https://www.amazon.com/Advanced-C-Compiling-Milan-Stevanovic/dp/1430266678/
+
+The ultimate C++ Developer Masterclass book bundle (22 books):
+https://www.humblebundle.com/books/ultimate-c-developer-masterclass-packt-books?utm_source=Book+Promotions-PACKT250804003&utm_medium=email&utm_campaign=20250804&utm_content=1101277545-PACKT250804003
+https://www.humblebundle.com/books/ultimate-c-developer-masterclass-packt-books
