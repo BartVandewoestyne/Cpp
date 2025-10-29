@@ -16,3 +16,12 @@
  *   [krzemieński20140602] Ref-qualifiers
  *     https://akrzemi1.wordpress.com/2014/06/02/ref-qualifiers/
  */
+
+/*
+ * TODO: check these links
+ *
+ *   https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
+ *   https://cpp-rendering.io/thoughts-about-getters-and-setters-in-c/
+ *   https://andreasfertig.com/blog/2022/07/the-power-of-ref-qualifiers/
+ *   https://nl.mathworks.com/help/bugfinder/ref/misracpp2023rule6.8.4.html
+*/
