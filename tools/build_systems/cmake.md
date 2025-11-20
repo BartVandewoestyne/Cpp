@@ -4,6 +4,11 @@
 
 Project page: <https://cmake.org/>
 
+## CMake-related tools
+
+* [cmake-format](https://cmake-format.readthedocs.io/en/latest/cmake-format.html)
+* [cmake-lint](https://cmake-format.readthedocs.io/en/latest/cmake-lint.html)
+
 ## References
 
 ### Books
