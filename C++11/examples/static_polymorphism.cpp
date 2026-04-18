@@ -13,6 +13,9 @@
  *
  * References:
  *
+ *   [alvarezrosa20260225] Devirtualization and Static Polymorphism
+ *     https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/
+ *
  *   [grimm20220228] More about Dynamic and Static Polymorphism
  *     http://www.modernescpp.com/index.php/more-about-dynamic-and-static-polymorhism
  */
