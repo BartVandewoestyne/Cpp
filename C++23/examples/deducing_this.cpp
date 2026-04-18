@@ -15,4 +15,7 @@
  *
  *   [20220216] C++23: Deducing this
  *     https://www.sandordargo.com/blog/2022/02/16/deducing-this-cpp23
+ *
+ *   [20211028] Deducing this Patterns - Ben Deane - CppCon 2021
+ *     https://www.youtube.com/watch?v=jXf--bazhJw
  */
