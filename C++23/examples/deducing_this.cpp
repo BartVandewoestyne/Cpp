@@ -1,6 +1,9 @@
 /*
  * References:
  *
+ *   [alvarezrosa20260225] Devirtualization and Static Polymorphism
+ *     https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/
+ *
  *   [berg20230309] Johan Berg: Deducing this, C++23's Explicit Object Parameter
  *     https://youtu.be/78JQq52A0b0
  *
