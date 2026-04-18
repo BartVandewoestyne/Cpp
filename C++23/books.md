@@ -1,5 +1,8 @@
 # Books that cover C++23
 
+[buontempo20260414] Introducing C++: The Easy Way to Start Learning Modern C++ 1st Edition
+<https://www.oreilly.com/library/view/introducing-c/9781098178130/>
+
 [reddy2024XXXX] API Design for C++ 2nd Edition  
 <http://www.apibook.com/>
 
