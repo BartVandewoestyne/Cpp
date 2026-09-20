@@ -1,5 +1,8 @@
 # C++20 books
 
+[bhadra20260707] Prompting C++ for Systems Engineering<br>
+https://techfortalk.co.uk/prompting-cpp-for-systems-engineering/
+
 [knatten202406XX] C++ Brain Teasers - Exercise Your Mind  
 <https://pragprog.com/titles/akbrain/c-brain-teasers/>  
 TODO: check if this one is C++20
